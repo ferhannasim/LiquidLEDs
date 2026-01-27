@@ -182,7 +182,7 @@
                           </span>
                         </div>
                       </div>
-                      <div class="disclosure__panel has-motion" style="display: none;"{% unless is_first_disclosure %}{% endunless %}>
+                      <div class="disclosure__panel has-motion"{% unless is_first_disclosure %}{% endunless %}>
                         <ul class="footer-menu__links disclosure__content" role="list">
                           {%- for link in block.settings[menu].links -%}
                             <li>

@@ -623,7 +623,7 @@ Remove @font-face declarations from inline styles since preload links handle fon
 
 **Browser Coverage:**
 - Chrome/Edge (Chromium) latest 2 versions
-- Safari latest 2 versions
+- Safari latest 2 versions  
 - Firefox latest 2 versions
 - Mobile Safari (iOS)
 - Chrome Mobile (Android)

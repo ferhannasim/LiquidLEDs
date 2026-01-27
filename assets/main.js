@@ -1905,19 +1905,77 @@ if (document.querySelector('.template-product') && document.querySelector('stick
   });
 }
 
-$(document).ready(function(){
-
-  $(".new-footer-menu .footer-menu-link").click(function(e){
-    e.preventDefault();
-    if ( $(this).closest('.new-footer-menu').hasClass('active')){
-      $(".new-footer-menu").removeClass("active");
-      $(".new-footer-menu .disclosure__panel").slideUp(300);			
-    } else {
-      $(".new-footer-menu").removeClass("active");
-      $(this).closest('.new-footer-menu').addClass('active'); 
-      $(".new-footer-menu .disclosure__panel").slideUp(300);		
-      $(".new-footer-menu.active .disclosure__panel").slideToggle(300);
+// Footer Menu Accordion - Vanilla JS (replaces jQuery slideUp/slideToggle)
+document.addEventListener('DOMContentLoaded', function() {
+  var footerMenuLinks = document.querySelectorAll('.new-footer-menu .footer-menu-link');
+  
+  // slideUp function - mimics jQuery's slideUp()
+  function slideUp(element, duration) {
+    element.style.height = element.offsetHeight + 'px';
+    element.offsetHeight; // Force reflow
+    element.style.overflow = 'hidden';
+    element.style.transition = 'height ' + duration + 'ms ease-out';
+    element.style.height = '0';
+    
+    setTimeout(function() {
+      element.style.display = 'none';
+      element.style.removeProperty('height');
+      element.style.removeProperty('overflow');
+      element.style.removeProperty('transition');
+    }, duration);
+  }
+  
+  // slideDown function - mimics jQuery's slideDown()
+  function slideDown(element, duration) {
+    element.style.removeProperty('display');
+    var display = window.getComputedStyle(element).display;
+    if (display === 'none') display = 'block';
+    element.style.display = display;
+    
+    var height = element.offsetHeight;
+    element.style.overflow = 'hidden';
+    element.style.height = '0';
+    element.offsetHeight; // Force reflow
+    element.style.transition = 'height ' + duration + 'ms ease-out';
+    element.style.height = height + 'px';
+    
+    setTimeout(function() {
+      element.style.removeProperty('height');
+      element.style.removeProperty('overflow');
+      element.style.removeProperty('transition');
+    }, duration);
+  }
+  
+  // Initialize: hide all panels except first
+  document.querySelectorAll('.new-footer-menu .disclosure__panel').forEach(function(panel) {
+    if (!panel.closest('.new-footer-menu').classList.contains('active')) {
+      panel.style.display = 'none';
     }
   });
-
+  
+  footerMenuLinks.forEach(function(link) {
+    link.addEventListener('click', function(e) {
+      e.preventDefault();
+      var parentMenu = this.closest('.new-footer-menu');
+      var isActive = parentMenu.classList.contains('active');
+      
+      // Close all menus with slideUp
+      document.querySelectorAll('.new-footer-menu').forEach(function(menu) {
+        var panel = menu.querySelector('.disclosure__panel');
+        if (panel && window.getComputedStyle(panel).display !== 'none') {
+          slideUp(panel, 300);
+        }
+        menu.classList.remove('active');
+      });
+      
+      // Open clicked menu if it wasn't active
+      if (!isActive) {
+        parentMenu.classList.add('active');
+        var panel = parentMenu.querySelector('.disclosure__panel');
+        if (panel) {
+          slideDown(panel, 300);
+        }
+      }
+    });
+  });
 });

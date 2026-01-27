@@ -25,8 +25,7 @@
 
   <meta name="facebook-domain-verification" content="8894bz126vse8hajtmw4rtetjplgxz" />
   
-  <script>const ensureInstantJS=()=>{window.InstantJS||(window.InstantJS={}),window.InstantJS.track||(window.InstantJS.trackQueue=[],window.InstantJS.track=function(){window.InstantJS.trackQueue.push(arguments)})};ensureInstantJS();const trackEvent=(()=>{const t=new Set;return e=>{const n=JSON.stringify(e);t.has(n)||!e[0].includes("track")||(t.add(n),window.InstantJS.track("MARKETING_PIXEL_EVENT_FIRED",[{event:e,provider:"META_PLATFORMS"}]))}})();(function(){const e=()=>{if(window.fbq?.callMethod){const t=window.fbq,e=function(){trackEvent([...arguments]),t.apply(this,arguments)};for(const n in t)t.hasOwnProperty(n)&&(e[n]=t[n]);window.fbq=e}else setTimeout(e,1)},t=()=>{const{_fbq:e}=window;if(e&&e.queue){e.queue.forEach(t=>trackEvent([...t]));const n=e.queue.push;e.queue.push=function(...t){trackEvent([...t[0]]);return n.apply(e.queue,t)}}else setTimeout(t,1)};e(),t()})();</script>
-  
+  {%- comment -%} InstantPixel - moved to end of body for performance {%- endcomment -%}
   {% render 'shop-sheriff-amp' %}
   {%- render 'doc-head-core' -%}
   {%- render 'doc-head-social' -%}
@@ -254,11 +253,24 @@
         --reading-width: 36em;
       }
     }
+
+    /* Critical CSS: Prevent FOUC for accessibility skip link */
+    .visually-hidden {
+      position: absolute;
+      width: 1px;
+      height: 1px;
+      padding: 0;
+      margin: -1px;
+      overflow: hidden;
+      clip: rect(0, 0, 0, 0);
+      white-space: nowrap;
+      border-width: 0;
+    }
   {% endstyle -%}
 
-  <script src="{{ 'jquery.min.js' | asset_url }}" defer="defer"></script>
-
-  <link rel="stylesheet" href="{{ 'main.css' | asset_url }}">
+  {%- comment -%} Non-render-blocking CSS with media print technique {%- endcomment -%}
+  <link rel="stylesheet" href="{{ 'main.css' | asset_url }}" media="print" onload="this.media='all'">
+  <noscript><link rel="stylesheet" href="{{ 'main.css' | asset_url }}"></noscript>
   <script src="{{ 'main.js' | asset_url }}" defer="defer"></script>
 
   {%- unless settings.body_font.system? -%}
@@ -270,7 +282,8 @@
   {%- endunless -%}
 
   {%- if request.page_type contains 'customers' -%}
-    <link rel="stylesheet" href="{{ 'customer.css' | asset_url }}">
+    <link rel="stylesheet" href="{{ 'customer.css' | asset_url }}" media="print" onload="this.media='all'">
+    <noscript><link rel="stylesheet" href="{{ 'customer.css' | asset_url }}"></noscript>
   {%- endif -%}
 
   {%- if settings.swatch_colors != blank -%}
@@ -294,7 +307,8 @@
 
   {% if settings.animations_enabled != "disabled" %}
     <script src="{{ 'animate-on-scroll.js' | asset_url }}" defer="defer"></script>
-    <link rel="stylesheet" href="{{ 'animate-on-scroll.css' | asset_url }}">
+    <link rel="stylesheet" href="{{ 'animate-on-scroll.css' | asset_url }}" media="print" onload="this.media='all'">
+    <noscript><link rel="stylesheet" href="{{ 'animate-on-scroll.css' | asset_url }}"></noscript>
   {% endif %}
 
   <script>document.documentElement.className = document.documentElement.className.replace('no-js', 'js');</script>
@@ -306,24 +320,14 @@
   {%- endif -%}
 
   {% render 'gsf-conversion-pixels' %}
-   
 
-
-  <!-- Google Tag Manager -->
-  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-  })(window,document,'script','dataLayer','GTM-5CF4C9R5');</script>
-  <!-- End Google Tag Manager -->
-
+  {%- comment -%} GTM and tracking scripts moved to deferred loader at end of body {%- endcomment -%}
+  <script>window.dataLayer = window.dataLayer || [];</script>
 
 </head>
 
 <body class="template-{{ template | replace: '.', ' ' | truncatewords: 1, '' | handle }} {% if settings.animations_enabled != "disabled" %}cc-animate-enabled{% endif %}">
 
-  <script async type="text/javascript" src="https://data.stats.tools/js/data.js"></script> {% comment %} MEGANTIC BOT SCRIPT {% endcomment %}
-  
   <a class="skip-link btn btn--primary visually-hidden" href="#main-content">
     {{- 'accessibility.skip_to_content' | t -}}
   </a>
@@ -332,23 +336,11 @@
   <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5CF4C9R5"
   height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   <!-- End Google Tag Manager (noscript) -->
-    
-  <!-- Clickcease.com tracking-->
-  <script
-          async
-          src="https://oc-library.klarnaservices.com/lib.js"
-          data-client-id="f2dcf064-0d78-5bc4-9e98-edaeaf278604"
-          ></script>
 
-  <script type='text/javascript'>var script = document.createElement('script');
-    script.async = true; script.type = 'text/javascript';
-    var target = 'https://clickcease.com/monitor/stat.js';
-    script.src = target;var elem = document.head;elem.appendChild(script);
-  </script>
+  <!-- ClickCease noscript fallback -->
   <noscript>
     <a href='clickcease.com' rel='nofollow'><img src='https://monitor.clickcease.com/stats/stats.aspx' alt='ClickCease'/></a>
   </noscript>
-  <!-- Clickcease.com tracking-->
   
   {%- sections 'header-group' -%}
 
@@ -538,5 +530,110 @@
 {% render 'mws_apo_helper' %}
   {% section 'wishlist-app-settings' %}
 {% render 'wishlist-app-links',linkType:'app-script' %}
+
+{%- comment -%} Deferred Tracking Scripts Loader - GTM, Megantic, Klarna, ClickCease {%- endcomment -%}
+<script>
+  (function() {
+    function loadTrackingScripts() {
+      // Google Tag Manager
+      (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+      new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+      j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+      'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+      })(window,document,'script','dataLayer','GTM-5CF4C9R5');
+      
+      // Megantic Bot
+      var megantic = document.createElement('script');
+      megantic.async = true;
+      megantic.src = 'https://data.stats.tools/js/data.js';
+      document.body.appendChild(megantic);
+      
+      // Klarna
+      var klarna = document.createElement('script');
+      klarna.async = true;
+      klarna.src = 'https://oc-library.klarnaservices.com/lib.js';
+      klarna.setAttribute('data-client-id', 'f2dcf064-0d78-5bc4-9e98-edaeaf278604');
+      document.body.appendChild(klarna);
+      
+      // ClickCease
+      var clickcease = document.createElement('script');
+      clickcease.async = true;
+      clickcease.src = 'https://clickcease.com/monitor/stat.js';
+      document.body.appendChild(clickcease);
+    }
+    
+    if ('requestIdleCallback' in window) {
+      requestIdleCallback(loadTrackingScripts, { timeout: 3000 });
+    } else {
+      setTimeout(loadTrackingScripts, 1000);
+    }
+  })();
+</script>
+
+{%- comment -%} Deferred Tracking Scripts - InstantPixel {%- endcomment -%}
+<script>
+  (function() {
+    // Minimal tracking queue for early events (non-blocking)
+    window.InstantJS = window.InstantJS || {};
+    window.InstantJS.trackQueue = window.InstantJS.trackQueue || [];
+    window.InstantJS.track = window.InstantJS.track || function() {
+      window.InstantJS.trackQueue.push(arguments);
+    };
+    
+    // Load tracking when browser is idle
+    function loadInstantPixel() {
+      // InstantPixel event tracking setup
+      const trackEvent = (function() {
+        const seen = new Set();
+        return function(e) {
+          const n = JSON.stringify(e);
+          if (!seen.has(n) && e[0] && e[0].includes && e[0].includes('track')) {
+            seen.add(n);
+            window.InstantJS.track('MARKETING_PIXEL_EVENT_FIRED', [{ event: e, provider: 'META_PLATFORMS' }]);
+          }
+        };
+      })();
+      
+      // Wrap Facebook Pixel
+      (function() {
+        const wrapFbq = function() {
+          if (window.fbq && window.fbq.callMethod) {
+            const orig = window.fbq;
+            window.fbq = function() {
+              trackEvent([...arguments]);
+              orig.apply(this, arguments);
+            };
+            for (const k in orig) {
+              if (orig.hasOwnProperty(k)) window.fbq[k] = orig[k];
+            }
+          } else {
+            setTimeout(wrapFbq, 100);
+          }
+        };
+        const wrapQueue = function() {
+          const fbq = window._fbq;
+          if (fbq && fbq.queue) {
+            fbq.queue.forEach(function(t) { trackEvent([...t]); });
+            const origPush = fbq.queue.push;
+            fbq.queue.push = function() {
+              trackEvent([...arguments[0]]);
+              return origPush.apply(fbq.queue, arguments);
+            };
+          } else {
+            setTimeout(wrapQueue, 100);
+          }
+        };
+        wrapFbq();
+        wrapQueue();
+      })();
+    }
+    
+    if ('requestIdleCallback' in window) {
+      requestIdleCallback(loadInstantPixel, { timeout: 2000 });
+    } else {
+      setTimeout(loadInstantPixel, 1000);
+    }
+  })();
+</script>
 </body>
 </html>
