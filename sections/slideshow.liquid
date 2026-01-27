@@ -1,3 +1,19 @@
+{%- if section.index == 1 and section.blocks.first -%}
+  {%- liquid
+    assign first_block = section.blocks.first
+    assign first_img = first_block.settings.image_desktop
+    assign first_m_img = first_block.settings.image_mobile
+  -%}
+  
+  {%- if first_m_img != blank -%}
+    <link rel="preload" as="image" href="{{ first_m_img | image_url: width: 980 }}" media="(max-width: 600px)" fetchpriority="high">
+  {%- endif -%}
+  
+  {%- if first_img != blank -%}
+    <link rel="preload" as="image" href="{{ first_img | image_url: width: 1920 }}" media="(min-width: 601px)" fetchpriority="high">
+  {%- endif -%}
+{%- endif -%}
+
 <link rel="stylesheet" href="{{ 'slideshow.css' | asset_url }}">
 <link rel="stylesheet" href="{{ 'text-overlay.css' | asset_url }}">
 
@@ -122,8 +138,16 @@
           assign m_img = block.settings.image_mobile
           assign overlay_position = block.settings.overlay_position | split: ' '
           assign lazy_load = true
-          if forloop.first and section.settings.prevent_animation
-            assign lazy_load = false
+          # Disable lazy load for first slide if this is the first section (LCP optimization)
+          if forloop.first
+            if section.settings.prevent_animation or section.index == 1
+              assign lazy_load = false
+            endif
+          endif
+          # Add fetchpriority for first slide of first section
+          assign fetch_priority = ''
+          if forloop.first and section.index == 1
+            assign fetch_priority = 'fetchpriority="high"'
           endif
 
           if color_scheme == "white"
@@ -188,7 +212,8 @@
                 src_placeholder: true,
                 sizes: sizes,
                 class: 'img-fit sm:hidden',
-                lazy_load: lazy_load
+                lazy_load: lazy_load,
+                attributes: fetch_priority
               -%}
             {%- endif -%}
 
@@ -200,7 +225,8 @@
               sizes: sizes,
               quality: 1,
               class: desktop_image_class,
-              lazy_load: lazy_load
+              lazy_load: lazy_load,
+              attributes: fetch_priority
             -%}
           {%- else -%}
             {{ 'lifestyle-2' | placeholder_svg_tag: 'media__placeholder img-fit' }}

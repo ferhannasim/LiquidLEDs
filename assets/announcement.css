@@ -8,6 +8,8 @@
 .cc-announcement {
   position: relative;
   z-index: 31;
+  /* Reserve space to prevent CLS */
+  min-height: 36px;
 }
 .shopify-section + .cc-announcement, .overlay-predictive-search .cc-announcement {
   position: static;
@@ -16,6 +18,10 @@
 
 .announcement {
   color: rgb(var(--announcement-text-color));
+  /* Ensure consistent height to prevent layout shift */
+  min-height: 36px;
+  display: flex;
+  align-items: center;
 }
 .announcement a {
   color: inherit;

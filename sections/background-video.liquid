@@ -31,7 +31,8 @@
       assign using_video_tag = true
     endif
 
-    if section.settings.prevent_animation
+    # Always disable lazy loading for first section (LCP optimization)
+    if section.settings.prevent_animation or section.index == 1
       assign lazy_load_images = false
     else
       assign lazy_load_images = true
