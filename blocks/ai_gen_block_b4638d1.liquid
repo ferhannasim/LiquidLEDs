@@ -1,0 +1,399 @@
+{% doc %}
+  @prompt
+    Create a "Read More" and "Read Less" toggle button block that can expand and collapse text content. The block should include customizable text content, adjustable character limits for the preview, smooth transitions, and styling options for the button appearance. Make it responsive and accessible with proper ARIA labels.
+
+{% enddoc %}
+{% assign ai_gen_id = block.id | replace: '_', '' | downcase %}
+
+{% style %}
+  .read-more-container-{{ ai_gen_id }} {
+    width: 100%;
+    max-width: 100%;
+    margin: 0 auto;
+    font-family: {{ block.settings.text_font.family }}, sans-serif;
+    font-weight: {{ block.settings.text_font.weight }};
+    color: {{ block.settings.text_color }};
+  }
+
+  .read-more-content-{{ ai_gen_id }} {
+    position: relative;
+    overflow: hidden;
+    transition: max-height {{ block.settings.animation_speed }}ms ease;
+  }
+
+  .read-more-content-{{ ai_gen_id }}.collapsed {
+    max-height: {{ block.settings.collapsed_height }}px;
+  }
+
+  .read-more-content-{{ ai_gen_id }}.expanded {
+    max-height: 2000px;
+  }
+
+  .read-more-fade-{{ ai_gen_id }} {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 50px;
+    background: linear-gradient(
+      to bottom,
+      rgba(255, 255, 255, 0),
+      {{ block.settings.background_color }}
+    );
+    pointer-events: none;
+    transition: opacity {{ block.settings.animation_speed }}ms ease;
+  }
+
+  .read-more-fade-{{ ai_gen_id }}.hidden {
+    opacity: 0;
+  }
+
+  .read-more-button-wrapper-{{ ai_gen_id }} {
+    display: flex;
+    justify-content: {{ block.settings.button_alignment }};
+    margin-top: 10px;
+  }
+
+  .read-more-button-{{ ai_gen_id }} {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: {{ block.settings.button_padding }}px;
+    background-color: {{ block.settings.button_background }};
+    color: {{ block.settings.button_text_color }};
+    border: {{ block.settings.button_border_width }}px solid {{ block.settings.button_border_color }};
+    border-radius: {{ block.settings.button_border_radius }}px;
+    font-size: {{ block.settings.button_font_size }}px;
+    font-weight: {{ block.settings.button_font_weight }};
+    cursor: pointer;
+    transition: all 0.3s ease;
+    text-decoration: none;
+  }
+
+  .read-more-button-{{ ai_gen_id }}:hover {
+    background-color: {{ block.settings.button_hover_background }};
+    color: {{ block.settings.button_hover_text_color }};
+  }
+
+  .read-more-button-{{ ai_gen_id }} .icon {
+    width: 12px;
+    height: 12px;
+    margin-left: 5px;
+    transition: transform 0.3s ease;
+  }
+
+  .read-more-button-{{ ai_gen_id }} .icon.rotated {
+    transform: rotate(180deg);
+  }
+
+  @media screen and (max-width: 749px) {
+    .read-more-button-{{ ai_gen_id }} {
+      padding: {{ block.settings.button_padding | minus: 2 }}px;
+      font-size: {{ block.settings.button_font_size | minus: 1 }}px;
+    }
+  }
+{% endstyle %}
+
+<read-more-toggle-{{ ai_gen_id }}
+  class="read-more-container-{{ ai_gen_id }}"
+  {{ block.shopify_attributes }}
+  data-animation-speed="{{ block.settings.animation_speed }}"
+>
+  <div class="read-more-content-{{ ai_gen_id }} collapsed">
+    {{ block.settings.content }}
+    <div class="read-more-fade-{{ ai_gen_id }}"></div>
+  </div>
+  <div class="read-more-button-wrapper-{{ ai_gen_id }}">
+    <button 
+      class="read-more-button-{{ ai_gen_id }}" 
+      aria-expanded="false"
+      aria-controls="read-more-content-{{ ai_gen_id }}"
+    >
+      <span class="read-more-text">{{ block.settings.read_more_text }}</span>
+      <svg class="icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M6 9L12 15L18 9" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+      </svg>
+    </button>
+  </div>
+</read-more-toggle-{{ ai_gen_id }}>
+
+<script>
+  (function() {
+    class ReadMoreToggle extends HTMLElement {
+      constructor() {
+        super();
+        this.content = this.querySelector('.read-more-content-{{ ai_gen_id }}');
+        this.button = this.querySelector('.read-more-button-{{ ai_gen_id }}');
+        this.buttonText = this.button.querySelector('.read-more-text');
+        this.icon = this.button.querySelector('.icon');
+        this.fade = this.querySelector('.read-more-fade-{{ ai_gen_id }}');
+        this.expanded = false;
+        this.readMoreText = '{{ block.settings.read_more_text }}';
+        this.readLessText = '{{ block.settings.read_less_text }}';
+        this.animationSpeed = parseInt(this.dataset.animationSpeed, 10);
+        
+        this.setupListeners();
+        this.checkContentHeight();
+      }
+
+      connectedCallback() {
+        // Set initial state
+        this.checkContentHeight();
+      }
+
+      setupListeners() {
+        this.button.addEventListener('click', () => this.toggleContent());
+        
+        // Re-check content height on window resize
+        window.addEventListener('resize', () => {
+          this.checkContentHeight();
+        });
+      }
+
+      checkContentHeight() {
+        // Store the original height
+        const originalHeight = this.content.scrollHeight;
+        
+        // Temporarily remove the collapsed class to get full height
+        this.content.classList.remove('collapsed');
+        const fullHeight = this.content.scrollHeight;
+        this.content.classList.add('collapsed');
+        
+        // If content is shorter than collapsed height, hide button and fade
+        if (fullHeight <= {{ block.settings.collapsed_height }}) {
+          this.button.style.display = 'none';
+          this.fade.classList.add('hidden');
+          this.content.classList.remove('collapsed');
+          this.content.classList.add('expanded');
+        } else {
+          this.button.style.display = 'inline-flex';
+          if (!this.expanded) {
+            this.fade.classList.remove('hidden');
+          }
+        }
+      }
+
+      toggleContent() {
+        this.expanded = !this.expanded;
+        
+        if (this.expanded) {
+          this.content.classList.remove('collapsed');
+          this.content.classList.add('expanded');
+          this.buttonText.textContent = this.readLessText;
+          this.icon.classList.add('rotated');
+          this.fade.classList.add('hidden');
+          this.button.setAttribute('aria-expanded', 'true');
+        } else {
+          this.content.classList.remove('expanded');
+          this.content.classList.add('collapsed');
+          this.buttonText.textContent = this.readMoreText;
+          this.icon.classList.remove('rotated');
+          this.fade.classList.remove('hidden');
+          this.button.setAttribute('aria-expanded', 'false');
+        }
+      }
+    }
+
+    customElements.define('read-more-toggle-{{ ai_gen_id }}', ReadMoreToggle);
+  })();
+</script>
+
+{% schema %}
+{
+  "name": "Read More Toggle",
+  "tag": null,
+  "settings": [
+    {
+      "type": "header",
+      "content": "Content"
+    },
+    {
+      "type": "richtext",
+      "id": "content",
+      "label": "Text content",
+      "default": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Fusce id purus. Ut in dui vitae lectus gravida tempus. Nulla facilisi. Maecenas tristique orci ac sem. Duis ultricies pharetra magna. Donec accumsan malesuada orci. Donec sit amet eros. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Mauris fermentum dictum magna. Sed laoreet aliquam leo. Ut tellus dolor, dapibus eget, elementum vel, cursus eleifend, elit.</p>"
+    },
+    {
+      "type": "range",
+      "id": "collapsed_height",
+      "min": 50,
+      "max": 500,
+      "step": 10,
+      "unit": "px",
+      "label": "Collapsed height",
+      "default": 100
+    },
+    {
+      "type": "header",
+      "content": "Button Settings"
+    },
+    {
+      "type": "text",
+      "id": "read_more_text",
+      "label": "Read more text",
+      "default": "Read More"
+    },
+    {
+      "type": "text",
+      "id": "read_less_text",
+      "label": "Read less text",
+      "default": "Read Less"
+    },
+    {
+      "type": "select",
+      "id": "button_alignment",
+      "label": "Button alignment",
+      "options": [
+        {
+          "value": "flex-start",
+          "label": "Left"
+        },
+        {
+          "value": "center",
+          "label": "Center"
+        },
+        {
+          "value": "flex-end",
+          "label": "Right"
+        }
+      ],
+      "default": "flex-start"
+    },
+    {
+      "type": "range",
+      "id": "button_padding",
+      "min": 5,
+      "max": 30,
+      "step": 1,
+      "unit": "px",
+      "label": "Button padding",
+      "default": 10
+    },
+    {
+      "type": "range",
+      "id": "button_font_size",
+      "min": 12,
+      "max": 24,
+      "step": 1,
+      "unit": "px",
+      "label": "Button font size",
+      "default": 16
+    },
+    {
+      "type": "select",
+      "id": "button_font_weight",
+      "label": "Button font weight",
+      "options": [
+        {
+          "value": "400",
+          "label": "Normal"
+        },
+        {
+          "value": "500",
+          "label": "Medium"
+        },
+        {
+          "value": "600",
+          "label": "Semibold"
+        },
+        {
+          "value": "700",
+          "label": "Bold"
+        }
+      ],
+      "default": "500"
+    },
+    {
+      "type": "range",
+      "id": "button_border_width",
+      "min": 0,
+      "max": 5,
+      "step": 1,
+      "unit": "px",
+      "label": "Button border width",
+      "default": 1
+    },
+    {
+      "type": "range",
+      "id": "button_border_radius",
+      "min": 0,
+      "max": 40,
+      "step": 1,
+      "unit": "px",
+      "label": "Button border radius",
+      "default": 4
+    },
+    {
+      "type": "header",
+      "content": "Colors"
+    },
+    {
+      "type": "color",
+      "id": "background_color",
+      "label": "Background color",
+      "default": "#ffffff"
+    },
+    {
+      "type": "color",
+      "id": "text_color",
+      "label": "Text color",
+      "default": "#333333"
+    },
+    {
+      "type": "font_picker",
+      "id": "text_font",
+      "label": "Text font",
+      "default": "helvetica_n4"
+    },
+    {
+      "type": "color",
+      "id": "button_background",
+      "label": "Button background",
+      "default": "#ffffff"
+    },
+    {
+      "type": "color",
+      "id": "button_text_color",
+      "label": "Button text color",
+      "default": "#333333"
+    },
+    {
+      "type": "color",
+      "id": "button_border_color",
+      "label": "Button border color",
+      "default": "#dddddd"
+    },
+    {
+      "type": "color",
+      "id": "button_hover_background",
+      "label": "Button hover background",
+      "default": "#f5f5f5"
+    },
+    {
+      "type": "color",
+      "id": "button_hover_text_color",
+      "label": "Button hover text color",
+      "default": "#000000"
+    },
+    {
+      "type": "header",
+      "content": "Animation"
+    },
+    {
+      "type": "range",
+      "id": "animation_speed",
+      "min": 100,
+      "max": 1000,
+      "step": 50,
+      "unit": "ms",
+      "label": "Animation speed",
+      "default": 300
+    }
+  ],
+  "presets": [
+    {
+      "name": "Read More Toggle"
+    }
+  ]
+}
+{% endschema %}

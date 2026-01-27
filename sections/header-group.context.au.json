@@ -1,0 +1,51 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "parent": "header-group.json",
+  "context": {
+    "market": "7e0d8a47-0a13-40e6-a855-f4433e63821b"
+  },
+  "sections": {
+    "announcement": {
+      "disabled": false,
+      "settings": {},
+      "blocks": {
+        "97378fdc-4153-4d36-ada6-5383751df288": {
+          "type": "announcement",
+          "disabled": false,
+          "settings": {
+            "text": "<p><strong>Enjoy free DHL shipping on </strong><a href=\"/pages/shipping-to-united-states\" title=\"Shipping To United States of America\"><strong>orders over $399*</strong></a></p>"
+          }
+        },
+        "announcement-2": {
+          "settings": {
+            "text": "<p><strong>30 Days Returns Policy </strong><a href=\"/pages/return-policy\" title=\"Returns Policy\"><strong>No Quibble Guarantee</strong></a></p>"
+          }
+        },
+        "announcement_E7DpG": {
+          "type": "announcement",
+          "disabled": false,
+          "settings": {
+            "text": "<p><strong>Questions? Send us a</strong><a href=\"https://wa.me/61483949669\" target=\"_blank\" title=\"https://wa.me/61483949669\"> Whatsapp Message</a></p>"
+          }
+        }
+      },
+      "block_order": [
+        "97378fdc-4153-4d36-ada6-5383751df288",
+        "announcement-2",
+        "announcement_E7DpG"
+      ]
+    }
+  },
+  "order": [
+    "announcement",
+    "header"
+  ]
+}

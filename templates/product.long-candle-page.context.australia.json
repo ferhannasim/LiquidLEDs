@@ -1,0 +1,120 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "parent": "product.long-candle-page.json",
+  "context": {
+    "market": "australia"
+  },
+  "sections": {
+    "main": {
+      "settings": {},
+      "blocks": {},
+      "block_order": [
+        "vendor-sku",
+        "title",
+        "3e7fac93-7ed1-44b6-b882-99af47420c64",
+        "judge_me_reviews_review_snippet_widget_gNBwT3",
+        "price",
+        "variant-picker",
+        "divider-0",
+        "divider-1",
+        "buy-buttons",
+        "e0be5244-484c-4751-be23-938d1657421d",
+        "1a9e12c5-c94a-4986-ab78-ccb3d78bca12",
+        "message-1",
+        "message-2",
+        "collapsible-content-1",
+        "62039f84-401f-4025-9830-7b334867dfe7",
+        "collapsible-content-2",
+        "message-3",
+        "share"
+      ]
+    },
+    "details": {
+      "disabled": false,
+      "settings": {},
+      "blocks": {},
+      "block_order": [
+        "product_features_w9hfXq",
+        "tabs",
+        "payment-methods"
+      ]
+    },
+    "product-features": {
+      "disabled": false,
+      "settings": {
+        "show_content": true,
+        "enlarge_text": false,
+        "image": "shopify://shop_images/Screenshot_2025-01-31_at_18.42.19.png",
+        "title": "Product overview",
+        "description": "",
+        "button_label": "Add to cart"
+      },
+      "blocks": {
+        "feature_zaexU": {
+          "type": "feature",
+          "disabled": false,
+          "settings": {
+            "image": null,
+            "heading": "Experience True Colours with High CRI",
+            "text": "<p>With CRI90+ bulbs light objects in their true and natural colour</p>",
+            "content_align": "text-start",
+            "hotspot_x": 57,
+            "hotspot_y": 28
+          }
+        },
+        "product-features-feature-0": {
+          "disabled": false,
+          "settings": {
+            "image": "shopify://shop_images/Screenshot_2025-02-01_at_10.53.42.png",
+            "heading": "Smooth Dimming from 0 - 100%",
+            "text": "<p>Suitable for most dimmers, ideal brightness for every occasion</p>",
+            "content_align": "text-end",
+            "hotspot_x": 44,
+            "hotspot_y": 17
+          }
+        },
+        "product-features-feature-1": {
+          "disabled": false,
+          "settings": {
+            "image": "shopify://shop_images/Flicker-free_LED_light_bulbs.jpg",
+            "heading": "Flicker Free LED Lighting",
+            "text": "<p>Prevents eye strain; reduces fatigue and headaches</p>",
+            "hotspot_x": 44,
+            "hotspot_y": 40
+          }
+        },
+        "product-features-feature-2": {
+          "disabled": true,
+          "settings": {}
+        },
+        "product-features-feature-3": {
+          "disabled": true,
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "feature_zaexU",
+        "product-features-feature-0",
+        "product-features-feature-1",
+        "product-features-feature-2",
+        "product-features-feature-3"
+      ]
+    }
+  },
+  "order": [
+    "main",
+    "details",
+    "product-features",
+    "recommendations",
+    "2f9d2b69-1421-42ee-bf42-204579d8c79b",
+    "1695711824fc9578f1"
+  ]
+}

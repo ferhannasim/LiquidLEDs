@@ -1,0 +1,41 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-blog",
+      "settings": {
+        "show_blog_title": true,
+        "description": "",
+        "show_share_links": true,
+        "text_align": "text-start",
+        "posts_per_page": 13,
+        "three_columns": true,
+        "show_tag_filter": true,
+        "show_featured_image": true,
+        "image_ratio": "shortest",
+        "show_tags": true,
+        "show_excerpt": true,
+        "show_author": false,
+        "show_date": true,
+        "show_button": false,
+        "button_style": "btn btn--secondary",
+        "show_featured_post": true,
+        "show_featured_excerpt": true,
+        "show_featured_button": true,
+        "color_scheme": "none",
+        "featured_button_style": "btn btn--secondary"
+      }
+    }
+  },
+  "order": [
+    "main"
+  ]
+}

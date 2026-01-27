@@ -1,0 +1,176 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "parent": "index.json",
+  "context": {
+    "market": "7e0d8a47-0a13-40e6-a855-f4433e63821b"
+  },
+  "sections": {
+    "collection-list": {
+      "settings": {
+        "layout": "carousel"
+      },
+      "blocks": {},
+      "block_order": [
+        "collection-0",
+        "collection-1",
+        "collection-2",
+        "collection-3",
+        "collection-6",
+        "99a7cfdd-0ee8-46bf-8d2f-c0025eb38649",
+        "collection-4",
+        "collection-5",
+        "4d9d1ff9-2d75-4b20-a903-0ff03663ea55",
+        "f3c08461-1329-4c4b-b608-2b26814acad0",
+        "8a774912-22bf-4530-a163-f1932afbd830",
+        "7d88c7d0-d2f2-4f18-a1b1-034d70a69db1"
+      ]
+    },
+    "b135d63c-147c-4971-ab38-3d4f34b168e8": {
+      "disabled": true,
+      "settings": {},
+      "blocks": {}
+    },
+    "featured-collection": {
+      "disabled": true,
+      "settings": {},
+      "blocks": {}
+    },
+    "featured_collection_RTrbPg": {
+      "disabled": true,
+      "settings": {},
+      "blocks": {}
+    },
+    "slideshow_yLwDi": {
+      "type": "slideshow",
+      "disabled": false,
+      "settings": {
+        "header-6642b0f5d8061834320a8e5f31120112": null,
+        "height_mode": "auto",
+        "fixed_height_desktop": 600,
+        "fixed_height_mobile": 350,
+        "mobile_stacked": false,
+        "header-bf2cf92549516507d390616d541eac40": null,
+        "nav_style": "slideshow_nav_lines",
+        "pagination_color": "#ffffff",
+        "nav_position": "justify-center",
+        "transition": "slide-fade",
+        "autoplay": true,
+        "slider_pause": false,
+        "autoplay_speed": 5,
+        "header-927666b6fb0139335640595b0fae3a5f": null,
+        "color_scheme": "white",
+        "full_width": true,
+        "tint_color": "#000000",
+        "tint_opacity": 40,
+        "header-d973bdbf22fcd43c495b6a9ab6a1acd9": null,
+        "accessibility_info": "",
+        "prevent_animation": true
+      },
+      "blocks": {
+        "slide_Qy8P9": {
+          "type": "slide",
+          "disabled": false,
+          "settings": {
+            "image_desktop": "shopify://shop_images/Flicker-Free_Light_for_Cozy_Nights_In_final_banner.jpg",
+            "image_mobile": "shopify://shop_images/Flicker-Free_Light_for_Cozy_Nights_In_mobile_image.jpg",
+            "url": "",
+            "header-62a82a13c3070a640ed46cf76d0a7da3": null,
+            "overlay_position": "justify-start items-center",
+            "overlay_text_align": "text-center",
+            "mob_center_text": false,
+            "subheading": "",
+            "heading": "Flicker-Free Light for Relaxed Evenings at Home",
+            "heading_size": "h4",
+            "heading_h1": false,
+            "text": "<p>Soft, steady light that protects your eyes and warms your space. Premium LED filament bulbs designed for homes across the US.</p>",
+            "enlarge_text": true,
+            "button_1_label": "Shop Flicker-Free Bulbs",
+            "button_1_link": "https://liquid-leds.com/collections/flicker-free-led-light-bulbs",
+            "button_1_style": "btn btn--primary",
+            "button_2_label": "",
+            "button_2_link": "",
+            "button_2_style": "btn btn--primary",
+            "transparent_content_color": "#ffffff",
+            "header-999787647429d0c04f3360d58efce570": null,
+            "countdown_show": false,
+            "countdown_end_date": "",
+            "countdown_end_time": "",
+            "countdown_end_text": "",
+            "enlarge_end_text": false,
+            "countdown_hide_on_end": false,
+            "use_custom_colors": false,
+            "count_color": "#fff",
+            "bg_color": "#070707",
+            "bg_grad": ""
+          }
+        },
+        "slide_rEjRk": {
+          "type": "slide",
+          "disabled": false,
+          "settings": {
+            "image_desktop": "shopify://shop_images/Vintage_Glow._Modern_Tech.-Banner.jpg",
+            "image_mobile": "shopify://shop_images/Vintage_Glow._Modern_Tech.-banner_mobile.jpg",
+            "url": "",
+            "header-e37490c9162c23a9f22533ea20d2156a": null,
+            "overlay_position": "justify-center items-center",
+            "overlay_text_align": "text-center",
+            "mob_center_text": false,
+            "subheading": "",
+            "heading": "Vintage Glow with Modern LED Quality",
+            "heading_size": "h4",
+            "heading_h1": false,
+            "text": "<p>High-CRI filament bulbs that bring warm, natural light to design-led American interiors.</p>",
+            "enlarge_text": true,
+            "button_1_label": "Explore the Collection",
+            "button_1_link": "https://liquid-leds.com/collections/ultra-high-cri-bulbs",
+            "button_1_style": "btn btn--primary",
+            "button_2_label": "",
+            "button_2_link": "",
+            "button_2_style": "btn btn--primary",
+            "transparent_content_color": "#ffffff",
+            "header-7f8dd71e20915dcd9280478316cfab51": null,
+            "countdown_show": false,
+            "countdown_end_date": "",
+            "countdown_end_time": "",
+            "countdown_end_text": "",
+            "enlarge_end_text": false,
+            "countdown_hide_on_end": false,
+            "use_custom_colors": false,
+            "count_color": "#fff",
+            "bg_color": "#070707",
+            "bg_grad": ""
+          }
+        }
+      },
+      "block_order": [
+        "slide_Qy8P9",
+        "slide_rEjRk"
+      ],
+      "name": "Slideshow"
+    }
+  },
+  "order": [
+    "4c7aae1f-2d70-4195-8367-36615838740e",
+    "slideshow_yLwDi",
+    "bd9ebffd-fb67-4c56-95a8-fef7be83ce90",
+    "2442e5c7-da77-4e38-ac6c-1686df20ac2b",
+    "multi-column",
+    "collection-list",
+    "featured-collection",
+    "62e6e5e0-6f95-43c9-82a5-281a6f8ef25b",
+    "featured_collection_RTrbPg",
+    "background_video_UFjVKM",
+    "featured_collection_t73BMT",
+    "b135d63c-147c-4971-ab38-3d4f34b168e8",
+    "169614538727ade400",
+    "411d078d-1342-4aa3-9d0a-132054f14f07"
+  ]
+}

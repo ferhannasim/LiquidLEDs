@@ -1,0 +1,337 @@
+{% doc %}
+  @prompt
+    Create a "Read More" and "Read Less" toggle button block that can expand and collapse text content. The block should include customizable text content, adjustable character limits for the preview, smooth transitions, and styling options for the button appearance. Make it responsive and accessible with proper ARIA labels.
+
+{% enddoc %}
+{% assign ai_gen_id = block.id | replace: '_', '' | downcase %}
+
+{% style %}
+.read-more-container-{{ ai_gen_id }} {
+  width: 100%;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.read-more-content-{{ ai_gen_id }} {
+  position: relative;
+  overflow: hidden;
+  transition: max-height {{ block.settings.animation_speed }}ms ease;
+}
+
+.read-more-content-{{ ai_gen_id }}.collapsed {
+  max-height: {{ block.settings.preview_height }}px;
+}
+
+.read-more-content-{{ ai_gen_id }}.expanded {
+  max-height: 9999px;
+}
+
+.read-more-gradient-{{ ai_gen_id }} {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: {{ block.settings.gradient_height }}px;
+  background: linear-gradient(
+    to bottom,
+    rgba(255, 255, 255, 0) 0%,
+    {{ block.settings.background_color }} 100%
+  );
+  pointer-events: none;
+  transition: opacity {{ block.settings.animation_speed }}ms ease;
+}
+
+.read-more-content-{{ ai_gen_id }}.expanded .read-more-gradient-{{ ai_gen_id }} {
+  opacity: 0;
+}
+
+.read-more-button-{{ ai_gen_id }} {
+  display: inline-block;
+  margin-top: 15px;
+  padding: {{ block.settings.button_padding }}px {{ block.settings.button_padding | times: 2 }}px;
+  background-color: {{ block.settings.button_background }};
+  color: {{ block.settings.button_text_color }};
+  border: {{ block.settings.button_border_width }}px solid {{ block.settings.button_border_color }};
+  border-radius: {{ block.settings.button_border_radius }}px;
+  font-size: {{ block.settings.button_font_size }}px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+  text-align: center;
+}
+
+.read-more-button-{{ ai_gen_id }}:hover {
+  background-color: {{ block.settings.button_hover_background }};
+  color: {{ block.settings.button_hover_text_color }};
+  border-color: {{ block.settings.button_hover_border_color }};
+}
+
+.read-more-text-{{ ai_gen_id }} {
+  color: {{ block.settings.text_color }};
+  font-size: {{ block.settings.text_font_size }}px;
+  line-height: 1.5;
+}
+
+@media screen and (max-width: 749px) {
+  .read-more-text-{{ ai_gen_id }} {
+    font-size: {{ block.settings.text_font_size | times: 0.9 }}px;
+  }
+  
+  .read-more-button-{{ ai_gen_id }} {
+    font-size: {{ block.settings.button_font_size | times: 0.9 }}px;
+    padding: {{ block.settings.button_padding | times: 0.8 }}px {{ block.settings.button_padding | times: 1.6 }}px;
+  }
+}
+{% endstyle %}
+
+<read-more-toggle-{{ ai_gen_id }} class="read-more-container-{{ ai_gen_id }}" {{ block.shopify_attributes }}>
+  <div class="read-more-content-{{ ai_gen_id }} collapsed">
+    <div class="read-more-text-{{ ai_gen_id }}">
+      {{ block.settings.content }}
+    </div>
+    <div class="read-more-gradient-{{ ai_gen_id }}"></div>
+  </div>
+  
+  <button 
+    class="read-more-button-{{ ai_gen_id }}" 
+    aria-expanded="false" 
+    aria-controls="read-more-content-{{ ai_gen_id }}"
+  >
+    {{ block.settings.read_more_text }}
+  </button>
+</read-more-toggle-{{ ai_gen_id }}>
+
+<script>
+(function() {
+  class ReadMoreToggle extends HTMLElement {
+    constructor() {
+      super();
+      this.contentContainer = this.querySelector('.read-more-content-{{ ai_gen_id }}');
+      this.toggleButton = this.querySelector('.read-more-button-{{ ai_gen_id }}');
+      this.readMoreText = '{{ block.settings.read_more_text | escape }}';
+      this.readLessText = '{{ block.settings.read_less_text | escape }}';
+      this.isExpanded = false;
+      
+      this.toggleButton.addEventListener('click', this.toggleContent.bind(this));
+      
+      // Check if content actually needs a read more button
+      this.checkContentHeight();
+    }
+    
+    checkContentHeight() {
+      // Get the natural height of the content
+      const originalMaxHeight = this.contentContainer.style.maxHeight;
+      this.contentContainer.style.maxHeight = 'none';
+      const contentHeight = this.contentContainer.offsetHeight;
+      this.contentContainer.style.maxHeight = originalMaxHeight;
+      
+      // If content is shorter than the preview height, hide the button and gradient
+      if (contentHeight <= {{ block.settings.preview_height }}) {
+        this.toggleButton.style.display = 'none';
+        this.contentContainer.classList.remove('collapsed');
+        this.contentContainer.classList.add('expanded');
+        const gradient = this.contentContainer.querySelector('.read-more-gradient-{{ ai_gen_id }}');
+        if (gradient) {
+          gradient.style.opacity = '0';
+        }
+      }
+    }
+    
+    toggleContent() {
+      this.isExpanded = !this.isExpanded;
+      
+      if (this.isExpanded) {
+        this.contentContainer.classList.remove('collapsed');
+        this.contentContainer.classList.add('expanded');
+        this.toggleButton.textContent = this.readLessText;
+        this.toggleButton.setAttribute('aria-expanded', 'true');
+      } else {
+        this.contentContainer.classList.remove('expanded');
+        this.contentContainer.classList.add('collapsed');
+        this.toggleButton.textContent = this.readMoreText;
+        this.toggleButton.setAttribute('aria-expanded', 'false');
+        
+        // Scroll back to the top of the container if it's out of view
+        const containerTop = this.getBoundingClientRect().top + window.pageYOffset;
+        if (containerTop < window.pageYOffset) {
+          window.scrollTo({top: containerTop - 20, behavior: 'smooth'});
+        }
+      }
+    }
+  }
+  
+  customElements.define('read-more-toggle-{{ ai_gen_id }}', ReadMoreToggle);
+})();
+</script>
+
+{% schema %}
+{
+  "name": "Read More Toggle",
+  "tag": null,
+  "settings": [
+    {
+      "type": "header",
+      "content": "Content Settings"
+    },
+    {
+      "type": "richtext",
+      "id": "content",
+      "label": "Text content",
+      "default": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Fusce id purus. Ut in lorem feugiat, aliquet nisi sed, hendrerit dui. Maecenas eget dui at nisl feugiat hendrerit. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Fusce id purus. Ut in lorem feugiat, aliquet nisi sed, hendrerit dui.</p>"
+    },
+    {
+      "type": "range",
+      "id": "preview_height",
+      "min": 50,
+      "max": 500,
+      "step": 10,
+      "unit": "px",
+      "label": "Preview height",
+      "default": 100
+    },
+    {
+      "type": "range",
+      "id": "gradient_height",
+      "min": 20,
+      "max": 100,
+      "step": 5,
+      "unit": "px",
+      "label": "Gradient height",
+      "default": 50
+    },
+    {
+      "type": "range",
+      "id": "animation_speed",
+      "min": 200,
+      "max": 1000,
+      "step": 50,
+      "unit": "ms",
+      "label": "Animation speed",
+      "default": 400
+    },
+    {
+      "type": "header",
+      "content": "Text Styling"
+    },
+    {
+      "type": "color",
+      "id": "text_color",
+      "label": "Text color",
+      "default": "#333333"
+    },
+    {
+      "type": "range",
+      "id": "text_font_size",
+      "min": 12,
+      "max": 24,
+      "step": 1,
+      "unit": "px",
+      "label": "Text font size",
+      "default": 16
+    },
+    {
+      "type": "color",
+      "id": "background_color",
+      "label": "Background color",
+      "info": "Used for the gradient fade effect",
+      "default": "#FFFFFF"
+    },
+    {
+      "type": "header",
+      "content": "Button Settings"
+    },
+    {
+      "type": "text",
+      "id": "read_more_text",
+      "label": "Read more text",
+      "default": "Read More"
+    },
+    {
+      "type": "text",
+      "id": "read_less_text",
+      "label": "Read less text",
+      "default": "Read Less"
+    },
+    {
+      "type": "color",
+      "id": "button_background",
+      "label": "Button background",
+      "default": "#4A90E2"
+    },
+    {
+      "type": "color",
+      "id": "button_text_color",
+      "label": "Button text color",
+      "default": "#FFFFFF"
+    },
+    {
+      "type": "color",
+      "id": "button_hover_background",
+      "label": "Button hover background",
+      "default": "#3A7BC8"
+    },
+    {
+      "type": "color",
+      "id": "button_hover_text_color",
+      "label": "Button hover text color",
+      "default": "#FFFFFF"
+    },
+    {
+      "type": "color",
+      "id": "button_border_color",
+      "label": "Button border color",
+      "default": "#4A90E2"
+    },
+    {
+      "type": "color",
+      "id": "button_hover_border_color",
+      "label": "Button hover border color",
+      "default": "#3A7BC8"
+    },
+    {
+      "type": "range",
+      "id": "button_border_width",
+      "min": 0,
+      "max": 5,
+      "step": 1,
+      "unit": "px",
+      "label": "Button border width",
+      "default": 1
+    },
+    {
+      "type": "range",
+      "id": "button_border_radius",
+      "min": 0,
+      "max": 40,
+      "step": 1,
+      "unit": "px",
+      "label": "Button border radius",
+      "default": 4
+    },
+    {
+      "type": "range",
+      "id": "button_padding",
+      "min": 5,
+      "max": 30,
+      "step": 1,
+      "unit": "px",
+      "label": "Button padding",
+      "default": 10
+    },
+    {
+      "type": "range",
+      "id": "button_font_size",
+      "min": 12,
+      "max": 24,
+      "step": 1,
+      "unit": "px",
+      "label": "Button font size",
+      "default": 14
+    }
+  ],
+  "presets": [
+    {
+      "name": "Read More Toggle"
+    }
+  ]
+}
+{% endschema %}

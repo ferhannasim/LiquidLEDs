@@ -1,0 +1,251 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "parent": "product.globe.json",
+  "context": {
+    "market": "gb"
+  },
+  "sections": {
+    "175356869191d76edd": {
+      "type": "_blocks",
+      "disabled": false,
+      "settings": {},
+      "blocks": {
+        "ai_gen_block_9cac5b8_VJcXW": {
+          "type": "ai_gen_block_9cac5b8",
+          "disabled": false,
+          "settings": {
+            "header-b763a050605b34e841e4febe8b76c032": null,
+            "heading_text": "Experience Lighting Perfection: Why Homes with LiquidLEDs Look and Feel Extraordinary",
+            "header-b138489e7415f7f4d6e55fa4554b4080": null,
+            "text_alignment": "center",
+            "font_size": 26,
+            "font_weight": "700",
+            "padding": 32,
+            "header-4261b8e7846fb4db862a505f887e2b61": null,
+            "text_color": "#2a2b2a",
+            "glow_color": "#ff9f1c",
+            "header-d202787fba5aea5a8214e340dfaf6c69": null,
+            "animation_speed": 2
+          }
+        }
+      },
+      "block_order": [
+        "ai_gen_block_9cac5b8_VJcXW"
+      ]
+    },
+    "shoppable_image_mbp86": {
+      "type": "shoppable-image",
+      "disabled": false,
+      "settings": {
+        "image": "shopify://shop_images/Lighting_CRI_Comparison_-_LiquidLEDs.jpg",
+        "header-01b82e72119f0e4cf3b697980dcaa807": null,
+        "layout": "image_first",
+        "show_vendor": false,
+        "show_content": true,
+        "mob_center_text": true,
+        "header-b9dac2a2f65c5bc0b0cb8a50a5b5b8d2": null,
+        "heading": "🌈 See Colours as They're Meant to Be Seen",
+        "text": "<p>Our High Colour Rendering Index (CRI 90+) technology ensures that every colour in your space appears true to life. Unlike standard LEDs that can wash out or distort colours, our candle bulbs reveal the rich, vibrant hues of your furnishings, artwork, and decor exactly as they were designed to be seen.</p><ul><li><strong>Enhanced skin tones</strong> - People look healthier and more natural</li><li><strong>Vibrant home decor</strong> - Fabrics, artwork, and furnishings display their true colours</li><li><strong>Improved ambiance</strong> - Creates a more inviting and authentic atmosphere</li></ul>",
+        "button_label": "",
+        "button_link": "",
+        "header-5f2aecc2cd99d9c4d5b369ca2a706e0d": null,
+        "hotspot_color": "#070707",
+        "color_scheme": "none",
+        "button_style": "btn btn--primary"
+      },
+      "blocks": {},
+      "block_order": [],
+      "name": "Shoppable image"
+    },
+    "shoppable_image_emmBY": {
+      "type": "shoppable-image",
+      "disabled": false,
+      "settings": {
+        "image": "shopify://shop_images/LiquidLEDs_LED_light_bulbs.jpg",
+        "header-51c50e0a443db0a86d48750c299700e0": null,
+        "layout": "image_last",
+        "show_vendor": false,
+        "show_content": true,
+        "mob_center_text": true,
+        "header-9efcae00ca27b72d9bb6672ee36f7583": null,
+        "heading": "💡Over a Decade of LED Expertise Since 2010",
+        "text": "<p>Since 2010, LiquidLEDs has been at the forefront of LED lighting technology. Our journey began with a mission to make premium, energy-efficient lighting accessible to everyone while providing exceptional customer service.</p><ul><li><strong>Pioneering LED design</strong> - We've refined our products through years of research and customer feedback</li><li><strong>Trusted by professionals</strong> - Chosen by interior designers, architects, and lighting specialists</li><li><strong>Proven reliability</strong> - Our bulbs are built on generations of technological improvements</li></ul>",
+        "button_label": "",
+        "button_link": "",
+        "header-68f9272d34eb5e48168ab0a4557ebae6": null,
+        "hotspot_color": "#070707",
+        "color_scheme": "none",
+        "button_style": "btn btn--primary"
+      },
+      "blocks": {},
+      "block_order": [],
+      "name": "Shoppable image"
+    },
+    "shoppable_image_GDk7J": {
+      "type": "shoppable-image",
+      "disabled": false,
+      "settings": {
+        "image": "shopify://shop_images/Eye_Comfort_Technology_LiquidLEDs.jpg",
+        "header-26bddeddb53019e23dff1a341d63b963": null,
+        "layout": "image_first",
+        "show_vendor": false,
+        "show_content": true,
+        "mob_center_text": true,
+        "header-e204523de95228e25a9cebcff69d52c9": null,
+        "heading": "👀Gentle on Your Eyes, Perfect for Extended Use",
+        "text": "<p>Experience lighting that transforms your space with our premium candle LED bulbs. Designed with meticulous attention to light quality, these bulbs create the perfect ambiance for any room while enhancing the beauty of your surroundings.</p><ul><li><strong>No visible flicker</strong> - Prevents eye strain and headaches</li><li><strong>Reduced blue light</strong> - Better for evening use and sleep patterns</li><li><strong>Stable light output</strong> - No fluctuations or buzzing</li></ul>",
+        "button_label": "",
+        "button_link": "",
+        "header-b8b73f38b73dd21491e702d5a10d0f16": null,
+        "hotspot_color": "#070707",
+        "color_scheme": "none",
+        "button_style": "btn btn--primary"
+      },
+      "blocks": {},
+      "block_order": [],
+      "name": "Shoppable image"
+    },
+    "17535683707d2ff2c0": {
+      "type": "apps",
+      "disabled": false,
+      "settings": {
+        "full_width": false
+      },
+      "blocks": {
+        "judge_me_reviews_testimonials_carousel_product_dyxFU": {
+          "type": "shopify://apps/judge-me-reviews/blocks/testimonials_carousel_product/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "disabled": false,
+          "settings": {
+            "header-16990cf62fcac9db915b7eacd3ab2c19": null,
+            "show_sample_reviews": true,
+            "reviews_selection": "product_reviews",
+            "products": [],
+            "star_rating": "4_to_5_star",
+            "max_reviews": 20,
+            "header-2f9f6102cdd636c63ada5ceddde2c74d": null,
+            "quote_marks_size": "small",
+            "product_name_text_size": "small",
+            "verified_badge_style": "icon",
+            "card_height": "medium",
+            "text_size": "small",
+            "stars_size": "medium",
+            "arrows_position": "bottom",
+            "max_width": 1100,
+            "header-6bcbe905216796d8298eed8e8e59c23c": null,
+            "corner_styling": "soft",
+            "quote_marks_style": "serif",
+            "card_color": "#f9f9f9",
+            "stars_and_quote_marks_color": "#e7ba21",
+            "text_color": "#000000",
+            "arrows_color": "#000000",
+            "show_border": false,
+            "border_color": "#108474",
+            "show_drop_shadow": false,
+            "header-04f2909020cd2d70fd669d0749f73405": null,
+            "transition_speed": 5,
+            "header-b7856ad3f7b5aa0f87117f53cd4b6170": null,
+            "header_text": "Customers are saying",
+            "show_average_rating": true,
+            "paragraph-d008f1df1baf125a95541f6eb0675a02": null
+          }
+        }
+      },
+      "block_order": [
+        "judge_me_reviews_testimonials_carousel_product_dyxFU"
+      ]
+    },
+    "main": {
+      "settings": {},
+      "blocks": {
+        "image_Brd9J": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "title": "",
+            "image": "shopify://shop_images/buy_in_bulk_and_save_LED_light_globes.svg",
+            "image_width": 560,
+            "image_align": "justify-start",
+            "url": ""
+          }
+        },
+        "judge_me_reviews_review_snippet_widget_GWQ7J": {
+          "type": "shopify://apps/judge-me-reviews/blocks/review_snippet_widget/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "disabled": false,
+          "settings": {
+            "paragraph-c756560965baa8da15037f3816725463": null,
+            "paragraph-87ff61f4d3dc48032ee6e5016eb78230": null
+          }
+        },
+        "collapsible-content-1": {
+          "settings": {
+            "heading": "Here When You Need Us",
+            "text": "<p><strong>Need help? We're here for you.</strong></p><p>Our friendly team is available to assist you with any questions or concerns.</p><p>📞 <strong>Call us:</strong> <a href=\"tel:+612%208880%209033\">+612 8880 9033<br/></a>💬 <strong>WhatsApp:</strong> <a href=\"https://wa.me/61483949669\">+61483949669</a></p><p>📧 <strong>Email us:</strong> <a href=\"https://liquid-leds.com/pages/contact-us\">Send us a message<br/></a>❓ <strong>FAQs:</strong> <a href=\"https://liquid-leds.com/pages/faqs\">Visit our FAQ page ›</a></p><p>🕒 <strong>Support hours: </strong>Monday – Friday, 8:00 a.m. – 6:00 p.m. AEST</p>"
+          }
+        },
+        "62039f84-401f-4025-9830-7b334867dfe7": {
+          "settings": {
+            "heading": "Hassle-Free Returns",
+            "text": "<p><strong>Shop with Confidence</strong><br/><br/>Your satisfaction means everything to us. If you're not completely happy with your order, you can return it within 30 days of receiving it for a refund of the purchase price (excluding delivery).</p><p>We’ve been supporting our customers since 2010 and are here to help every step of the way.</p><p><a href=\"/pages/return-policy\" target=\"_blank\" title=\"Returns Policy\">View our full return policy ›</a></p>"
+          }
+        },
+        "collapsible-content-2": {
+          "settings": {
+            "heading": "Fast, Reliable Delivery",
+            "page": "",
+            "text": "<p>We ship fast from Sydney to the United Kingdom.<br/><br/>Choose DHL E-commerce, or DHL Express at checkout.</p><p>✔️ Same-day dispatch on business days before 10 a.m. AEST<br/><br/>✔️ Tracking on every order</p><p>Estimated delivery times:<br/><br/>• DHL Express: 3–6 business days<br/><br/>• DHL E-commerce: 7–12 business days</p><p><a href=\"https://liquid-leds.com/pages/shipping-to-united-kingdom\" title=\"https://liquid-leds.com/pages/shipping-to-united-kingdom\">View full UK shipping details ›</a></p>"
+          }
+        },
+        "share": {
+          "disabled": false,
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "vendor-sku",
+        "title",
+        "3e7fac93-7ed1-44b6-b882-99af47420c64",
+        "price",
+        "variant-picker",
+        "image_Brd9J",
+        "divider-1",
+        "buy-buttons",
+        "e0be5244-484c-4751-be23-938d1657421d",
+        "judge_me_reviews_review_snippet_widget_GWQ7J",
+        "collapsible-content-1",
+        "62039f84-401f-4025-9830-7b334867dfe7",
+        "collapsible-content-2",
+        "1a9e12c5-c94a-4986-ab78-ccb3d78bca12",
+        "message-3",
+        "share"
+      ]
+    },
+    "recommendations": {
+      "settings": {
+        "layout": "carousel_on_mobile",
+        "card_size": "medium"
+      },
+      "blocks": {}
+    }
+  },
+  "order": [
+    "main",
+    "details",
+    "product-features",
+    "175356869191d76edd",
+    "shoppable_image_mbp86",
+    "shoppable_image_emmBY",
+    "shoppable_image_GDk7J",
+    "17535683707d2ff2c0",
+    "recommendations",
+    "2f9d2b69-1421-42ee-bf42-204579d8c79b",
+    "1695711824fc9578f1"
+  ]
+}

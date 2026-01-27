@@ -1,0 +1,499 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "parent": "product.smart-solar.json",
+  "context": {
+    "market": "australia"
+  },
+  "sections": {
+    "faq_hEcFn": {
+      "type": "faq",
+      "disabled": false,
+      "settings": {
+        "header-b39e63b2bc5084373a6093f2df04cc1b": null,
+        "heading": "Solar String FAQs",
+        "heading_align": "text-center",
+        "header-ceddfd32c0357adaca70b7afc97a4620": null,
+        "color_scheme": "none",
+        "full_width": true
+      },
+      "blocks": {
+        "question_jLbqc": {
+          "type": "question",
+          "disabled": false,
+          "settings": {
+            "icon": "none",
+            "heading": "How do solar festoon lights work?",
+            "text": "<p>Solar festoon lights work by converting sunlight into electricity through a solar panel. During the day, the solar panel charges a built-in rechargeable battery. A light sensor activates the lights when it gets dark, running on the stored battery power. Our solar festoon lights feature a 15-meter string with 15 LED bulbs powered by a solar panel with a 3-meter lead, allowing you to position the panel in an optimal sunlight location while placing the lights where you want them.</p>"
+          }
+        },
+        "question_e8XFH": {
+          "type": "question",
+          "disabled": false,
+          "settings": {
+            "icon": "none",
+            "heading": "How long do solar festoon lights stay on at night?",
+            "text": "<p>On a full charge, our solar festoon lights will illuminate for 6-8 hours. If the following day is overcast with limited sunlight, the lights can still provide approximately 3-4 hours of illumination from the partial charge received. The actual runtime depends on several factors, including the lighting mode selected (steady vs. flashing), the dimming feature used, and the amount of sunlight received during charging.</p>"
+          }
+        },
+        "question_hUdf8": {
+          "type": "question",
+          "disabled": false,
+          "settings": {
+            "icon": "none",
+            "heading": "Are these solar fairy lights waterproof for outdoor use?",
+            "text": "<p>Yes, the Solra string features an IP65 weatherproof rating, meaning it is fully protected against heavy rain, wind, and dust. They are specifically engineered to withstand the Australian and New Zealand climate for year-round outdoor display.</p>"
+          }
+        },
+        "question_H4bzC": {
+          "type": "question",
+          "disabled": false,
+          "settings": {
+            "icon": "none",
+            "heading": "How bright are solar festoon lights compared to regular electric festoon lights?",
+            "text": "<p>Our solar festoon lights use 1W LED bulbs that produce 80 lumens each. While this is less than some mains-powered festoon lights, the warm white light creates a cozy, ambient glow perfect for creating an atmosphere in gardens and outdoor spaces. The light output balances energy efficiency with adequate brightness for decorative lighting. Multiple strings can be used together for areas requiring brighter illumination, though each operates independently.</p>"
+          }
+        },
+        "question_PzeR9": {
+          "type": "question",
+          "disabled": false,
+          "settings": {
+            "icon": "none",
+            "heading": "Can these solar festoon lights be charged via USB?",
+            "text": "<p>Our solar festoon lights feature a USB charging input on the solar panel. This allows you to charge the lights directly from a power source when sunlight is limited or when you must ensure the lights are fully charged for a specific event. Simply connect a standard USB charger to the input connector on the solar panel. This dual-charging capability ensures your lights can operate reliably regardless of weather conditions.</p>"
+          }
+        },
+        "question_PCYJb": {
+          "type": "question",
+          "disabled": false,
+          "settings": {
+            "icon": "none",
+            "heading": "Do solar festoon lights need direct sunlight or just light?",
+            "text": "<p>While direct sunlight provides the most efficient charging, our solar festoon lights can still charge with indirect sunlight or even artificial light, though at a reduced rate. For optimal performance, we recommend placing the solar panel in a location that receives at least 6-8 hours of sunlight daily. If sunlight is limited, the USB charging option lets you charge the battery directly from a power source, ensuring your lights work even during cloudy weather.</p>"
+          }
+        },
+        "question_xwxht": {
+          "type": "question",
+          "disabled": false,
+          "settings": {
+            "icon": "none",
+            "heading": "What lighting modes are available on these solar festoon lights?",
+            "text": "<p>Our solar festoon lights offer four distinct lighting modes to create different atmospheres:</p><ol><li>Steady - Continuous illumination for consistent ambient lighting</li><li>Slow Flash - Gentle, rhythmic blinking for a relaxed, festive feel</li><li>Quick Flash - Rapid blinking for a more energetic, celebratory atmosphere</li><li>Pulsating - Gradual brightening and dimming for a soothing breathing effect</li></ol><p>These modes can be selected using either the included remote control or the buttons on the back of the solar panel.</p>"
+          }
+        },
+        "question_Ymkb8": {
+          "type": "question",
+          "disabled": false,
+          "settings": {
+            "icon": "none",
+            "heading": "Can you connect multiple solar string lights together?",
+            "text": "<p>These units are designed as standalone sets to ensure the solar panel provides maximum power and brightness to the LEDs. For larger areas, we recommend placing multiple solar panels side by side to achieve a seamless, brilliant lighting effect without overloading a single circuit.</p>"
+          }
+        },
+        "question_wpkCU": {
+          "type": "question",
+          "disabled": false,
+          "settings": {
+            "icon": "none",
+            "heading": "How long does it take to charge solar festoon lights?",
+            "text": "<p>Our solar festoon lights require approximately 6-8 hours of good sunlight to reach a full charge. If using the USB charging option, the charging time is similar. For first-time use or after extended storage, we recommend charging the lights for a full day before use to ensure maximum battery capacity and performance.</p>"
+          }
+        },
+        "question_KqKzm": {
+          "type": "question",
+          "disabled": false,
+          "settings": {
+            "icon": "none",
+            "heading": "Do solar string lights work in winter or on cloudy days?",
+            "text": "<p>While performance is best in direct sunlight, our high-efficiency panels are optimised to harvest energy even during overcast conditions. You may notice a slightly shorter run time in mid-winter, but the automatic sensor ensures they still illuminate as soon as dusk falls.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "question_jLbqc",
+        "question_e8XFH",
+        "question_hUdf8",
+        "question_H4bzC",
+        "question_PzeR9",
+        "question_PCYJb",
+        "question_xwxht",
+        "question_Ymkb8",
+        "question_wpkCU",
+        "question_KqKzm"
+      ]
+    },
+    "icons_with_text_7AieP9": {
+      "type": "icons-with-text",
+      "disabled": false,
+      "settings": {
+        "header-6ca731b55a26c636f1cd75ccf45cd8f7": null,
+        "heading": "",
+        "heading_align": "text-center",
+        "header-2c542443c9b7cb7121d59c8d0e033992": null,
+        "icon_size": 60,
+        "title_type_scale": "medium",
+        "text_type_scale": "medium",
+        "header-5414784afff5546e966e59d2829cb3f5": null,
+        "icon_position": "above",
+        "mobile_stack": true,
+        "section_height": "medium",
+        "header-bd7c72092ffbdea171671bfd8d78d28f": null,
+        "color_scheme": "1",
+        "full_width": true,
+        "dividers": "none",
+        "header-8086fd81a71192b16c26c5569f0954f8": null,
+        "prevent_animation": false
+      },
+      "blocks": {
+        "item_XrqPdE": {
+          "type": "item",
+          "disabled": false,
+          "settings": {
+            "icon": "check_mark",
+            "custom_icon": "shopify://shop_images/Trusted_by_100_000_Customers_47140b9e-3f5e-4700-a9e9-0bf8ac969594.png",
+            "heading": "Trusted by 100,000+ Customers",
+            "text": "",
+            "link": ""
+          }
+        },
+        "item_4M6jbq": {
+          "type": "item",
+          "disabled": false,
+          "settings": {
+            "icon": "check_mark",
+            "custom_icon": "shopify://shop_images/Proudly_Australian_Since_2010.png",
+            "heading": "Proudly Australian Since 2010",
+            "text": "",
+            "link": ""
+          }
+        },
+        "item_Dch3MT": {
+          "type": "item",
+          "disabled": false,
+          "settings": {
+            "icon": "check_mark",
+            "custom_icon": "shopify://shop_images/30-Day_Risk-Free_Guarantee.png",
+            "heading": "30-Day Risk-Free Guarantee",
+            "text": "",
+            "link": ""
+          }
+        },
+        "item_HfcY46": {
+          "type": "item",
+          "disabled": false,
+          "settings": {
+            "icon": "check_mark",
+            "custom_icon": "shopify://shop_images/Fast_Reliable_Shipping.png",
+            "heading": "Fast & Reliable Shipping",
+            "text": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "item_XrqPdE",
+        "item_4M6jbq",
+        "item_Dch3MT",
+        "item_HfcY46"
+      ]
+    },
+    "logo_list_HGyDFg": {
+      "type": "logo-list",
+      "disabled": false,
+      "settings": {
+        "header-2c7363f79729640de711d57d1c5c004b": null,
+        "title": "",
+        "heading_align": "text-center",
+        "button_label": "",
+        "button_link": "",
+        "header-987f2c9947b0827b2ace16cba1ce52c3": null,
+        "layout": "carousel",
+        "spacing": 40,
+        "logo_grid_align": "justify-center",
+        "header-24b18ab10bf5a5ea4293b7b92e9bfede": null,
+        "color_scheme": "none",
+        "full_width": true
+      },
+      "blocks": {
+        "logo_9pRzrt": {
+          "type": "logo",
+          "disabled": false,
+          "settings": {
+            "image": "shopify://shop_images/image001_4.jpg",
+            "url": "",
+            "logo_width": 130,
+            "text": ""
+          }
+        },
+        "logo_pRE4Ff": {
+          "type": "logo",
+          "disabled": false,
+          "settings": {
+            "image": "shopify://shop_images/Logo_M-10.jpg",
+            "url": "",
+            "logo_width": 120,
+            "text": ""
+          }
+        },
+        "logo_btQ7Cp": {
+          "type": "logo",
+          "disabled": false,
+          "settings": {
+            "image": "shopify://shop_images/Logo_M-06.jpg",
+            "url": "",
+            "logo_width": 120,
+            "text": ""
+          }
+        },
+        "logo_8XN7EP": {
+          "type": "logo",
+          "disabled": false,
+          "settings": {
+            "image": "shopify://shop_images/Sydney_Opera_House.png",
+            "url": "",
+            "logo_width": 120,
+            "text": ""
+          }
+        },
+        "logo_JAnNKm": {
+          "type": "logo",
+          "disabled": false,
+          "settings": {
+            "image": "shopify://shop_images/deloeuvre_icon_165bc71f-c729-4a7c-b004-03579b1efda3.png",
+            "url": "",
+            "logo_width": 120,
+            "text": ""
+          }
+        },
+        "logo_chyqYy": {
+          "type": "logo",
+          "disabled": false,
+          "settings": {
+            "image": "shopify://shop_images/HisMajestysTheatre-Logo.png",
+            "url": "",
+            "logo_width": 120,
+            "text": ""
+          }
+        },
+        "logo_qN7B88": {
+          "type": "logo",
+          "disabled": false,
+          "settings": {
+            "image": "shopify://shop_images/Regent_Theatre.png",
+            "url": "",
+            "logo_width": 120,
+            "text": ""
+          }
+        },
+        "logo_7qWCVF": {
+          "type": "logo",
+          "disabled": false,
+          "settings": {
+            "image": "shopify://shop_images/Logo_M-03.jpg",
+            "url": "",
+            "logo_width": 120,
+            "text": ""
+          }
+        },
+        "logo_PDbb7p": {
+          "type": "logo",
+          "disabled": false,
+          "settings": {
+            "image": "shopify://shop_images/FP-LOGO-MAAS.jpg",
+            "url": "",
+            "logo_width": 120,
+            "text": ""
+          }
+        },
+        "logo_77J9b3": {
+          "type": "logo",
+          "disabled": false,
+          "settings": {
+            "image": "shopify://shop_images/Logo_M-05.jpg",
+            "url": "",
+            "logo_width": 120,
+            "text": ""
+          }
+        },
+        "logo_hTrANp": {
+          "type": "logo",
+          "disabled": false,
+          "settings": {
+            "image": "shopify://shop_images/Logo_M-04.jpg",
+            "url": "",
+            "logo_width": 120,
+            "text": ""
+          }
+        },
+        "logo_7TWfDK": {
+          "type": "logo",
+          "disabled": false,
+          "settings": {
+            "image": "shopify://shop_images/Logo_M-09.jpg",
+            "url": "",
+            "logo_width": 120,
+            "text": ""
+          }
+        },
+        "logo_U96mWp": {
+          "type": "logo",
+          "disabled": false,
+          "settings": {
+            "image": "shopify://shop_images/The_Star_Casino_Sydney.png",
+            "url": "",
+            "logo_width": 120,
+            "text": ""
+          }
+        },
+        "logo_VwpUix": {
+          "type": "logo",
+          "disabled": false,
+          "settings": {
+            "image": "shopify://shop_images/vibe_hotels.png",
+            "url": "",
+            "logo_width": 120,
+            "text": ""
+          }
+        },
+        "logo_mYxCxX": {
+          "type": "logo",
+          "disabled": false,
+          "settings": {
+            "image": "shopify://shop_images/Capella_Hotels.jpg",
+            "url": "",
+            "logo_width": 120,
+            "text": ""
+          }
+        },
+        "logo_QkVPnM": {
+          "type": "logo",
+          "disabled": false,
+          "settings": {
+            "image": "shopify://shop_images/Melbourne_Theatre_Company_logo.png",
+            "url": "",
+            "logo_width": 120,
+            "text": ""
+          }
+        }
+      },
+      "block_order": [
+        "logo_9pRzrt",
+        "logo_pRE4Ff",
+        "logo_btQ7Cp",
+        "logo_8XN7EP",
+        "logo_JAnNKm",
+        "logo_chyqYy",
+        "logo_qN7B88",
+        "logo_7qWCVF",
+        "logo_PDbb7p",
+        "logo_77J9b3",
+        "logo_hTrANp",
+        "logo_7TWfDK",
+        "logo_U96mWp",
+        "logo_VwpUix",
+        "logo_mYxCxX",
+        "logo_QkVPnM"
+      ]
+    },
+    "main": {
+      "settings": {
+        "enable_product_label": true
+      },
+      "blocks": {
+        "judge_me_reviews_review_snippet_widget_padgk": {
+          "type": "shopify://apps/judge-me-reviews/blocks/review_snippet_widget/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "disabled": false,
+          "settings": {
+            "paragraph-89d98e96b0591856e3efe2105a39257a": null,
+            "paragraph-76db5ef40398647b3f46f4cb7c3e4875": null
+          }
+        },
+        "richtext_gKx3UV": {
+          "disabled": true,
+          "settings": {}
+        },
+        "1a9e12c5-c94a-4986-ab78-ccb3d78bca12": {
+          "disabled": true,
+          "settings": {}
+        },
+        "collapsible-content-1": {
+          "settings": {
+            "heading": "Here When You Need Us",
+            "text": "<p><strong>Need help? We're here for you.<br/><br/></strong>Our friendly team is available to assist you with any questions or concerns.</p><p>📞 <strong>Call us:</strong> <a href=\"tel:+612%208880%209033\"><span style=\"text-decoration:underline\">+612 8880 9033</span><br/><br/></a>💬 <strong>WhatsApp:</strong> <a href=\"https://wa.me/61483949669\"><span style=\"text-decoration:underline\">+61483949669<br/><br/></span></a>📧 <strong>Email us:</strong> <a href=\"https://liquid-leds.com/pages/contact-us\"><span style=\"text-decoration:underline\">Send us a message<br/><br/></span></a>❓ <strong>FAQs:</strong> <a href=\"https://liquid-leds.com/pages/faqs\"><span style=\"text-decoration:underline\">Visit our FAQ page ›</span></a></p><p>🕒 <strong>Support hours: </strong>Monday – Friday, 8:00 a.m. – 6:00 p.m. AEST</p>"
+          }
+        },
+        "62039f84-401f-4025-9830-7b334867dfe7": {
+          "settings": {
+            "heading": "Hassle-Free Returns",
+            "text": "<p><strong>Shop with Confidence<br/><br/></strong>Your satisfaction means everything to us. If you're not completely happy with your order, you can return it within 30 days of receiving it for a refund of the purchase price (excluding delivery).</p><p>We’ve been supporting our customers since 2010 and are here to help every step of the way.</p><p><a href=\"https://liquid-leds.com/en-au/pages/return-policy\"><span style=\"text-decoration:underline\">View our full return policy ›</span></a></p>"
+          }
+        },
+        "collapsible-content-2": {
+          "settings": {
+            "heading": "Fast, Reliable Delivery",
+            "text": "<p><strong>Fast & Reliable Delivery</strong></p><p>Orders placed before 10 a.m. AEST on business days are dispatched the same day from our Sydney warehouse.</p><p>✅ <strong>Free standard shipping<br/><br/></strong>• Metro areas: orders over $99<br/><br/>• Regional areas: orders over $199</p><p>🚚 <strong>Delivery timeframes<br/><br/></strong>• Sydney Metro: 1–3 business days<br/><br/>• Other NSW: 2–5 days<br/><br/>• Major cities: 2–5 days<br/><br/>• Regional areas: 2–7 days</p><p>📦 Express shipping is available at checkout.</p><p>Please ensure your address is accurate to avoid delays and return-to-sender fees. If you haven’t received your order or there’s an issue, we’re here to help.</p><p><a href=\"https://liquid-leds.com/en-au/pages/shipping\"><span style=\"text-decoration:underline\">View complete shipping details ›</span></a></p>",
+            "page": ""
+          }
+        },
+        "share": {
+          "disabled": false,
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "vendor-sku",
+        "title",
+        "3e7fac93-7ed1-44b6-b882-99af47420c64",
+        "price",
+        "variant-picker",
+        "divider-0",
+        "divider-1",
+        "buy-buttons",
+        "e0be5244-484c-4751-be23-938d1657421d",
+        "judge_me_reviews_review_snippet_widget_padgk",
+        "richtext_gKx3UV",
+        "1a9e12c5-c94a-4986-ab78-ccb3d78bca12",
+        "message-1",
+        "message-2",
+        "collapsible-content-1",
+        "62039f84-401f-4025-9830-7b334867dfe7",
+        "collapsible-content-2",
+        "message-3",
+        "share"
+      ]
+    },
+    "recommendations": {
+      "settings": {
+        "heading_align": "text-center",
+        "layout": "carousel_on_mobile",
+        "card_size": "medium"
+      },
+      "blocks": {}
+    },
+    "2f9d2b69-1421-42ee-bf42-204579d8c79b": {
+      "settings": {
+        "heading_align": "text-center",
+        "card_size": "medium"
+      },
+      "blocks": {}
+    }
+  },
+  "order": [
+    "main",
+    "details",
+    "product-features",
+    "faq_hEcFn",
+    "1695711824fc9578f1",
+    "recommendations",
+    "2f9d2b69-1421-42ee-bf42-204579d8c79b",
+    "icons_with_text_7AieP9",
+    "logo_list_HGyDFg"
+  ]
+}

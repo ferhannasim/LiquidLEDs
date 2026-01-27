@@ -1,0 +1,265 @@
+{% doc %}
+  @prompt
+    A heading with an animated glowing effect
+
+{% enddoc %}
+{% assign ai_gen_id = block.id | replace: '_', '' | downcase %}
+
+{% style %}
+  .ai-glowing-heading-{{ ai_gen_id }} {
+    text-align: {{ block.settings.text_alignment }};
+    padding: {{ block.settings.padding }}px 0;
+    background-color: {{ block.settings.background_color }};
+  }
+
+  .ai-glowing-heading-text-{{ ai_gen_id }} {
+    font-size: {{ block.settings.font_size }}px;
+    font-weight: {{ block.settings.font_weight }};
+    color: {{ block.settings.text_color }};
+    margin: 0;
+    display: inline-block;
+    position: relative;
+    text-shadow: 
+      0 0 5px {{ block.settings.glow_color }},
+      0 0 10px {{ block.settings.glow_color }},
+      0 0 15px {{ block.settings.glow_color }},
+      0 0 20px {{ block.settings.glow_color }};
+    animation: ai-glow-pulse-{{ ai_gen_id }} {{ block.settings.animation_duration }}s ease-in-out infinite alternate;
+  }
+
+  @keyframes ai-glow-pulse-{{ ai_gen_id }} {
+    from {
+      text-shadow: 
+        0 0 5px {{ block.settings.glow_color }},
+        0 0 10px {{ block.settings.glow_color }},
+        0 0 15px {{ block.settings.glow_color }},
+        0 0 20px {{ block.settings.glow_color }};
+    }
+    to {
+      text-shadow: 
+        0 0 10px {{ block.settings.glow_color }},
+        0 0 20px {{ block.settings.glow_color }},
+        0 0 30px {{ block.settings.glow_color }},
+        0 0 40px {{ block.settings.glow_color }},
+        0 0 50px {{ block.settings.glow_color }};
+    }
+  }
+
+  {% if block.settings.enable_hover_effect %}
+    .ai-glowing-heading-text-{{ ai_gen_id }}:hover {
+      text-shadow: 
+        0 0 15px {{ block.settings.hover_glow_color }},
+        0 0 25px {{ block.settings.hover_glow_color }},
+        0 0 35px {{ block.settings.hover_glow_color }},
+        0 0 45px {{ block.settings.hover_glow_color }},
+        0 0 55px {{ block.settings.hover_glow_color }};
+      transition: text-shadow 0.3s ease;
+    }
+  {% endif %}
+
+  @media screen and (max-width: 749px) {
+    .ai-glowing-heading-text-{{ ai_gen_id }} {
+      font-size: {{ block.settings.font_size | times: 0.8 }}px;
+    }
+  }
+{% endstyle %}
+
+<div class="ai-glowing-heading-{{ ai_gen_id }}" {{ block.shopify_attributes }}>
+  {% if block.settings.heading_tag == 'h1' %}
+    <h1 class="ai-glowing-heading-text-{{ ai_gen_id }}">{{ block.settings.heading_text }}</h1>
+  {% elsif block.settings.heading_tag == 'h2' %}
+    <h2 class="ai-glowing-heading-text-{{ ai_gen_id }}">{{ block.settings.heading_text }}</h2>
+  {% elsif block.settings.heading_tag == 'h3' %}
+    <h3 class="ai-glowing-heading-text-{{ ai_gen_id }}">{{ block.settings.heading_text }}</h3>
+  {% elsif block.settings.heading_tag == 'h4' %}
+    <h4 class="ai-glowing-heading-text-{{ ai_gen_id }}">{{ block.settings.heading_text }}</h4>
+  {% elsif block.settings.heading_tag == 'h5' %}
+    <h5 class="ai-glowing-heading-text-{{ ai_gen_id }}">{{ block.settings.heading_text }}</h5>
+  {% else %}
+    <h6 class="ai-glowing-heading-text-{{ ai_gen_id }}">{{ block.settings.heading_text }}</h6>
+  {% endif %}
+</div>
+
+{% schema %}
+{
+  "name": "Glowing Heading",
+  "settings": [
+    {
+      "type": "header",
+      "content": "Content"
+    },
+    {
+      "type": "text",
+      "id": "heading_text",
+      "label": "Heading text",
+      "default": "Glowing Heading"
+    },
+    {
+      "type": "select",
+      "id": "heading_tag",
+      "label": "Heading tag",
+      "options": [
+        {
+          "value": "h1",
+          "label": "H1"
+        },
+        {
+          "value": "h2",
+          "label": "H2"
+        },
+        {
+          "value": "h3",
+          "label": "H3"
+        },
+        {
+          "value": "h4",
+          "label": "H4"
+        },
+        {
+          "value": "h5",
+          "label": "H5"
+        },
+        {
+          "value": "h6",
+          "label": "H6"
+        }
+      ],
+      "default": "h2"
+    },
+    {
+      "type": "select",
+      "id": "text_alignment",
+      "label": "Text alignment",
+      "options": [
+        {
+          "value": "left",
+          "label": "Left"
+        },
+        {
+          "value": "center",
+          "label": "Center"
+        },
+        {
+          "value": "right",
+          "label": "Right"
+        }
+      ],
+      "default": "center"
+    },
+    {
+      "type": "header",
+      "content": "Typography"
+    },
+    {
+      "type": "range",
+      "id": "font_size",
+      "min": 20,
+      "max": 80,
+      "step": 2,
+      "unit": "px",
+      "label": "Font size",
+      "default": 48
+    },
+    {
+      "type": "select",
+      "id": "font_weight",
+      "label": "Font weight",
+      "options": [
+        {
+          "value": "300",
+          "label": "Light"
+        },
+        {
+          "value": "400",
+          "label": "Normal"
+        },
+        {
+          "value": "600",
+          "label": "Semi-bold"
+        },
+        {
+          "value": "700",
+          "label": "Bold"
+        },
+        {
+          "value": "900",
+          "label": "Black"
+        }
+      ],
+      "default": "700"
+    },
+    {
+      "type": "header",
+      "content": "Colors"
+    },
+    {
+      "type": "color",
+      "id": "text_color",
+      "label": "Text color",
+      "default": "#ffffff"
+    },
+    {
+      "type": "color",
+      "id": "glow_color",
+      "label": "Glow color",
+      "default": "#00ffff"
+    },
+    {
+      "type": "color",
+      "id": "background_color",
+      "label": "Background color",
+      "default": "#000000"
+    },
+    {
+      "type": "header",
+      "content": "Animation"
+    },
+    {
+      "type": "range",
+      "id": "animation_duration",
+      "min": 1,
+      "max": 5,
+      "step": 0.5,
+      "unit": "s",
+      "label": "Animation duration",
+      "default": 2
+    },
+    {
+      "type": "header",
+      "content": "Hover Effect"
+    },
+    {
+      "type": "checkbox",
+      "id": "enable_hover_effect",
+      "label": "Enable hover effect",
+      "default": true
+    },
+    {
+      "type": "color",
+      "id": "hover_glow_color",
+      "label": "Hover glow color",
+      "default": "#ff00ff"
+    },
+    {
+      "type": "header",
+      "content": "Spacing"
+    },
+    {
+      "type": "range",
+      "id": "padding",
+      "min": 0,
+      "max": 100,
+      "step": 5,
+      "unit": "px",
+      "label": "Vertical padding",
+      "default": 40
+    }
+  ],
+  "presets": [
+    {
+      "name": "Glowing Heading"
+    }
+  ],
+  "tag": null
+}
+{% endschema %}

@@ -1,0 +1,194 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "parent": "header-group.json",
+  "context": {
+    "market": "australia"
+  },
+  "sections": {
+    "promo_strip_AaqFTW": {
+      "type": "promo-strip",
+      "disabled": true,
+      "settings": {
+        "header-3713b6bd9dc6736b8eb08932e50d42de": null,
+        "section_height": "xsmall",
+        "header-5e7dfa34254153f7c6a481fb9e0b3e7f": null,
+        "color_scheme": "3",
+        "full_width": true,
+        "dividers": "border-top",
+        "header-cde1a071f5ac72d02a4a3f9252e02bec": null,
+        "prevent_animation": false
+      },
+      "blocks": {
+        "heading_qjxBMg": {
+          "type": "heading",
+          "disabled": false,
+          "settings": {
+            "heading": "ATMOSPHERE UPGRADE: UP TO 20% OFF — ENDS 1 JAN",
+            "heading_size": "h5",
+            "show_on_mobile": true,
+            "show_on_desktop": true
+          }
+        }
+      },
+      "block_order": [
+        "heading_qjxBMg"
+      ],
+      "name": "Promo strip"
+    },
+    "promo_strip_dqzdX": {
+      "type": "promo-strip",
+      "disabled": true,
+      "settings": {
+        "header-5ec2c77909ff0adc759f921f1407a414": null,
+        "section_height": "xsmall",
+        "header-7bc61b4596fb78a81a6ce7f042d38b32": null,
+        "color_scheme": "3",
+        "full_width": true,
+        "dividers": "border-top",
+        "header-8a48e99e20f8dc2f380f513beebb5e73": null,
+        "prevent_animation": false
+      },
+      "blocks": {
+        "heading_LVErk": {
+          "type": "heading",
+          "disabled": false,
+          "settings": {
+            "heading": "EOFY SALE UP TO 50% Off",
+            "heading_size": "h3",
+            "show_on_mobile": true,
+            "show_on_desktop": true
+          }
+        },
+        "text_CAXxC": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p><strong>Ends Sunday. Use the exclusive discount code 20off at checkout</strong></p>",
+            "enlarge_text": false,
+            "show_on_mobile": true,
+            "show_on_desktop": true
+          }
+        },
+        "button_krDgz": {
+          "type": "button",
+          "disabled": false,
+          "settings": {
+            "button_label": "Shop Sale",
+            "button_link": "shopify://collections/clearance-sale",
+            "button_style": "btn btn--primary"
+          }
+        }
+      },
+      "block_order": [
+        "heading_LVErk",
+        "text_CAXxC",
+        "button_krDgz"
+      ]
+    },
+    "scrolling_banner_Nw3Ut": {
+      "type": "scrolling-banner",
+      "disabled": true,
+      "settings": {
+        "header-85db43257ad703d832078fdff53db7eb": null,
+        "section_height": "xsmall",
+        "spacing": 32,
+        "header-8c639f8f2a293fb0e13887f6499beb61": null,
+        "speed": 30,
+        "direction": "normal",
+        "pausable": true,
+        "header-af06233159ff42a4cce707550785a59c": null,
+        "color_scheme": "3",
+        "dividers": "border-top",
+        "header-ad4254909739943bad20ffb786ac39ad": null,
+        "prevent_animation": false
+      },
+      "blocks": {
+        "text_iiBHb": {
+          "type": "text",
+          "disabled": false,
+          "settings": {
+            "text": "💡 Up to 50% Off Bulbs, Dimmers & String Lighting — Ends Tuesday 11:30 pm!",
+            "link": "https://liquid-leds.com/en-au/collections/clearance-sale",
+            "font": "heading",
+            "heading_size": "h6"
+          }
+        },
+        "text_NAkGP": {
+          "type": "text",
+          "disabled": false,
+          "settings": {
+            "text": "✨ Flicker-Free • High CRI • Dimmable Comfort",
+            "link": "https://liquid-leds.com/en-au/collections/clearance-sale",
+            "font": "heading",
+            "heading_size": "h6"
+          }
+        },
+        "text_EVETV": {
+          "type": "text",
+          "disabled": false,
+          "settings": {
+            "text": "🧡 Light That Loves You Back",
+            "link": "https://liquid-leds.com/en-au/collections/clearance-sale",
+            "font": "heading",
+            "heading_size": "h6"
+          }
+        }
+      },
+      "block_order": [
+        "text_iiBHb",
+        "text_NAkGP",
+        "text_EVETV"
+      ],
+      "name": "Scrolling banner"
+    },
+    "announcement": {
+      "disabled": false,
+      "settings": {},
+      "blocks": {
+        "announcement_j4THC": {
+          "type": "announcement",
+          "disabled": false,
+          "settings": {
+            "text": "<p><strong>Enjoy free shipping on </strong><a href=\"/pages/shipping\" target=\"_blank\" title=\"Shipping within Australia\"><strong>orders over $99*</strong></a></p>"
+          }
+        },
+        "announcement_XhAFyd": {
+          "disabled": false,
+          "settings": {
+            "text": "<p><strong>Supporting </strong><a href=\"https://liquid-leds.com/en-au/pages/lighting-with-purpose-our-partnership-with-the-fred-hollows-foundation\" title=\"The Fred Hollows Foundation\"><strong>The Fred Hollows Foundation</strong></a><strong>. Every order helps restore sight.</strong></p>"
+          }
+        }
+      },
+      "block_order": [
+        "announcement_j4THC",
+        "announcement-2",
+        "announcement_XhAFyd"
+      ]
+    },
+    "header": {
+      "settings": {},
+      "blocks": {
+        "ee37fe4c-aec8-4ae4-bffe-cbce556ee563": {
+          "settings": {
+            "promo1_text_width": 50
+          }
+        }
+      }
+    }
+  },
+  "order": [
+    "promo_strip_AaqFTW",
+    "announcement",
+    "header",
+    "promo_strip_dqzdX",
+    "scrolling_banner_Nw3Ut"
+  ]
+}

@@ -1,0 +1,621 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "parent": "product.st64.json",
+  "context": {
+    "market": "nz"
+  },
+  "sections": {
+    "1753511491ff3a005d": {
+      "type": "_blocks",
+      "disabled": false,
+      "settings": {},
+      "blocks": {
+        "ai_gen_block_dcb9e11_ihfkW": {
+          "type": "ai_gen_block_dcb9e11",
+          "disabled": false,
+          "settings": {
+            "header-06e4426969ec461f3c88c41b9cec35ef": null,
+            "heading_text": "Experience Lighting Perfection: Why Homes with LiquidLEDs Look and Feel Extraordinary",
+            "header-392e591c8851d9f293ccff4b508a0044": null,
+            "text_alignment": "center",
+            "font_size": 26,
+            "font_weight": "700",
+            "text_color": "#2a2b2a",
+            "padding": 40,
+            "header-ba308296d51ff09b76fe3918da79b693": null,
+            "glow_color": "#ff9f1c",
+            "glow_intensity": 10,
+            "animation_speed": 2
+          }
+        }
+      },
+      "block_order": [
+        "ai_gen_block_dcb9e11_ihfkW"
+      ]
+    },
+    "shoppable_image_cQrxr": {
+      "type": "shoppable-image",
+      "disabled": false,
+      "settings": {
+        "image": "shopify://shop_images/Lighting_CRI_Comparison_-_LiquidLEDs.jpg",
+        "header-6acb991aeba79ffb7738e5c62e19deac": null,
+        "layout": "image_first",
+        "show_vendor": false,
+        "show_content": true,
+        "mob_center_text": true,
+        "header-bdf6419fb6b039332bdb7ec6d98d0550": null,
+        "heading": "🌈 See Colours as They're Meant to Be Seen",
+        "text": "<p>Our High Colour Rendering Index (CRI 90+) technology ensures that every colour in your space appears true to life. Unlike standard LEDs that can wash out or distort colours, our candle bulbs reveal the rich, vibrant hues of your furnishings, artwork, and decor exactly as they were designed to be seen.</p><ul><li><strong>Enhanced skin tones</strong> - People look healthier and more natural</li><li><strong>Vibrant home decor</strong> - Fabrics, artwork, and furnishings display their true colours</li><li><strong>Improved ambiance</strong> - Creates a more inviting and authentic atmosphere</li></ul>",
+        "button_label": "",
+        "button_link": "",
+        "header-1e057cb2786144a08b66da9f4e0c99e0": null,
+        "hotspot_color": "#070707",
+        "color_scheme": "none",
+        "button_style": "btn btn--primary"
+      },
+      "blocks": {},
+      "block_order": [],
+      "name": "Shoppable image"
+    },
+    "shoppable_image_rNDKn": {
+      "type": "shoppable-image",
+      "disabled": false,
+      "settings": {
+        "image": "shopify://shop_images/LiquidLEDs_LED_light_bulbs.jpg",
+        "header-7a51fa131368adbe5e1e492c1f1bdbf5": null,
+        "layout": "image_last",
+        "show_vendor": true,
+        "show_content": true,
+        "mob_center_text": false,
+        "header-7c505960298aaeec365a5d95dd21c917": null,
+        "heading": "💡Over a Decade of LED Expertise Since 2010",
+        "text": "<p>Since 2010, LiquidLEDs has been at the forefront of LED lighting technology. Our journey began with a mission to make premium, energy-efficient lighting accessible to everyone while providing exceptional customer service.</p><ul><li><strong>Pioneering LED design</strong> - We've refined our products through years of research and customer feedback</li><li><strong>Trusted by professionals</strong> - Chosen by interior designers, architects, and lighting specialists</li><li><strong>Proven reliability</strong> - Our bulbs are built on generations of technological improvements</li></ul>",
+        "button_label": "",
+        "button_link": "",
+        "header-2f39f197445a76b618405fdf241752f8": null,
+        "hotspot_color": "#070707",
+        "color_scheme": "none",
+        "button_style": "btn btn--primary"
+      },
+      "blocks": {},
+      "block_order": [],
+      "name": "Shoppable image"
+    },
+    "shoppable_image_VeTWi": {
+      "type": "shoppable-image",
+      "disabled": false,
+      "settings": {
+        "image": "shopify://shop_images/Eye_Comfort_Technology_LiquidLEDs.jpg",
+        "header-825d084883ddbf4408d9a48c8e1d0246": null,
+        "layout": "image_first",
+        "show_vendor": false,
+        "show_content": true,
+        "mob_center_text": true,
+        "header-53a50b51fa78978e0235f9271ca2c9a2": null,
+        "heading": "👀Gentle on Your Eyes, Perfect for Extended Use",
+        "text": "<p>Experience lighting that transforms your space with our premium candle LED bulbs. Designed with meticulous attention to light quality, these bulbs create the perfect ambiance for any room while enhancing the beauty of your surroundings.</p><ul><li><strong>No visible flicker</strong> - Prevents eye strain and headaches</li><li><strong>Reduced blue light</strong> - Better for evening use and sleep patterns</li><li><strong>Stable light output</strong> - No fluctuations or buzzing</li></ul>",
+        "button_label": "",
+        "button_link": "",
+        "header-2aaa081bfd22460bebf178362d4b40ef": null,
+        "hotspot_color": "#070707",
+        "color_scheme": "none",
+        "button_style": "btn btn--primary"
+      },
+      "blocks": {},
+      "block_order": [],
+      "name": "Shoppable image"
+    },
+    "1752286621280a6e68": {
+      "type": "apps",
+      "disabled": false,
+      "settings": {
+        "full_width": false
+      },
+      "blocks": {
+        "judge_me_reviews_testimonials_carousel_product_Xy7AW": {
+          "type": "shopify://apps/judge-me-reviews/blocks/testimonials_carousel_product/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "disabled": false,
+          "settings": {
+            "header-7d13ce8dcda7074700303750032d3f46": null,
+            "show_sample_reviews": true,
+            "reviews_selection": "product_reviews",
+            "products": [],
+            "star_rating": "5_star",
+            "max_reviews": 20,
+            "header-7f6cafe8092826d880996b1285fd0dc6": null,
+            "quote_marks_size": "small",
+            "product_name_text_size": "small",
+            "verified_badge_style": "icon",
+            "card_height": "medium",
+            "text_size": "small",
+            "stars_size": "medium",
+            "arrows_position": "bottom",
+            "max_width": 1100,
+            "header-6f1592d3da92e2f20a577b1acedf2a55": null,
+            "corner_styling": "soft",
+            "quote_marks_style": "serif",
+            "card_color": "#f9f9f9",
+            "stars_and_quote_marks_color": "#e7ba21",
+            "text_color": "#000000",
+            "arrows_color": "#000000",
+            "show_border": false,
+            "border_color": "#108474",
+            "show_drop_shadow": false,
+            "header-ccb32f8b95db940bc8d0ad3abf52a46e": null,
+            "transition_speed": 5,
+            "header-206f8bc20ae78d5839b2f7f83fdf52bb": null,
+            "header_text": "Customers are saying",
+            "show_average_rating": true,
+            "paragraph-67b1669be2f3b43a7b41cf443c9a14b3": null
+          }
+        }
+      },
+      "block_order": [
+        "judge_me_reviews_testimonials_carousel_product_Xy7AW"
+      ]
+    },
+    "logo_list_AFKji": {
+      "type": "logo-list",
+      "disabled": false,
+      "settings": {
+        "header-dffd5c3f2aa66cb7a58e459fda3f49c6": null,
+        "title": "",
+        "heading_align": "text-center",
+        "button_label": "",
+        "button_link": "",
+        "header-c1431ad49fc1b1e38feeebf3344abbb3": null,
+        "layout": "carousel",
+        "spacing": 40,
+        "logo_grid_align": "justify-center",
+        "header-5c74834dda621cbf33cf022c285f0c8c": null,
+        "color_scheme": "none",
+        "full_width": true
+      },
+      "blocks": {
+        "logo_Xbbrd": {
+          "type": "logo",
+          "disabled": false,
+          "settings": {
+            "image": "shopify://shop_images/image001_4.jpg",
+            "url": "",
+            "logo_width": 120,
+            "text": ""
+          }
+        },
+        "logo_CwkFN": {
+          "type": "logo",
+          "disabled": false,
+          "settings": {
+            "image": "shopify://shop_images/Logo_M-10.jpg",
+            "url": "",
+            "logo_width": 120,
+            "text": ""
+          }
+        },
+        "logo_tAAKC": {
+          "type": "logo",
+          "disabled": false,
+          "settings": {
+            "image": "shopify://shop_images/Logo_M-06.jpg",
+            "url": "",
+            "logo_width": 120,
+            "text": ""
+          }
+        },
+        "logo_iXxUt": {
+          "type": "logo",
+          "disabled": false,
+          "settings": {
+            "image": "shopify://shop_images/Sydney_Opera_House.png",
+            "url": "",
+            "logo_width": 120,
+            "text": ""
+          }
+        },
+        "logo_6TQdE": {
+          "type": "logo",
+          "disabled": false,
+          "settings": {
+            "image": "shopify://shop_images/HisMajestysTheatre-Logo.png",
+            "url": "",
+            "logo_width": 120,
+            "text": ""
+          }
+        },
+        "logo_KTnbx": {
+          "type": "logo",
+          "disabled": false,
+          "settings": {
+            "image": "shopify://shop_images/Regent_Theatre.png",
+            "url": "",
+            "logo_width": 120,
+            "text": ""
+          }
+        },
+        "logo_c7cPc": {
+          "type": "logo",
+          "disabled": false,
+          "settings": {
+            "image": "shopify://shop_images/Logo_M-03.jpg",
+            "url": "",
+            "logo_width": 120,
+            "text": ""
+          }
+        },
+        "logo_6QT7k": {
+          "type": "logo",
+          "disabled": false,
+          "settings": {
+            "image": "shopify://shop_images/FP-LOGO-MAAS.jpg",
+            "url": "",
+            "logo_width": 120,
+            "text": ""
+          }
+        },
+        "logo_BTcpi": {
+          "type": "logo",
+          "disabled": false,
+          "settings": {
+            "image": "shopify://shop_images/Logo_M-05.jpg",
+            "url": "",
+            "logo_width": 120,
+            "text": ""
+          }
+        },
+        "logo_hqFpC": {
+          "type": "logo",
+          "disabled": false,
+          "settings": {
+            "image": "shopify://shop_images/Logo_M-04.jpg",
+            "url": "",
+            "logo_width": 120,
+            "text": ""
+          }
+        },
+        "logo_D4CHk": {
+          "type": "logo",
+          "disabled": false,
+          "settings": {
+            "image": "shopify://shop_images/Logo_M-09.jpg",
+            "url": "",
+            "logo_width": 120,
+            "text": ""
+          }
+        },
+        "logo_ERm88": {
+          "type": "logo",
+          "disabled": false,
+          "settings": {
+            "image": "shopify://shop_images/The_Star_Casino_Sydney.png",
+            "url": "",
+            "logo_width": 120,
+            "text": ""
+          }
+        },
+        "logo_MUTrf": {
+          "type": "logo",
+          "disabled": false,
+          "settings": {
+            "image": "shopify://shop_images/vibe_hotels.png",
+            "url": "",
+            "logo_width": 120,
+            "text": ""
+          }
+        },
+        "logo_R6HDD": {
+          "type": "logo",
+          "disabled": false,
+          "settings": {
+            "image": "shopify://shop_images/Capella_Hotels.jpg",
+            "url": "",
+            "logo_width": 120,
+            "text": ""
+          }
+        },
+        "logo_DhraX": {
+          "type": "logo",
+          "disabled": false,
+          "settings": {
+            "image": "shopify://shop_images/Melbourne_Theatre_Company_logo.png",
+            "url": "",
+            "logo_width": 120,
+            "text": ""
+          }
+        }
+      },
+      "block_order": [
+        "logo_Xbbrd",
+        "logo_CwkFN",
+        "logo_tAAKC",
+        "logo_iXxUt",
+        "logo_6TQdE",
+        "logo_KTnbx",
+        "logo_c7cPc",
+        "logo_6QT7k",
+        "logo_BTcpi",
+        "logo_hqFpC",
+        "logo_D4CHk",
+        "logo_ERm88",
+        "logo_MUTrf",
+        "logo_R6HDD",
+        "logo_DhraX"
+      ]
+    },
+    "icons_with_text_qVXM3": {
+      "type": "icons-with-text",
+      "disabled": false,
+      "settings": {
+        "header-a355b6ab0073fb69ef499c455a41057e": null,
+        "heading": "",
+        "heading_align": "text-start",
+        "header-e07b262b111a99541567492ce26cab7a": null,
+        "icon_size": 48,
+        "title_type_scale": "medium",
+        "text_type_scale": "medium",
+        "header-d041de67988d56eb70b94ed39e9ec5f6": null,
+        "icon_position": "beside",
+        "mobile_stack": true,
+        "section_height": "medium",
+        "header-1b37c95771ab5b0f33a42ab8862932da": null,
+        "color_scheme": "1",
+        "full_width": true,
+        "dividers": "none",
+        "header-dd1bcefa1acf9563dc70dbf0135e2b45": null,
+        "prevent_animation": false
+      },
+      "blocks": {
+        "item_CXbF8": {
+          "type": "item",
+          "disabled": false,
+          "settings": {
+            "icon": "check_mark",
+            "custom_icon": null,
+            "heading": "",
+            "text": "<p>Over <strong>100,000 Happy Customers</strong></p>",
+            "link": ""
+          }
+        },
+        "item_T9MdU": {
+          "type": "item",
+          "disabled": false,
+          "settings": {
+            "icon": "check_mark",
+            "custom_icon": null,
+            "heading": "",
+            "text": "<p>An <strong>Australian Company Since 2010</strong></p>",
+            "link": ""
+          }
+        },
+        "item_YrppX": {
+          "type": "item",
+          "disabled": false,
+          "settings": {
+            "icon": "check_mark",
+            "custom_icon": null,
+            "heading": "",
+            "text": "<p>30 day <strong>Money Back Guarantee</strong></p>",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "item_CXbF8",
+        "item_T9MdU",
+        "item_YrppX"
+      ]
+    },
+    "faq_6RzPy": {
+      "type": "faq",
+      "disabled": false,
+      "settings": {
+        "header-8f7d78082ed90c0bc5bc9c62b9cc5e0a": null,
+        "heading": "LED Light Bulbs FAQs",
+        "heading_align": "text-center",
+        "header-46367a2acd32b88ebf1ec458d0278207": null,
+        "color_scheme": "none",
+        "full_width": true
+      },
+      "blocks": {
+        "question_PMcQc": {
+          "type": "question",
+          "disabled": false,
+          "settings": {
+            "icon": "none",
+            "heading": "How bright are LiquidLEDs bulbs?",
+            "text": "<p>LED brightness is measured in lumens, not watts. Here's a quick conversion guide:</p><ul><li>2-3W LED ≈ 25W incandescent (200-300 lumens)</li><li>4-5W LED ≈ 40W incandescent (400-500 lumens)</li><li>6-8W LED ≈ 60W incandescent (650-800 lumens)</li><li>7.5-10W LED ≈ 75-100W incandescent (900-1200 lumens)</li><li>11-12W LED ≈ 100-125W incandescent (1300-1500 lumens)</li></ul><p>All LiquidLEDs product pages list wattage and lumen output so you can choose the perfect brightness for your needs.</p>"
+          }
+        },
+        "question_ccyRM": {
+          "type": "question",
+          "disabled": false,
+          "settings": {
+            "icon": "none",
+            "heading": "What is the lifespan of LiquidLEDs bulbs?",
+            "text": "<p>LiquidLEDs bulbs are designed for over 25,000 hours of use. If you use your light for an average of 3 hours per day, your LED bulb could last over 22 years. This exceptional longevity significantly reduces the frequency of replacements compared to traditional incandescent bulbs, which typically last only 1,000-2,000 hours. Note that all LED bulbs' light output gradually decreases over time, a phenomenon known as lumen depreciation.</p>"
+          }
+        },
+        "question_97PYM": {
+          "type": "question",
+          "disabled": false,
+          "settings": {
+            "icon": "none",
+            "heading": "Are LiquidLEDs bulbs dimmable?",
+            "text": "<p>Yes, most LiquidLEDs bulbs are dimmable, allowing you to create the perfect ambience for any occasion. Look for the \"dimmable\" specification on the product page. For optimal performance, we recommend using LED-compatible dimmers. Some older dimmer switches may cause flickering or buzzing with LED bulbs. If you experience any issues, please contact our customer support team for assistance</p>"
+          }
+        },
+        "question_7Gd8Q": {
+          "type": "question",
+          "disabled": false,
+          "settings": {
+            "icon": "none",
+            "heading": "What is colour temperature, and which should I choose?",
+            "text": "<p>Colour temperature refers to the warmth or coolness of light, measured in Kelvins (K):</p><ul><li>Ultra & Extra Warm (2000K-2200K): This calming light creates a relaxing ambience, similar to the warm glow of candlelight.</li><li>This calming light gives off a warm glow, similar to candlelight. However, because it is such a soft light, it may not be suitable for activities that require focus, such as reading.</li><li>Warm White (2700K-3000K): This colour creates a cozy, inviting atmosphere similar to traditional incandescent bulbs. It is ideal for living rooms, bedrooms, and dining areas.</li><li>Natural White (3500K-4000K): Provides a balanced, neutral light perfect for kitchens, offices, and workspaces.</li><li>Cool White (5000K-6500K): This colour delivers a crisp, energising light similar to daylight. It is best for task lighting, garages, and areas requiring detailed visibility.</li></ul><p>Choose based on the mood you want to create and the purpose of the space.</p>"
+          }
+        },
+        "question_YHYyX": {
+          "type": "question",
+          "disabled": false,
+          "settings": {
+            "icon": "none",
+            "heading": "Are LiquidLEDs bulbs compatible with my existing fixtures?",
+            "text": "<p>LiquidLEDs offer bulbs in all standard base types, ensuring compatibility with most fixtures. Common bases include:</p><ul><li>E27/ES: Standard Edison Screw, the most common base type (27mm diameter)</li><li>B22/BC: Bayonet Cap, standard in many regions (22mm diameter)</li><li>E14/SES: Small Edison Screw, used in chandeliers and smaller fixtures (14mm diameter)</li><li>B15/SBC: Small Bayonet Cap, used in smaller fixtures (15mm diameter)</li><li>E12/SES: Mini Edison Screw, used for chandeliers and small fixtures from the US (12mm diameter)</li></ul><p>Check your existing bulb's base type and match it with the corresponding LiquidLEDs product. If unsure, take a photo of your current bulb base and contact our customer service team for assistance.</p>"
+          }
+        },
+        "question_mEc3Q": {
+          "type": "question",
+          "disabled": false,
+          "settings": {
+            "icon": "none",
+            "heading": "Can LiquidLEDs bulbs be used in enclosed fixtures?",
+            "text": "<p>Some LiquidLEDs bulbs can be used in enclosed fixtures, but not all. Look for the \"enclosed fixture compatible\" specification on the product page. Enclosed fixtures trap heat, which can shorten LED lifespan if the bulb isn't designed for such applications. Our enclosed fixture-compatible bulbs feature enhanced heat dissipation technology to maintain performance and longevity even in enclosed environments. For fixtures without proper ventilation, we recommend choosing bulbs specifically rated for enclosed use.</p>"
+          }
+        },
+        "question_mXPix": {
+          "type": "question",
+          "disabled": false,
+          "settings": {
+            "icon": "none",
+            "heading": "What is the difference between clear, frost, opal, and porcelain LED bulbs?",
+            "text": "<ul><li>Clear LED bulbs have a transparent glass covering that showcases the filament inside, creating a decorative, vintage appearance. They produce more directional light and create beautiful shadow patterns.</li><li>Frost, opal, and porcelain LED bulbs diffuse light, reducing glare and distributing illumination evenly. These bulbs are ideal for ambient lighting and minimising shadows when fabric or glass shades are used. Frosted bulbs allow good light transmission but with slightly visible LED filaments. Opal and porcelain bulbs provide uniform light diffusion and better LED concealment. Opal bulbs have a shiny finish, while porcelain bulbs have a matte finish.</li></ul><p>Choose clear bulbs for decorative fixtures where the bulb is visible and frosted, opal or porcelain bulbs for everyday lighting where comfort and light distribution are priorities.</p>"
+          }
+        },
+        "question_tz3nT": {
+          "type": "question",
+          "disabled": false,
+          "settings": {
+            "icon": "none",
+            "heading": "How much energy do LiquidLEDs bulbs save compared to traditional bulbs",
+            "text": "<p>LiquidLEDs bulbs use up to 90% less energy than traditional incandescent bulbs while providing the same brightness level. For example, a 6.5W GLS LED bulb produces the same light as a 60W incandescent bulb. This significant energy reduction translates to lower electricity bills and a smaller carbon footprint. Over the bulb's lifetime, you can save hundreds of dollars in energy costs per bulb.</p>"
+          }
+        },
+        "question_mUHKY": {
+          "type": "question",
+          "disabled": false,
+          "settings": {
+            "icon": "none",
+            "heading": "What is your warranty policy?",
+            "text": "<p>LiquidLEDs bulbs come with a comprehensive warranty against manufacturing defects. Most of our products carry a 2-year warranty, while premium lines may offer extended 3 to 5-year coverage. If your product fails during the warranty period under regular use, we'll replace it free of charge. Simply contact our customer service team with your order number and a description of the issue. Our no-quibble guarantee ensures a hassle-free experience if you encounter any problems.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "question_PMcQc",
+        "question_ccyRM",
+        "question_97PYM",
+        "question_7Gd8Q",
+        "question_YHYyX",
+        "question_mEc3Q",
+        "question_mXPix",
+        "question_tz3nT",
+        "question_mUHKY"
+      ]
+    },
+    "main": {
+      "settings": {},
+      "blocks": {
+        "image_pnXwC": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "title": "",
+            "image": "shopify://shop_images/Buy_in_bulk_and_save.svg",
+            "image_width": 560,
+            "image_align": "justify-start",
+            "url": ""
+          }
+        },
+        "judge_me_reviews_review_snippet_widget_nnPTE": {
+          "type": "shopify://apps/judge-me-reviews/blocks/review_snippet_widget/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "disabled": false,
+          "settings": {
+            "paragraph-2b03731945a01c95c44e99c142d82bc7": null,
+            "paragraph-e3e854d9c5f68baa51aad8979e1458f6": null
+          }
+        },
+        "collapsible-content-1": {
+          "settings": {
+            "heading": "Here When You Need Us",
+            "text": "<p><strong>Need help? We're here for you.<br/><br/></strong>Our friendly team is available to assist you with any questions or concerns.</p><p>📞 <strong>Call us:</strong> <a href=\"tel:+612%208880%209033\"><span style=\"text-decoration:underline\">+612 8880 9033</span><br/></a>💬 <strong>WhatsApp:</strong> <a href=\"https://wa.me/61483949669\"><span style=\"text-decoration:underline\">+61483949669<br/></span></a>📧 <strong>Email us:</strong> <a href=\"https://liquid-leds.com/pages/contact-us\"><span style=\"text-decoration:underline\">Send us a message<br/></span></a>❓ <strong>FAQs:</strong> <a href=\"https://liquid-leds.com/pages/faqs\"><span style=\"text-decoration:underline\">Visit our FAQ page ›</span></a></p><p>🕒 <strong>Support hours: </strong>Monday – Friday, 8:00 a.m. – 6:00 p.m. AEST</p><p></p>"
+          }
+        },
+        "62039f84-401f-4025-9830-7b334867dfe7": {
+          "settings": {
+            "heading": "Hassle-Free Returns",
+            "text": "<p><strong>Shop with Confidence<br/><br/></strong>Your satisfaction means everything to us. If you're not completely happy with your order, you can return it within 30 days of receiving it for a refund of the purchase price (excluding delivery).</p><p>We’ve been supporting our customers since 2010 and are here to help every step of the way.</p><p><a href=\"https://liquid-leds.com/en-au/pages/return-policy\"><span style=\"text-decoration:underline\">View our full return policy ›</span></a></p>"
+          }
+        },
+        "collapsible-content-2": {
+          "settings": {
+            "heading": "Fast, Reliable Delivery",
+            "text": "<p><strong>We ship fast from Sydney to New Zealand!<br/><br/></strong>Choose from Australia Post, DHL E-Commerce, or DHL Express at checkout.</p><p>✔️ Same-day dispatch on business days before 10 a.m. AEST<br/>✔️ Free DHL shipping on orders over NZD $199*<br/>✔️ All orders include tracking</p><p><strong>Estimated delivery times:<br/><br/></strong>• DHL Express: 2–5 business days<br/>• DHL E-Commerce: 6–10 business days<br/>• Australia Post: 7–12 business days</p><p>(*Excludes bulky items like festoon strings and poles.)</p><p><a href=\"https://liquid-leds.com/pages/shipping-to-new-zealand\">View full NZ shipping details ›</a></p>",
+            "page": ""
+          }
+        },
+        "1a9e12c5-c94a-4986-ab78-ccb3d78bca12": {
+          "disabled": true,
+          "settings": {}
+        },
+        "share": {
+          "disabled": false,
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "vendor-sku",
+        "title",
+        "3e7fac93-7ed1-44b6-b882-99af47420c64",
+        "price",
+        "variant-picker",
+        "image_pnXwC",
+        "buy-buttons",
+        "e0be5244-484c-4751-be23-938d1657421d",
+        "judge_me_reviews_review_snippet_widget_nnPTE",
+        "collapsible-content-1",
+        "62039f84-401f-4025-9830-7b334867dfe7",
+        "collapsible-content-2",
+        "1a9e12c5-c94a-4986-ab78-ccb3d78bca12",
+        "message-3",
+        "share"
+      ]
+    },
+    "recommendations": {
+      "settings": {
+        "heading_align": "text-center",
+        "layout": "carousel_on_mobile",
+        "card_size": "medium"
+      },
+      "blocks": {}
+    },
+    "2f9d2b69-1421-42ee-bf42-204579d8c79b": {
+      "settings": {
+        "heading_align": "text-center",
+        "card_size": "medium"
+      },
+      "blocks": {}
+    }
+  },
+  "order": [
+    "main",
+    "details",
+    "product-features",
+    "1753511491ff3a005d",
+    "shoppable_image_cQrxr",
+    "shoppable_image_rNDKn",
+    "shoppable_image_VeTWi",
+    "1752286621280a6e68",
+    "recommendations",
+    "2f9d2b69-1421-42ee-bf42-204579d8c79b",
+    "logo_list_AFKji",
+    "1695711824fc9578f1",
+    "icons_with_text_qVXM3",
+    "faq_6RzPy"
+  ]
+}

@@ -1,0 +1,23 @@
+{% unless request.locale.root_url == '/' %}
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      
+      // Get all anchor tags with class "jdgm-carousel-item__product"
+      const jdgmAnchorTags = document.querySelectorAll('a.jdgm-carousel-item__product');
+    
+      if (jdgmAnchorTags.length > 0){
+        // Loop through each element
+        jdgmAnchorTags.forEach(element => {
+          // Get the current URL path
+          const currentPath = element.getAttribute('href');
+      
+          // Add the market subfolder to the start of the URL path
+          const newPath = `{{ request.locale.root_url }}${currentPath}`;
+          
+          // Update the href attribute with the new path
+          element.setAttribute('href', newPath);
+        }); 
+      }
+    });
+  </script>
+{% endunless %}

@@ -1,0 +1,72 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "parent": "product.json",
+  "context": {
+    "market": "gb"
+  },
+  "sections": {
+    "main": {
+      "settings": {},
+      "blocks": {
+        "judge_me_reviews_review_snippet_widget_NQqCq": {
+          "type": "shopify://apps/judge-me-reviews/blocks/review_snippet_widget/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "disabled": false,
+          "settings": {
+            "paragraph-6836b1167a26a700a7a4d2b901866cac": null,
+            "paragraph-06e5e5ef9bde168c776ae66e8e333da9": null
+          }
+        },
+        "collapsible-content-1": {
+          "settings": {
+            "heading": "Here When You Need Us",
+            "text": "<p><strong>Need help? We're here for you.</strong></p><p>Our friendly team is available to assist you with any questions or concerns.</p><p>📞 <strong>Call us:</strong> <a href=\"tel:+612%208880%209033\">+612 8880 9033<br/></a>💬 <strong>WhatsApp:</strong> <a href=\"https://wa.me/61483949669\">+61483949669</a></p><p>📧 <strong>Email us:</strong> <a href=\"https://liquid-leds.com/pages/contact-us\">Send us a message<br/></a>❓ <strong>FAQs:</strong> <a href=\"https://liquid-leds.com/pages/faqs\">Visit our FAQ page ›</a></p><p>🕒 <strong>Support hours: </strong>Monday – Friday, 8:00 a.m. – 6:00 p.m. AEST</p>"
+          }
+        },
+        "62039f84-401f-4025-9830-7b334867dfe7": {
+          "settings": {
+            "heading": "Hassle-Free Returns"
+          }
+        },
+        "collapsible-content-2": {
+          "settings": {
+            "heading": "Fast, Reliable Delivery",
+            "text": "<p>We ship fast from Sydney to the United Kingdom.<br/><br/>Choose DHL E-commerce, or DHL Express at checkout.</p><p>✔️ Same-day dispatch on business days before 10 a.m. AEST<br/><br/>✔️ Tracking on every order</p><p>Estimated delivery times:<br/><br/>• DHL Express: 3–6 business days<br/><br/>• DHL E-commerce: 7–12 business days</p><p><a href=\"https://liquid-leds.com/pages/shipping-to-united-kingdom\" title=\"https://liquid-leds.com/pages/shipping-to-united-kingdom\">View full UK shipping details ›</a></p>",
+            "page": ""
+          }
+        },
+        "share": {
+          "disabled": false,
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "vendor-sku",
+        "title",
+        "3e7fac93-7ed1-44b6-b882-99af47420c64",
+        "price",
+        "variant-picker",
+        "divider-0",
+        "divider-1",
+        "buy-buttons",
+        "e0be5244-484c-4751-be23-938d1657421d",
+        "judge_me_reviews_review_snippet_widget_NQqCq",
+        "message-1",
+        "message-2",
+        "collapsible-content-1",
+        "62039f84-401f-4025-9830-7b334867dfe7",
+        "collapsible-content-2",
+        "1a9e12c5-c94a-4986-ab78-ccb3d78bca12",
+        "message-3",
+        "share"
+      ]
+    }
+  }
+}

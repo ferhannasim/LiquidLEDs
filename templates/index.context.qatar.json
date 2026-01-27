@@ -1,0 +1,86 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "parent": "index.json",
+  "context": {
+    "market": "qatar"
+  },
+  "sections": {
+    "icons_with_text_gacyPL": {
+      "settings": {},
+      "blocks": {
+        "item_dPAr6A": {
+          "settings": {
+            "text": "<p><strong>Over</strong> <strong>100,000 Happy Customers</strong></p>"
+          }
+        },
+        "item_DrxMPV": {
+          "settings": {
+            "text": "<p><strong>Operating Since 2010</strong></p>"
+          }
+        },
+        "item_Gtkpaj": {
+          "settings": {
+            "text": "<p><strong>30 day</strong> <strong>Money Back Guarantee</strong></p>"
+          }
+        }
+      }
+    },
+    "slideshow_3zzare": {
+      "settings": {},
+      "blocks": {
+        "slide_pzJAww": {
+          "settings": {
+            "overlay_text_align": "text-center",
+            "heading": "Flicker-Free Light for Relaxed Evenings at Home",
+            "heading_size": "h4",
+            "text": "<p>Soft, steady light that protects your eyes and warms your space. Premium LED filament bulbs made for Qatar’s modern interiors.</p>",
+            "button_1_label": "Shop Flicker-Free Bulbs",
+            "button_1_link": "https://liquid-leds.com/en-qa/collections/flicker-free-led-light-bulbs"
+          }
+        },
+        "slide_fgAnzn": {
+          "settings": {
+            "heading": "Vintage Glow with Modern LED Quality",
+            "heading_size": "h4",
+            "text": "<p>High-CRI filament bulbs that bring warm, natural light to design-led homes across Qatar.</p>",
+            "button_1_link": "https://liquid-leds.com/en-qa/collections/ultra-high-cri-bulbs"
+          }
+        }
+      }
+    },
+    "bd9ebffd-fb67-4c56-95a8-fef7be83ce90": {
+      "settings": {
+        "color_scheme": "none"
+      },
+      "blocks": {}
+    }
+  },
+  "order": [
+    "4c7aae1f-2d70-4195-8367-36615838740e",
+    "2442e5c7-da77-4e38-ac6c-1686df20ac2b",
+    "slideshow_3zzare",
+    "multi-column",
+    "icons_with_text_gacyPL",
+    "bd9ebffd-fb67-4c56-95a8-fef7be83ce90",
+    "collection-list",
+    "featured-collection",
+    "62e6e5e0-6f95-43c9-82a5-281a6f8ef25b",
+    "featured_collection_RTrbPg",
+    "background_video_UFjVKM",
+    "featured_collection_t73BMT",
+    "b135d63c-147c-4971-ab38-3d4f34b168e8",
+    "rich_text_wUeEbf",
+    "169614538727ade400",
+    "411d078d-1342-4aa3-9d0a-132054f14f07",
+    "newsletter_7f3WRc",
+    "17513432910ce5ce6f"
+  ]
+}

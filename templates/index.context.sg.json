@@ -1,0 +1,217 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "parent": "index.json",
+  "context": {
+    "market": "sg"
+  },
+  "sections": {
+    "4c7aae1f-2d70-4195-8367-36615838740e": {
+      "settings": {},
+      "blocks": {
+        "template--14626484748391__4c7aae1f-2d70-4195-8367-36615838740e-heading-1": {
+          "disabled": false,
+          "settings": {
+            "heading": "Design Lighting That Loves You Back",
+            "heading_size": "h2"
+          }
+        },
+        "template--14626484748391__4c7aae1f-2d70-4195-8367-36615838740e-text-1": {
+          "settings": {
+            "text": "Flicker-free, high-CRI LED filament bulbs that create warm, welcoming spaces — perfect for modern Singapore living",
+            "enlarge_text": true
+          }
+        },
+        "template--14626484748391__4c7aae1f-2d70-4195-8367-36615838740e-button-1": {
+          "settings": {
+            "button_1_label": "Explore the Collection",
+            "button_1_link": "shopify://collections/vintage-led-light-bulbs"
+          }
+        }
+      }
+    },
+    "bd9ebffd-fb67-4c56-95a8-fef7be83ce90": {
+      "settings": {
+        "color_scheme": "none"
+      },
+      "blocks": {}
+    },
+    "icons_with_text_gacyPL": {
+      "settings": {
+        "mobile_stack": true
+      },
+      "blocks": {
+        "item_dPAr6A": {
+          "settings": {
+            "text": "<p><strong>Over</strong> <strong>100,000 Happy Customers</strong></p>"
+          }
+        },
+        "item_DrxMPV": {
+          "settings": {
+            "text": "<p><strong>Operating Since 2010</strong></p>"
+          }
+        },
+        "item_Gtkpaj": {
+          "settings": {
+            "text": "<p><strong>30 day</strong> <strong>Money Back Guarantee</strong></p>"
+          }
+        }
+      }
+    },
+    "featured-collection": {
+      "disabled": true,
+      "settings": {
+        "title": "Ultra-High CRI Bulbs for Perfect Ambiance",
+        "collection": "ultra-high-cri-bulbs"
+      },
+      "blocks": {}
+    },
+    "featured_collection_RTrbPg": {
+      "disabled": true,
+      "settings": {},
+      "blocks": {}
+    },
+    "b135d63c-147c-4971-ab38-3d4f34b168e8": {
+      "disabled": true,
+      "settings": {
+        "title": "Flicker-Free LEDs for Ultimate Comfort",
+        "collection": "flicker-free-led-light-bulbs"
+      },
+      "blocks": {}
+    },
+    "slideshow_MK7MU": {
+      "type": "slideshow",
+      "disabled": false,
+      "settings": {
+        "header-6642b0f5d8061834320a8e5f31120112": null,
+        "height_mode": "auto",
+        "fixed_height_desktop": 600,
+        "fixed_height_mobile": 350,
+        "mobile_stacked": false,
+        "header-bf2cf92549516507d390616d541eac40": null,
+        "nav_style": "slideshow_nav_lines",
+        "pagination_color": "#ffffff",
+        "nav_position": "justify-center",
+        "transition": "slide-fade",
+        "autoplay": true,
+        "slider_pause": false,
+        "autoplay_speed": 5,
+        "header-927666b6fb0139335640595b0fae3a5f": null,
+        "color_scheme": "white",
+        "full_width": true,
+        "tint_color": "#000000",
+        "tint_opacity": 40,
+        "header-d973bdbf22fcd43c495b6a9ab6a1acd9": null,
+        "accessibility_info": "",
+        "prevent_animation": true
+      },
+      "blocks": {
+        "slide_qHqKH": {
+          "type": "slide",
+          "disabled": false,
+          "settings": {
+            "image_desktop": "shopify://shop_images/Flicker-Free_Light_for_Cozy_Nights_In_final_banner.jpg",
+            "image_mobile": "shopify://shop_images/Flicker-Free_Light_for_Cozy_Nights_In_mobile_image.jpg",
+            "url": "",
+            "header-62a82a13c3070a640ed46cf76d0a7da3": null,
+            "overlay_position": "justify-start items-center",
+            "overlay_text_align": "text-center",
+            "mob_center_text": false,
+            "subheading": "",
+            "heading": "Flicker-Free Light for Calm Nights at Home",
+            "heading_size": "h4",
+            "heading_h1": false,
+            "text": "<p>Soft, steady light that protects your eyes and lifts compact spaces. Premium LED filament bulbs designed for Singapore homes.</p>",
+            "enlarge_text": true,
+            "button_1_label": "Shop Flicker-Free Bulbs",
+            "button_1_link": "https://liquid-leds.com/en-sg/collections/flicker-free-led-light-bulbs",
+            "button_1_style": "btn btn--primary",
+            "button_2_label": "",
+            "button_2_link": "",
+            "button_2_style": "btn btn--primary",
+            "transparent_content_color": "#ffffff",
+            "header-999787647429d0c04f3360d58efce570": null,
+            "countdown_show": false,
+            "countdown_end_date": "",
+            "countdown_end_time": "",
+            "countdown_end_text": "",
+            "enlarge_end_text": false,
+            "countdown_hide_on_end": false,
+            "use_custom_colors": false,
+            "count_color": "#fff",
+            "bg_color": "#070707",
+            "bg_grad": ""
+          }
+        },
+        "slide_BxyLY": {
+          "type": "slide",
+          "disabled": false,
+          "settings": {
+            "image_desktop": "shopify://shop_images/Vintage_Glow._Modern_Tech.-Banner.jpg",
+            "image_mobile": "shopify://shop_images/Vintage_Glow._Modern_Tech.-banner_mobile.jpg",
+            "url": "",
+            "header-e37490c9162c23a9f22533ea20d2156a": null,
+            "overlay_position": "justify-center items-center",
+            "overlay_text_align": "text-center",
+            "mob_center_text": false,
+            "subheading": "",
+            "heading": "Vintage Glow with Modern LED Quality",
+            "heading_size": "h4",
+            "heading_h1": false,
+            "text": "<p>High-CRI filament bulbs that bring warm, natural light to design-led Singapore interiors.</p>",
+            "enlarge_text": true,
+            "button_1_label": "Explore the Collection",
+            "button_1_link": "https://liquid-leds.com/en-sg/collections/ultra-high-cri-bulbs",
+            "button_1_style": "btn btn--primary",
+            "button_2_label": "",
+            "button_2_link": "",
+            "button_2_style": "btn btn--primary",
+            "transparent_content_color": "#ffffff",
+            "header-7f8dd71e20915dcd9280478316cfab51": null,
+            "countdown_show": false,
+            "countdown_end_date": "",
+            "countdown_end_time": "",
+            "countdown_end_text": "",
+            "enlarge_end_text": false,
+            "countdown_hide_on_end": false,
+            "use_custom_colors": false,
+            "count_color": "#fff",
+            "bg_color": "#070707",
+            "bg_grad": ""
+          }
+        }
+      },
+      "block_order": [
+        "slide_qHqKH",
+        "slide_BxyLY"
+      ],
+      "name": "Slideshow"
+    }
+  },
+  "order": [
+    "4c7aae1f-2d70-4195-8367-36615838740e",
+    "slideshow_MK7MU",
+    "icons_with_text_gacyPL",
+    "2442e5c7-da77-4e38-ac6c-1686df20ac2b",
+    "multi-column",
+    "bd9ebffd-fb67-4c56-95a8-fef7be83ce90",
+    "collection-list",
+    "featured-collection",
+    "62e6e5e0-6f95-43c9-82a5-281a6f8ef25b",
+    "featured_collection_RTrbPg",
+    "background_video_UFjVKM",
+    "featured_collection_t73BMT",
+    "b135d63c-147c-4971-ab38-3d4f34b168e8",
+    "169614538727ade400",
+    "411d078d-1342-4aa3-9d0a-132054f14f07",
+    "newsletter_7f3WRc",
+    "17513432910ce5ce6f"
+  ]
+}

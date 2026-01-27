@@ -1,0 +1,50 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "parent": "product.gls-non-flicker.json",
+  "context": {
+    "market": "eu"
+  },
+  "sections": {
+    "main": {
+      "settings": {},
+      "blocks": {
+        "judge_me_reviews_review_snippet_widget_4R9EG": {
+          "type": "shopify://apps/judge-me-reviews/blocks/review_snippet_widget/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "disabled": false,
+          "settings": {
+            "paragraph-8d4177d5cdd2ec40be9966ca7627a019": null,
+            "paragraph-5b5ce401f4739ed14e3776dc7d68f373": null
+          }
+        }
+      },
+      "block_order": [
+        "vendor-sku",
+        "title",
+        "3e7fac93-7ed1-44b6-b882-99af47420c64",
+        "price",
+        "variant-picker",
+        "divider-0",
+        "divider-1",
+        "buy-buttons",
+        "e0be5244-484c-4751-be23-938d1657421d",
+        "judge_me_reviews_review_snippet_widget_4R9EG",
+        "1a9e12c5-c94a-4986-ab78-ccb3d78bca12",
+        "message-1",
+        "message-2",
+        "collapsible-content-1",
+        "62039f84-401f-4025-9830-7b334867dfe7",
+        "collapsible-content-2",
+        "share",
+        "message-3"
+      ]
+    }
+  }
+}

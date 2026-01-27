@@ -1,0 +1,423 @@
+{% doc %}
+  @prompt
+    A magazine-style editorial layout
+
+{% enddoc %}
+{% assign ai_gen_id = block.id | replace: '_', '' | downcase %}
+
+{% style %}
+  .magazine-editorial-{{ ai_gen_id }} {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: {{ block.settings.font_family.family }}, serif;
+  }
+
+  .magazine-header-{{ ai_gen_id }} {
+    margin-bottom: 30px;
+    position: relative;
+  }
+
+  .magazine-title-{{ ai_gen_id }} {
+    font-size: {{ block.settings.title_size }}px;
+    line-height: 1.2;
+    font-weight: 700;
+    margin-bottom: 10px;
+    color: {{ block.settings.title_color }};
+    font-family: {{ block.settings.font_family.family }}, serif;
+    font-weight: {{ block.settings.font_family.weight }};
+  }
+
+  .magazine-subtitle-{{ ai_gen_id }} {
+    font-size: {{ block.settings.subtitle_size }}px;
+    line-height: 1.4;
+    font-weight: 500;
+    margin-bottom: 15px;
+    color: {{ block.settings.subtitle_color }};
+    font-style: italic;
+  }
+
+  .magazine-meta-{{ ai_gen_id }} {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    font-size: 14px;
+    color: {{ block.settings.text_color }};
+  }
+
+  .magazine-author-{{ ai_gen_id }} {
+    margin-right: 15px;
+  }
+
+  .magazine-date-{{ ai_gen_id }} {
+    color: {{ block.settings.text_color }};
+    opacity: 0.8;
+  }
+
+  .magazine-divider-{{ ai_gen_id }} {
+    width: 100%;
+    height: 1px;
+    background-color: {{ block.settings.divider_color }};
+    margin: 20px 0;
+  }
+
+  .magazine-content-{{ ai_gen_id }} {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+
+  @media screen and (min-width: 768px) {
+    .magazine-content-{{ ai_gen_id }} {
+      grid-template-columns: {% if block.settings.layout == 'text_image' %}3fr 2fr{% elsif block.settings.layout == 'image_text' %}2fr 3fr{% else %}1fr{% endif %};
+    }
+  }
+
+  .magazine-text-{{ ai_gen_id }} {
+    color: {{ block.settings.text_color }};
+    font-size: {{ block.settings.body_size }}px;
+    line-height: 1.6;
+  }
+
+  .magazine-text-{{ ai_gen_id }} p {
+    margin-bottom: 20px;
+  }
+
+  .magazine-text-{{ ai_gen_id }} p:first-child::first-letter {
+    {% if block.settings.enable_drop_cap %}
+      font-size: {{ block.settings.body_size | times: 3 }}px;
+      line-height: 0.8;
+      float: left;
+      padding-right: 8px;
+      color: {{ block.settings.title_color }};
+      font-weight: 700;
+    {% endif %}
+  }
+
+  .magazine-image-container-{{ ai_gen_id }} {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    min-height: 300px;
+  }
+
+  .magazine-image-{{ ai_gen_id }} {
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: cover;
+    {% if block.settings.image_style == 'rounded' %}
+      border-radius: 8px;
+    {% elsif block.settings.image_style == 'circle' %}
+      border-radius: 50%;
+    {% elsif block.settings.image_style == 'polaroid' %}
+      border: 10px solid white;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    {% endif %}
+  }
+
+  .magazine-image-caption-{{ ai_gen_id }} {
+    font-size: 14px;
+    font-style: italic;
+    color: {{ block.settings.text_color }};
+    opacity: 0.8;
+    margin-top: 10px;
+    text-align: center;
+  }
+
+  .magazine-pull-quote-{{ ai_gen_id }} {
+    font-size: {{ block.settings.quote_size }}px;
+    line-height: 1.4;
+    font-weight: 500;
+    font-style: italic;
+    color: {{ block.settings.quote_color }};
+    padding: 20px;
+    margin: 30px 0;
+    border-left: 4px solid {{ block.settings.quote_color }};
+  }
+
+  @media screen and (max-width: 767px) {
+    .magazine-title-{{ ai_gen_id }} {
+      font-size: {{ block.settings.title_size | times: 0.7 }}px;
+    }
+    
+    .magazine-subtitle-{{ ai_gen_id }} {
+      font-size: {{ block.settings.subtitle_size | times: 0.8 }}px;
+    }
+    
+    .magazine-pull-quote-{{ ai_gen_id }} {
+      font-size: {{ block.settings.quote_size | times: 0.8 }}px;
+    }
+  }
+{% endstyle %}
+
+<div class="magazine-editorial-{{ ai_gen_id }}" {{ block.shopify_attributes }}>
+  <div class="magazine-header-{{ ai_gen_id }}">
+    <h2 class="magazine-title-{{ ai_gen_id }}">{{ block.settings.title }}</h2>
+    {% if block.settings.subtitle != blank %}
+      <div class="magazine-subtitle-{{ ai_gen_id }}">{{ block.settings.subtitle }}</div>
+    {% endif %}
+    
+    <div class="magazine-meta-{{ ai_gen_id }}">
+      {% if block.settings.author != blank %}
+        <div class="magazine-author-{{ ai_gen_id }}">By {{ block.settings.author }}</div>
+      {% endif %}
+      
+      {% if block.settings.date != blank %}
+        <div class="magazine-date-{{ ai_gen_id }}">{{ block.settings.date }}</div>
+      {% endif %}
+    </div><div class="magazine-divider-{{ ai_gen_id }}"></div>
+  </div>
+  
+  <div class="magazine-content-{{ ai_gen_id }}">
+    {% if block.settings.layout == 'text_only' or block.settings.layout == 'text_image' %}
+      <div class="magazine-text-{{ ai_gen_id }}">
+        {{ block.settings.body_text }}
+        
+        {% if block.settings.quote != blank %}
+          <div class="magazine-pull-quote-{{ ai_gen_id }}">
+            "{{ block.settings.quote }}"
+          </div>
+        {% endif %}
+      </div>
+    {% endif %}
+    
+    {% if block.settings.layout != 'text_only' %}
+      <div class="magazine-image-container-{{ ai_gen_id }}">
+        {% if block.settings.image %}
+          <img 
+            src="{{ block.settings.image | image_url: width: 1200 }}" 
+            alt="{{ block.settings.image.alt | escape }}"
+            loading="lazy"
+            width="{{ block.settings.image.width }}"
+            height="{{ block.settings.image.height }}"
+            class="magazine-image-{{ ai_gen_id }}"
+          >
+        {% else %}
+          <div class="magazine-image-container-{{ ai_gen_id }}">
+            {{ 'image' | placeholder_svg_tag }}
+          </div>
+        {% endif %}
+        
+        {% if block.settings.image_caption != blank %}
+          <div class="magazine-image-caption-{{ ai_gen_id }}">{{ block.settings.image_caption }}</div>
+        {% endif %}
+      </div>
+    {% endif %}
+    
+    {% if block.settings.layout == 'image_text' %}
+      <div class="magazine-text-{{ ai_gen_id }}">
+        {{ block.settings.body_text }}
+        
+        {% if block.settings.quote != blank %}
+          <div class="magazine-pull-quote-{{ ai_gen_id }}">
+            "{{ block.settings.quote }}"
+          </div>
+        {% endif %}
+      </div>
+    {% endif %}
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "Magazine Editorial",
+  "settings": [
+    {
+      "type": "header",
+      "content": "Content"
+    },
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Title",
+      "default": "The Art of Design"
+    },
+    {
+      "type": "text",
+      "id": "subtitle",
+      "label": "Subtitle",
+      "default": "Exploring creativity in modern spaces"
+    },
+    {
+      "type": "text",
+      "id": "author",
+      "label": "Author",
+      "default": "Jane Smith"
+    },
+    {
+      "type": "text",
+      "id": "date",
+      "label": "Date",
+      "default": "June 15, 2023"
+    },
+    {
+      "type": "richtext",
+      "id": "body_text",
+      "label": "Body text",
+      "default": "<p>Start with a compelling introduction to your topic. This is where you can set the stage for what readers will learn or experience throughout the article.</p><p>The second paragraph often delves deeper into the subject matter, providing context, history, or background information that helps readers understand why this topic matters.</p><p>In the third paragraph, you might introduce specific examples, case studies, or evidence that supports your main points. This helps make abstract concepts more concrete and relatable.</p><p>As you continue, consider introducing different perspectives or approaches to the topic. This demonstrates a well-rounded understanding and gives readers a more complete picture.</p>"
+    },
+    {
+      "type": "text",
+      "id": "quote",
+      "label": "Pull quote",
+      "default": "Design is not just what it looks like and feels like. Design is how it works."
+    },
+    {
+      "type": "image_picker",
+      "id": "image",
+      "label": "Image"
+    },
+    {
+      "type": "text",
+      "id": "image_caption",
+      "label": "Image caption",
+      "default": "Caption: A thoughtful description of the image"
+    },
+    {
+      "type": "header",
+      "content": "Layout"
+    },
+    {
+      "type": "select",
+      "id": "layout",
+      "label": "Layout",
+      "options": [
+        {
+          "value": "text_only",
+          "label": "Text only"
+        },
+        {
+          "value": "text_image",
+          "label": "Text left, image right"
+        },
+        {
+          "value": "image_text",
+          "label": "Image left, text right"
+        }
+      ],
+      "default": "text_image"
+    },
+    {
+      "type": "select",
+      "id": "image_style",
+      "label": "Image style",
+      "options": [
+        {
+          "value": "standard",
+          "label": "Standard"
+        },
+        {
+          "value": "rounded",
+          "label": "Rounded corners"
+        },
+        {
+          "value": "circle",
+          "label": "Circle"
+        },
+        {
+          "value": "polaroid",
+          "label": "Polaroid"
+        }
+      ],
+      "default": "standard"
+    },
+    {
+      "type": "checkbox",
+      "id": "enable_drop_cap",
+      "label": "Enable drop cap on first letter",
+      "default": true
+    },
+    {
+      "type": "header",
+      "content": "Typography"
+    },
+    {
+      "type": "font_picker",
+      "id": "font_family",
+      "label": "Font",
+      "default": "serif"
+    },
+    {
+      "type": "range",
+      "id": "title_size",
+      "min": 24,
+      "max": 72,
+      "step": 2,
+      "unit": "px",
+      "label": "Title size",
+      "default": 42
+    },
+    {
+      "type": "range",
+      "id": "subtitle_size",
+      "min": 16,
+      "max": 36,
+      "step": 1,
+      "unit": "px",
+      "label": "Subtitle size",
+      "default": 22
+    },
+    {
+      "type": "range",
+      "id": "body_size",
+      "min": 14,
+      "max": 24,
+      "step": 1,
+      "unit": "px",
+      "label": "Body text size",
+      "default": 16
+    },
+    {
+      "type": "range",
+      "id": "quote_size",
+      "min": 18,
+      "max": 36,
+      "step": 1,
+      "unit": "px",
+      "label": "Quote size",
+      "default": 24
+    },
+    {
+      "type": "header",
+      "content": "Colors"
+    },
+    {
+      "type": "color",
+      "id": "title_color",
+      "label": "Title color",
+      "default": "#000000"
+    },
+    {
+      "type": "color",
+      "id": "subtitle_color",
+      "label": "Subtitle color",
+      "default": "#4a4a4a"
+    },
+    {
+      "type": "color",
+      "id": "text_color",
+      "label": "Text color",
+      "default": "#333333"
+    },
+    {
+      "type": "color",
+      "id": "quote_color",
+      "label": "Quote color",
+      "default": "#1a1a1a"
+    },
+    {
+      "type": "color",
+      "id": "divider_color",
+      "label": "Divider color",
+      "default": "#e0e0e0"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Magazine Editorial"
+    }
+  ],
+  "tag": null
+}
+{% endschema %}

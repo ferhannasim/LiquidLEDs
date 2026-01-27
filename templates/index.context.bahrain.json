@@ -1,0 +1,48 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "parent": "index.json",
+  "context": {
+    "market": "bahrain"
+  },
+  "sections": {
+    "icons_with_text_gacyPL": {
+      "settings": {},
+      "blocks": {
+        "item_dPAr6A": {
+          "settings": {
+            "text": "<p><strong>Over</strong> <strong>100,000 Happy Customers</strong></p>"
+          }
+        },
+        "item_DrxMPV": {
+          "settings": {
+            "text": "<p><strong>Operating Since 2010</strong></p>"
+          }
+        },
+        "item_Gtkpaj": {
+          "settings": {
+            "text": "<p><strong>30 day Money Back Guarantee</strong></p>"
+          }
+        }
+      }
+    },
+    "slideshow_3zzare": {
+      "settings": {},
+      "blocks": {
+        "slide_pzJAww": {
+          "settings": {
+            "overlay_text_align": "text-center",
+            "heading_size": "h4"
+          }
+        }
+      }
+    }
+  }
+}

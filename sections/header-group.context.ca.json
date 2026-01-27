@@ -1,0 +1,33 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "parent": "header-group.json",
+  "context": {
+    "market": "ca"
+  },
+  "sections": {
+    "announcement": {
+      "settings": {},
+      "blocks": {
+        "announcement-1": {
+          "settings": {
+            "text": "<p><strong>Enjoy free fast shipping on </strong><a href=\"/pages/shipping-to-canada\" title=\"Shipping To Canada\"><strong>orders over C$399*</strong></a></p>"
+          }
+        },
+        "announcement_XhAFyd": {
+          "disabled": false,
+          "settings": {
+            "text": "<p><strong>Questions? Send us a</strong><a href=\"https://wa.me/61483949669\" target=\"_blank\" title=\"https://wa.me/61483949669\"> Whatsapp Message</a></p>"
+          }
+        }
+      }
+    }
+  }
+}

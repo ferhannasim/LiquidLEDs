@@ -1,0 +1,95 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-cart",
+      "settings": {
+        "show_page_title": true,
+        "heading_align": "text-center",
+        "show_backorder_text": true,
+        "show_vendor": false,
+        "show_order_note": true,
+        "show_tax_and_shipping": true,
+        "show_additional_checkout_buttons": false,
+        "cart_terms_page": "",
+        "continue_shopping_page": "",
+        "show_shipping_calculator": false,
+        "shipping_calculator_default_country": "United States"
+      }
+    },
+    "icons_with_text_43Prjg": {
+      "type": "icons-with-text",
+      "blocks": {
+        "item_4LzkTy": {
+          "type": "item",
+          "settings": {
+            "icon": "lock",
+            "heading": "Secure Payments",
+            "text": "<p>Encrypted checkout. Trusted gateways.</p>",
+            "link": ""
+          }
+        },
+        "item_PjzeGa": {
+          "type": "item",
+          "settings": {
+            "icon": "truck",
+            "heading": "Fast Global Shipping",
+            "text": "<p>Reliable delivery, tracked worldwide.</p>",
+            "link": ""
+          }
+        },
+        "item_7hYjiL": {
+          "type": "item",
+          "settings": {
+            "icon": "return",
+            "heading": "Easy Returns",
+            "text": "<p>30-day, no-hassle refunds or exchanges.</p>",
+            "link": ""
+          }
+        },
+        "item_nhdHYx": {
+          "type": "item",
+          "settings": {
+            "icon": "star",
+            "heading": "Trusted Since 2010",
+            "text": "<p>Thousands of happy customers worldwide.</p>",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "item_4LzkTy",
+        "item_PjzeGa",
+        "item_7hYjiL",
+        "item_nhdHYx"
+      ],
+      "name": "Icons with text",
+      "settings": {
+        "heading": "",
+        "heading_align": "text-start",
+        "icon_size": 48,
+        "title_type_scale": "medium",
+        "text_type_scale": "medium",
+        "icon_position": "beside",
+        "mobile_stack": false,
+        "section_height": "medium",
+        "color_scheme": "1",
+        "full_width": true,
+        "dividers": "none",
+        "prevent_animation": false
+      }
+    }
+  },
+  "order": [
+    "main",
+    "icons_with_text_43Prjg"
+  ]
+}

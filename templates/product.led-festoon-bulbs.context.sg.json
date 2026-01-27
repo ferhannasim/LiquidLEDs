@@ -1,0 +1,71 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "parent": "product.led-festoon-bulbs.json",
+  "context": {
+    "market": "sg"
+  },
+  "sections": {
+    "main": {
+      "settings": {},
+      "blocks": {
+        "richtext_PUJYzh": {
+          "disabled": true,
+          "settings": {}
+        },
+        "judge_me_reviews_review_snippet_widget_Wmzzq": {
+          "type": "shopify://apps/judge-me-reviews/blocks/review_snippet_widget/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "disabled": false,
+          "settings": {
+            "paragraph-81a58608afcf34cd4248e7f97567fcb9": null,
+            "paragraph-c6fb42fe1c561447dfd1a9395514d5ff": null
+          }
+        },
+        "collapsible-content-2": {
+          "settings": {
+            "page": "shipping-to-singapore"
+          }
+        },
+        "share": {
+          "disabled": false,
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "vendor-sku",
+        "title",
+        "3e7fac93-7ed1-44b6-b882-99af47420c64",
+        "price",
+        "variant-picker",
+        "divider-0",
+        "divider-1",
+        "richtext_PUJYzh",
+        "buy-buttons",
+        "e0be5244-484c-4751-be23-938d1657421d",
+        "judge_me_reviews_review_snippet_widget_Wmzzq",
+        "1a9e12c5-c94a-4986-ab78-ccb3d78bca12",
+        "message-1",
+        "message-2",
+        "collapsible-content-1",
+        "62039f84-401f-4025-9830-7b334867dfe7",
+        "collapsible-content-2",
+        "message-3",
+        "share"
+      ]
+    },
+    "recommendations": {
+      "settings": {
+        "layout": "carousel_on_mobile",
+        "card_size": "medium"
+      },
+      "blocks": {}
+    }
+  }
+}

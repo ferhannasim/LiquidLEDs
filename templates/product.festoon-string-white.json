@@ -1,0 +1,396 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "vendor-sku": {
+          "type": "vendor-sku",
+          "settings": {
+            "show_vendor": false,
+            "show_sku": true
+          }
+        },
+        "title": {
+          "type": "title",
+          "settings": {}
+        },
+        "3e7fac93-7ed1-44b6-b882-99af47420c64": {
+          "type": "shopify://apps/judge-me-reviews/blocks/preview_badge/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {}
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+            "show_tax_and_shipping": false,
+            "bulb_fitting_title": "Bulb Fitting Guide",
+            "bulb_fitting_chart_page": "light-bulb-fitting-guide",
+            "Colour_temperature_guide_title": "Colour Temperature Guide",
+            "colour_temperature_guide_page": "select-colour-temperature"
+          }
+        },
+        "variant-picker": {
+          "type": "variant-picker",
+          "settings": {
+            "selector_style": "dropdown",
+            "enable_dynamic_availability": true,
+            "show_backorder_text": true,
+            "enable_size_chart": false,
+            "size_chart_variant": "Bulb Type",
+            "size_chart_page": ""
+          }
+        },
+        "divider-0": {
+          "type": "divider",
+          "disabled": true,
+          "settings": {
+            "show_line": true,
+            "spacing": "mt-8 mb-8"
+          }
+        },
+        "divider-1": {
+          "type": "divider",
+          "disabled": true,
+          "settings": {
+            "show_line": true,
+            "spacing": "mt-8 mb-8"
+          }
+        },
+        "buy-buttons": {
+          "type": "buy-buttons",
+          "settings": {
+            "show_qty_selector": true,
+            "enable_dynamic_checkout": false,
+            "show_pickup_availability": false
+          }
+        },
+        "e0be5244-484c-4751-be23-938d1657421d": {
+          "type": "inventory-status",
+          "settings": {
+            "show_indicator_bar": true,
+            "show_urgency_message": true,
+            "text_very_low": "<p>- Almost gone!</p>",
+            "text_low": "<p>- Hurry while stocks last!</p>",
+            "text_normal": "",
+            "text_no_stock": "<p>- On Backorder</p>",
+            "stock_tooltip_text": "<p>This product is in our Sydney warehouse. Orders placed before 10 AM AEST on business days will ship the same day; those after will ship the next business day.</p>"
+          }
+        },
+        "1a9e12c5-c94a-4986-ab78-ccb3d78bca12": {
+          "type": "complementary",
+          "disabled": true,
+          "settings": {
+            "heading": "Frequently bought together",
+            "products_to_show": 4,
+            "layout": "list"
+          }
+        },
+        "message-1": {
+          "type": "message",
+          "disabled": true,
+          "settings": {
+            "icon": "award",
+            "title": "<p><strong>IP65 Rated<br/></strong>Built to withstand permanent outdoor conditions</p>",
+            "close": "once",
+            "show_over_media": true,
+            "visibility_duration": 5,
+            "bg_color": "#f4f4f4",
+            "text_color": "#2a2b2a"
+          }
+        },
+        "message-2": {
+          "type": "message",
+          "disabled": true,
+          "settings": {
+            "icon": "star",
+            "title": "<p><strong>Best Quality Guaranteed!<br/></strong>The only 1.5mm rubber festoon cable in Australia!</p>",
+            "close": "once",
+            "show_over_media": true,
+            "visibility_duration": 5,
+            "bg_color": "#f4f4f4",
+            "text_color": "#2a2b2a"
+          }
+        },
+        "collapsible-content-1": {
+          "type": "collapsible-content",
+          "settings": {
+            "heading": "Responsive Customer Service",
+            "icon": "star",
+            "text": "<p>We’re happy to help you!</p><p>Speak to a human <a href=\"tel:02-8880-9033\">+61 2 8880 9033</a></p><p>We’re here: Monday - Friday 8 a.m. - 6 p.m. AEST</p><p>Contact us <a href=\"/pages/contact-us\">Send us an email</a></p><p>Refund? See our <a href=\"/pages/return-policy\">return policy or submit a return</a></p><p>Other Questions? <a href=\"/pages/faqs\">Visit our FAQ page</a></p><p></p>",
+            "page": "",
+            "open": false
+          }
+        },
+        "62039f84-401f-4025-9830-7b334867dfe7": {
+          "type": "collapsible-content",
+          "settings": {
+            "heading": "Flexible Returns",
+            "icon": "return",
+            "text": "<p>Our utmost priority is to provide you with an outstanding experience. Our team has been devoted to assisting you since 2010, and we are always ready to help you in any way we can.</p><p>At LiquidLEDs, we strongly believe in customer satisfaction. If any of our customers are not satisfied with their purchase, they can contact us within 30 days of receiving their order to arrange for a return and receive a refund for the purchase price, excluding the delivery cost. We take pride in guaranteeing the reliability of our products and ensuring that our customers are content with their experience.</p>",
+            "page": "",
+            "open": false
+          }
+        },
+        "collapsible-content-2": {
+          "type": "collapsible-content",
+          "settings": {
+            "heading": "Delivery",
+            "icon": "truck",
+            "text": "",
+            "page": "shipping",
+            "open": false
+          }
+        },
+        "share": {
+          "type": "share",
+          "disabled": true,
+          "settings": {}
+        },
+        "message-3": {
+          "type": "message",
+          "settings": {
+            "icon": "silhouette",
+            "title": "<p>Are you a B2B customer? <a href=\"https://www.liquidleds.lighting\" title=\"https://www.liquidleds.lighting\">Log in</a> to your account or <a href=\"https://www.liquidleds.lighting/pages/register\" target=\"_blank\" title=\"Register B2B\">Register</a> now.</p>",
+            "close": "once",
+            "show_over_media": false,
+            "visibility_duration": 7,
+            "bg_color": "#f4f4f4",
+            "text_color": "#2a2b2a"
+          }
+        }
+      },
+      "block_order": [
+        "vendor-sku",
+        "title",
+        "3e7fac93-7ed1-44b6-b882-99af47420c64",
+        "price",
+        "variant-picker",
+        "divider-0",
+        "divider-1",
+        "buy-buttons",
+        "e0be5244-484c-4751-be23-938d1657421d",
+        "1a9e12c5-c94a-4986-ab78-ccb3d78bca12",
+        "message-1",
+        "message-2",
+        "collapsible-content-1",
+        "62039f84-401f-4025-9830-7b334867dfe7",
+        "collapsible-content-2",
+        "share",
+        "message-3"
+      ],
+      "settings": {
+        "stick_on_scroll": true,
+        "sticky_atc_panel": true,
+        "sticky_atc_position": "end",
+        "sticky_atc_mobile": true,
+        "media_layout": "slider",
+        "media_size": "default",
+        "media_ratio": "1",
+        "media_crop": "none",
+        "hover_zoom": "large",
+        "enable_video_looping": false,
+        "stacked_scroll": "always",
+        "underline_active": true,
+        "media_thumbs": "desktop",
+        "thumb_ratio": "1",
+        "thumb_crop": "none",
+        "media_arrows": "desktop",
+        "show_slide_count": true,
+        "border_color": "#eeeeee",
+        "bg_color": "#f4f4f4",
+        "enable_media_grouping": false,
+        "media_grouping_option": "Color,Colour,Couleur,Farbe",
+        "enable_product_label": false
+      }
+    },
+    "details": {
+      "type": "product-details",
+      "blocks": {
+        "product_features_cMWMHk": {
+          "type": "product-features",
+          "settings": {
+            "title": "Product Features"
+          }
+        },
+        "highlight-text": {
+          "type": "highlight-text",
+          "disabled": true,
+          "settings": {
+            "title": "Highlight title{{ product.metafields.custom.colour_rendering_index_cri.value }}",
+            "text": "<p>Text to highlight a key feature of your product</p>"
+          }
+        },
+        "tabs": {
+          "type": "tabs",
+          "settings": {
+            "style": "tabs",
+            "show_description": true,
+            "show_specification": true,
+            "show_reviews": false,
+            "open_first": false,
+            "spec_metafields": "Input Voltage: product.metafields.custom.voltage\nWattage: product.metafields.custom.wattage\nRated lamp holder wattage: product.metafields.custom.rated_lamp_holder_wattage\nRated lighting chain wattage: product.metafields.custom.rated_lighting_chain_wattage\nIP Rating: product.metafields.custom.ip_rating\nTotal Length: product.metafields.custom.total_length\nDistance between lamp holders: product.metafields.custom.distance_between_lamp_holders\nLamp holder type: product.metafields.custom.lamp_holder_type\nMaterial: product.metafields.custom.material\nManufacturer's Warranty: product.metafields.custom.manufacturer_s_warranty\nCertification's: product.metafields.custom.certification_s",
+            "spec_right_align": false,
+            "spec_show_empty_metafields": false,
+            "spec_empty_field_text": "-",
+            "tab_1_title": "",
+            "tab_1_text": "",
+            "tab_1_page": "",
+            "tab_2_title": "FAQ's",
+            "tab_2_text": "",
+            "tab_2_page": "faqs",
+            "tab_3_title": "",
+            "tab_3_text": "",
+            "tab_3_page": ""
+          }
+        },
+        "payment-methods": {
+          "type": "payment-methods",
+          "settings": {
+            "title": "Payment & Security",
+            "title1": "Payment methods",
+            "show_payment_icons": true,
+            "text1": "<p>Your payment information is processed securely. We do not store credit card details nor have access to your credit card information.</p>",
+            "title2": "",
+            "text2": ""
+          }
+        }
+      },
+      "block_order": [
+        "product_features_cMWMHk",
+        "highlight-text",
+        "tabs",
+        "payment-methods"
+      ],
+      "settings": {}
+    },
+    "product-features": {
+      "type": "product-features",
+      "blocks": {
+        "product-features-feature-0": {
+          "type": "feature",
+          "settings": {
+            "heading": "Main cable",
+            "text": "<p>The cable is 2*1.5mm thick and made of <strong>rubber</strong>, meeting Australian Standards for use as a connectable IP65 rated for outdoor purposes. Other suppliers use cheap PVC type cable.</p>",
+            "content_align": "text-start",
+            "hotspot_x": 14,
+            "hotspot_y": 52
+          }
+        },
+        "product-features-feature-1": {
+          "type": "feature",
+          "settings": {
+            "heading": "Lamp holder",
+            "text": "<p>The rubber lamp holder is IP65 rated, ensuring its safety for permanent outdoor use.</p>",
+            "content_align": "text-start",
+            "hotspot_x": 61,
+            "hotspot_y": 18
+          }
+        },
+        "product-features-feature-2": {
+          "type": "feature",
+          "settings": {
+            "heading": "Easy installation",
+            "text": "<p>All lamp holders are equipped with eyelets, allowing for effortless mounting without the requirement of professional assistance.</p>",
+            "content_align": "text-start",
+            "hotspot_x": 50,
+            "hotspot_y": 85
+          }
+        },
+        "product-features-feature-3": {
+          "type": "feature",
+          "disabled": true,
+          "settings": {
+            "heading": "Feature name",
+            "text": "<p>Add some text describing the product feature.</p>",
+            "content_align": "text-start",
+            "hotspot_x": 50,
+            "hotspot_y": 66
+          }
+        }
+      },
+      "block_order": [
+        "product-features-feature-0",
+        "product-features-feature-1",
+        "product-features-feature-2",
+        "product-features-feature-3"
+      ],
+      "settings": {
+        "product": "{{ product }}",
+        "show_content": true,
+        "layout": "text_first",
+        "text_align": "text-center",
+        "mob_center_text": true,
+        "heading_size": "h2",
+        "enlarge_text": false,
+        "image": "{{ section.settings.product.metafields.custom.festoon_lamp_holder_image.value }}",
+        "title": "Product features",
+        "description": "<p>Experience the unmatched quality of the only IP65 rated string available in Australia!</p>",
+        "button_label": "",
+        "button_link": "",
+        "hotspot_color": "#070707",
+        "color_scheme": "none",
+        "button_style": "btn btn--primary"
+      }
+    },
+    "recommendations": {
+      "type": "product-recommendations",
+      "settings": {
+        "heading": "You may also like",
+        "heading_align": "text-start",
+        "layout": "carousel",
+        "card_size_mobile": "small",
+        "card_size": "small",
+        "products_to_show": 8,
+        "enable_product_label": false
+      }
+    },
+    "2f9d2b69-1421-42ee-bf42-204579d8c79b": {
+      "type": "recently-viewed",
+      "settings": {
+        "heading": "Recently viewed",
+        "heading_align": "text-start",
+        "layout": "carousel",
+        "card_size_mobile": "small",
+        "card_size": "small",
+        "limit": 8,
+        "enable_product_label": false
+      }
+    },
+    "1695711824fc9578f1": {
+      "type": "apps",
+      "blocks": {
+        "80b2a05d-11da-4c91-924c-9d7031a27ccc": {
+          "type": "shopify://apps/judge-me-reviews/blocks/review_widget/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+            "review_data": "sample_data",
+            "max_width": 1200,
+            "show_shop_reviews": false,
+            "empty_state": "empty_widget"
+          }
+        }
+      },
+      "block_order": [
+        "80b2a05d-11da-4c91-924c-9d7031a27ccc"
+      ],
+      "settings": {
+        "full_width": false
+      }
+    }
+  },
+  "order": [
+    "main",
+    "details",
+    "product-features",
+    "recommendations",
+    "2f9d2b69-1421-42ee-bf42-204579d8c79b",
+    "1695711824fc9578f1"
+  ]
+}

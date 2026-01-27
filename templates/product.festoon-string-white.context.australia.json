@@ -1,0 +1,69 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "parent": "product.festoon-string-white.json",
+  "context": {
+    "market": "australia"
+  },
+  "sections": {
+    "main": {
+      "settings": {
+        "enable_product_label": true
+      },
+      "blocks": {
+        "1a9e12c5-c94a-4986-ab78-ccb3d78bca12": {
+          "disabled": true,
+          "settings": {}
+        },
+        "collapsible-content-1": {
+          "settings": {
+            "heading": "Here When You Need Us",
+            "text": "<p><strong>Need help? We're here for you.<br/><br/></strong>Our friendly team is available to assist you with any questions or concerns.</p><p>📞 <strong>Call us:</strong> <a href=\"tel:+612%208880%209033\"><span style=\"text-decoration:underline\">+612 8880 9033</span><br/><br/></a>💬 <strong>WhatsApp:</strong> <a href=\"https://wa.me/61483949669\"><span style=\"text-decoration:underline\">+61483949669<br/><br/></span></a>📧 <strong>Email us:</strong> <a href=\"https://liquid-leds.com/pages/contact-us\"><span style=\"text-decoration:underline\">Send us a message<br/><br/></span></a>❓ <strong>FAQs:</strong> <a href=\"https://liquid-leds.com/pages/faqs\"><span style=\"text-decoration:underline\">Visit our FAQ page ›</span></a></p><p>🕒 <strong>Support hours: </strong>Monday – Friday, 8:00 a.m. – 6:00 p.m. AEST</p><p></p>"
+          }
+        },
+        "62039f84-401f-4025-9830-7b334867dfe7": {
+          "settings": {
+            "heading": "Hassle-Free Returns",
+            "text": "<p><strong>Shop with Confidence</strong><br/><br/>Your satisfaction means everything to us. If you're not completely happy with your order, you can return it within 30 days of receiving it for a refund of the purchase price (excluding delivery).</p><p>We’ve been supporting our customers since 2010 and are here to help every step of the way.</p><p><a href=\"https://liquid-leds.com/en-au/pages/return-policy\" target=\"_blank\" title=\"Returns Policy\">View our full return policy ›</a></p>"
+          }
+        },
+        "collapsible-content-2": {
+          "settings": {
+            "heading": "Fast, Reliable Delivery",
+            "text": "<p>Orders placed before 10 a.m. AEST on business days are dispatched the same day from our Sydney warehouse.</p><p>✅ <strong>Free standard shipping</strong><br/><br/>• Metro areas: orders over $99<br/><br/>• Regional areas: orders over $199</p><p>🚚 <strong>Delivery timeframes</strong><br/><br/>• Sydney Metro: 1–3 business days<br/><br/>• Other NSW: 2–5 days<br/><br/>• Major cities: 2–5 days<br/><br/>• Regional areas: 2–7 days</p><p>📦 Express shipping available at checkout.</p><p>Please ensure your address is accurate to avoid delays and return-to-sender fees. If you haven’t received your order or there’s an issue, we’re here to help.</p><p><a href=\"/pages/shipping\" title=\"Shipping Within Australia\">View full shipping details ›</a></p>"
+          }
+        },
+        "share": {
+          "disabled": false,
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "vendor-sku",
+        "title",
+        "3e7fac93-7ed1-44b6-b882-99af47420c64",
+        "price",
+        "variant-picker",
+        "divider-0",
+        "divider-1",
+        "buy-buttons",
+        "e0be5244-484c-4751-be23-938d1657421d",
+        "1a9e12c5-c94a-4986-ab78-ccb3d78bca12",
+        "message-1",
+        "message-2",
+        "collapsible-content-1",
+        "62039f84-401f-4025-9830-7b334867dfe7",
+        "collapsible-content-2",
+        "message-3",
+        "share"
+      ]
+    }
+  }
+}

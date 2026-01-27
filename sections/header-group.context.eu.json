@@ -1,0 +1,33 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "parent": "header-group.json",
+  "context": {
+    "market": "eu"
+  },
+  "sections": {
+    "announcement": {
+      "settings": {},
+      "blocks": {
+        "announcement-1": {
+          "settings": {
+            "text": "<p>Enjoy free fast shipping on <a href=\"/pages/shipping-to-europe\" title=\"Shipping To Europe\">orders over €299*</a></p>"
+          }
+        },
+        "announcement_XhAFyd": {
+          "disabled": false,
+          "settings": {
+            "text": "<p><strong>Questions? Send us a</strong><a href=\"https://wa.me/61483949669\" target=\"_blank\" title=\"https://wa.me/61483949669\"> Whatsapp Message</a></p>"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,61 @@
+{% if linkType == 'wishlist-drawer-link' %}
+  <a class="iwishDrawer header__icon small-hide" href="#" title="Wishlist"><svg viewBox="0 0 256 256" width="20" class="iwishOutline" xmlns="http://www.w3.org/2000/svg"><rect fill="none" height="256" width="256"></rect><path d="M128,216S28,160,28,92A52,52,0,0,1,128,72h0A52,52,0,0,1,228,92C228,160,128,216,128,216Z" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"></path></svg> <span class="iwish-counter">0</span></a>
+{% elsif linkType == 'wishlist-page-link' %}
+  <a class="iwishPage header__icon small-hide" href="{% unless routes.root_url == '/' %}{{ routes.root_url }}{% endunless %}/apps/iwish" title="Wishlist"><svg viewBox="0 0 256 256" width="20" class="iwishOutline" xmlns="http://www.w3.org/2000/svg"><rect fill="none" height="256" width="256"></rect><path d="M128,216S28,160,28,92A52,52,0,0,1,128,72h0A52,52,0,0,1,228,92C228,160,128,216,128,216Z" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"></path></svg><span class="iw-count-show header__iwish-count absolute bg-theme-text text-theme-bg text-center" style="display:none;"><span class="iwish-counter">0</span></span></a>
+{% elsif linkType == 'list-product' %}
+  <a class="iWishAddColl iwishcheck" href="#" data-variant="{{ product.variants.first.id }}" data-product="{{ product.id }}" data-pTitle="{{ product.title | escape }}"></a>
+{% elsif linkType == 'single-product' %}
+  <div class="iwish-app-block-product"><a class="iWishAdd st-1" href="#" data-variant="{{ product.variants.first.id }}" data-product="{{ product.id }}" data-pTitle="{{ product.title | escape }}"></a></div>
+{% elsif linkType == 'app-script' %}
+<script type="text/javascript">
+     function iWishCounter() {
+       try{
+         if (typeof iWish !== 'undefined' ){
+            if(iWish.getCounter() <= 0){
+              document.querySelectorAll(".iw-count-show").forEach((elm) => {
+                elm.style.display = 'none';
+              })
+            }
+            else{
+              document.querySelectorAll(".iw-count-show").forEach((elm) => {
+                elm.style.display = 'block';
+              })
+            }
+          }
+       }
+       catch(err){
+         //console.log(err);
+       }
+      }
+     function iWishRemoveFn(vId){
+      try{
+        iWishCounter();
+      }
+      catch(err){
+        //console.log(err);
+      }
+     }
+     function iWishAddFn(vId){
+       try{
+        iWishCounter();
+      }
+      catch(err){
+        //console.log(err);
+      }
+     }
+    function iWishinitFn(){
+      try{
+      iWishCounter();
+      }
+      catch(err){
+        //console.log(err);
+      }
+    }
+  /*function addToCartInitCallback(vId,pId, CatId) {
+    window.location.href = "/cart";
+  }
+  function addAllToCartInitCallback(iwCart_data) {
+    window.location.href = "/cart";
+  }*/
+  </script>
+{% endif %}

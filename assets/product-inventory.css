@@ -1,0 +1,53 @@
+.product-inventory__indicator {
+  display: block;
+  position: relative;
+  height: 5px;
+  margin-top: 8px;
+  border-radius: 3px;
+  background-color: rgba(var(--text-color)/0.1);
+}
+
+.product-inventory__indicator span {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  height: 100%;
+  transition: width 0.3s cubic-bezier(0, 0.14, 0.19, 1), background-color 0.3s;
+  border-radius: inherit;
+  background-color: currentColor;
+}
+
+.product-inventory__urgency p {
+  display: inline;
+}
+
+.product-inventory__text .question{
+  color: rgb(var(--text-color));
+  position: relative;
+  top: 2px;
+  cursor: pointer;
+}
+
+.stock_tooltip_text{
+  width: 300px;
+  box-shadow: 4px 3px 10px rgb(0 0 0 / 29%);
+  background-color: #2a2b2a;
+  display: none;
+  position: absolute;
+  top: 85%;
+  cursor: default;
+  left: 0;
+  text-align: left;
+  font-size: 12px;
+  padding: 12px;
+  z-index: 1000;
+  color: #f4f4f4;
+}
+.stock_tooltip_text p:last-child{
+  margin-bottom: 0;
+}
+.stock_tooltip_toggle:hover .stock_tooltip_text{
+  display: block;
+}
+

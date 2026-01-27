@@ -1,0 +1,463 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "parent": "product.smart-solar.json",
+  "context": {
+    "market": "nz"
+  },
+  "sections": {
+    "logo_list_AFKji": {
+      "type": "logo-list",
+      "disabled": false,
+      "settings": {
+        "header-8f8196d4deb09e5c2dcd49b321df2d3b": null,
+        "title": "",
+        "heading_align": "text-center",
+        "button_label": "",
+        "button_link": "",
+        "header-0d7b95b0c61202a125394e5935c25147": null,
+        "layout": "carousel",
+        "spacing": 40,
+        "logo_grid_align": "justify-center",
+        "header-54e7a719fd10b81b0ad890ee3bd68b7e": null,
+        "color_scheme": "1",
+        "full_width": true
+      },
+      "blocks": {
+        "logo_Xbbrd": {
+          "type": "logo",
+          "disabled": false,
+          "settings": {
+            "image": "shopify://shop_images/image001_4.jpg",
+            "url": "",
+            "logo_width": 120,
+            "text": ""
+          }
+        },
+        "logo_CwkFN": {
+          "type": "logo",
+          "disabled": false,
+          "settings": {
+            "image": "shopify://shop_images/Logo_M-10.jpg",
+            "url": "",
+            "logo_width": 120,
+            "text": ""
+          }
+        },
+        "logo_tAAKC": {
+          "type": "logo",
+          "disabled": false,
+          "settings": {
+            "image": "shopify://shop_images/Logo_M-06.jpg",
+            "url": "",
+            "logo_width": 120,
+            "text": ""
+          }
+        },
+        "logo_iXxUt": {
+          "type": "logo",
+          "disabled": false,
+          "settings": {
+            "image": "shopify://shop_images/Sydney_Opera_House.png",
+            "url": "",
+            "logo_width": 120,
+            "text": ""
+          }
+        },
+        "logo_6TQdE": {
+          "type": "logo",
+          "disabled": false,
+          "settings": {
+            "image": "shopify://shop_images/HisMajestysTheatre-Logo.png",
+            "url": "",
+            "logo_width": 120,
+            "text": ""
+          }
+        },
+        "logo_KTnbx": {
+          "type": "logo",
+          "disabled": false,
+          "settings": {
+            "image": "shopify://shop_images/Regent_Theatre.png",
+            "url": "",
+            "logo_width": 120,
+            "text": ""
+          }
+        },
+        "logo_c7cPc": {
+          "type": "logo",
+          "disabled": false,
+          "settings": {
+            "image": "shopify://shop_images/Logo_M-03.jpg",
+            "url": "",
+            "logo_width": 120,
+            "text": ""
+          }
+        },
+        "logo_6QT7k": {
+          "type": "logo",
+          "disabled": false,
+          "settings": {
+            "image": "shopify://shop_images/FP-LOGO-MAAS.jpg",
+            "url": "",
+            "logo_width": 120,
+            "text": ""
+          }
+        },
+        "logo_BTcpi": {
+          "type": "logo",
+          "disabled": false,
+          "settings": {
+            "image": "shopify://shop_images/Logo_M-05.jpg",
+            "url": "",
+            "logo_width": 120,
+            "text": ""
+          }
+        },
+        "logo_hqFpC": {
+          "type": "logo",
+          "disabled": false,
+          "settings": {
+            "image": "shopify://shop_images/Logo_M-04.jpg",
+            "url": "",
+            "logo_width": 120,
+            "text": ""
+          }
+        },
+        "logo_D4CHk": {
+          "type": "logo",
+          "disabled": false,
+          "settings": {
+            "image": "shopify://shop_images/Logo_M-09.jpg",
+            "url": "",
+            "logo_width": 120,
+            "text": ""
+          }
+        },
+        "logo_ERm88": {
+          "type": "logo",
+          "disabled": false,
+          "settings": {
+            "image": "shopify://shop_images/The_Star_Casino_Sydney.png",
+            "url": "",
+            "logo_width": 120,
+            "text": ""
+          }
+        },
+        "logo_MUTrf": {
+          "type": "logo",
+          "disabled": false,
+          "settings": {
+            "image": "shopify://shop_images/vibe_hotels.png",
+            "url": "",
+            "logo_width": 120,
+            "text": ""
+          }
+        },
+        "logo_R6HDD": {
+          "type": "logo",
+          "disabled": false,
+          "settings": {
+            "image": "shopify://shop_images/Capella_Hotels.jpg",
+            "url": "",
+            "logo_width": 120,
+            "text": ""
+          }
+        },
+        "logo_DhraX": {
+          "type": "logo",
+          "disabled": false,
+          "settings": {
+            "image": "shopify://shop_images/Melbourne_Theatre_Company_logo.png",
+            "url": "",
+            "logo_width": 120,
+            "text": ""
+          }
+        }
+      },
+      "block_order": [
+        "logo_Xbbrd",
+        "logo_CwkFN",
+        "logo_tAAKC",
+        "logo_iXxUt",
+        "logo_6TQdE",
+        "logo_KTnbx",
+        "logo_c7cPc",
+        "logo_6QT7k",
+        "logo_BTcpi",
+        "logo_hqFpC",
+        "logo_D4CHk",
+        "logo_ERm88",
+        "logo_MUTrf",
+        "logo_R6HDD",
+        "logo_DhraX"
+      ]
+    },
+    "icons_with_text_qVXM3": {
+      "type": "icons-with-text",
+      "disabled": false,
+      "settings": {
+        "header-1ab977ce4373637dd28ba0497fb1981a": null,
+        "heading": "",
+        "heading_align": "text-start",
+        "header-afea0170a6eda6ee6ce2cb1c9709fa29": null,
+        "icon_size": 48,
+        "title_type_scale": "medium",
+        "text_type_scale": "medium",
+        "header-dd9ee283c73b2e4ff78236980b54cd9c": null,
+        "icon_position": "beside",
+        "mobile_stack": true,
+        "section_height": "medium",
+        "header-1f991cdfe6f7be3cccf48e5dbd379177": null,
+        "color_scheme": "1",
+        "full_width": true,
+        "dividers": "none",
+        "header-2654ca1843058b56624926a0cd959d89": null,
+        "prevent_animation": false
+      },
+      "blocks": {
+        "item_CXbF8": {
+          "type": "item",
+          "disabled": false,
+          "settings": {
+            "icon": "check_mark",
+            "custom_icon": null,
+            "heading": "",
+            "text": "<p>Over <strong>100,000 Happy Customers</strong></p>",
+            "link": ""
+          }
+        },
+        "item_T9MdU": {
+          "type": "item",
+          "disabled": false,
+          "settings": {
+            "icon": "check_mark",
+            "custom_icon": null,
+            "heading": "",
+            "text": "<p>An <strong>Australian Company Since 2010</strong></p>",
+            "link": ""
+          }
+        },
+        "item_YrppX": {
+          "type": "item",
+          "disabled": false,
+          "settings": {
+            "icon": "check_mark",
+            "custom_icon": null,
+            "heading": "",
+            "text": "<p>30 day <strong>Money Back Guarantee</strong></p>",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "item_CXbF8",
+        "item_T9MdU",
+        "item_YrppX"
+      ]
+    },
+    "main": {
+      "settings": {},
+      "blocks": {
+        "judge_me_reviews_review_snippet_widget_Gi7nt": {
+          "type": "shopify://apps/judge-me-reviews/blocks/review_snippet_widget/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "disabled": false,
+          "settings": {
+            "paragraph-6bbbe5bd569f93909643dca338c502ab": null,
+            "paragraph-27bebfe4ca8e470dd03ec024be451e54": null
+          }
+        },
+        "collapsible-content-1": {
+          "settings": {
+            "heading": "Here When You Need Us",
+            "text": "<p><strong>Need help? We're here for you.<br/><br/></strong>Our friendly team is available to assist you with any questions or concerns.</p><p>📞 <strong>Call us:</strong> <a href=\"tel:+612%208880%209033\"><span style=\"text-decoration:underline\">+612 8880 9033</span><br/></a>💬 <strong>WhatsApp:</strong> <a href=\"https://wa.me/61483949669\"><span style=\"text-decoration:underline\">+61483949669<br/></span></a>📧 <strong>Email us:</strong> <a href=\"https://liquid-leds.com/pages/contact-us\"><span style=\"text-decoration:underline\">Send us a message<br/></span></a>❓ <strong>FAQs:</strong> <a href=\"https://liquid-leds.com/pages/faqs\"><span style=\"text-decoration:underline\">Visit our FAQ page ›</span></a></p><p>🕒 <strong>Support hours: </strong>Monday – Friday, 8:00 a.m. – 6:00 p.m. AEST</p>"
+          }
+        },
+        "62039f84-401f-4025-9830-7b334867dfe7": {
+          "settings": {
+            "heading": "Hassle-Free Returns",
+            "text": "<p><strong>Shop with Confidence<br/><br/></strong>Your satisfaction means everything to us. If you're not completely happy with your order, you can return it within 30 days of receiving it for a refund of the purchase price (excluding delivery).</p><p>We’ve been supporting our customers since 2010 and are here to help every step of the way.</p><p><a href=\"https://liquid-leds.com/en-au/pages/return-policy\"><span style=\"text-decoration:underline\">View our full return policy ›</span></a></p>"
+          }
+        },
+        "collapsible-content-2": {
+          "settings": {
+            "heading": "Fast, Reliable Delivery",
+            "text": "<p><strong>We ship fast from Sydney to New Zealand!<br/></strong> Choose from Australia Post, DHL E-Commerce, or DHL Express at checkout.</p><p>✔️ Same-day dispatch on business days before 10 a.m. AEST<br/> ✔️ Free DHL shipping on orders over NZD $199*<br/> ✔️ All orders include tracking</p><p><strong>Estimated delivery times:<br/></strong> • DHL Express: 2–5 business days<br/> • DHL E-Commerce: 6–10 business days<br/> • Australia Post: 7–12 business days</p><p>(*Excludes bulky items like festoon strings and poles.)</p><p><a href=\"https://liquid-leds.com/pages/shipping-to-new-zealand\"><span style=\"text-decoration:underline\">View full NZ shipping details ›</span></a></p>",
+            "page": ""
+          }
+        },
+        "richtext_gKx3UV": {
+          "disabled": true,
+          "settings": {}
+        },
+        "1a9e12c5-c94a-4986-ab78-ccb3d78bca12": {
+          "disabled": true,
+          "settings": {}
+        },
+        "share": {
+          "disabled": false,
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "vendor-sku",
+        "title",
+        "3e7fac93-7ed1-44b6-b882-99af47420c64",
+        "price",
+        "variant-picker",
+        "divider-0",
+        "buy-buttons",
+        "e0be5244-484c-4751-be23-938d1657421d",
+        "judge_me_reviews_review_snippet_widget_Gi7nt",
+        "collapsible-content-1",
+        "62039f84-401f-4025-9830-7b334867dfe7",
+        "collapsible-content-2",
+        "richtext_gKx3UV",
+        "1a9e12c5-c94a-4986-ab78-ccb3d78bca12",
+        "message-3",
+        "share"
+      ]
+    },
+    "recommendations": {
+      "settings": {
+        "layout": "carousel_on_mobile",
+        "card_size": "medium"
+      },
+      "blocks": {}
+    },
+    "faq_66jKX": {
+      "type": "faq",
+      "disabled": false,
+      "settings": {
+        "header-b39e63b2bc5084373a6093f2df04cc1b": null,
+        "heading": "Solar String FAQs",
+        "heading_align": "text-center",
+        "header-ceddfd32c0357adaca70b7afc97a4620": null,
+        "color_scheme": "none",
+        "full_width": true
+      },
+      "blocks": {
+        "question_xLzMdL": {
+          "type": "question",
+          "disabled": false,
+          "settings": {
+            "icon": "none",
+            "heading": "How do solar festoon lights work?",
+            "text": "<p>Solar festoon lights work by converting sunlight into electricity through a solar panel. During the day, the solar panel charges a built-in rechargeable battery. A light sensor activates the lights when it gets dark, running on the stored battery power. Our solar festoon lights feature a 15-meter string with 15 LED bulbs powered by a solar panel with a 3-meter lead, allowing you to position the panel in an optimal sunlight location while placing the lights where you want them.</p>"
+          }
+        },
+        "question_AXURGR": {
+          "type": "question",
+          "disabled": false,
+          "settings": {
+            "icon": "none",
+            "heading": "How long do solar festoon lights stay on at night?",
+            "text": "<p>On a full charge, our solar festoon lights will illuminate for 6-8 hours. If the following day is overcast with limited sunlight, the lights can still provide approximately 3-4 hours of illumination from the partial charge received. The actual runtime depends on several factors, including the lighting mode selected (steady vs. flashing), the dimming feature used, and the amount of sunlight received during charging.</p>"
+          }
+        },
+        "question_WryWFz": {
+          "type": "question",
+          "disabled": false,
+          "settings": {
+            "icon": "none",
+            "heading": "Are these solar fairy lights waterproof for outdoor use?",
+            "text": "<p>Yes, the Solra string features an IP65 weatherproof rating, meaning it is fully protected against heavy rain, wind, and dust. They are specifically engineered to withstand the Australian and New Zealand climate for year-round outdoor display.</p>"
+          }
+        },
+        "question_Xegm99": {
+          "type": "question",
+          "disabled": false,
+          "settings": {
+            "icon": "none",
+            "heading": "How bright are solar festoon lights compared to regular electric festoon lights?",
+            "text": "<p>Our solar festoon lights use 1W LED bulbs that produce 80 lumens each. While this is less than some mains-powered festoon lights, the warm white light creates a cozy, ambient glow perfect for creating an atmosphere in gardens and outdoor spaces. The light output balances energy efficiency with adequate brightness for decorative lighting. Multiple strings can be used together for areas requiring brighter illumination, though each operates independently.</p>"
+          }
+        },
+        "question_zH3hnj": {
+          "type": "question",
+          "disabled": false,
+          "settings": {
+            "icon": "none",
+            "heading": "Can these solar festoon lights be charged via USB?",
+            "text": "<p>Our solar festoon lights feature a USB charging input on the solar panel. This allows you to charge the lights directly from a power source when sunlight is limited or when you must ensure the lights are fully charged for a specific event. Simply connect a standard USB charger to the input connector on the solar panel. This dual-charging capability ensures your lights can operate reliably regardless of weather conditions.</p>"
+          }
+        },
+        "question_FLWxeH": {
+          "type": "question",
+          "disabled": false,
+          "settings": {
+            "icon": "none",
+            "heading": "Do solar festoon lights need direct sunlight or just light?",
+            "text": "<p>While direct sunlight provides the most efficient charging, our solar festoon lights can still charge with indirect sunlight or even artificial light, though at a reduced rate. For optimal performance, we recommend placing the solar panel in a location that receives at least 6-8 hours of sunlight daily. If sunlight is limited, the USB charging option lets you charge the battery directly from a power source, ensuring your lights work even during cloudy weather.</p>"
+          }
+        },
+        "question_AW7Fcg": {
+          "type": "question",
+          "disabled": false,
+          "settings": {
+            "icon": "none",
+            "heading": "What lighting modes are available on these solar festoon lights?",
+            "text": "<p>Our solar festoon lights offer four distinct lighting modes to create different atmospheres:</p><ol><li>Steady - Continuous illumination for consistent ambient lighting</li><li>Slow Flash - Gentle, rhythmic blinking for a relaxed, festive feel</li><li>Quick Flash - Rapid blinking for a more energetic, celebratory atmosphere</li><li>Pulsating - Gradual brightening and dimming for a soothing breathing effect</li></ol><p>These modes can be selected using either the included remote control or the buttons on the back of the solar panel.</p>"
+          }
+        },
+        "question_tENRan": {
+          "type": "question",
+          "disabled": false,
+          "settings": {
+            "icon": "none",
+            "heading": "Can you connect multiple solar string lights together?",
+            "text": "<p>These units are designed as standalone sets to ensure the solar panel provides maximum power and brightness to the LEDs. For larger areas, we recommend placing multiple solar panels side by side to achieve a seamless, brilliant lighting effect without overloading a single circuit.</p>"
+          }
+        },
+        "question_4fmhcR": {
+          "type": "question",
+          "disabled": false,
+          "settings": {
+            "icon": "none",
+            "heading": "How long does it take to charge solar festoon lights?",
+            "text": "<p>Our solar festoon lights require approximately 6-8 hours of good sunlight to reach a full charge. If using the USB charging option, the charging time is similar. For first-time use or after extended storage, we recommend charging the lights for a full day before use to ensure maximum battery capacity and performance.</p>"
+          }
+        },
+        "question_PtDbN9": {
+          "type": "question",
+          "disabled": false,
+          "settings": {
+            "icon": "none",
+            "heading": "Do solar string lights work in winter or on cloudy days?",
+            "text": "<p>While performance is best in direct sunlight, our high-efficiency panels are optimised to harvest energy even during overcast conditions. You may notice a slightly shorter run time in mid-winter, but the automatic sensor ensures they still illuminate as soon as dusk falls.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "question_xLzMdL",
+        "question_AXURGR",
+        "question_WryWFz",
+        "question_Xegm99",
+        "question_zH3hnj",
+        "question_FLWxeH",
+        "question_AW7Fcg",
+        "question_tENRan",
+        "question_4fmhcR",
+        "question_PtDbN9"
+      ]
+    }
+  },
+  "order": [
+    "main",
+    "details",
+    "product-features",
+    "faq_66jKX",
+    "1695711824fc9578f1",
+    "recommendations",
+    "2f9d2b69-1421-42ee-bf42-204579d8c79b",
+    "logo_list_AFKji",
+    "icons_with_text_qVXM3"
+  ]
+}

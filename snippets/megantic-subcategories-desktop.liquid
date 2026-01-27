@@ -1,0 +1,182 @@
+<style>
+.MGC__Ul {
+  margin-top: 0px;
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding: 0px;
+}
+.MGC__Link {
+  color: #282828;
+  text-decoration: none;
+}
+.MGC__SubcategoriesExanded {
+  cursor: pointer;
+  width: 100%;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  display: flex;
+  padding-bottom: 1rem;
+}
+
+.MGC__SubcategoriesContent {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
+</style>
+{% assign current_collection = collection.url %}
+
+{% assign has_subcategories = false %} 
+      {%- for link in linklists.megantic-sidebar-1-3-level.links -%}
+        {%- if link.links != blank -%}
+          {%- for child_link in link.links -%}
+            {% if link.url == current_collection %}
+              {% assign has_subcategories = true %} 
+            {% endif %}
+            {%- if child_link.links != blank -%}
+              {% if child_link.url == current_collection %}
+                {%- for grandchild_link in child_link.links -%}
+                  {% assign has_subcategories = true %}
+                  {% endfor %}
+              {% endif %}
+            {% endif %}
+          {% endfor %}
+        {% endif %}
+      {% endfor %}
+      {%- for link in linklists.megantic-sidebar-3-6-level.links -%}
+        {%- if link.links != blank -%}
+          {%- for child_link in link.links -%}
+            {% if link.url == current_collection %}
+              {% assign has_subcategories = true %}
+              {% endif %}
+            {%- if child_link.links != blank -%}
+              {% if child_link.url == current_collection %}
+                {%- for grandchild_link in child_link.links -%}
+                {% assign has_subcategories = true %} 
+                {% endfor %}
+              {% endif %}
+            {% endif %}
+          {% endfor %}
+        {% endif %}
+      {% endfor %}
+
+{% if has_subcategories %}
+
+   <details-disclosure class="facets__active-filters">
+    <details class="disclosure">{% comment %} {% if section.settings.expand_filters %} open{% endif %} {% endcomment %}
+        
+        <summary>
+            <div class="flex justify-between items-center">
+                <span class = "flex-auto font-bold">Subcategories</span>
+                <span class="disclosure__toggle">
+                    {%- if settings.disclosure_toggle == 'plus' -%}
+                        {% render 'icon-plus' %}
+                    {%- else -%}
+                        {% render 'icon-chevron-down' %}
+                    {%- endif -%}
+                </span>
+            </div>
+        </summary>
+
+        <div class="disclosure__panel has-motion">
+            <div class="disclosure__content">
+                <div class="filter__content">
+                    <ul class = "flex flex-col">
+                      {%- for link in linklists.megantic-sidebar-1-3-level.links -%}
+                        {%- if link.links != blank -%}
+                          {%- for child_link in link.links -%}
+                            {% if link.url == current_collection %}
+                              <li class = "mb-2">
+                                <a href="{{ child_link.url }}">{{ child_link.title }}</a>
+                              </li>
+                            {% endif %}
+                            {%- if child_link.links != blank -%}
+                              {% if child_link.url == current_collection %}
+                                {%- for grandchild_link in child_link.links -%}
+                                  <li class = "mb-2">
+                                    <a href="{{ grandchild_link.url }}">{{ grandchild_link.title }}</a>
+                                  </li>
+                                {% endfor %}
+                              {% endif %}
+                            {% endif %}
+                          {% endfor %}
+                        {% endif %}
+                      {% endfor %}
+                      {%- for link in linklists.megantic-sidebar-3-6-level.links -%}
+                        {%- if link.links != blank -%}
+                          {%- for child_link in link.links -%}
+                            {% if link.url == current_collection %}
+                              <li class = "mb-2">
+                                <a href="{{ child_link.url }}">{{ child_link.title }}</a>
+                              </li>
+                            {% endif %}
+                            {%- if child_link.links != blank -%}
+                              {% if child_link.url == current_collection %}
+                                {%- for grandchild_link in child_link.links -%}
+                                  <li class = "mb-2">
+                                    <a href="{{ grandchild_link.url }}">{{ grandchild_link.title }}</a>
+                                  </li>
+                                {% endfor %}
+                              {% endif %}
+                            {% endif %}
+                          {% endfor %}
+                        {% endif %}
+                      {% endfor %}
+                  </ul>
+                </div>
+            </div>
+        </div>
+    
+    </details>
+    
+ </details-disclosure>
+
+   {% comment %} <p class="productgrid--sidebar-title MGC__h2">Subcategories</p>
+    <div class="MGC__SubcategoriesExanded">
+      <ul class = "MGC__Ul">
+      {%- for link in linklists.megantic-sidebar-1-3-level.links -%}
+        {%- if link.links != blank -%}
+          {%- for child_link in link.links -%}
+            {% if link.url == current_collection %}
+              <li>
+                <a class="MGC__Link" href="{{ child_link.url }}">{{ child_link.title }}</a>
+              </li>
+            {% endif %}
+            {%- if child_link.links != blank -%}
+              {% if child_link.url == current_collection %}
+                {%- for grandchild_link in child_link.links -%}
+                  <li>
+                    <a class="MGC__Link" href="{{ grandchild_link.url }}">{{ grandchild_link.title }}</a>
+                  </li>
+                {% endfor %}
+              {% endif %}
+            {% endif %}
+          {% endfor %}
+        {% endif %}
+      {% endfor %}
+      {%- for link in linklists.megantic-sidebar-3-6-level.links -%}
+        {%- if link.links != blank -%}
+          {%- for child_link in link.links -%}
+            {% if link.url == current_collection %}
+              <li>
+                <a class="MGC__Link" href="{{ child_link.url }}">{{ child_link.title }}</a>
+              </li>
+            {% endif %}
+            {%- if child_link.links != blank -%}
+              {% if child_link.url == current_collection %}
+                {%- for grandchild_link in child_link.links -%}
+                  <li>
+                    <a class="MGC__Link" href="{{ grandchild_link.url }}">{{ grandchild_link.title }}</a>
+                  </li>
+                {% endfor %}
+              {% endif %}
+            {% endif %}
+          {% endfor %}
+        {% endif %}
+      {% endfor %}
+      </ul>
+  </div>{% endcomment %}
+  {% endif %}

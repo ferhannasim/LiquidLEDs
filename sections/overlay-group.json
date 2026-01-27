@@ -1,0 +1,95 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "type": "aside",
+  "name": "Overlay group",
+  "sections": {
+    "cart-drawer": {
+      "type": "cart-drawer",
+      "settings": {
+        "show_backorder_text": true,
+        "show_vendor": false,
+        "show_order_note": true,
+        "show_shipping_text_notice": true,
+        "show_additional_checkout_buttons": false,
+        "show_checkout_button": true,
+        "stick_footer": true,
+        "show_shipping_calculator": false,
+        "shipping_calculator_default_country": "Australia"
+      }
+    },
+    "product-compare": {
+      "type": "product-compare",
+      "blocks": {
+        "compare-1": {
+          "type": "image",
+          "settings": {
+            "show_line": false
+          }
+        },
+        "compare-2": {
+          "type": "vendor",
+          "disabled": true,
+          "settings": {
+            "show_line": false
+          }
+        },
+        "compare-3": {
+          "type": "title",
+          "settings": {
+            "show_line": false
+          }
+        },
+        "compare-4": {
+          "type": "price",
+          "settings": {
+            "show_line": false
+          }
+        },
+        "compare-5": {
+          "type": "description",
+          "disabled": true,
+          "settings": {
+            "truncate_description": false,
+            "words_to_show": 20,
+            "show_line": false
+          }
+        },
+        "specification_CCXNnY": {
+          "type": "specification",
+          "settings": {
+            "spec_metafields": "Bulb Base Type: product.metafields.custom.cap_type\nBulb Shape: product.metafields.custom.shape\nInput Voltage: product.metafields.custom.voltage\nWattage: product.metafields.custom.wattage\nRated lamp holder wattage: product.metafields.custom.rated_lamp_holder_wattage\nRated lighting chain wattage: product.metafields.custom.rated_lighting_chain_wattage\nIP Rating: product.metafields.custom.ip_rating\nBrightness: product.metafields.custom.luminous_flux\nColour Temperature: product.metafields.custom.colour_temperature\nCRI: product.metafields.custom.colour_rendering_index_cri\nDimmable: product.metafields.custom.dimmable\nIncandescent Equivalent: product.metafields.custom.incandescent_equivalent\nGlass Finish: product.metafields.custom.glass_finish\nBulb Diameter: product.metafields.custom.bulb_size\nTotal Length: product.metafields.custom.total_length\nDistance between lamp holders: product.metafields.custom.distance_between_lamp_holders\nLamp holder type: product.metafields.custom.lamp_holder_type\nAverage Life: product.metafields.custom.average_life\nBeam Angle: product.metafields.custom.beam_angle\nMaterial: product.metafields.custom.material\nManufacturer's Warranty: product.metafields.custom.manufacturer_s_warranty\nCertification's: product.metafields.custom.certification_s",
+            "spec_show_empty_metafields": false
+          }
+        },
+        "compare-6": {
+          "type": "variants",
+          "settings": {
+            "show_line": false
+          }
+        }
+      },
+      "block_order": [
+        "compare-1",
+        "compare-2",
+        "compare-3",
+        "compare-4",
+        "compare-5",
+        "specification_CCXNnY",
+        "compare-6"
+      ],
+      "settings": {}
+    }
+  },
+  "order": [
+    "cart-drawer",
+    "product-compare"
+  ]
+}

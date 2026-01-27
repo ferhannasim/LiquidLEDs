@@ -1,0 +1,175 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "parent": "header-group.json",
+  "context": {
+    "market": "nz"
+  },
+  "sections": {
+    "promo_strip_pWb3z": {
+      "type": "promo-strip",
+      "disabled": true,
+      "settings": {
+        "header-a7f7fa40bf02f941f4042e70ba05700e": null,
+        "section_height": "xsmall",
+        "header-2d94752a9b68ee423bf9f2edd6122191": null,
+        "color_scheme": "3",
+        "full_width": true,
+        "dividers": "border-top",
+        "header-ad1490db01a007e17e91fdbbbe91d85d": null,
+        "prevent_animation": false
+      },
+      "blocks": {
+        "heading_BzGYFr": {
+          "type": "heading",
+          "disabled": false,
+          "settings": {
+            "heading": "ATMOSPHERE UPGRADE: UP TO 20% OFF — ENDS 1 JAN",
+            "heading_size": "h5",
+            "show_on_mobile": true,
+            "show_on_desktop": true
+          }
+        },
+        "text_4CAj83": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Share something special with your customers.</p>",
+            "enlarge_text": true,
+            "show_on_mobile": true,
+            "show_on_desktop": true
+          }
+        },
+        "button_DWXaxz": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "SHOP NOW",
+            "button_link": "shopify://collections/black-friday-cyber-monday-sale",
+            "button_style": "btn btn--primary"
+          }
+        }
+      },
+      "block_order": [
+        "heading_BzGYFr",
+        "text_4CAj83",
+        "button_DWXaxz"
+      ],
+      "name": "Promo strip"
+    },
+    "promo_strip_zPXi8": {
+      "type": "promo-strip",
+      "disabled": true,
+      "settings": {
+        "header-d1ea733410e0955e23b127b10bdb8fe7": null,
+        "section_height": "xsmall",
+        "header-148a8b0d68050696c5fe5fc53ab4d23d": null,
+        "color_scheme": "3",
+        "full_width": true,
+        "dividers": "border-top",
+        "header-2eefcc873fab3057c5bf5b2bfda0e323": null,
+        "prevent_animation": false
+      },
+      "blocks": {
+        "heading_iccHq": {
+          "type": "heading",
+          "disabled": false,
+          "settings": {
+            "heading": "EOFY SALE UP TO 50% Off",
+            "heading_size": "h3",
+            "show_on_mobile": true,
+            "show_on_desktop": true
+          }
+        },
+        "text_9yrPG": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Share something special with your customers.</p>",
+            "enlarge_text": true,
+            "show_on_mobile": true,
+            "show_on_desktop": true
+          }
+        },
+        "button_UNKhD": {
+          "type": "button",
+          "disabled": false,
+          "settings": {
+            "button_label": "Shop Sale",
+            "button_link": "shopify://collections/clearance-sale",
+            "button_style": "btn btn--primary"
+          }
+        }
+      },
+      "block_order": [
+        "heading_iccHq",
+        "text_9yrPG",
+        "button_UNKhD"
+      ],
+      "name": "Promo strip"
+    },
+    "announcement": {
+      "settings": {},
+      "blocks": {
+        "announcement-1": {
+          "settings": {
+            "text": "<p><strong>Enjoy free DHL shipping on </strong><a href=\"/pages/shipping-to-new-zealand\" title=\"Shipping To New Zealand\"><strong>orders over NZ$199*</strong></a></p>"
+          }
+        },
+        "announcement_XhAFyd": {
+          "disabled": false,
+          "settings": {
+            "text": "<p><strong>Supporting </strong><a href=\"https://liquid-leds.com/en-nz/pages/lighting-with-purpose-our-partnership-with-the-fred-hollows-foundation\" title=\"The Fred Hollows Foundation\"><strong>The Fred Hollows Foundation</strong></a><strong>. Every order helps restore sight.</strong></p>"
+          }
+        }
+      }
+    },
+    "scrolling_banner_kf48ai": {
+      "disabled": true,
+      "settings": {},
+      "blocks": {
+        "text_YPyzQU": {
+          "settings": {
+            "text": "💡 Up to 50% Off Bulbs, Dimmers & String Lighting — Ends Tuesday 11:30 pm!",
+            "link": "https://liquid-leds.com/en-nz/collections/clearance-sale"
+          }
+        },
+        "text_wDEQFJ": {
+          "settings": {
+            "link": "https://liquid-leds.com/en-nz/collections/clearance-sale",
+            "font": "heading"
+          }
+        },
+        "text_pgMQD": {
+          "type": "text",
+          "disabled": false,
+          "settings": {
+            "text": "🧡 Light That Loves You Back",
+            "link": "https://liquid-leds.com/en-nz/collections/clearance-sale",
+            "font": "heading",
+            "heading_size": "h6"
+          }
+        }
+      },
+      "block_order": [
+        "text_YPyzQU",
+        "text_wDEQFJ",
+        "text_pgMQD"
+      ]
+    }
+  },
+  "order": [
+    "promo_strip_pWb3z",
+    "announcement",
+    "header",
+    "promo_strip_zPXi8",
+    "scrolling_banner_kf48ai"
+  ]
+}

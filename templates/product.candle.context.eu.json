@@ -1,0 +1,130 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "parent": "product.candle.json",
+  "context": {
+    "market": "eu"
+  },
+  "sections": {
+    "shoppable_image_faxFU": {
+      "type": "shoppable-image",
+      "disabled": true,
+      "settings": {
+        "image": "shopify://shop_images/Lighting_CRI_Comparison_-_LiquidLEDs.jpg",
+        "header-31c1bc74904ea7c2ad31de19c309c2b0": null,
+        "layout": "image_first",
+        "show_vendor": false,
+        "show_content": true,
+        "mob_center_text": true,
+        "header-995fa0a4a9e9cfc18feeca6467ed9a86": null,
+        "heading": "🌈 See Colours as They're Meant to Be Seen",
+        "text": "<p>Our High Colour Rendering Index (CRI 90+) technology ensures that every colour in your space appears true to life. Unlike standard LEDs that can wash out or distort colours, our candle bulbs reveal the rich, vibrant hues of your furnishings, artwork, and decor exactly as they were designed to be seen.</p><ul><li><strong>Enhanced skin tones</strong> - People look healthier and more natural</li><li><strong>Vibrant home decor</strong> - Fabrics, artwork, and furnishings display their true colours</li><li><strong>Improved ambiance</strong> - Creates a more inviting and authentic atmosphere</li></ul>",
+        "button_label": "",
+        "button_link": "",
+        "header-d0e9d149eb717cee4076af021efcb104": null,
+        "hotspot_color": "#070707",
+        "color_scheme": "none",
+        "button_style": "btn btn--primary"
+      },
+      "blocks": {},
+      "block_order": [],
+      "name": "Shoppable image"
+    },
+    "main": {
+      "settings": {},
+      "blocks": {
+        "divider-0": {
+          "disabled": true,
+          "settings": {}
+        },
+        "image_z4meG": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "title": "",
+            "image": "shopify://shop_images/Buy_in_bulk_and_save.svg",
+            "image_width": 560,
+            "image_align": "justify-start",
+            "url": ""
+          }
+        },
+        "richtext_8HmDW": {
+          "type": "richtext",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Buy in bulk and save! <br/>10+ save 5%<br/>20+ save 10%<br/>30+ save 15%<br/>50+ save 20%</p>"
+          }
+        },
+        "judge_me_reviews_review_snippet_widget_nz7J3": {
+          "type": "shopify://apps/judge-me-reviews/blocks/review_snippet_widget/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "disabled": false,
+          "settings": {
+            "paragraph-4f5e684bb1991962a3af6ba7aeeb4ec8": null,
+            "paragraph-ab8763b45856d6a3931d764fce61840a": null
+          }
+        },
+        "message-1": {
+          "settings": {
+            "bg_color": "#f4f4f4",
+            "text_color": "#2a2b2a"
+          }
+        },
+        "message-2": {
+          "settings": {
+            "bg_color": "#f4f4f4",
+            "text_color": "#2a2b2a"
+          }
+        },
+        "collapsible-content-2": {
+          "settings": {
+            "page": "shipping-to-europe"
+          }
+        }
+      },
+      "block_order": [
+        "vendor-sku",
+        "title",
+        "3e7fac93-7ed1-44b6-b882-99af47420c64",
+        "price",
+        "divider-0",
+        "image_z4meG",
+        "richtext_8HmDW",
+        "variant-picker",
+        "divider-1",
+        "buy-buttons",
+        "e0be5244-484c-4751-be23-938d1657421d",
+        "judge_me_reviews_review_snippet_widget_nz7J3",
+        "1a9e12c5-c94a-4986-ab78-ccb3d78bca12",
+        "message-1",
+        "message-2",
+        "collapsible-content-1",
+        "62039f84-401f-4025-9830-7b334867dfe7",
+        "collapsible-content-2",
+        "message-3",
+        "share"
+      ]
+    },
+    "recommendations": {
+      "settings": {
+        "layout": "carousel_on_mobile"
+      },
+      "blocks": {}
+    }
+  },
+  "order": [
+    "main",
+    "details",
+    "product-features",
+    "recommendations",
+    "2f9d2b69-1421-42ee-bf42-204579d8c79b",
+    "1695711824fc9578f1",
+    "shoppable_image_faxFU"
+  ]
+}

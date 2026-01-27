@@ -1,0 +1,104 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "show_page_title": true,
+        "heading_align": "text-center"
+      }
+    },
+    "rich_text_myD6hP": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_JGjyxH": {
+          "type": "heading",
+          "settings": {
+            "heading": "Michael Moskvin",
+            "heading_size": "h2",
+            "heading_h1": false
+          }
+        },
+        "subheading_wPPbXi": {
+          "type": "subheading",
+          "settings": {
+            "text": "Director at Liquidleds Lighting"
+          }
+        }
+      },
+      "block_order": [
+        "heading_JGjyxH",
+        "subheading_wPPbXi"
+      ],
+      "settings": {
+        "text_position": "justify-start",
+        "text_align": "text-start",
+        "mob_center_text": false,
+        "color_scheme": "none",
+        "full_width": true,
+        "prevent_animation": false
+      }
+    },
+    "image_banner_mmBdNe": {
+      "type": "image-banner",
+      "custom_css": [
+        ".image-banner {max-height: 500px; max-width: 400px;}"
+      ],
+      "settings": {
+        "image_desktop": "shopify://shop_images/IMG_1346.jpg",
+        "url": "",
+        "height_mode": "auto",
+        "fixed_height_desktop": 400,
+        "fixed_height_mobile": 350,
+        "overlay_position": "justify-center items-center",
+        "overlay_text_align": "text-center",
+        "mob_center_text": false,
+        "mobile_stacked": false,
+        "color_scheme": "white",
+        "full_width": false,
+        "transparent_content_color": "#ffffff",
+        "tint_color": "#000000",
+        "tint_opacity": 0,
+        "prevent_animation": false
+      }
+    },
+    "rich_text_iCgWCw": {
+      "type": "rich-text",
+      "blocks": {
+        "text_qD7U9Q": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Michael Moskvin has over 15 years of experience in the LED lighting industry, establishing himself as a leader in developing high-quality, energy-efficient lighting solutions. As the Director at Liquidleds Lighting, he collaborates with leading manufacturers to introduce innovative and cost-effective LED products to the market.</p><p>Michael's extensive knowledge of lighting technology, industry trends, and consumer needs enables him to create solutions that balance performance, durability, and affordability. His unique approach, prioritising quality over price, distinguishes him within the industry. He is passionate about sustainability and embracing cutting-edge advancements, and he is committed to helping businesses and homeowners transition to brighter, more innovative, and more efficient lighting options.</p><p>When he's not optimising the latest LED lineup, Michael enjoys sharing his insights through industry blogs and advising customers on the best solutions. His dedication to sharing knowledge helps keep the industry informed and engaged.</p>",
+            "enlarge_text": false
+          }
+        }
+      },
+      "block_order": [
+        "text_qD7U9Q"
+      ],
+      "settings": {
+        "text_position": "justify-start",
+        "text_align": "text-start",
+        "mob_center_text": false,
+        "color_scheme": "none",
+        "full_width": true,
+        "prevent_animation": false
+      }
+    }
+  },
+  "order": [
+    "main",
+    "rich_text_myD6hP",
+    "image_banner_mmBdNe",
+    "rich_text_iCgWCw"
+  ]
+}

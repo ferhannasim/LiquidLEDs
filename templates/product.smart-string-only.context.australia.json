@@ -1,0 +1,135 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "parent": "product.smart-string-only.json",
+  "context": {
+    "market": "australia"
+  },
+  "sections": {
+    "faq_Lj86W": {
+      "type": "faq",
+      "disabled": false,
+      "settings": {
+        "header-2299b3eaf6708f98562c06a8b9e42538": null,
+        "heading": "Frequently Asked Questions",
+        "heading_align": "text-center",
+        "header-70c43d2714535f432d910aae5bd62a84": null,
+        "color_scheme": "none",
+        "full_width": true
+      },
+      "blocks": {
+        "question_AaEPA": {
+          "type": "question",
+          "disabled": false,
+          "settings": {
+            "icon": "none",
+            "heading": "Can I connect multiple sets together?",
+            "text": "<p>Yes, these smart festoon strings are designed for easy expansion. You can safely connect up to 8 sets together from a single power source. The smart controller will automatically recognise the additional length, allowing you to control the entire run as one seamless string through the app</p>"
+          }
+        },
+        "question_QDww9": {
+          "type": "question",
+          "disabled": false,
+          "settings": {
+            "icon": "none",
+            "heading": "Are these festoons fully waterproof for outdoor use?",
+            "text": "<p>Absolutely. These strings are IP65 rated, meaning they are fully protected against rain, dust, and splashing water. While the controller and power plug should be kept in a dry-rated enclosure or undercover, the cables and bulbs are built to withstand Australian weather conditions year-round.</p>"
+          }
+        },
+        "question_YYBaL": {
+          "type": "question",
+          "disabled": false,
+          "settings": {
+            "icon": "none",
+            "heading": "Do I need a special hub to control the smart features?",
+            "text": "<p>No hub is required. Our Smart RGBW Festoons connect directly to your home 2.4GHz Wi-Fi network. Simply download the Smart Life app on your smartphone, and you can begin customising your colours, setting timers, and syncing your lights to music instantly.</p>"
+          }
+        },
+        "question_Ld4KX": {
+          "type": "question",
+          "disabled": false,
+          "settings": {
+            "icon": "none",
+            "heading": "Is the 'White' light a proper Warm White?",
+            "text": "<p>Yes. Unlike cheaper RGB strings that mix red, green, and blue to create a \"fake\" bluish-white, our strings are <strong>RGBW</strong>. This means they include a dedicated warm white LED chip (2700K), providing a beautiful, crisp, and traditional glow for everyday use, in addition to the millions of colour options.</p>"
+          }
+        },
+        "question_nCHAQ": {
+          "type": "question",
+          "disabled": false,
+          "settings": {
+            "icon": "none",
+            "heading": "Can I control the lights with my voice?",
+            "text": "<p>Yes, our smart system is fully compatible with Amazon Alexa and Google Assistant. Once set up, you can use simple voice commands to turn your lights on or off, change the brightness, or switch to your favourite colour scene without lifting a finger.</p>"
+          }
+        },
+        "question_QdMc6": {
+          "type": "question",
+          "disabled": false,
+          "settings": {
+            "icon": "none",
+            "heading": "Can I control each bulb individually?",
+            "text": "<p>Yes! The Smart Life App lets you customise individual bulbs or create group effects.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "question_AaEPA",
+        "question_QDww9",
+        "question_YYBaL",
+        "question_Ld4KX",
+        "question_nCHAQ",
+        "question_QdMc6"
+      ],
+      "name": "Collapsible content"
+    },
+    "main": {
+      "settings": {},
+      "blocks": {
+        "collapsible-content-1": {
+          "settings": {
+            "heading": "Here When You Need Us",
+            "text": "<p><strong>Need help? We're here for you.<br/><br/></strong>Our friendly team is available to assist you with any questions or concerns.</p><p>📞 <strong>Call us:</strong> <a href=\"tel:+612%208880%209033\"><span style=\"text-decoration:underline\">+612 8880 9033</span><br/><br/></a>💬 <strong>WhatsApp:</strong> <a href=\"https://wa.me/61483949669\"><span style=\"text-decoration:underline\">+61483949669<br/><br/></span></a>📧 <strong>Email us:</strong> <a href=\"https://liquid-leds.com/pages/contact-us\"><span style=\"text-decoration:underline\">Send us a message<br/><br/></span></a>❓ <strong>FAQs:</strong> <a href=\"https://liquid-leds.com/pages/faqs\"><span style=\"text-decoration:underline\">Visit our FAQ page ›</span></a></p><p>🕒 <strong>Support hours: </strong>Monday – Friday, 8:00 a.m. – 6:00 p.m. AEST</p>"
+          }
+        },
+        "62039f84-401f-4025-9830-7b334867dfe7": {
+          "settings": {
+            "heading": "Hassle-Free Returns",
+            "text": "<p><strong>Shop with Confidence</strong><br/><br/>Your satisfaction means everything to us. If you're not completely happy with your order, you can return it within 30 days of receiving it for a refund of the purchase price (excluding delivery).</p><p>We’ve been supporting our customers since 2010 and are here to help every step of the way.</p><p><a href=\"https://liquid-leds.com/en-au/pages/return-policy\" target=\"_blank\" title=\"Returns Policy\">View our full return policy ›</a></p>"
+          }
+        },
+        "collapsible-content-2": {
+          "settings": {
+            "heading": "Fast, Reliable Delivery",
+            "text": "<p>Orders placed before 10 a.m. AEST on business days are dispatched the same day from our Sydney warehouse.</p><p>✅ <strong>Free standard shipping</strong><br/><br/>• Metro areas: orders over $99<br/><br/>• Regional areas: orders over $199</p><p>🚚 <strong>Delivery timeframes</strong><br/><br/>• Sydney Metro: 1–3 business days<br/><br/>• Other NSW: 2–5 days<br/><br/>• Major cities: 2–5 days<br/><br/>• Regional areas: 2–7 days</p><p>📦 Express shipping available at checkout.</p><p>Please ensure your address is accurate to avoid delays and return-to-sender fees. If you haven’t received your order or there’s an issue, we’re here to help.</p><p><a href=\"/pages/shipping\" title=\"Shipping Within Australia\">View full shipping details ›</a></p>"
+          }
+        },
+        "share": {
+          "disabled": false,
+          "settings": {}
+        }
+      }
+    },
+    "product-features": {
+      "disabled": true,
+      "settings": {},
+      "blocks": {}
+    }
+  },
+  "order": [
+    "main",
+    "details",
+    "faq_Lj86W",
+    "product-features",
+    "1695711824fc9578f1",
+    "recommendations",
+    "2f9d2b69-1421-42ee-bf42-204579d8c79b"
+  ]
+}

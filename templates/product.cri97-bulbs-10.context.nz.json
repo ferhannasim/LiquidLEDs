@@ -1,0 +1,214 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "parent": "product.cri97-bulbs-10.json",
+  "context": {
+    "market": "nz"
+  },
+  "sections": {
+    "shoppable_image_G4C86": {
+      "type": "shoppable-image",
+      "disabled": false,
+      "settings": {
+        "image": "shopify://shop_images/CRI97_Vs_CRI80_LED_filament_bulbs.jpg",
+        "header-ef5931a2ceaf767d1a6b5b26030c322f": null,
+        "layout": "image_first",
+        "show_vendor": false,
+        "show_content": true,
+        "mob_center_text": false,
+        "header-df7117f95bbae7dbae4a4644d988c4a1": null,
+        "heading": "🌈 Experience Colours with Unprecedented Accuracy",
+        "text": "<p>Our advanced CRI97 technology scores a near-perfect 97/100 for colour accuracy, revealing the subtle hues and textures that standard LEDs distort.</p><ul><li><strong>True-to-Life Skin Tones:</strong> Renders skin tones with natural, healthy accuracy, making people appear radiant.</li><li><strong>Vibrant Textiles & Artwork:</strong> Reveals the full depth of colour and texture in your fabrics, paintings, and decor.</li><li><strong>Professional-Grade Quality:</strong> Enjoy the same colour accuracy trusted by photographers and art galleries in your own home.</li></ul>",
+        "button_label": "",
+        "button_link": "",
+        "header-d03076277f869aa90419180334287357": null,
+        "hotspot_color": "#070707",
+        "color_scheme": "none",
+        "button_style": "btn btn--primary"
+      },
+      "blocks": {},
+      "block_order": [],
+      "name": "Shoppable image"
+    },
+    "shoppable_image_Tm3EP": {
+      "type": "shoppable-image",
+      "disabled": false,
+      "settings": {
+        "image": "shopify://shop_images/LiquidLEDs_LED_light_bulbs.jpg",
+        "header-bc21d5cc254768c9a2b3a8bdcafcea85": null,
+        "layout": "image_last",
+        "show_vendor": false,
+        "show_content": true,
+        "mob_center_text": false,
+        "header-9b555a8e1b9ce016a494da25a81833df": null,
+        "heading": "💡Over a Decade of LED Expertise Since 2010",
+        "text": "<p>Since 2010, LiquidLEDs has been at the forefront of LED lighting technology. Our journey began with a mission to make premium, energy-efficient lighting accessible to everyone while providing exceptional customer service.</p><ul><li><strong>Pioneering LED design</strong> - We've refined our products through years of research and customer feedback</li><li><strong>Trusted by professionals</strong> - Chosen by interior designers, architects, and lighting specialists</li><li><strong>Proven reliability</strong> - Our bulbs are built on generations of technological improvements</li></ul>",
+        "button_label": "",
+        "button_link": "",
+        "header-19a4c7ccc718ce19eab5b6368c87aef9": null,
+        "hotspot_color": "#070707",
+        "color_scheme": "none",
+        "button_style": "btn btn--primary"
+      },
+      "blocks": {},
+      "block_order": [],
+      "name": "Shoppable image"
+    },
+    "shoppable_image_tcpTk": {
+      "type": "shoppable-image",
+      "disabled": false,
+      "settings": {
+        "image": "shopify://shop_images/Eye_Comfort_Technology_LiquidLEDs.jpg",
+        "header-679e30635c8991c506f578386017a184": null,
+        "layout": "image_first",
+        "show_vendor": false,
+        "show_content": true,
+        "mob_center_text": false,
+        "header-33f3ebf15b8790fc0f596137c0e7a6ab": null,
+        "heading": "👀Gentle on Your Eyes, Perfect for Extended Use",
+        "text": "<p>Experience lighting that transforms your space with our premium candle LED bulbs. Designed with meticulous attention to light quality, these bulbs create the perfect ambiance for any room while enhancing the beauty of your surroundings.</p><ul><li><strong>No visible flicker</strong> - Prevents eye strain and headaches</li><li><strong>Reduced blue light</strong> - Better for evening use and sleep patterns</li><li><strong>Stable light output</strong> - No fluctuations or buzzing</li></ul>",
+        "button_label": "",
+        "button_link": "",
+        "header-5d70ba503ce59d24da6258b4d1949989": null,
+        "hotspot_color": "#070707",
+        "color_scheme": "none",
+        "button_style": "btn btn--primary"
+      },
+      "blocks": {},
+      "block_order": [],
+      "name": "Shoppable image"
+    },
+    "faq_FFEGG": {
+      "type": "faq",
+      "disabled": false,
+      "settings": {
+        "header-e2967e8f1b060128ccd969f1327ea1fd": null,
+        "heading": "CRI 95+ LED Bulbs: High Colour Accuracy FAQs",
+        "heading_align": "text-center",
+        "header-640672fd68721b116d31a30e7336c387": null,
+        "color_scheme": "none",
+        "full_width": true
+      },
+      "blocks": {
+        "question_GQxH48": {
+          "type": "question",
+          "disabled": false,
+          "settings": {
+            "icon": "none",
+            "heading": "Why should I choose CRI 95+ LED bulbs over standard CRI 80?",
+            "text": "<p>Standard bulbs often make interiors look grey or \"muddy\" because they lack depth in the colour spectrum. Our CRI 95+ collection provides \"True Colour\" light that is almost indistinguishable from natural daylight, making your furniture, artwork, and skin tones look vibrant and accurate.</p>"
+          }
+        },
+        "question_jAHYpa": {
+          "type": "question",
+          "disabled": false,
+          "settings": {
+            "icon": "none",
+            "heading": "Do these high CRI bulbs have a high R9 value for reds?",
+            "text": "<p>Yes, our CRI 95+ range is specifically engineered with high R9 values, which is the specific metric for rendering deep reds. This is essential for bringing out the rich grain in timber flooring and ensuring skin tones look healthy rather than washed out under artificial light.</p>"
+          }
+        },
+        "question_TBhq8M": {
+          "type": "question",
+          "disabled": false,
+          "settings": {
+            "icon": "none",
+            "heading": "Are these high-quality LED bulbs flicker-free?",
+            "text": "<p>Absolutely. We use advanced constant-current drivers within our bulbs to ensure a flicker-free performance that is gentle on the eyes. This reduces the risk of eye strain and headaches, which are common issues with cheaper, low-quality LED alternatives.</p>"
+          }
+        },
+        "question_XyFxGy": {
+          "type": "question",
+          "disabled": false,
+          "settings": {
+            "icon": "none",
+            "heading": "Will these CRI 95+ bulbs work with my existing dimmer switches?",
+            "text": "<p>These bulbs are fully dimmable and designed to be compatible with most modern trailing-edge LED dimmers. To ensure the smoothest dimming range without buzzing, we always recommend checking that your dimmer switch is rated for low-wattage LED loads.</p>"
+          }
+        },
+        "question_CMMYLx": {
+          "type": "question",
+          "disabled": false,
+          "settings": {
+            "icon": "none",
+            "heading": "Can I use these bulbs in art galleries or high-end retail displays?",
+            "text": "<p>Yes, our CRI 95+ collection is the preferred choice for galleries and boutique retail where colour precision is non-negotiable. The high fidelity ensures that products and paintings are viewed exactly as the artist or designer intended, with no artificial colour shifting.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "question_GQxH48",
+        "question_jAHYpa",
+        "question_TBhq8M",
+        "question_XyFxGy",
+        "question_CMMYLx"
+      ],
+      "name": "Collapsible content"
+    },
+    "main": {
+      "settings": {},
+      "blocks": {
+        "collapsible-content-1": {
+          "settings": {
+            "heading": "Here When You Need Us",
+            "text": "<p><strong>Need help? We're here for you.</strong></p><p>Our friendly team is available to assist you with any questions or concerns.</p><p>📞 <strong>Call us:</strong> <a href=\"tel:+612%208880%209033\">+612 8880 9033<br/></a>💬 <strong>WhatsApp:</strong> <a href=\"https://wa.me/61483949669\">+61483949669<br/></a>📧 <strong>Email us:</strong> <a href=\"https://liquid-leds.com/pages/contact-us\">Send us a message<br/></a>❓ <strong>FAQs:</strong> <a href=\"https://liquid-leds.com/pages/faqs\">Visit our FAQ page ›</a></p><p>🕒 <strong>Support hours: </strong>Monday – Friday, 8:00 a.m. – 6:00 p.m. AEST</p>"
+          }
+        },
+        "62039f84-401f-4025-9830-7b334867dfe7": {
+          "settings": {
+            "heading": "Hassle-Free Returns",
+            "text": "<p><strong>Shop with Confidence</strong></p><p>Your satisfaction means everything to us. If you're not completely satisfied with your order, you can return it within 30 days of receipt for a refund of the purchase price (excluding delivery costs).</p><p>We’ve been supporting our customers since 2010 and are here to help every step of the way.</p><p><a href=\"https://liquid-leds.com/en-au/pages/return-policy\">View our full return policy ›</a></p>"
+          }
+        },
+        "collapsible-content-2": {
+          "settings": {
+            "heading": "Fast, Reliable Delivery",
+            "text": "<p><strong>We ship fast from Sydney to New Zealand!<br/><br/></strong>Choose from Australia Post, DHL E-Commerce, or DHL Express at checkout.</p><p>✔️ Same-day dispatch on business days before 10 a.m. AEST<br/>✔️ Free DHL shipping on orders over NZD $199*<br/>✔️ All orders include tracking</p><p><strong>Estimated delivery times:<br/></strong>• DHL Express: 2–5 business days</p><p>• DHL E-Commerce: 6–10 business days<br/>• Australia Post: 7–12 business days</p><p>(*Excludes bulky items like festoon strings and poles.)</p><p><a href=\"https://liquid-leds.com/pages/shipping-to-new-zealand\">View full NZ shipping details ›</a></p>",
+            "page": ""
+          }
+        },
+        "1a9e12c5-c94a-4986-ab78-ccb3d78bca12": {
+          "disabled": true,
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "vendor-sku",
+        "title",
+        "3e7fac93-7ed1-44b6-b882-99af47420c64",
+        "price",
+        "variant-picker",
+        "divider-0",
+        "divider-1",
+        "buy-buttons",
+        "e0be5244-484c-4751-be23-938d1657421d",
+        "judge_me_reviews_review_snippet_widget_gNBwT3",
+        "collapsible-content-1",
+        "62039f84-401f-4025-9830-7b334867dfe7",
+        "collapsible-content-2",
+        "1a9e12c5-c94a-4986-ab78-ccb3d78bca12",
+        "message-3",
+        "share"
+      ]
+    }
+  },
+  "order": [
+    "main",
+    "details",
+    "product-features",
+    "shoppable_image_G4C86",
+    "shoppable_image_Tm3EP",
+    "shoppable_image_tcpTk",
+    "faq_FFEGG",
+    "1695711824fc9578f1",
+    "recommendations",
+    "2f9d2b69-1421-42ee-bf42-204579d8c79b"
+  ]
+}

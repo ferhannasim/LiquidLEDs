@@ -1,0 +1,297 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "parent": "index.json",
+  "context": {
+    "market": "gb"
+  },
+  "sections": {
+    "blocks_Nw7fy": {
+      "type": "_blocks",
+      "disabled": false,
+      "custom_css": [
+        "{width: 100%; max-width: 1240px; margin: 0 auto; padding: 0 20px;}"
+      ],
+      "settings": {},
+      "blocks": {
+        "ai_gen_block_9c13453_xkNaH6": {
+          "type": "ai_gen_block_9c13453",
+          "disabled": false,
+          "settings": {
+            "header-c6a2112467a87ee87d763c9920f6f389": null,
+            "content": "<h2><strong>Discover Premium LED Light Bulbs for Every Space in the UK</strong></h2><p>Transform your home or business with the brilliance of LED lighting from LiquidLEDs, the UK’s trusted destination for innovative, energy-efficient light bulbs. Explore our wide range of <a href=\"https://liquid-leds.com/en-uk/collections/classic-led-light-bulbs\" title=\"https://liquid-leds.com/en-uk/collections/classic-led-light-bulbs\"><strong>LED light bulbs</strong> </a>designed to enhance your home, office, or commercial space with style, efficiency, and reliable performance.</p><h3><strong>Innovative LED Lighting Solutions for Every Space</strong></h3><p>With advanced LED technology, LiquidLEDs brings brightness and efficiency to UK homes, workplaces, and hospitality venues. From <a href=\"https://liquid-leds.com/en-uk/collections/classic-led-light-bulbs\" title=\"https://liquid-leds.com/en-uk/collections/classic-led-light-bulbs\"><strong>modern indoor lighting</strong></a> to versatile LED solutions, our products combine long life, low energy use, and timeless design. Whether you’re after everyday <a href=\"https://liquid-leds.com/en-uk/collections/dimmable-led-gls-a60-a19-light-bulbs\" title=\"https://liquid-leds.com/en-uk/collections/dimmable-led-gls-a60-a19-light-bulbs\"><strong>dimmable LED bulbs</strong></a> or searching for the best <a href=\"https://liquid-leds.com/en-uk/collections/vintage-led-light-bulbs\" title=\"https://liquid-leds.com/en-uk/collections/vintage-led-light-bulbs\"><strong>vintage filament LED bulbs</strong></a>, our collection delivers performance, savings, and aesthetics.</p><h3><strong>The Best LED Lighting for Your Interior Spaces</strong></h3><p>Elevate your ambience with high-quality interior LED bulbs. From elegant <a href=\"https://liquid-leds.com/en-uk/collections/globe-dimmable-led-light-bulbs\" title=\"https://liquid-leds.com/en-uk/collections/globe-dimmable-led-light-bulbs\"><strong>globe LED bulbs</strong></a> for bedrooms and hallways to stylish <a href=\"https://liquid-leds.com/en-uk/collections/candle-led-light-bulbs\" title=\"https://liquid-leds.com/en-uk/collections/candle-led-light-bulbs\"><strong>candle LED bulbs</strong></a> for living areas, every product is designed with efficiency and atmosphere in mind. It’s simple to create a warm, well-lit environment tailored to your taste with our carefully selected range.</p><h3><strong>Precision Lighting for Beauty, Functionality, and Ambience</strong></h3><p>Achieve perfect clarity and focus with purpose-built designs. Our ultra-high CRI LED bulbs provide flawless illumination for grooming, makeup, and décor, while <a href=\"https://liquid-leds.com/en-uk/collections/spotlight-led-lighting-mr16-gu10\" title=\"https://liquid-leds.com/en-uk/collections/spotlight-led-lighting-mr16-gu10\"><strong>LED spotlights</strong></a> offer targeted brightness for kitchens, bathrooms, and galleries. Whether for everyday use or highlighting special features, our lighting combines practicality with style.</p><h3><strong>Why Choose LiquidLEDs for Your Lighting in the UK?</strong></h3><p>As a trusted brand, LiquidLEDs delivers innovation, efficiency, and design in every product. From <a href=\"https://liquid-leds.com/en-uk/collections/classic-led-light-bulbs\" title=\"https://liquid-leds.com/en-uk/collections/classic-led-light-bulbs\"><strong>classic LED bulbs</strong></a> to specialist lighting, we make it easy to <a href=\"https://liquid-leds.com/en-uk\" title=\"https://liquid-leds.com/en-uk\"><strong>buy LED bulbs online in the UK</strong> </a>with fast nationwide delivery. Built for longevity and energy savings, our products are perfect for homes, businesses, and creative spaces. Choose LiquidLEDs for the best <a><strong>LED lighting in the UK</strong></a> and experience illumination that transforms your environment.</p><h3><strong>Create the Perfect Atmosphere</strong></h3><p>Lighting sets the mood – and with LiquidLEDs, you can create exactly the atmosphere you want. From soft, cosy glows for evenings to bright, focused beams for productivity, our LEDs adapt to every moment. Whether it’s a night light for a relaxing bedroom or statement lighting for vibrant living spaces, you’ll find the perfect solution in our <a href=\"https://liquid-leds.com/en-uk/collections/warm-white-led-light-bulbs-2700-kelvin\" title=\"https://liquid-leds.com/en-uk/collections/warm-white-led-light-bulbs-2700-kelvin\"><strong>LED collection</strong></a>.</p>",
+            "preview_height": 140,
+            "gradient_height": 60,
+            "animation_speed": 300,
+            "header-4a748319a37b3de12b715cfd57daab43": null,
+            "text_color": "#000000",
+            "text_font_size": 16,
+            "background_color": "#ffffff",
+            "header-b8ab2a5011204d0c36d65c83edb91ae9": null,
+            "read_more_text": "Learn More",
+            "read_less_text": "Show Less",
+            "button_background": "#2a2b2a",
+            "button_text_color": "#ffffff",
+            "button_hover_background": "#2a2b2a",
+            "button_hover_text_color": "#ffffff",
+            "button_border_color": "#2a2b2a",
+            "button_hover_border_color": "#2a2b2a",
+            "button_border_width": 2,
+            "button_border_radius": 8,
+            "button_padding": 10,
+            "button_font_size": 14
+          }
+        }
+      },
+      "block_order": [
+        "ai_gen_block_9c13453_xkNaH6"
+      ]
+    },
+    "4c7aae1f-2d70-4195-8367-36615838740e": {
+      "settings": {
+        "overlay_position": "justify-start items-center",
+        "overlay_text_align": "text-start"
+      },
+      "blocks": {
+        "template--14626484748391__4c7aae1f-2d70-4195-8367-36615838740e-heading-1": {
+          "disabled": false,
+          "settings": {
+            "heading": "Warm, Energy-Efficient LED Bulbs for Every UK Home",
+            "heading_size": "h3"
+          }
+        },
+        "template--14626484748391__4c7aae1f-2d70-4195-8367-36615838740e-text-1": {
+          "disabled": true,
+          "settings": {
+            "text": "Flicker-free, high-CRI LED filament bulbs that create a warm, designer ambiance — gentle on your eyes and your home.",
+            "enlarge_text": true
+          }
+        },
+        "template--14626484748391__4c7aae1f-2d70-4195-8367-36615838740e-button-1": {
+          "settings": {
+            "button_1_label": "Discover LED Bulbs",
+            "button_1_link": "https://liquid-leds.com/en-uk/collections/classic-led-light-bulbs"
+          }
+        }
+      }
+    },
+    "icons_with_text_gacyPL": {
+      "settings": {
+        "mobile_stack": true
+      },
+      "blocks": {
+        "item_dPAr6A": {
+          "settings": {
+            "custom_icon": "shopify://shop_images/Trusted_by_100_000_Customers_47140b9e-3f5e-4700-a9e9-0bf8ac969594.png",
+            "heading": "Trusted by 100,000+ Customers",
+            "text": ""
+          }
+        },
+        "item_DrxMPV": {
+          "settings": {
+            "custom_icon": "shopify://shop_images/Fast_Reliable_Shipping.png",
+            "heading": "Fast & Reliable Shipping",
+            "text": ""
+          }
+        },
+        "item_Gtkpaj": {
+          "settings": {
+            "custom_icon": "shopify://shop_images/30-Day_Risk-Free_Guarantee.png",
+            "heading": "30-Day Risk-Free Guarantee",
+            "text": ""
+          }
+        }
+      }
+    },
+    "bd9ebffd-fb67-4c56-95a8-fef7be83ce90": {
+      "settings": {
+        "color_scheme": "none"
+      },
+      "blocks": {}
+    },
+    "collection-list": {
+      "settings": {
+        "title": "Explore LED Bulbs by Style & Purpose"
+      },
+      "blocks": {}
+    },
+    "featured-collection": {
+      "disabled": true,
+      "settings": {
+        "title": "High CRI LED Bulbs for True-to-Life Colours",
+        "collection": "ultra-high-cri-bulbs"
+      },
+      "blocks": {}
+    },
+    "featured_collection_RTrbPg": {
+      "disabled": true,
+      "settings": {},
+      "blocks": {}
+    },
+    "background_video_UFjVKM": {
+      "settings": {},
+      "blocks": {
+        "heading_R8fwer": {
+          "settings": {
+            "heading": "Set the Mood with Seamless Dimming ✨",
+            "heading_size": "h3"
+          }
+        },
+        "text_JQHNRy": {
+          "settings": {
+            "text": "<p>Enjoy smooth, flicker-free dimming with LED bulbs designed to work with a wide range of UK dimmers. Create the perfect light for any moment.</p>"
+          }
+        },
+        "button_4ey7yE": {
+          "settings": {
+            "button_label": "Shop Dimmable Bulbs",
+            "button_link": "https://liquid-leds.com/en-uk/collections/flicker-free-led-light-bulbs",
+            "button_style": "btn btn--primary"
+          }
+        }
+      }
+    },
+    "b135d63c-147c-4971-ab38-3d4f34b168e8": {
+      "disabled": true,
+      "settings": {
+        "title": "Flicker-Free LED Bulbs for Eye Comfort",
+        "collection": "flicker-free-led-light-bulbs"
+      },
+      "blocks": {}
+    },
+    "slideshow_TEi8N": {
+      "type": "slideshow",
+      "disabled": false,
+      "settings": {
+        "header-6642b0f5d8061834320a8e5f31120112": null,
+        "height_mode": "auto",
+        "fixed_height_desktop": 600,
+        "fixed_height_mobile": 350,
+        "mobile_stacked": false,
+        "header-bf2cf92549516507d390616d541eac40": null,
+        "nav_style": "slideshow_nav_lines",
+        "pagination_color": "#ffffff",
+        "nav_position": "justify-center",
+        "transition": "slide-fade",
+        "autoplay": true,
+        "slider_pause": false,
+        "autoplay_speed": 5,
+        "header-927666b6fb0139335640595b0fae3a5f": null,
+        "color_scheme": "white",
+        "full_width": true,
+        "tint_color": "#000000",
+        "tint_opacity": 40,
+        "header-d973bdbf22fcd43c495b6a9ab6a1acd9": null,
+        "accessibility_info": "",
+        "prevent_animation": true
+      },
+      "blocks": {
+        "slide_QGgeM": {
+          "type": "slide",
+          "disabled": false,
+          "settings": {
+            "image_desktop": "shopify://shop_images/Flicker-Free_Light_for_Cozy_Nights_In_final_banner.jpg",
+            "image_mobile": "shopify://shop_images/Flicker-Free_Light_for_Cozy_Nights_In_mobile_image.jpg",
+            "url": "",
+            "header-62a82a13c3070a640ed46cf76d0a7da3": null,
+            "overlay_position": "justify-start items-center",
+            "overlay_text_align": "text-center",
+            "mob_center_text": false,
+            "subheading": "",
+            "heading": "Flicker-Free Light for Relaxed Evenings at Home",
+            "heading_size": "h4",
+            "heading_h1": false,
+            "text": "<p>Soft, steady light that protects your eyes and warms your room. Premium LED filament bulbs made for UK homes and flats.</p>",
+            "enlarge_text": true,
+            "button_1_label": "Shop Flicker-Free Bulbs",
+            "button_1_link": "https://liquid-leds.com/en-uk/collections/flicker-free-led-light-bulbs",
+            "button_1_style": "btn btn--primary",
+            "button_2_label": "",
+            "button_2_link": "",
+            "button_2_style": "btn btn--primary",
+            "transparent_content_color": "#ffffff",
+            "header-999787647429d0c04f3360d58efce570": null,
+            "countdown_show": false,
+            "countdown_end_date": "",
+            "countdown_end_time": "",
+            "countdown_end_text": "",
+            "enlarge_end_text": false,
+            "countdown_hide_on_end": false,
+            "use_custom_colors": false,
+            "count_color": "#fff",
+            "bg_color": "#070707",
+            "bg_grad": ""
+          }
+        },
+        "slide_LEGRg": {
+          "type": "slide",
+          "disabled": false,
+          "settings": {
+            "image_desktop": "shopify://shop_images/Vintage_Glow._Modern_Tech.-Banner.jpg",
+            "image_mobile": "shopify://shop_images/Vintage_Glow._Modern_Tech.-banner_mobile.jpg",
+            "url": "",
+            "header-e37490c9162c23a9f22533ea20d2156a": null,
+            "overlay_position": "justify-center items-center",
+            "overlay_text_align": "text-center",
+            "mob_center_text": false,
+            "subheading": "",
+            "heading": "Vintage Glow with Modern LED Quality",
+            "heading_size": "h4",
+            "heading_h1": false,
+            "text": "<p>High-CRI filament bulbs that bring warm, natural light to design-led UK interiors.</p>",
+            "enlarge_text": true,
+            "button_1_label": "Explore the Collection",
+            "button_1_link": "https://liquid-leds.com/en-uk/collections/ultra-high-cri-bulbs",
+            "button_1_style": "btn btn--primary",
+            "button_2_label": "",
+            "button_2_link": "",
+            "button_2_style": "btn btn--primary",
+            "transparent_content_color": "#ffffff",
+            "header-7f8dd71e20915dcd9280478316cfab51": null,
+            "countdown_show": false,
+            "countdown_end_date": "",
+            "countdown_end_time": "",
+            "countdown_end_text": "",
+            "enlarge_end_text": false,
+            "countdown_hide_on_end": false,
+            "use_custom_colors": false,
+            "count_color": "#fff",
+            "bg_color": "#070707",
+            "bg_grad": ""
+          }
+        }
+      },
+      "block_order": [
+        "slide_QGgeM",
+        "slide_LEGRg"
+      ],
+      "name": "Slideshow"
+    }
+  },
+  "order": [
+    "4c7aae1f-2d70-4195-8367-36615838740e",
+    "slideshow_TEi8N",
+    "icons_with_text_gacyPL",
+    "bd9ebffd-fb67-4c56-95a8-fef7be83ce90",
+    "multi-column",
+    "collection-list",
+    "featured-collection",
+    "62e6e5e0-6f95-43c9-82a5-281a6f8ef25b",
+    "featured_collection_RTrbPg",
+    "background_video_UFjVKM",
+    "featured_collection_t73BMT",
+    "b135d63c-147c-4971-ab38-3d4f34b168e8",
+    "169614538727ade400",
+    "411d078d-1342-4aa3-9d0a-132054f14f07",
+    "newsletter_7f3WRc",
+    "17513432910ce5ce6f",
+    "blocks_Nw7fy"
+  ]
+}

@@ -1,0 +1,338 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "parent": "product.driver.json",
+  "context": {
+    "market": "nz"
+  },
+  "sections": {
+    "logo_list_AFKji": {
+      "type": "logo-list",
+      "disabled": false,
+      "settings": {
+        "header-dc0cc4e2d6e1ce02e17f22c3ea5936dd": null,
+        "title": "",
+        "heading_align": "text-center",
+        "button_label": "",
+        "button_link": "",
+        "header-5e6ca91ed76874a747048f2c743de340": null,
+        "layout": "carousel",
+        "spacing": 40,
+        "logo_grid_align": "justify-center",
+        "header-b4fe99f7a2cecf48c9bfdff58a141fbd": null,
+        "color_scheme": "1",
+        "full_width": true
+      },
+      "blocks": {
+        "logo_Xbbrd": {
+          "type": "logo",
+          "disabled": false,
+          "settings": {
+            "image": "shopify://shop_images/image001_4.jpg",
+            "url": "",
+            "logo_width": 120,
+            "text": ""
+          }
+        },
+        "logo_CwkFN": {
+          "type": "logo",
+          "disabled": false,
+          "settings": {
+            "image": "shopify://shop_images/Logo_M-10.jpg",
+            "url": "",
+            "logo_width": 120,
+            "text": ""
+          }
+        },
+        "logo_tAAKC": {
+          "type": "logo",
+          "disabled": false,
+          "settings": {
+            "image": "shopify://shop_images/Logo_M-06.jpg",
+            "url": "",
+            "logo_width": 120,
+            "text": ""
+          }
+        },
+        "logo_iXxUt": {
+          "type": "logo",
+          "disabled": false,
+          "settings": {
+            "image": "shopify://shop_images/Sydney_Opera_House.png",
+            "url": "",
+            "logo_width": 120,
+            "text": ""
+          }
+        },
+        "logo_6TQdE": {
+          "type": "logo",
+          "disabled": false,
+          "settings": {
+            "image": "shopify://shop_images/HisMajestysTheatre-Logo.png",
+            "url": "",
+            "logo_width": 120,
+            "text": ""
+          }
+        },
+        "logo_KTnbx": {
+          "type": "logo",
+          "disabled": false,
+          "settings": {
+            "image": "shopify://shop_images/Regent_Theatre.png",
+            "url": "",
+            "logo_width": 120,
+            "text": ""
+          }
+        },
+        "logo_c7cPc": {
+          "type": "logo",
+          "disabled": false,
+          "settings": {
+            "image": "shopify://shop_images/Logo_M-03.jpg",
+            "url": "",
+            "logo_width": 120,
+            "text": ""
+          }
+        },
+        "logo_6QT7k": {
+          "type": "logo",
+          "disabled": false,
+          "settings": {
+            "image": "shopify://shop_images/FP-LOGO-MAAS.jpg",
+            "url": "",
+            "logo_width": 120,
+            "text": ""
+          }
+        },
+        "logo_BTcpi": {
+          "type": "logo",
+          "disabled": false,
+          "settings": {
+            "image": "shopify://shop_images/Logo_M-05.jpg",
+            "url": "",
+            "logo_width": 120,
+            "text": ""
+          }
+        },
+        "logo_hqFpC": {
+          "type": "logo",
+          "disabled": false,
+          "settings": {
+            "image": "shopify://shop_images/Logo_M-04.jpg",
+            "url": "",
+            "logo_width": 120,
+            "text": ""
+          }
+        },
+        "logo_D4CHk": {
+          "type": "logo",
+          "disabled": false,
+          "settings": {
+            "image": "shopify://shop_images/Logo_M-09.jpg",
+            "url": "",
+            "logo_width": 120,
+            "text": ""
+          }
+        },
+        "logo_ERm88": {
+          "type": "logo",
+          "disabled": false,
+          "settings": {
+            "image": "shopify://shop_images/The_Star_Casino_Sydney.png",
+            "url": "",
+            "logo_width": 120,
+            "text": ""
+          }
+        },
+        "logo_MUTrf": {
+          "type": "logo",
+          "disabled": false,
+          "settings": {
+            "image": "shopify://shop_images/vibe_hotels.png",
+            "url": "",
+            "logo_width": 120,
+            "text": ""
+          }
+        },
+        "logo_R6HDD": {
+          "type": "logo",
+          "disabled": false,
+          "settings": {
+            "image": "shopify://shop_images/Capella_Hotels.jpg",
+            "url": "",
+            "logo_width": 120,
+            "text": ""
+          }
+        },
+        "logo_DhraX": {
+          "type": "logo",
+          "disabled": false,
+          "settings": {
+            "image": "shopify://shop_images/Melbourne_Theatre_Company_logo.png",
+            "url": "",
+            "logo_width": 120,
+            "text": ""
+          }
+        }
+      },
+      "block_order": [
+        "logo_Xbbrd",
+        "logo_CwkFN",
+        "logo_tAAKC",
+        "logo_iXxUt",
+        "logo_6TQdE",
+        "logo_KTnbx",
+        "logo_c7cPc",
+        "logo_6QT7k",
+        "logo_BTcpi",
+        "logo_hqFpC",
+        "logo_D4CHk",
+        "logo_ERm88",
+        "logo_MUTrf",
+        "logo_R6HDD",
+        "logo_DhraX"
+      ]
+    },
+    "icons_with_text_qVXM3": {
+      "type": "icons-with-text",
+      "disabled": false,
+      "settings": {
+        "header-7e8f8381f857999cc1e22cfa198caef5": null,
+        "heading": "",
+        "heading_align": "text-start",
+        "header-6d30d0cb75969f8049da71cd8abf53cb": null,
+        "icon_size": 48,
+        "title_type_scale": "medium",
+        "text_type_scale": "medium",
+        "header-b3440dee89487540950704ab2cd10f40": null,
+        "icon_position": "beside",
+        "mobile_stack": true,
+        "section_height": "medium",
+        "header-cd8d889b43547699e4cb16cbe9b5e403": null,
+        "color_scheme": "1",
+        "full_width": true,
+        "dividers": "none",
+        "header-03ac90644a3d8db152810083750488f4": null,
+        "prevent_animation": false
+      },
+      "blocks": {
+        "item_CXbF8": {
+          "type": "item",
+          "disabled": false,
+          "settings": {
+            "icon": "check_mark",
+            "custom_icon": null,
+            "heading": "",
+            "text": "<p>Over <strong>100,000 Happy Customers</strong></p>",
+            "link": ""
+          }
+        },
+        "item_T9MdU": {
+          "type": "item",
+          "disabled": false,
+          "settings": {
+            "icon": "check_mark",
+            "custom_icon": null,
+            "heading": "",
+            "text": "<p>An <strong>Australian Company Since 2010</strong></p>",
+            "link": ""
+          }
+        },
+        "item_YrppX": {
+          "type": "item",
+          "disabled": false,
+          "settings": {
+            "icon": "check_mark",
+            "custom_icon": null,
+            "heading": "",
+            "text": "<p>30 day <strong>Money Back Guarantee</strong></p>",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "item_CXbF8",
+        "item_T9MdU",
+        "item_YrppX"
+      ]
+    },
+    "main": {
+      "settings": {},
+      "blocks": {
+        "estimated_shipping_product_page_app_embed_block_eYtTH": {
+          "type": "shopify://apps/estimated-shipping/blocks/product-page-app-embed-block/7ebf54ba-5c4b-40a7-b66a-1f977644b1a9",
+          "disabled": false,
+          "settings": {
+            "paragraph-268afa65dbd77ead6731125284ccf204": null
+          }
+        },
+        "judge_me_reviews_review_snippet_widget_jrrTd": {
+          "type": "shopify://apps/judge-me-reviews/blocks/review_snippet_widget/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "disabled": false,
+          "settings": {
+            "paragraph-7efa717b6997082c61b38bcb0765cbc8": null,
+            "paragraph-c0d11155d6a300e8b94267f62458ee69": null
+          }
+        },
+        "collapsible-content-1": {
+          "settings": {
+            "heading": "Here When You Need Us",
+            "text": "<p><strong>Need help? We're here for you.<br/><br/></strong>Our friendly team is available to assist you with any questions or concerns.</p><p>📞 <strong>Call us:</strong> <a href=\"tel:+612%208880%209033\"><span style=\"text-decoration:underline\">+612 8880 9033</span><br/><br/></a>💬 <strong>WhatsApp:</strong> <a href=\"https://wa.me/61483949669\"><span style=\"text-decoration:underline\">+61483949669<br/><br/></span></a>📧 <strong>Email us:</strong> <a href=\"https://liquid-leds.com/pages/contact-us\"><span style=\"text-decoration:underline\">Send us a message<br/><br/></span></a>❓ <strong>FAQs:</strong> <a href=\"https://liquid-leds.com/pages/faqs\"><span style=\"text-decoration:underline\">Visit our FAQ page ›</span></a></p><p>🕒 <strong>Support hours: </strong>Monday – Friday, 8:00 a.m. – 6:00 p.m. AEST</p><p></p>"
+          }
+        },
+        "62039f84-401f-4025-9830-7b334867dfe7": {
+          "settings": {
+            "heading": "Hassle-Free Returns",
+            "text": "<p><strong>Shop with Confidence<br/><br/></strong>Your satisfaction means everything to us. If you're not completely happy with your order, you can return it within 30 days of receiving it for a refund of the purchase price (excluding delivery).</p><p>We’ve been supporting our customers since 2010 and are here to help every step of the way.</p><p><a href=\"https://liquid-leds.com/en-au/pages/return-policy\"><span style=\"text-decoration:underline\">View our full return policy ›</span></a></p>"
+          }
+        },
+        "collapsible-content-2": {
+          "settings": {
+            "heading": "Fast, Reliable Delivery",
+            "text": "<p><strong>We ship fast from Sydney to New Zealand!<br/></strong>Choose from Australia Post, DHL E-Commerce, or DHL Express at checkout.</p><p>✔️ Same-day dispatch on business days before 10 a.m. AEST<br/>✔️ Free DHL shipping on orders over NZD $199*<br/>✔️ All orders include tracking</p><p><strong>Estimated delivery times:<br/></strong>• DHL Express: 2–5 business days<br/>• DHL E-Commerce: 6–10 business days<br/>• Australia Post: 7–12 business days</p><p>(*Excludes bulky items like festoon strings and poles.)</p><p><a href=\"https://liquid-leds.com/pages/shipping-to-new-zealand\">View full NZ shipping details ›</a></p>",
+            "page": ""
+          }
+        },
+        "share": {
+          "disabled": false,
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "vendor-sku",
+        "title",
+        "3e7fac93-7ed1-44b6-b882-99af47420c64",
+        "price",
+        "variant-picker",
+        "divider-0",
+        "buy-buttons",
+        "e0be5244-484c-4751-be23-938d1657421d",
+        "estimated_shipping_product_page_app_embed_block_eYtTH",
+        "judge_me_reviews_review_snippet_widget_jrrTd",
+        "collapsible-content-1",
+        "62039f84-401f-4025-9830-7b334867dfe7",
+        "collapsible-content-2",
+        "1a9e12c5-c94a-4986-ab78-ccb3d78bca12",
+        "message-3",
+        "share"
+      ]
+    }
+  },
+  "order": [
+    "main",
+    "details",
+    "product-features",
+    "recommendations",
+    "2f9d2b69-1421-42ee-bf42-204579d8c79b",
+    "logo_list_AFKji",
+    "1695711824fc9578f1",
+    "icons_with_text_qVXM3"
+  ]
+}

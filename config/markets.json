@@ -1,0 +1,58 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "markets": {
+    "australia": {
+      "parent": "@default"
+    },
+    "nz": {
+      "parent": "@default"
+    },
+    "gb": {
+      "parent": "@default"
+    },
+    "eu": {
+      "parent": "@default"
+    },
+    "sg": {
+      "parent": "@default"
+    },
+    "7e0d8a47-0a13-40e6-a855-f4433e63821b": {
+      "parent": "@default"
+    },
+    "bahrain": {
+      "parent": "@default"
+    },
+    "ca": {
+      "parent": "@default"
+    },
+    "dubai": {
+      "parent": "@default"
+    },
+    "hong-kong": {
+      "parent": "@default"
+    },
+    "india": {
+      "parent": "@default"
+    },
+    "malaysia": {
+      "parent": "@default"
+    },
+    "qatar": {
+      "parent": "@default"
+    },
+    "thailand": {
+      "parent": "@default"
+    },
+    "international": {
+      "parent": "@default"
+    }
+  }
+}

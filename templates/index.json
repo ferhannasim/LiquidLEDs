@@ -1,0 +1,1047 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "4c7aae1f-2d70-4195-8367-36615838740e": {
+      "type": "image-banner",
+      "blocks": {
+        "template--14626484748391__4c7aae1f-2d70-4195-8367-36615838740e-heading-1": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "Welcome to LED Light Bulbs Experts",
+            "heading_size": "h4",
+            "heading_h1": false
+          }
+        },
+        "template--14626484748391__4c7aae1f-2d70-4195-8367-36615838740e-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<h1 class=\"meg-h1\">Welcome to LED Light Bulbs Experts!</h1>",
+            "enlarge_text": false
+          }
+        },
+        "template--14626484748391__4c7aae1f-2d70-4195-8367-36615838740e-button-1": {
+          "type": "button",
+          "settings": {
+            "button_1_label": "Shop Now",
+            "button_1_link": "shopify://collections/classic-led-light-bulbs",
+            "button_1_style": "btn btn--primary",
+            "button_2_label": "",
+            "button_2_link": "",
+            "button_2_style": "btn btn--primary"
+          }
+        }
+      },
+      "block_order": [
+        "template--14626484748391__4c7aae1f-2d70-4195-8367-36615838740e-heading-1",
+        "template--14626484748391__4c7aae1f-2d70-4195-8367-36615838740e-text-1",
+        "template--14626484748391__4c7aae1f-2d70-4195-8367-36615838740e-button-1"
+      ],
+      "disabled": true,
+      "settings": {
+        "image_desktop": "shopify://shop_images/Flicker-Free_Light_for_Cozy_Nights_In_final_banner.jpg",
+        "image_mobile": "shopify://shop_images/Flicker-Free_Light_for_Cozy_Nights_In_mobile_image.jpg",
+        "url": "",
+        "height_mode": "auto",
+        "fixed_height_desktop": 600,
+        "fixed_height_mobile": 350,
+        "overlay_position": "justify-start items-center",
+        "overlay_text_align": "text-start",
+        "mob_center_text": true,
+        "mobile_stacked": false,
+        "color_scheme": "white",
+        "full_width": true,
+        "transparent_content_color": "#ffffff",
+        "tint_color": "#000000",
+        "tint_opacity": 40,
+        "prevent_animation": true
+      }
+    },
+    "2442e5c7-da77-4e38-ac6c-1686df20ac2b": {
+      "type": "image-banner",
+      "blocks": {
+        "template--14670562197607__2442e5c7-da77-4e38-ac6c-1686df20ac2b-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "Lunar New Year Sale",
+            "heading_size": "h5",
+            "heading_h1": false
+          }
+        },
+        "template--14670562197607__2442e5c7-da77-4e38-ac6c-1686df20ac2b-text-1": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p><strong>UP TO 30% OFF</strong></p><p>On Selected Items</p><p>Sales ends Monday 26th February</p>",
+            "enlarge_text": false
+          }
+        },
+        "template--14670562197607__2442e5c7-da77-4e38-ac6c-1686df20ac2b-button-1": {
+          "type": "button",
+          "settings": {
+            "button_1_label": "Shop Now",
+            "button_1_link": "shopify://collections/clearance-sale",
+            "button_1_style": "btn btn--primary",
+            "button_2_label": "",
+            "button_2_link": "shopify://collections/festoon-lighting",
+            "button_2_style": "link"
+          }
+        }
+      },
+      "block_order": [
+        "template--14670562197607__2442e5c7-da77-4e38-ac6c-1686df20ac2b-heading-1",
+        "template--14670562197607__2442e5c7-da77-4e38-ac6c-1686df20ac2b-text-1",
+        "template--14670562197607__2442e5c7-da77-4e38-ac6c-1686df20ac2b-button-1"
+      ],
+      "disabled": true,
+      "settings": {
+        "image_desktop": "shopify://shop_images/Liquid_LEDs_Lighting_Lunar_New_Year_Sale_Banner_2024.jpg",
+        "image_mobile": "shopify://shop_images/Liquid_LEDs_Lunar_NEW_Year_Sale_2023.jpg",
+        "url": "",
+        "height_mode": "auto",
+        "fixed_height_desktop": 600,
+        "fixed_height_mobile": 350,
+        "overlay_position": "justify-start items-start",
+        "overlay_text_align": "text-center",
+        "mob_center_text": false,
+        "mobile_stacked": false,
+        "color_scheme": "white",
+        "full_width": true,
+        "transparent_content_color": "#b40c1c",
+        "tint_color": "#000000",
+        "tint_opacity": 40,
+        "prevent_animation": false
+      }
+    },
+    "slideshow_3zzare": {
+      "type": "slideshow",
+      "blocks": {
+        "slide_pzJAww": {
+          "type": "slide",
+          "settings": {
+            "image_desktop": "shopify://shop_images/Flicker-Free_Light_for_Cozy_Nights_In_final_banner.jpg",
+            "image_mobile": "shopify://shop_images/Flicker-Free_Light_for_Cozy_Nights_In_mobile_image.jpg",
+            "url": "",
+            "overlay_position": "justify-start items-center",
+            "overlay_text_align": "text-start",
+            "mob_center_text": false,
+            "subheading": "",
+            "heading": "Flicker-Free LED Bulbs for Stress-Free Evenings",
+            "heading_size": "h2",
+            "heading_h1": false,
+            "text": "<p>No more eye strain or harsh glare. LiquidLEDs are engineered for gentle, steady light.</p>",
+            "enlarge_text": true,
+            "button_1_label": "Shop Flicker-Free Range",
+            "button_1_link": "",
+            "button_1_style": "btn btn--primary",
+            "button_2_label": "",
+            "button_2_link": "",
+            "button_2_style": "btn btn--primary",
+            "transparent_content_color": "#ffffff",
+            "countdown_show": false,
+            "countdown_end_date": "",
+            "countdown_end_time": "",
+            "countdown_end_text": "",
+            "enlarge_end_text": false,
+            "countdown_hide_on_end": false,
+            "use_custom_colors": false,
+            "count_color": "#ffffff",
+            "bg_color": "#070707",
+            "bg_grad": ""
+          }
+        },
+        "slide_fgAnzn": {
+          "type": "slide",
+          "settings": {
+            "image_desktop": "shopify://shop_images/Vintage_Glow._Modern_Tech.-Banner.jpg",
+            "image_mobile": "shopify://shop_images/Vintage_Glow._Modern_Tech.-banner_mobile.jpg",
+            "url": "",
+            "overlay_position": "justify-center items-center",
+            "overlay_text_align": "text-center",
+            "mob_center_text": false,
+            "subheading": "",
+            "heading": "Vintage Glow. Modern Tech.",
+            "heading_size": "h1",
+            "heading_h1": false,
+            "text": "<p>Premium LED filament bulbs that elevate your space with warm, high-CRI light.</p>",
+            "enlarge_text": true,
+            "button_1_label": "Explore the Collection",
+            "button_1_link": "https://liquid-leds.com/collections/ultra-high-cri-bulbs",
+            "button_1_style": "btn btn--primary",
+            "button_2_label": "",
+            "button_2_link": "",
+            "button_2_style": "btn btn--primary",
+            "transparent_content_color": "#ffffff",
+            "countdown_show": false,
+            "countdown_end_date": "",
+            "countdown_end_time": "",
+            "countdown_end_text": "",
+            "enlarge_end_text": false,
+            "countdown_hide_on_end": false,
+            "use_custom_colors": false,
+            "count_color": "#ffffff",
+            "bg_color": "#070707",
+            "bg_grad": ""
+          }
+        }
+      },
+      "block_order": [
+        "slide_pzJAww",
+        "slide_fgAnzn"
+      ],
+      "name": "Slideshow",
+      "settings": {
+        "height_mode": "auto",
+        "fixed_height_desktop": 600,
+        "fixed_height_mobile": 350,
+        "mobile_stacked": false,
+        "nav_style": "slideshow_nav_lines",
+        "pagination_color": "#ffffff",
+        "nav_position": "justify-center",
+        "transition": "slide-fade",
+        "autoplay": true,
+        "slider_pause": false,
+        "autoplay_speed": 5,
+        "color_scheme": "white",
+        "full_width": true,
+        "tint_color": "#000000",
+        "tint_opacity": 40,
+        "accessibility_info": "",
+        "prevent_animation": true
+      }
+    },
+    "multi-column": {
+      "type": "multi-column",
+      "blocks": {
+        "multi-column-0": {
+          "type": "column",
+          "settings": {
+            "enable_media": true,
+            "image": "shopify://shop_images/logo-1.png",
+            "media_scale": 75,
+            "heading": "",
+            "text": "<p>Enjoy total peace of mind with our 30-day money-back guarantee</p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "multi-column-1": {
+          "type": "column",
+          "settings": {
+            "enable_media": true,
+            "image": "shopify://shop_images/logo-2.png",
+            "media_scale": 75,
+            "heading": "",
+            "text": "<p>A family-owned and operated Australian business since 2010</p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "multi-column-2": {
+          "type": "column",
+          "settings": {
+            "enable_media": true,
+            "image": "shopify://shop_images/logo-4.png",
+            "media_scale": 75,
+            "heading": "",
+            "text": "<p>Experience the convenience of same business day dispatch</p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "multi-column-3": {
+          "type": "column",
+          "settings": {
+            "enable_media": true,
+            "image": "shopify://shop_images/logo-5.png",
+            "media_scale": 75,
+            "heading": "",
+            "text": "<p>Encounter unmatched assistance from our responsive customer care</p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "multi-column-0",
+        "multi-column-1",
+        "multi-column-2",
+        "multi-column-3"
+      ],
+      "disabled": true,
+      "settings": {
+        "title": "Why Shop LED Bulbs at Liquid LEDs?",
+        "heading_align": "text-center",
+        "button_label": "",
+        "button_link": "",
+        "layout": "grid",
+        "column_size": "small",
+        "column_align": "center",
+        "image_ratio": "natural",
+        "color_scheme": "1",
+        "button_style": "btn btn--secondary"
+      }
+    },
+    "icons_with_text_gacyPL": {
+      "type": "icons-with-text",
+      "blocks": {
+        "item_dPAr6A": {
+          "type": "item",
+          "settings": {
+            "icon": "check_mark",
+            "heading": "",
+            "text": "<p><strong>Over 100,000 Happy Customers</strong></p>",
+            "link": ""
+          }
+        },
+        "item_DrxMPV": {
+          "type": "item",
+          "settings": {
+            "icon": "check_mark",
+            "heading": "",
+            "text": "<p><strong>An Australian Company Since 2010</strong></p>",
+            "link": ""
+          }
+        },
+        "item_XmUdbU": {
+          "type": "item",
+          "disabled": true,
+          "settings": {
+            "icon": "return",
+            "heading": "Easy returns",
+            "text": "<p>Hassle free returns policy</p>",
+            "link": ""
+          }
+        },
+        "item_Gtkpaj": {
+          "type": "item",
+          "settings": {
+            "icon": "check_mark",
+            "heading": "",
+            "text": "<p><strong>30 day Money Back Guarantee</strong></p>",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "item_dPAr6A",
+        "item_DrxMPV",
+        "item_XmUdbU",
+        "item_Gtkpaj"
+      ],
+      "settings": {
+        "heading": "",
+        "heading_align": "text-start",
+        "icon_size": 48,
+        "title_type_scale": "medium",
+        "text_type_scale": "medium",
+        "icon_position": "beside",
+        "mobile_stack": false,
+        "section_height": "medium",
+        "color_scheme": "1",
+        "full_width": true,
+        "dividers": "none",
+        "prevent_animation": false
+      }
+    },
+    "collection-list": {
+      "type": "collection-list",
+      "blocks": {
+        "collection-0": {
+          "type": "collection",
+          "settings": {
+            "collection": "candle-led-light-bulbs"
+          }
+        },
+        "collection-1": {
+          "type": "collection",
+          "settings": {
+            "collection": "vintage-edison-led-light-bulbs"
+          }
+        },
+        "collection-2": {
+          "type": "collection",
+          "settings": {
+            "collection": "dimmable-led-gls-a60-a19-light-bulbs"
+          }
+        },
+        "collection-3": {
+          "type": "collection",
+          "settings": {
+            "collection": "globe-dimmable-led-light-bulbs"
+          }
+        },
+        "99a7cfdd-0ee8-46bf-8d2f-c0025eb38649": {
+          "type": "collection",
+          "settings": {
+            "collection": "mirror-crown-led-bulbs"
+          }
+        },
+        "collection-4": {
+          "type": "collection",
+          "settings": {
+            "collection": "fancy-round-led-light-bulbs"
+          }
+        },
+        "collection-5": {
+          "type": "collection",
+          "settings": {
+            "collection": "oversized-bulbs"
+          }
+        },
+        "collection-6": {
+          "type": "collection",
+          "settings": {
+            "collection": "mini-led-light-bulbs"
+          }
+        },
+        "4d9d1ff9-2d75-4b20-a903-0ff03663ea55": {
+          "type": "collection",
+          "settings": {
+            "collection": "tubular-shaped-led-light-bulbs"
+          }
+        },
+        "f3c08461-1329-4c4b-b608-2b26814acad0": {
+          "type": "collection",
+          "settings": {
+            "collection": "spotlight-led-lighting-mr16-gu10"
+          }
+        },
+        "8a774912-22bf-4530-a163-f1932afbd830": {
+          "type": "collection",
+          "disabled": true,
+          "settings": {
+            "collection": "par-led-light-bulbs"
+          }
+        },
+        "7d88c7d0-d2f2-4f18-a1b1-034d70a69db1": {
+          "type": "collection",
+          "disabled": true,
+          "settings": {
+            "collection": "coloured-led-light-bulbs"
+          }
+        }
+      },
+      "block_order": [
+        "collection-0",
+        "collection-1",
+        "collection-2",
+        "collection-3",
+        "99a7cfdd-0ee8-46bf-8d2f-c0025eb38649",
+        "collection-4",
+        "collection-5",
+        "collection-6",
+        "4d9d1ff9-2d75-4b20-a903-0ff03663ea55",
+        "f3c08461-1329-4c4b-b608-2b26814acad0",
+        "8a774912-22bf-4530-a163-f1932afbd830",
+        "7d88c7d0-d2f2-4f18-a1b1-034d70a69db1"
+      ],
+      "settings": {
+        "title": "SHOP BY LED BULB TYPE",
+        "heading_align": "text-center",
+        "button_label": "",
+        "button_link": "shopify://collections",
+        "layout": "grid",
+        "card_size": "medium",
+        "use_product_image": false,
+        "circle_image": false
+      }
+    },
+    "bd9ebffd-fb67-4c56-95a8-fef7be83ce90": {
+      "type": "logo-list",
+      "blocks": {
+        "template--14626484748391__bd9ebffd-fb67-4c56-95a8-fef7be83ce90-logo-1": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/image001_4.jpg",
+            "url": "",
+            "logo_width": 130,
+            "text": ""
+          }
+        },
+        "template--14626484748391__bd9ebffd-fb67-4c56-95a8-fef7be83ce90-logo-2": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/Logo_M-10.jpg",
+            "url": "",
+            "logo_width": 120,
+            "text": ""
+          }
+        },
+        "template--14626484748391__bd9ebffd-fb67-4c56-95a8-fef7be83ce90-logo-3": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/Logo_M-06.jpg",
+            "url": "",
+            "logo_width": 120,
+            "text": ""
+          }
+        },
+        "template--14626484748391__bd9ebffd-fb67-4c56-95a8-fef7be83ce90-logo-6": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/Sydney_Opera_House.png",
+            "url": "",
+            "logo_width": 120,
+            "text": ""
+          }
+        },
+        "logo_LRUUrR": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/deloeuvre_icon_165bc71f-c729-4a7c-b004-03579b1efda3.png",
+            "url": "",
+            "logo_width": 120,
+            "text": ""
+          }
+        },
+        "0410b0ed-0537-4b86-aa28-3c7067750604": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/HisMajestysTheatre-Logo.png",
+            "url": "",
+            "logo_width": 120,
+            "text": ""
+          }
+        },
+        "template--14626484748391__bd9ebffd-fb67-4c56-95a8-fef7be83ce90-logo-7": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/Regent_Theatre.png",
+            "url": "",
+            "logo_width": 120,
+            "text": ""
+          }
+        },
+        "template--14626484748391__bd9ebffd-fb67-4c56-95a8-fef7be83ce90-logo-8": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/Logo_M-03.jpg",
+            "url": "",
+            "logo_width": 120,
+            "text": ""
+          }
+        },
+        "template--14626484748391__bd9ebffd-fb67-4c56-95a8-fef7be83ce90-logo-9": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/FP-LOGO-MAAS.jpg",
+            "url": "",
+            "logo_width": 120,
+            "text": ""
+          }
+        },
+        "template--14626484748391__bd9ebffd-fb67-4c56-95a8-fef7be83ce90-logo-4": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/Logo_M-05.jpg",
+            "url": "",
+            "logo_width": 120,
+            "text": ""
+          }
+        },
+        "ccb72c1a-3a52-47c2-bc18-40e49acd3fbc": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/Logo_M-04.jpg",
+            "url": "",
+            "logo_width": 120,
+            "text": ""
+          }
+        },
+        "template--14626484748391__bd9ebffd-fb67-4c56-95a8-fef7be83ce90-logo-5": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/Logo_M-09.jpg",
+            "url": "",
+            "logo_width": 120,
+            "text": ""
+          }
+        },
+        "logo_YqpdF8": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/The_Star_Casino_Sydney.png",
+            "url": "",
+            "logo_width": 120,
+            "text": ""
+          }
+        },
+        "logo_JrWXNA": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/vibe_hotels.png",
+            "url": "",
+            "logo_width": 120,
+            "text": ""
+          }
+        },
+        "logo_kNez6D": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/Capella_Hotels.jpg",
+            "url": "",
+            "logo_width": 120,
+            "text": ""
+          }
+        },
+        "logo_AxbB9g": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/Melbourne_Theatre_Company_logo.png",
+            "url": "",
+            "logo_width": 120,
+            "text": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--14626484748391__bd9ebffd-fb67-4c56-95a8-fef7be83ce90-logo-1",
+        "template--14626484748391__bd9ebffd-fb67-4c56-95a8-fef7be83ce90-logo-2",
+        "template--14626484748391__bd9ebffd-fb67-4c56-95a8-fef7be83ce90-logo-3",
+        "template--14626484748391__bd9ebffd-fb67-4c56-95a8-fef7be83ce90-logo-6",
+        "logo_LRUUrR",
+        "0410b0ed-0537-4b86-aa28-3c7067750604",
+        "template--14626484748391__bd9ebffd-fb67-4c56-95a8-fef7be83ce90-logo-7",
+        "template--14626484748391__bd9ebffd-fb67-4c56-95a8-fef7be83ce90-logo-8",
+        "template--14626484748391__bd9ebffd-fb67-4c56-95a8-fef7be83ce90-logo-9",
+        "template--14626484748391__bd9ebffd-fb67-4c56-95a8-fef7be83ce90-logo-4",
+        "ccb72c1a-3a52-47c2-bc18-40e49acd3fbc",
+        "template--14626484748391__bd9ebffd-fb67-4c56-95a8-fef7be83ce90-logo-5",
+        "logo_YqpdF8",
+        "logo_JrWXNA",
+        "logo_kNez6D",
+        "logo_AxbB9g"
+      ],
+      "settings": {
+        "title": "",
+        "heading_align": "text-center",
+        "button_label": "",
+        "button_link": "",
+        "layout": "carousel",
+        "spacing": 40,
+        "logo_grid_align": "justify-center",
+        "color_scheme": "none",
+        "full_width": true
+      }
+    },
+    "featured-collection": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Trending Pendant Lighting",
+        "heading_align": "text-center",
+        "show_view_all": true,
+        "collection": "modern-pendant-lights",
+        "layout": "grid",
+        "card_size_mobile": "small",
+        "card_size": "medium",
+        "products_to_show": 4,
+        "show_promo_info": false,
+        "image": "shopify://shop_images/classic_LED_light_bulbs_liquidleds.jpg",
+        "image_ratio": "natural",
+        "promo_title": "",
+        "content": "<ul><li>Experience the True Beauty of High-Quality Incandescent-Like Warm White Light.</li><li>Discover the Ultimate Replacement for Traditional Light Bulbs</li><li>Illuminate Your Space with Elegance and Style</li></ul>",
+        "link_url": "shopify://collections/classic-led-light-bulbs",
+        "button_label": "Shop Now",
+        "color_scheme": "none",
+        "button_style": "btn btn--secondary",
+        "enable_product_label": false
+      }
+    },
+    "62e6e5e0-6f95-43c9-82a5-281a6f8ef25b": {
+      "type": "featured-product",
+      "blocks": {
+        "template--14626484748391__62e6e5e0-6f95-43c9-82a5-281a6f8ef25b-vendor-sku-1": {
+          "type": "vendor-sku",
+          "settings": {
+            "show_vendor": false,
+            "show_sku": false
+          }
+        },
+        "template--14626484748391__62e6e5e0-6f95-43c9-82a5-281a6f8ef25b-title-1": {
+          "type": "title",
+          "settings": {}
+        },
+        "template--14626484748391__62e6e5e0-6f95-43c9-82a5-281a6f8ef25b-price-1": {
+          "type": "price",
+          "settings": {
+            "show_tax_and_shipping": true
+          }
+        },
+        "template--14626484748391__62e6e5e0-6f95-43c9-82a5-281a6f8ef25b-divider-1": {
+          "type": "divider",
+          "settings": {
+            "show_line": true,
+            "spacing": "mt-8 mb-8"
+          }
+        },
+        "template--14626484748391__62e6e5e0-6f95-43c9-82a5-281a6f8ef25b-variant-picker-1": {
+          "type": "variant-picker",
+          "settings": {
+            "selector_style": "dropdown",
+            "enable_dynamic_availability": true,
+            "show_backorder_text": true,
+            "enable_size_chart": false,
+            "size_chart_variant": "Size",
+            "size_chart_page": ""
+          }
+        },
+        "template--14626484748391__62e6e5e0-6f95-43c9-82a5-281a6f8ef25b-buy-buttons-1": {
+          "type": "buy-buttons",
+          "settings": {
+            "show_qty_selector": true,
+            "enable_dynamic_checkout": true
+          }
+        },
+        "template--14626484748391__62e6e5e0-6f95-43c9-82a5-281a6f8ef25b-divider-2": {
+          "type": "divider",
+          "settings": {
+            "show_line": true,
+            "spacing": "mt-8 mb-8"
+          }
+        },
+        "template--14626484748391__62e6e5e0-6f95-43c9-82a5-281a6f8ef25b-view-more-button-1": {
+          "type": "view-more-button",
+          "settings": {
+            "button_label": "Full details",
+            "text_align": "text-start"
+          }
+        }
+      },
+      "block_order": [
+        "template--14626484748391__62e6e5e0-6f95-43c9-82a5-281a6f8ef25b-vendor-sku-1",
+        "template--14626484748391__62e6e5e0-6f95-43c9-82a5-281a6f8ef25b-title-1",
+        "template--14626484748391__62e6e5e0-6f95-43c9-82a5-281a6f8ef25b-price-1",
+        "template--14626484748391__62e6e5e0-6f95-43c9-82a5-281a6f8ef25b-divider-1",
+        "template--14626484748391__62e6e5e0-6f95-43c9-82a5-281a6f8ef25b-variant-picker-1",
+        "template--14626484748391__62e6e5e0-6f95-43c9-82a5-281a6f8ef25b-buy-buttons-1",
+        "template--14626484748391__62e6e5e0-6f95-43c9-82a5-281a6f8ef25b-divider-2",
+        "template--14626484748391__62e6e5e0-6f95-43c9-82a5-281a6f8ef25b-view-more-button-1"
+      ],
+      "disabled": true,
+      "settings": {
+        "product": "8m-outdoor-festoon-string-light-ip65-extendable",
+        "media_ratio": "natural",
+        "media_crop": "none",
+        "hover_zoom": "medium",
+        "enable_video_looping": false,
+        "media_width": 41,
+        "color_scheme": "none",
+        "border_color": "#ffffff",
+        "bg_color": "#f4f4f4"
+      }
+    },
+    "featured_collection_RTrbPg": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Trending Festoon Lights",
+        "heading_align": "text-center",
+        "show_view_all": true,
+        "collection": "festoon-lighting",
+        "layout": "carousel_on_mobile",
+        "card_size_mobile": "small",
+        "card_size": "medium",
+        "products_to_show": 4,
+        "show_promo_info": false,
+        "image_ratio": "fill",
+        "promo_title": "A headline to grab attention",
+        "content": "<p>Use this card with an image to highlight your collections or introduce a promotion.</p>",
+        "link_url": "",
+        "button_label": "Button",
+        "color_scheme": "2",
+        "button_style": "btn btn--primary",
+        "enable_product_label": false
+      }
+    },
+    "background_video_UFjVKM": {
+      "type": "background-video",
+      "blocks": {
+        "heading_R8fwer": {
+          "type": "heading",
+          "settings": {
+            "heading": "Create the perfect atmosphere",
+            "heading_size": "h2",
+            "heading_h1": false
+          }
+        },
+        "text_JQHNRy": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Enjoy seamless dimming with our bulbs, which are specifically designed to be compatible with various dimmers</p>",
+            "enlarge_text": true
+          }
+        },
+        "button_4ey7yE": {
+          "type": "button",
+          "settings": {
+            "button_label": "",
+            "button_link": "",
+            "button_style": "btn btn--secondary"
+          }
+        }
+      },
+      "block_order": [
+        "heading_R8fwer",
+        "text_JQHNRy",
+        "button_4ey7yE"
+      ],
+      "settings": {
+        "video_shopify": "shopify://files/videos/LED light bulbs.mov",
+        "video_external": "",
+        "video_description": "Create the ideal ambience.",
+        "video_height": "landscape",
+        "overlay_text_align": "text-center",
+        "overlay_position": "justify-start items-start",
+        "mob_center_text": true,
+        "color_scheme": "white",
+        "transparent_content_color": "#ffffff",
+        "tint_color": "#000000",
+        "tint_opacity": 40,
+        "lazyload": true,
+        "prevent_animation": false
+      }
+    },
+    "featured_collection_t73BMT": {
+      "type": "featured-collection",
+      "disabled": true,
+      "settings": {
+        "title": "Featured Ceiling Lights",
+        "heading_align": "text-center",
+        "show_view_all": true,
+        "collection": "ceiling-lights",
+        "layout": "carousel_on_mobile",
+        "card_size_mobile": "small",
+        "card_size": "medium",
+        "products_to_show": 4,
+        "show_promo_info": false,
+        "image_ratio": "fill",
+        "promo_title": "A headline to grab attention",
+        "content": "<p>Use this card with an image to highlight your collections or introduce a promotion.</p>",
+        "link_url": "",
+        "button_label": "Button",
+        "color_scheme": "2",
+        "button_style": "btn btn--primary",
+        "enable_product_label": false
+      }
+    },
+    "b135d63c-147c-4971-ab38-3d4f34b168e8": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Trending Vintage LED Bulbs",
+        "heading_align": "text-center",
+        "show_view_all": true,
+        "collection": "vintage-led-light-bulbs",
+        "layout": "grid",
+        "card_size_mobile": "small",
+        "card_size": "medium",
+        "products_to_show": 4,
+        "show_promo_info": false,
+        "image": "shopify://shop_images/vintage_LED_light_bulbs_liquidleds.jpg",
+        "image_ratio": "natural",
+        "promo_title": "",
+        "content": "<ul><li>Illuminate Your Space in Vintage Style with High-Quality LED Light Bulbs</li><li>Create a Cozy Environment in Your Home with True Extra Warm White Light.</li><li>Discover a Wide Variety of Shapes and Familiar Designs</li></ul>",
+        "link_url": "shopify://collections/vintage-led-light-bulbs",
+        "button_label": "Shop Now",
+        "color_scheme": "none",
+        "button_style": "btn btn--primary",
+        "enable_product_label": false
+      }
+    },
+    "rich_text_wUeEbf": {
+      "type": "rich-text",
+      "blocks": {
+        "subheading_LnQkqM": {
+          "type": "subheading",
+          "disabled": true,
+          "settings": {
+            "text": "Every product here is designed to feel human, last longer, and make your space feel alive."
+          }
+        },
+        "heading_ay8mjf": {
+          "type": "heading",
+          "settings": {
+            "heading": "We don’t sell light bulbs. We sell atmosphere.",
+            "heading_size": "h4",
+            "heading_h1": false
+          }
+        },
+        "text_j8kY3m": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Every product here is designed to feel human, last longer, and make your space feel alive.</p>",
+            "enlarge_text": true
+          }
+        },
+        "button_VXczeC": {
+          "type": "button",
+          "settings": {
+            "button_1_label": "Our Belief",
+            "button_1_link": "shopify://pages/we-dont-sell-light-bulbs",
+            "button_1_style": "btn--primary",
+            "button_2_label": "",
+            "button_2_link": "",
+            "button_2_style": "btn btn--primary"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_LnQkqM",
+        "heading_ay8mjf",
+        "text_j8kY3m",
+        "button_VXczeC"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "text_position": "justify-center",
+        "text_align": "text-center",
+        "mob_center_text": true,
+        "color_scheme": "none",
+        "full_width": true,
+        "prevent_animation": false
+      }
+    },
+    "169614538727ade400": {
+      "type": "apps",
+      "blocks": {
+        "46d06ef5-58fb-4e0a-9516-a9b52f4c122c": {
+          "type": "shopify://apps/judge-me-reviews/blocks/featured_carousel/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+            "maxwidth": 1400
+          }
+        }
+      },
+      "block_order": [
+        "46d06ef5-58fb-4e0a-9516-a9b52f4c122c"
+      ],
+      "custom_css": [
+        ".jdgm-carousel-wrapper {width: 100% !important;}",
+        "h2.jdgm-carousel-title {font-size: 28.2908px !important;}"
+      ],
+      "settings": {
+        "full_width": true
+      }
+    },
+    "411d078d-1342-4aa3-9d0a-132054f14f07": {
+      "type": "featured-blog",
+      "settings": {
+        "title": "Blog",
+        "heading_align": "text-start",
+        "show_view_all": true,
+        "blog": "news",
+        "layout": "carousel",
+        "posts_to_show": 8,
+        "show_featured_image": true,
+        "show_tags": false,
+        "show_excerpt": true,
+        "show_author": false,
+        "show_date": false,
+        "show_button": false,
+        "color_scheme": "none",
+        "image_ratio": "1.77",
+        "button_style": "btn btn--primary"
+      }
+    },
+    "newsletter_7f3WRc": {
+      "type": "newsletter",
+      "blocks": {
+        "heading_iRhBNW": {
+          "type": "heading",
+          "settings": {
+            "heading": "ILLUMINATE YOUR SPACE FOR FREE!",
+            "heading_size": "h4"
+          }
+        },
+        "text_xfWzad": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Get a FREE Nano Spotlight LED ($29 value) with your first order.</p><p>We respect your inbox. No spam, just brilliant lighting ideas. Minimum spend of $149 (Excluding Shipping). New Subscribers only.</p>",
+            "enlarge_text": false
+          }
+        },
+        "form_7WGgYa": {
+          "type": "form",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "heading_iRhBNW",
+        "text_xfWzad",
+        "form_7WGgYa"
+      ],
+      "disabled": true,
+      "name": "Email signup",
+      "settings": {
+        "overlay_position": "justify-center",
+        "text_align": "text-center",
+        "color_scheme": "default",
+        "full_width": false,
+        "transparent_content_color": "#ffffff",
+        "tint_color": "#000000",
+        "tint_opacity": 20
+      }
+    },
+    "17513432910ce5ce6f": {
+      "type": "_blocks",
+      "blocks": {
+        "ai_gen_block_b4638d1_epaWhY": {
+          "type": "ai_gen_block_b4638d1",
+          "settings": {
+            "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Fusce id purus. Ut in dui vitae lectus gravida tempus. Nulla facilisi. Maecenas tristique orci ac sem. Duis ultricies pharetra magna. Donec accumsan malesuada orci. Donec sit amet eros. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Mauris fermentum dictum magna. Sed laoreet aliquam leo. Ut tellus dolor, dapibus eget, elementum vel, cursus eleifend, elit.</p>",
+            "collapsed_height": 100,
+            "read_more_text": "Read More",
+            "read_less_text": "Read Less",
+            "button_alignment": "flex-start",
+            "button_padding": 10,
+            "button_font_size": 16,
+            "button_font_weight": "500",
+            "button_border_width": 1,
+            "button_border_radius": 4,
+            "background_color": "#ffffff",
+            "text_color": "#333333",
+            "text_font": "sans_serif_n4",
+            "button_background": "#ffffff",
+            "button_text_color": "#333333",
+            "button_border_color": "#dddddd",
+            "button_hover_background": "#f5f5f5",
+            "button_hover_text_color": "#000000",
+            "animation_speed": 300
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "ai_gen_block_b4638d1_epaWhY"
+      ],
+      "disabled": true,
+      "settings": {}
+    }
+  },
+  "order": [
+    "4c7aae1f-2d70-4195-8367-36615838740e",
+    "2442e5c7-da77-4e38-ac6c-1686df20ac2b",
+    "slideshow_3zzare",
+    "multi-column",
+    "icons_with_text_gacyPL",
+    "collection-list",
+    "bd9ebffd-fb67-4c56-95a8-fef7be83ce90",
+    "featured-collection",
+    "62e6e5e0-6f95-43c9-82a5-281a6f8ef25b",
+    "featured_collection_RTrbPg",
+    "background_video_UFjVKM",
+    "featured_collection_t73BMT",
+    "b135d63c-147c-4971-ab38-3d4f34b168e8",
+    "rich_text_wUeEbf",
+    "169614538727ade400",
+    "411d078d-1342-4aa3-9d0a-132054f14f07",
+    "newsletter_7f3WRc",
+    "17513432910ce5ce6f"
+  ]
+}

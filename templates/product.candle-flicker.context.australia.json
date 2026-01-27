@@ -1,0 +1,463 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "parent": "product.candle-flicker.json",
+  "context": {
+    "market": "australia"
+  },
+  "sections": {
+    "icons_with_text_zzEXqp": {
+      "type": "icons-with-text",
+      "disabled": false,
+      "settings": {
+        "header-26bccf2b684139bc4fe85f4bead65ee8": null,
+        "heading": "",
+        "heading_align": "text-center",
+        "header-6ab4758f2617534dcab08df636add883": null,
+        "icon_size": 60,
+        "title_type_scale": "medium",
+        "text_type_scale": "medium",
+        "header-f650b8c0ee63c2f51cba951a0aa591a1": null,
+        "icon_position": "above",
+        "mobile_stack": true,
+        "section_height": "medium",
+        "header-e550e1e257d36e3b521caa6f967e2af5": null,
+        "color_scheme": "1",
+        "full_width": true,
+        "dividers": "none",
+        "header-3b42ac909ef9284aa994a8736940f228": null,
+        "prevent_animation": false
+      },
+      "blocks": {
+        "item_fjy8FJ": {
+          "type": "item",
+          "disabled": false,
+          "settings": {
+            "icon": "check_mark",
+            "custom_icon": "shopify://shop_images/Trusted_by_100_000_Customers_47140b9e-3f5e-4700-a9e9-0bf8ac969594.png",
+            "heading": "Trusted by 100,000+ Customers",
+            "text": "",
+            "link": ""
+          }
+        },
+        "item_fCd83c": {
+          "type": "item",
+          "disabled": false,
+          "settings": {
+            "icon": "check_mark",
+            "custom_icon": "shopify://shop_images/Proudly_Australian_Since_2010.png",
+            "heading": "Proudly Australian Since 2010",
+            "text": "",
+            "link": ""
+          }
+        },
+        "item_RpKTi7": {
+          "type": "item",
+          "disabled": false,
+          "settings": {
+            "icon": "check_mark",
+            "custom_icon": "shopify://shop_images/30-Day_Risk-Free_Guarantee.png",
+            "heading": "30-Day Risk-Free Guarantee",
+            "text": "",
+            "link": ""
+          }
+        },
+        "item_8texTc": {
+          "type": "item",
+          "disabled": false,
+          "settings": {
+            "icon": "check_mark",
+            "custom_icon": "shopify://shop_images/Fast_Reliable_Shipping.png",
+            "heading": "Fast & Reliable Shipping",
+            "text": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "item_fjy8FJ",
+        "item_fCd83c",
+        "item_RpKTi7",
+        "item_8texTc"
+      ]
+    },
+    "logo_list_WL9VYp": {
+      "type": "logo-list",
+      "disabled": false,
+      "settings": {
+        "header-9e3cac6b3c4c7ac25037f3ab3e1dc163": null,
+        "title": "",
+        "heading_align": "text-center",
+        "button_label": "",
+        "button_link": "",
+        "header-2e0d2686a531ef43591e1d03696193c5": null,
+        "layout": "carousel",
+        "spacing": 40,
+        "logo_grid_align": "justify-center",
+        "header-c8d9d010fee20e7f403744777558d427": null,
+        "color_scheme": "none",
+        "full_width": true
+      },
+      "blocks": {
+        "logo_NxdcNa": {
+          "type": "logo",
+          "disabled": false,
+          "settings": {
+            "image": "shopify://shop_images/image001_4.jpg",
+            "url": "",
+            "logo_width": 130,
+            "text": ""
+          }
+        },
+        "logo_nMqaqf": {
+          "type": "logo",
+          "disabled": false,
+          "settings": {
+            "image": "shopify://shop_images/Logo_M-10.jpg",
+            "url": "",
+            "logo_width": 120,
+            "text": ""
+          }
+        },
+        "logo_ez4ghx": {
+          "type": "logo",
+          "disabled": false,
+          "settings": {
+            "image": "shopify://shop_images/Logo_M-06.jpg",
+            "url": "",
+            "logo_width": 120,
+            "text": ""
+          }
+        },
+        "logo_yytr4h": {
+          "type": "logo",
+          "disabled": false,
+          "settings": {
+            "image": "shopify://shop_images/Sydney_Opera_House.png",
+            "url": "",
+            "logo_width": 120,
+            "text": ""
+          }
+        },
+        "logo_EEtPMi": {
+          "type": "logo",
+          "disabled": false,
+          "settings": {
+            "image": "shopify://shop_images/deloeuvre_icon_165bc71f-c729-4a7c-b004-03579b1efda3.png",
+            "url": "",
+            "logo_width": 120,
+            "text": ""
+          }
+        },
+        "logo_YWpNXK": {
+          "type": "logo",
+          "disabled": false,
+          "settings": {
+            "image": "shopify://shop_images/HisMajestysTheatre-Logo.png",
+            "url": "",
+            "logo_width": 120,
+            "text": ""
+          }
+        },
+        "logo_yCPfYN": {
+          "type": "logo",
+          "disabled": false,
+          "settings": {
+            "image": "shopify://shop_images/Regent_Theatre.png",
+            "url": "",
+            "logo_width": 120,
+            "text": ""
+          }
+        },
+        "logo_NPNNEf": {
+          "type": "logo",
+          "disabled": false,
+          "settings": {
+            "image": "shopify://shop_images/Logo_M-03.jpg",
+            "url": "",
+            "logo_width": 120,
+            "text": ""
+          }
+        },
+        "logo_C3rHQc": {
+          "type": "logo",
+          "disabled": false,
+          "settings": {
+            "image": "shopify://shop_images/FP-LOGO-MAAS.jpg",
+            "url": "",
+            "logo_width": 120,
+            "text": ""
+          }
+        },
+        "logo_HCyLfk": {
+          "type": "logo",
+          "disabled": false,
+          "settings": {
+            "image": "shopify://shop_images/Logo_M-05.jpg",
+            "url": "",
+            "logo_width": 120,
+            "text": ""
+          }
+        },
+        "logo_kF8cHH": {
+          "type": "logo",
+          "disabled": false,
+          "settings": {
+            "image": "shopify://shop_images/Logo_M-04.jpg",
+            "url": "",
+            "logo_width": 120,
+            "text": ""
+          }
+        },
+        "logo_nEYJaf": {
+          "type": "logo",
+          "disabled": false,
+          "settings": {
+            "image": "shopify://shop_images/Logo_M-09.jpg",
+            "url": "",
+            "logo_width": 120,
+            "text": ""
+          }
+        },
+        "logo_9NKVL8": {
+          "type": "logo",
+          "disabled": false,
+          "settings": {
+            "image": "shopify://shop_images/The_Star_Casino_Sydney.png",
+            "url": "",
+            "logo_width": 120,
+            "text": ""
+          }
+        },
+        "logo_FjPpaz": {
+          "type": "logo",
+          "disabled": false,
+          "settings": {
+            "image": "shopify://shop_images/vibe_hotels.png",
+            "url": "",
+            "logo_width": 120,
+            "text": ""
+          }
+        },
+        "logo_BVCAF8": {
+          "type": "logo",
+          "disabled": false,
+          "settings": {
+            "image": "shopify://shop_images/Capella_Hotels.jpg",
+            "url": "",
+            "logo_width": 120,
+            "text": ""
+          }
+        },
+        "logo_xQgygi": {
+          "type": "logo",
+          "disabled": false,
+          "settings": {
+            "image": "shopify://shop_images/Melbourne_Theatre_Company_logo.png",
+            "url": "",
+            "logo_width": 120,
+            "text": ""
+          }
+        }
+      },
+      "block_order": [
+        "logo_NxdcNa",
+        "logo_nMqaqf",
+        "logo_ez4ghx",
+        "logo_yytr4h",
+        "logo_EEtPMi",
+        "logo_YWpNXK",
+        "logo_yCPfYN",
+        "logo_NPNNEf",
+        "logo_C3rHQc",
+        "logo_HCyLfk",
+        "logo_kF8cHH",
+        "logo_nEYJaf",
+        "logo_9NKVL8",
+        "logo_FjPpaz",
+        "logo_BVCAF8",
+        "logo_xQgygi"
+      ]
+    },
+    "main": {
+      "settings": {},
+      "blocks": {
+        "image_nRz79": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "title": "",
+            "image": "shopify://shop_images/Buy_in_bulk_and_save.svg",
+            "image_width": 560,
+            "image_align": "justify-start",
+            "url": ""
+          }
+        },
+        "collapsible-content-1": {
+          "settings": {
+            "text": "<p><strong>Need help? We're here for you.<br/><br/></strong>Our friendly team is available to assist you with any questions or concerns.</p><p>📞 <strong>Call us:</strong> <a href=\"tel:+612%208880%209033\"><span style=\"text-decoration:underline\">+612 8880 9033</span><br/><br/></a>💬 <strong>WhatsApp:</strong> <a href=\"https://wa.me/61483949669\"><span style=\"text-decoration:underline\">+61483949669<br/><br/></span></a>📧 <strong>Email us:</strong> <a href=\"https://liquid-leds.com/pages/contact-us\"><span style=\"text-decoration:underline\">Send us a message<br/><br/></span></a>❓ <strong>FAQs:</strong> <a href=\"https://liquid-leds.com/pages/faqs\"><span style=\"text-decoration:underline\">Visit our FAQ page ›</span></a></p><p>🕒 <strong>Support hours: </strong>Monday – Friday, 8:00 a.m. – 6:00 p.m. AEST</p>"
+          }
+        },
+        "62039f84-401f-4025-9830-7b334867dfe7": {
+          "settings": {
+            "heading": "Hassle-Free Returns",
+            "text": "<p><strong>Shop with Confidence</strong><br/><br/>Your satisfaction means everything to us. If you're not completely happy with your order, you can return it within 30 days of receiving it for a refund of the purchase price (excluding delivery).</p><p>We’ve been supporting our customers since 2010 and are here to help every step of the way.</p><p><a href=\"https://liquid-leds.com/en-au/pages/return-policy\" target=\"_blank\" title=\"Returns Policy\">View our full return policy ›</a></p>"
+          }
+        },
+        "collapsible-content-2": {
+          "settings": {
+            "heading": "Fast, Reliable Delivery",
+            "text": "<p>Orders placed before 10 a.m. AEST on business days are dispatched the same day from our Sydney warehouse.</p><p>✅ <strong>Free standard shipping</strong><br/><br/>• Metro areas: orders over $99<br/><br/>• Regional areas: orders over $199</p><p>🚚 <strong>Delivery timeframes</strong><br/><br/>• Sydney Metro: 1–3 business days<br/><br/>• Other NSW: 2–5 days<br/><br/>• Major cities: 2–5 days<br/><br/>• Regional areas: 2–7 days</p><p>📦 Express shipping available at checkout.</p><p>Please ensure your address is accurate to avoid delays and return-to-sender fees. If you haven’t received your order or there’s an issue, we’re here to help.</p><p><a href=\"https://liquid-leds.com/en-au/pages/shipping\">View full shipping details ›</a></p>"
+          }
+        },
+        "1a9e12c5-c94a-4986-ab78-ccb3d78bca12": {
+          "disabled": true,
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "vendor-sku",
+        "title",
+        "3e7fac93-7ed1-44b6-b882-99af47420c64",
+        "price",
+        "variant-picker",
+        "divider-0",
+        "divider-1",
+        "image_nRz79",
+        "buy-buttons",
+        "e0be5244-484c-4751-be23-938d1657421d",
+        "judge_me_reviews_review_snippet_widget_gNBwT3",
+        "collapsible-content-1",
+        "62039f84-401f-4025-9830-7b334867dfe7",
+        "collapsible-content-2",
+        "1a9e12c5-c94a-4986-ab78-ccb3d78bca12",
+        "share",
+        "message-3"
+      ]
+    },
+    "faq_CFaKa": {
+      "type": "faq",
+      "disabled": false,
+      "settings": {
+        "header-ded9732ad8c0a0c16e79d0b1472b4ed1": null,
+        "heading": "LED Light Bulbs FAQs",
+        "heading_align": "text-center",
+        "header-670aeaf1cd4b7f5c903cc2db01b135e2": null,
+        "color_scheme": "none",
+        "full_width": true
+      },
+      "blocks": {
+        "question_QqkgUe": {
+          "type": "question",
+          "disabled": false,
+          "settings": {
+            "icon": "none",
+            "heading": "How bright are LiquidLEDs bulbs?",
+            "text": "<p>LED brightness is measured in lumens, not watts. Here's a quick conversion guide:</p><ul><li>2-3W LED ≈ 25W incandescent (200-300 lumens)</li><li>4-5W LED ≈ 40W incandescent (400-500 lumens)</li><li>6-8W LED ≈ 60W incandescent (650-800 lumens)</li><li>7.5-10W LED ≈ 75-100W incandescent (900-1200 lumens)</li><li>11-12W LED ≈ 100-125W incandescent (1300-1500 lumens)</li></ul><p>All LiquidLEDs product pages list wattage and lumen output so you can choose the perfect brightness for your needs.</p>"
+          }
+        },
+        "question_9diwdf": {
+          "type": "question",
+          "disabled": true,
+          "settings": {
+            "icon": "none",
+            "heading": "What countries do you ship to?",
+            "text": "<p>LiquidLEDs bulbs are designed for over 25,000 hours of use. If you use your light for an average of 3 hours per day, your LED bulb could last over 22 years. This exceptional longevity significantly reduces the frequency of replacements compared to traditional incandescent bulbs, which typically last only 1,000-2,000 hours. Note that all LED bulbs' light output gradually decreases over time, a phenomenon known as lumen depreciation.</p>"
+          }
+        },
+        "question_e8fDrx": {
+          "type": "question",
+          "disabled": false,
+          "settings": {
+            "icon": "none",
+            "heading": "Are LiquidLEDs bulbs dimmable?",
+            "text": "<p>Yes, most LiquidLEDs bulbs are dimmable, allowing you to create the perfect ambience for any occasion. Look for the \"dimmable\" specification on the product page. For optimal performance, we recommend using LED-compatible dimmers. Some older dimmer switches may cause flickering or buzzing with LED bulbs. If you experience any issues, please contact our customer support team for assistance.</p>"
+          }
+        },
+        "question_btNqPp": {
+          "type": "question",
+          "disabled": false,
+          "settings": {
+            "icon": "none",
+            "heading": "What is colour temperature, and which should I choose?",
+            "text": "<p>Colour temperature refers to the warmth or coolness of light, measured in Kelvins (K):</p><ul><li>Ultra & Extra Warm (2000K-2200K): This calming light creates a relaxing ambiance, similar to the warm glow of candlelight.</li><li>This calming light gives off a warm glow, similar to candlelight. However, because it is such a soft light, it may not be suitable for activities that require focus, such as reading.</li><li>Warm White (2700K-3000K): This colour creates a cozy, inviting atmosphere similar to traditional incandescent bulbs. It is ideal for living rooms, bedrooms, and dining areas.</li><li>Natural White (3500K-4000K): Provides a balanced, neutral light perfect for kitchens, offices, and workspaces.</li><li>Cool White (5000K-6500K): This colour delivers a crisp, energising light similar to daylight. It is best for task lighting, garages, and areas requiring detailed visibility.</li></ul><p>Choose based on the mood you want to create and the purpose of the space.</p>"
+          }
+        },
+        "question_bWQQ3d": {
+          "type": "question",
+          "disabled": false,
+          "settings": {
+            "icon": "none",
+            "heading": "Are LiquidLEDs bulbs compatible with my existing fixtures?",
+            "text": "<p>LiquidLEDs offer bulbs in all standard base types, ensuring compatibility with most fixtures. Common bases include:</p><ul><li>E27/ES: Standard Edison Screw, the most common base type (27mm diameter)</li><li>B22/BC: Bayonet Cap, standard in many regions (22mm diameter)</li><li>E14/SES: Small Edison Screw, used in chandeliers and smaller fixtures (14mm diameter)</li><li>B15/SBC: Small Bayonet Cap, used in smaller fixtures (15mm diameter)</li><li>E12/SES: Mini Edison Screw, used for chandeliers and small fixtures from the US (12mm diameter)</li></ul><p>Check your existing bulb's base type and match it with the corresponding LiquidLEDs product. If unsure, take a photo of your current bulb base and contact our customer service team for assistance.</p>"
+          }
+        },
+        "question_xw6hLp": {
+          "type": "question",
+          "disabled": false,
+          "settings": {
+            "icon": "none",
+            "heading": "Can LiquidLEDs bulbs be used in enclosed fixtures?",
+            "text": "<p>Some LiquidLEDs bulbs can be used in enclosed fixtures, but not all. Look for the \"enclosed fixture compatible\" specification on the product page. Enclosed fixtures trap heat, which can shorten LED lifespan if the bulb isn't designed for such applications. Our enclosed fixture-compatible bulbs feature enhanced heat dissipation technology to maintain performance and longevity even in enclosed environments. For fixtures without proper ventilation, we recommend choosing bulbs specifically rated for enclosed use.</p>"
+          }
+        },
+        "question_8DakFk": {
+          "type": "question",
+          "disabled": false,
+          "settings": {
+            "icon": "none",
+            "heading": "What is the difference between clear, frost, opal, and porcelain LED bulbs?",
+            "text": "<ul><li>Clear LED bulbs have a transparent glass covering that showcases the filament inside, creating a decorative, vintage appearance. They produce more directional light and create beautiful shadow patterns.</li><li>Frost, opal, and porcelain LED bulbs diffuse light, reducing glare and distributing illumination evenly. These bulbs are ideal for ambient lighting and minimising shadows when fabric or glass shades are used. Frosted bulbs allow good light transmission but with slightly visible LED filaments. Opal and porcelain bulbs provide uniform light diffusion and better LED concealment. Opal bulbs have a shiny finish, while porcelain bulbs have a matte finish.</li></ul><p>Choose clear bulbs for decorative fixtures where the bulb is visible and frosted, opal or porcelain bulbs for everyday lighting where comfort and light distribution are priorities.</p>"
+          }
+        },
+        "question_AHQRAz": {
+          "type": "question",
+          "disabled": false,
+          "settings": {
+            "icon": "none",
+            "heading": "How much energy do LiquidLEDs bulbs save compared to traditional bulbs?",
+            "text": "<p>LiquidLEDs bulbs use up to 90% less energy than traditional incandescent bulbs while providing the same brightness level. For example, a 6.5W GLS LED bulb produces the same light as a 60W incandescent bulb. This significant energy reduction translates to lower electricity bills and a smaller carbon footprint. Over the bulb's lifetime, you can save hundreds of dollars in energy costs per bulb.</p>"
+          }
+        },
+        "question_99Berc": {
+          "type": "question",
+          "disabled": false,
+          "settings": {
+            "icon": "none",
+            "heading": "What is your warranty policy?",
+            "text": "<p>LiquidLEDs bulbs come with a comprehensive warranty against manufacturing defects. Most of our products carry a 2-year warranty, while premium lines may offer extended 3 to 5-year coverage. If your product fails during the warranty period under regular use, we'll replace it free of charge. Simply contact our customer service team with your order number and a description of the issue. Our no-quibble guarantee ensures a hassle-free experience if you encounter any problems.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "question_QqkgUe",
+        "question_9diwdf",
+        "question_e8fDrx",
+        "question_btNqPp",
+        "question_bWQQ3d",
+        "question_xw6hLp",
+        "question_8DakFk",
+        "question_AHQRAz",
+        "question_99Berc"
+      ]
+    }
+  },
+  "order": [
+    "main",
+    "details",
+    "product-features",
+    "faq_CFaKa",
+    "1695711824fc9578f1",
+    "recommendations",
+    "2f9d2b69-1421-42ee-bf42-204579d8c79b",
+    "icons_with_text_zzEXqp",
+    "logo_list_WL9VYp"
+  ]
+}

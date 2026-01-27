@@ -1,0 +1,101 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "collection-banner": {
+      "type": "main-collection-banner",
+      "settings": {
+        "show_collection_title": true,
+        "show_product_count": false,
+        "show_collection_description": true,
+        "enable_before_split_text": true,
+        "enable_after_split_text": false,
+        "text_align": "items-center text-center",
+        "collection_image": "natural",
+        "use_product_image": false,
+        "text_width": "wide",
+        "color_scheme": "default"
+      }
+    },
+    "collection-products": {
+      "type": "main-collection-products",
+      "settings": {
+        "products_per_page": 16,
+        "card_size_mobile": "small",
+        "card_size": "medium",
+        "show_layout_toggle": true,
+        "enable_filtering": true,
+        "filters_open_lg": true,
+        "stick_on_scroll": true,
+        "show_filter_counts": true,
+        "expand_filters": false,
+        "max_filter_options": 7,
+        "enable_sorting": true,
+        "show_feat_sort_opt": true,
+        "sort_first": true,
+        "enable_product_label": false
+      }
+    },
+    "collection-banner-1": {
+      "type": "main-collection-banner",
+      "settings": {
+        "show_collection_title": false,
+        "show_product_count": false,
+        "show_collection_description": true,
+        "enable_before_split_text": false,
+        "enable_after_split_text": true,
+        "text_align": "items-center text-center",
+        "collection_image": "none",
+        "use_product_image": false,
+        "text_width": "wide",
+        "color_scheme": "default"
+      }
+    },
+    "175616164715e2c21c": {
+      "type": "apps",
+      "blocks": {
+        "mst_wishlist_marketing_flow_v3_app_block_list_JFk3YL": {
+          "type": "shopify://apps/mst-wishlist-marketing-flow/blocks/v3-app-block-list/7f9269b0-1b45-4d0c-8479-faf04f05d8ac",
+          "disabled": true,
+          "settings": {
+            "multi_language": false,
+            "iwish_add_txt": "Add To Wishlist",
+            "iwish_added_txt": "Added To Wishlist",
+            "theme_btn_class": "",
+            "icon_position": "bottom-right",
+            "icon_style": "heart",
+            "iwish_add_icon_outline": "",
+            "iwish_added_icon_filled": "",
+            "text_font_size": 14,
+            "text_color": "#000000",
+            "text_color_hover": "",
+            "background_color": "#ffffff",
+            "z_index": 2,
+            "qv_wrapper": "",
+            "qv_button": "",
+            "qv_close_button": ""
+          }
+        }
+      },
+      "block_order": [
+        "mst_wishlist_marketing_flow_v3_app_block_list_JFk3YL"
+      ],
+      "settings": {
+        "full_width": false
+      }
+    }
+  },
+  "order": [
+    "collection-banner",
+    "collection-products",
+    "collection-banner-1",
+    "175616164715e2c21c"
+  ]
+}

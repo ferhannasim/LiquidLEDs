@@ -1,0 +1,4 @@
+{%- assign jsonld = page.metafields.custom.json_ld | strip -%}
+{%- if jsonld != blank -%}
+<script type="application/ld+json">{{ jsonld }}</script>
+{%- endif -%}

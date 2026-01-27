@@ -1,0 +1,153 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "parent": "product.json",
+  "context": {
+    "market": "nz"
+  },
+  "sections": {
+    "main": {
+      "settings": {},
+      "blocks": {
+        "judge_me_reviews_review_snippet_widget_9yHgC": {
+          "type": "shopify://apps/judge-me-reviews/blocks/review_snippet_widget/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "disabled": false,
+          "settings": {
+            "paragraph-7febdd75186493b7c7c4651af4ea0ab8": null,
+            "paragraph-a2c94600a4e42adcf0d52adc8952b874": null
+          }
+        },
+        "collapsible-content-1": {
+          "settings": {
+            "heading": "Here When You Need Us"
+          }
+        },
+        "62039f84-401f-4025-9830-7b334867dfe7": {
+          "settings": {
+            "heading": "Hassle-Free Returns"
+          }
+        },
+        "collapsible-content-2": {
+          "settings": {
+            "heading": "Fast, Reliable Delivery",
+            "text": "<p><strong>We ship fast from Sydney to New Zealand!<br/></strong> Choose from Australia Post, DHL E-Commerce, or DHL Express at checkout.</p><p>✔️ Same-day dispatch on business days before 10 a.m. AEST<br/> ✔️ Free DHL shipping on orders over NZD $199*<br/> ✔️ All orders include tracking</p><p><strong>Estimated delivery times:<br/></strong> • DHL Express: 2–5 business days<br/> • DHL E-Commerce: 6–10 business days<br/> • Australia Post: 7–12 business days</p><p>(*Excludes bulky items like festoon strings and poles.)</p><p><a href=\"https://liquid-leds.com/pages/shipping-to-new-zealand\"><span style=\"text-decoration:underline\">View full NZ shipping details ›</span></a></p>",
+            "page": ""
+          }
+        },
+        "share": {
+          "disabled": false,
+          "settings": {}
+        },
+        "1a9e12c5-c94a-4986-ab78-ccb3d78bca12": {
+          "disabled": true,
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "vendor-sku",
+        "title",
+        "3e7fac93-7ed1-44b6-b882-99af47420c64",
+        "price",
+        "variant-picker",
+        "divider-1",
+        "buy-buttons",
+        "e0be5244-484c-4751-be23-938d1657421d",
+        "judge_me_reviews_review_snippet_widget_9yHgC",
+        "collapsible-content-1",
+        "62039f84-401f-4025-9830-7b334867dfe7",
+        "collapsible-content-2",
+        "1a9e12c5-c94a-4986-ab78-ccb3d78bca12",
+        "message-3",
+        "share"
+      ]
+    },
+    "recommendations": {
+      "settings": {
+        "heading_align": "text-center",
+        "layout": "carousel_on_mobile",
+        "card_size": "medium"
+      },
+      "blocks": {}
+    },
+    "2f9d2b69-1421-42ee-bf42-204579d8c79b": {
+      "settings": {
+        "heading_align": "text-center"
+      },
+      "blocks": {}
+    },
+    "faq_66wH4n": {
+      "settings": {},
+      "blocks": {
+        "question_PChDV": {
+          "type": "question",
+          "disabled": false,
+          "settings": {
+            "icon": "none",
+            "heading": "Are LiquidLEDs bulbs compatible with my existing fixtures?",
+            "text": "<p>LiquidLEDs offer bulbs in all standard base types, ensuring compatibility with most fixtures. Common bases include:</p><ul><li>E27/ES: Standard Edison Screw, the most common base type (27mm diameter)</li><li>B22/BC: Bayonet Cap, standard in many regions (22mm diameter)</li><li>E14/SES: Small Edison Screw, used in chandeliers and smaller fixtures (14mm diameter)</li><li>B15/SBC: Small Bayonet Cap, used in smaller fixtures (15mm diameter)</li><li>E12/SES: Mini Edison Screw, used for chandeliers and small fixtures from the US (12mm diameter)</li></ul><p>Check your existing bulb's base type and match it with the corresponding LiquidLEDs product. If unsure, take a photo of your current bulb base and contact our customer service team for assistance.</p>"
+          }
+        },
+        "question_iz6CB": {
+          "type": "question",
+          "disabled": false,
+          "settings": {
+            "icon": "none",
+            "heading": "Can LiquidLEDs bulbs be used in enclosed fixtures?",
+            "text": "<p>Some LiquidLEDs bulbs can be used in enclosed fixtures, but not all. Look for the \"enclosed fixture compatible\" specification on the product page. Enclosed fixtures trap heat, which can shorten LED lifespan if the bulb isn't designed for such applications. Our enclosed fixture-compatible bulbs feature enhanced heat dissipation technology to maintain performance and longevity even in enclosed environments. For fixtures without proper ventilation, we recommend choosing bulbs specifically rated for enclosed use.</p>"
+          }
+        },
+        "question_LEynB": {
+          "type": "question",
+          "disabled": false,
+          "settings": {
+            "icon": "none",
+            "heading": "What is the difference between clear, frost, opal, and porcelain LED bulbs?",
+            "text": "<ul><li>Clear LED bulbs have a transparent glass covering that showcases the filament inside, creating a decorative, vintage appearance. They produce more directional light and create beautiful shadow patterns.</li><li>Frost, opal, and porcelain LED bulbs diffuse light, reducing glare and distributing illumination evenly. These bulbs are ideal for ambient lighting and minimising shadows when fabric or glass shades are used. Frosted bulbs allow good light transmission but with slightly visible LED filaments. Opal and porcelain bulbs provide uniform light diffusion and better LED concealment. Opal bulbs have a shiny finish, while porcelain bulbs have a matte finish.</li></ul><p>Choose clear bulbs for decorative fixtures where the bulb is visible and frosted, opal or porcelain bulbs for everyday lighting where comfort and light distribution are priorities.</p>"
+          }
+        },
+        "question_U9JYR": {
+          "type": "question",
+          "disabled": false,
+          "settings": {
+            "icon": "none",
+            "heading": "How much energy do LiquidLEDs bulbs save compared to traditional bulbs?",
+            "text": "<p>LiquidLEDs bulbs use up to 90% less energy than traditional incandescent bulbs while providing the same brightness level. For example, a 6.5W GLS LED bulb produces the same light as a 60W incandescent bulb. This significant energy reduction translates to lower electricity bills and a smaller carbon footprint. Over the bulb's lifetime, you can save hundreds of dollars in energy costs per bulb.</p>"
+          }
+        },
+        "question_i3m8R": {
+          "type": "question",
+          "disabled": false,
+          "settings": {
+            "icon": "none",
+            "heading": "What is your warranty policy?",
+            "text": "<p>LiquidLEDs bulbs come with a comprehensive warranty against manufacturing defects. Most of our products carry a 2-year warranty, while premium lines may offer extended 3 to 5-year coverage. If your product fails during the warranty period under regular use, we'll replace it free of charge. Simply contact our customer service team with your order number and a description of the issue. Our no-quibble guarantee ensures a hassle-free experience if you encounter any problems.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "question_wNe8y3",
+        "question_3tbcWb",
+        "question_NNytJN",
+        "question_pDaUU9",
+        "question_PChDV",
+        "question_iz6CB",
+        "question_LEynB",
+        "question_U9JYR",
+        "question_i3m8R"
+      ]
+    },
+    "icons_with_text_jkgGLd": {
+      "settings": {
+        "color_scheme": "1"
+      },
+      "blocks": {}
+    }
+  }
+}

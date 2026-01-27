@@ -1,0 +1,141 @@
+{%- comment -%}
+  Parameters:
+  - product {Object} - Product object.
+  - use_variant {Boolean} - Use variant price instead of general (optional, default is false).
+
+  Usage:
+  {% render 'price', product: product %}
+{%- endcomment -%}
+
+{%- liquid
+  if variant__price
+
+    assign available = card_variant.available | default: false
+    assign compare_at_price = card_variant.compare_at_price
+    assign price = card_variant.price | default: 1999
+   
+  else 
+   
+    if use_variant
+      assign variant = product.selected_or_first_available_variant
+    else
+      assign use_variant = false
+      assign variant = product.variants | sort: 'price' | first
+    endif
+  
+    assign available = variant.available | default: false
+    assign compare_at_price = variant.compare_at_price
+    assign price = variant.price | default: 1999
+
+  endif 
+-%}
+
+<div class="price{%- if compare_at_price > price %} price--on-sale{% endif -%}
+                 {%- if available == false %} price--sold-out{% endif -%}">
+  <div class="price__default{% if price_badge == 1 or variant_price_badge == 1 %} inner_sale_price{% endif %}">
+    {%- if product.price_varies and use_variant == false %}
+      <span class="price__from">{{ 'products.product.from' | t }}</span>
+    {%- endif %}
+    <strong class="price__current">{%- render 'price-as-money', price: price -%}</strong>
+    <s class="price__was{% if settings.superscript_decimals %} price__was--supercents{% endif %}">
+      {%- if compare_at_price and compare_at_price > price -%}
+        {%- render 'price-as-money', price: compare_at_price, show_money_with_currency: false -%}
+      {%- endif -%}
+    </s>
+
+    {%- if settings.show_sale_label and price_badge == 1 -%}
+      {%- liquid
+        assign discount = 0
+        if variant
+          if settings.sale_label_type == 'percent'
+            assign discount = 1.0 | times: variant.price | divided_by: variant.compare_at_price
+            assign discount = 1.0 | minus: discount
+            assign discount = discount | times: 100.0 | round
+          else
+            assign discount = variant.compare_at_price | minus: variant.price
+          endif
+        else
+          for variant in product.variants
+            if variant.compare_at_price > variant.price
+              if settings.sale_label_type == 'percent'
+                assign this_discount = 1.0 | times: variant.price | divided_by: variant.compare_at_price
+                assign this_discount = 1.0 | minus: this_discount
+                assign this_discount = this_discount | times: 100.0 | round
+                if this_discount > discount
+                  assign discount = this_discount
+                endif
+              else
+                assign this_discount = variant.compare_at_price | minus: variant.price
+                if this_discount > discount
+                  assign discount = this_discount
+                endif
+              endif
+            endif
+          endfor
+        endif
+      -%}
+      {%- if discount > 0 -%}
+        {%- liquid
+          if settings.sale_label_type == 'percent'
+            if variant
+              assign sale_label_text = 'products.product.percent_reduction' | t: amount: discount
+            else
+              assign sale_label_text = 'products.product.percent_reduction_up_to' | t: amount: discount
+            endif
+          elsif settings.sale_label_type == 'money'
+            assign discount_money = discount | money
+            if variant
+              assign sale_label_text = 'products.product.value_reduction_html' | t: amount: discount_money
+            else
+              assign sale_label_text = 'products.product.value_reduction_up_to_html' | t: amount: discount_money
+            endif
+          else
+            assign sale_label_text = 'products.product.sale' | t
+          endif
+          assign label_count = label_count | plus: 1
+        -%}
+        {%- if sale_label_text -%}
+          <div class="product-label-wrapper flex{% if settings.product_label_card_position contains "end" %} justify-end{% endif %}">
+            <span class="product-label product-label--sale">
+              {% if settings.sale_label_icon != "none" %}
+                {% render 'icon', icon: settings.sale_label_icon, width: 14, height: 14 %}
+              {% endif %}
+              {{ sale_label_text }}
+            </span>
+          </div>
+        {%- endif -%}
+      {%- endif -%}
+    {%- endif -%}
+
+    {% if variant_price_badge == 1 %}
+      {%- liquid
+        assign cur_var_price = cur_var.price
+        assign cur_var_cmp_price = cur_var.compare_at_price
+        assign discount = 1.0 | times: cur_var_price | divided_by: cur_var_cmp_price
+        assign discount = 1.0 | minus: discount
+        assign discount = discount | times: 100.0 | round
+      -%}
+      {% assign sale_label_text = 'products.product.percent_text' | t %}
+
+      <div class="custom_variant_discount_label product-label-wrapper flex{% if settings.product_label_card_position contains "end" %} justify-end{% endif %}
+        {% unless cur_var_cmp_price > cur_var_price %}hidden{% endunless %}">
+        <span class="product-label product-label--sale">
+          {% if settings.sale_label_icon != "none" %}
+            {% render 'icon', icon: settings.sale_label_icon, width: 14, height: 14 %}
+          {% endif %}
+          <span class="variant_change_dis_per">
+            {{ discount }}
+          </span>
+          {{ sale_label_text }}
+        </span>
+      </div>
+    {% endif %}  
+
+  </div>
+
+  <div class="unit-price relative"{% if variant.unit_price_measurement == nil %} hidden{% endif %}><span class="visually-hidden">{{ 'products.product.price.unit_price' | t }}</span><span class="unit-price__price">{%- render 'price-as-money', price: variant.unit_price -%}</span><span class="unit-price__separator">{{ 'products.product.price.unit_price_separator' | t }}</span><span class="unit-price__unit">{%- if variant.unit_price_measurement.reference_value != 1 -%}{{- variant.unit_price_measurement.reference_value -}}{%- endif -%}{{ variant.unit_price_measurement.reference_unit }}</span></div>
+
+  <div class="price__no-variant" hidden>
+    <strong class="price__current">{{ 'products.variant.non_existent' | t }}</strong>
+  </div>
+</div>

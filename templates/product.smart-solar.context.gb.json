@@ -1,0 +1,68 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "parent": "product.smart-solar.json",
+  "context": {
+    "market": "gb"
+  },
+  "sections": {
+    "main": {
+      "settings": {},
+      "blocks": {
+        "judge_me_reviews_review_snippet_widget_UtPyP": {
+          "type": "shopify://apps/judge-me-reviews/blocks/review_snippet_widget/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "disabled": false,
+          "settings": {
+            "paragraph-6c67cd1a632152a2bd674b2c12606d27": null,
+            "paragraph-2a4fc8d5c46a3eae93acd652df5cc16e": null
+          }
+        },
+        "estimated_shipping_product_page_app_embed_block_89VJa": {
+          "type": "shopify://apps/estimated-shipping/blocks/product-page-app-embed-block/7ebf54ba-5c4b-40a7-b66a-1f977644b1a9",
+          "disabled": false,
+          "settings": {
+            "paragraph-e9464cb02c0f91774cf81bb889955eb2": null
+          }
+        },
+        "collapsible-content-2": {
+          "settings": {
+            "page": "shipping-to-united-kingdom"
+          }
+        },
+        "share": {
+          "disabled": false,
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "vendor-sku",
+        "title",
+        "3e7fac93-7ed1-44b6-b882-99af47420c64",
+        "judge_me_reviews_review_snippet_widget_UtPyP",
+        "price",
+        "variant-picker",
+        "divider-0",
+        "divider-1",
+        "buy-buttons",
+        "e0be5244-484c-4751-be23-938d1657421d",
+        "estimated_shipping_product_page_app_embed_block_89VJa",
+        "message-1",
+        "message-2",
+        "collapsible-content-1",
+        "62039f84-401f-4025-9830-7b334867dfe7",
+        "collapsible-content-2",
+        "richtext_gKx3UV",
+        "1a9e12c5-c94a-4986-ab78-ccb3d78bca12",
+        "message-3",
+        "share"
+      ]
+    }
+  }
+}

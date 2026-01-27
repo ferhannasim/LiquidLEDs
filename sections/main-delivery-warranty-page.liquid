@@ -1,0 +1,110 @@
+{{ 'article.css' | asset_url | stylesheet_tag }}
+
+<div class="container">
+  {%- if section.settings.show_page_title -%}
+    <div class="reading-width rte mb-6 md:mb-8 mt-10 md:mt-16 mx-auto">
+      <h1 class="page__title lg:mt-8 {{ section.settings.heading_align }}">{{ page.title | escape }}</h1>
+    </div>
+  {%- endif -%}
+
+  {% if page.content != blank %}
+    <div class="page__content reading-width rte article-content mt-12 mx-auto">
+      {{ page.content }}
+    </div>
+  {% endif %}  
+
+  <div class="form-full-width-new">
+    <div data-reamaze-embed="contact" data-reamaze-embed-disable-subject="true" data-reamaze-embed-subject="delivery & warranty" data-reamaze-embed-form-id="26444"></div> 
+  </div>
+  
+</div>
+
+<script>
+  document.querySelectorAll('.page__content table').forEach((table) => {
+    const wrapper = document.createElement('div');
+    wrapper.className = 'scrollable-table';
+    table.parentNode.insertBefore(wrapper, table);
+    wrapper.appendChild(table);
+  });
+</script>
+
+<script type="text/javascript" async src="https://cdn.reamaze.com/assets/reamaze.js"></script>  
+<script type="text/javascript">
+  var _support = _support || { 'ui': {}, 'user': {} };
+  _support['account'] = 'liquidleds';
+  _support['contact_custom_fields'] = _support['contact_custom_fields'] || {};
+  _support['contact_custom_fields']['rmz_form_id_26444'] = {
+    'Phone number': {
+      pos: 1597152094650,
+      type: 'phone',
+      value: '',
+      required: true,
+      placeholder: 'Phone number',
+      connectContact: true,
+    },
+    'heading-1596934200513': {
+      pos: 1597152094651,
+      type: 'heading',
+      value: '<p style="text-align: left;"><strong><span style="font-size: 17px;">How Can We Help?</span></strong></p>',
+    },
+    'Your enquiry': {
+      pos: 1597152094652,
+      type: 'dropdown',
+      value: ['Delivery issue','Warranty claim'],
+      required: true,
+      placeholder: '',
+      defaultValue: 'undefined',
+    },
+    '__order_number': {
+      pos: 1597152094653,
+      type: 'order_number',
+      required: true,
+      placeholder: 'Order Number',
+      dependantField: 'Your enquiry',
+      dependantOptions: ['Delivery issue','Warranty claim'],
+    },
+    'heading-1596935200580': {
+      pos: 1597152094654,
+      type: 'heading',
+      value: 'Please provide a photograph or video of the issue',
+      dependantField: 'Your enquiry',
+      dependantOptions: ['Delivery issue','Warranty claim'],
+    }
+  };
+</script>
+
+{% schema %}
+{
+  "name": "Page",
+  "class": "cc-main-page section section--template",
+  "settings": [
+    {
+      "type": "checkbox",
+      "id": "show_page_title",
+      "label": "Show the default page heading",
+      "info": "If hidden, you should provide a primary page heading (h1 tag) in another section with h1 capability (e.g. image banner, slideshow or background video) for SEO purposes.",
+      "default": true
+    },
+    {
+      "type": "select",
+      "id": "heading_align",
+      "label": "Heading alignment",
+      "options": [
+        {
+          "value": "text-start",
+          "label": "Left"
+        },
+        {
+          "value": "text-center",
+          "label": "Center"
+        },
+        {
+          "value": "text-end",
+          "label": "Right"
+        }
+      ],
+      "default": "text-center"
+    }
+  ]
+}
+{% endschema %}

@@ -1,0 +1,177 @@
+{% doc %}
+  @prompt
+    A heading with an animated glowing effect
+
+{% enddoc %}
+{% assign ai_gen_id = block.id | replace: '_', '' | downcase %}
+
+{% style %}
+  .ai-glow-heading-container-{{ ai_gen_id }} {
+    text-align: {{ block.settings.text_alignment }};
+    padding: {{ block.settings.padding }}px 0;
+  }
+
+  .ai-glow-heading-{{ ai_gen_id }} {
+    font-size: {{ block.settings.font_size }}px;
+    font-weight: {{ block.settings.font_weight }};
+    color: {{ block.settings.text_color }};
+    margin: 0;
+    display: inline-block;
+    position: relative;
+    text-shadow: 
+      0 0 5px {{ block.settings.glow_color }},
+      0 0 10px {{ block.settings.glow_color }},
+      0 0 15px {{ block.settings.glow_color }},
+      0 0 20px {{ block.settings.glow_color }};
+    animation: ai-glow-pulse-{{ ai_gen_id }} {{ block.settings.animation_duration }}s ease-in-out infinite alternate;
+  }
+
+  @keyframes ai-glow-pulse-{{ ai_gen_id }} {
+    from {
+      text-shadow: 
+        0 0 5px {{ block.settings.glow_color }},
+        0 0 10px {{ block.settings.glow_color }},
+        0 0 15px {{ block.settings.glow_color }},
+        0 0 20px {{ block.settings.glow_color }};
+    }
+    to {
+      text-shadow: 
+        0 0 10px {{ block.settings.glow_color }},
+        0 0 20px {{ block.settings.glow_color }},
+        0 0 30px {{ block.settings.glow_color }},
+        0 0 40px {{ block.settings.glow_color }},
+        0 0 50px {{ block.settings.glow_color }};
+    }
+  }
+
+  @media screen and (max-width: 749px) {
+    .ai-glow-heading-{{ ai_gen_id }} {
+      font-size: {{ block.settings.font_size | times: 0.8 }}px;
+    }
+  }
+{% endstyle %}
+
+<div class="ai-glow-heading-container-{{ ai_gen_id }}" {{ block.shopify_attributes }}>
+  {% if block.settings.heading_text != blank %}
+    <h2 class="ai-glow-heading-{{ ai_gen_id }}">
+      {{ block.settings.heading_text }}
+    </h2>
+  {% endif %}
+</div>
+
+{% schema %}
+{
+  "name": "Glowing Heading",
+  "settings": [
+    {
+      "type": "header",
+      "content": "Content"
+    },
+    {
+      "type": "text",
+      "id": "heading_text",
+      "label": "Heading text",
+      "default": "Glowing Heading"
+    },
+    {
+      "type": "header",
+      "content": "Style"
+    },
+    {
+      "type": "select",
+      "id": "text_alignment",
+      "label": "Text alignment",
+      "options": [
+        {
+          "value": "left",
+          "label": "Left"
+        },
+        {
+          "value": "center",
+          "label": "Center"
+        },
+        {
+          "value": "right",
+          "label": "Right"
+        }
+      ],
+      "default": "center"
+    },
+    {
+      "type": "range",
+      "id": "font_size",
+      "min": 20,
+      "max": 80,
+      "step": 2,
+      "unit": "px",
+      "label": "Font size",
+      "default": 48
+    },
+    {
+      "type": "select",
+      "id": "font_weight",
+      "label": "Font weight",
+      "options": [
+        {
+          "value": "400",
+          "label": "Normal"
+        },
+        {
+          "value": "600",
+          "label": "Semi-bold"
+        },
+        {
+          "value": "700",
+          "label": "Bold"
+        },
+        {
+          "value": "800",
+          "label": "Extra bold"
+        }
+      ],
+      "default": "700"
+    },
+    {
+      "type": "color",
+      "id": "text_color",
+      "label": "Text color",
+      "default": "#ffffff"
+    },
+    {
+      "type": "color",
+      "id": "glow_color",
+      "label": "Glow color",
+      "default": "#00ffff"
+    },
+    {
+      "type": "range",
+      "id": "padding",
+      "min": 0,
+      "max": 100,
+      "step": 5,
+      "unit": "px",
+      "label": "Vertical padding",
+      "default": 40
+    },
+    {
+      "type": "header",
+      "content": "Animation"
+    },
+    {
+      "type": "range",
+      "id": "animation_duration",
+      "min": 1,
+      "max": 5,
+      "step": 0.5,
+      "unit": "s",
+      "label": "Animation speed",
+      "default": 2
+    }
+  ],
+  "presets": [
+    {
+      "name": "Glowing Heading"
+    }
+  ]
+}
+{% endschema %}

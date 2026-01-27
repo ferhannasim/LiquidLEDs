@@ -1,0 +1,32 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "parent": "footer-group.json",
+  "context": {
+    "market": "australia"
+  },
+  "sections": {
+    "footer": {
+      "settings": {},
+      "blocks": {
+        "multiple_link_list_eeUTpz": {
+          "settings": {
+            "heading_2": "Lighting Guides",
+            "heading_3": "Inside LiquidLEDs",
+            "menu_3": "company",
+            "heading_4": "Policies",
+            "menu_4": "legal",
+            "menu_2": "lighting-guides-au"
+          }
+        }
+      }
+    }
+  }
+}

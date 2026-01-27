@@ -1,0 +1,225 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "parent": "index.json",
+  "context": {
+    "market": "eu"
+  },
+  "sections": {
+    "slideshow_FFRVT": {
+      "type": "slideshow",
+      "disabled": false,
+      "settings": {
+        "header-43fd857a3ba2b17398b70273bf30cecc": null,
+        "height_mode": "auto",
+        "fixed_height_desktop": 600,
+        "fixed_height_mobile": 350,
+        "mobile_stacked": false,
+        "header-06c53cf58d769ac49728346949736b8b": null,
+        "nav_style": "slideshow_nav_lines",
+        "pagination_color": "#ffffff",
+        "nav_position": "justify-center",
+        "transition": "slide-fade",
+        "autoplay": true,
+        "slider_pause": false,
+        "autoplay_speed": 5,
+        "header-2ee3fc0ebd3b6c5790b8c3a20bd519b3": null,
+        "color_scheme": "white",
+        "full_width": true,
+        "tint_color": "#000000",
+        "tint_opacity": 40,
+        "header-5209c8b1231317c98ac4878b71de059e": null,
+        "accessibility_info": "",
+        "prevent_animation": true
+      },
+      "blocks": {
+        "slide_qjm4M": {
+          "type": "slide",
+          "disabled": false,
+          "settings": {
+            "image_desktop": "shopify://shop_images/Flicker-Free_Light_for_Cozy_Nights_In_final_banner.jpg",
+            "image_mobile": "shopify://shop_images/Flicker-Free_Light_for_Cozy_Nights_In_mobile_image.jpg",
+            "url": "",
+            "header-eabf4b8b6ab50eac6a6e92514bc3a883": null,
+            "overlay_position": "justify-start items-center",
+            "overlay_text_align": "text-center",
+            "mob_center_text": false,
+            "subheading": "",
+            "heading": "Flicker-Free Light for Peaceful Evenings",
+            "heading_size": "h4",
+            "heading_h1": false,
+            "text": "<p>Soft, steady light that protects your eyes and warms your home. Premium LED filament bulbs for modern European spaces.</p>",
+            "enlarge_text": true,
+            "button_1_label": "Shop Flicker-Free Bulbs",
+            "button_1_link": "https://liquid-leds.com/en-eu/collections/flicker-free-led-light-bulbs",
+            "button_1_style": "btn btn--primary",
+            "button_2_label": "",
+            "button_2_link": "",
+            "button_2_style": "btn btn--primary",
+            "transparent_content_color": "#ffffff",
+            "header-5b1bf2fcee43418dcadba1258f833c0c": null,
+            "countdown_show": false,
+            "countdown_end_date": "",
+            "countdown_end_time": "",
+            "countdown_end_text": "",
+            "enlarge_end_text": false,
+            "countdown_hide_on_end": false,
+            "use_custom_colors": false,
+            "count_color": "#ffffff",
+            "bg_color": "#070707",
+            "bg_grad": ""
+          }
+        },
+        "slide_jrVXD": {
+          "type": "slide",
+          "disabled": false,
+          "settings": {
+            "image_desktop": "shopify://shop_images/Vintage_Glow._Modern_Tech.-Banner.jpg",
+            "image_mobile": "shopify://shop_images/Vintage_Glow._Modern_Tech.-banner_mobile.jpg",
+            "url": "",
+            "header-c4143e260a0dda393f561b5bbad6c2b8": null,
+            "overlay_position": "justify-center items-center",
+            "overlay_text_align": "text-center",
+            "mob_center_text": false,
+            "subheading": "",
+            "heading": "Vintage Glow with Modern LED Quality",
+            "heading_size": "h4",
+            "heading_h1": false,
+            "text": "<p>High-CRI filament bulbs that bring natural warmth and design-grade lighting to European homes.</p>",
+            "enlarge_text": true,
+            "button_1_label": "Explore the Collection",
+            "button_1_link": "https://liquid-leds.com/en-eu/collections/ultra-high-cri-bulbs",
+            "button_1_style": "btn btn--primary",
+            "button_2_label": "",
+            "button_2_link": "",
+            "button_2_style": "btn btn--primary",
+            "transparent_content_color": "#ffffff",
+            "header-a693a76ed96ba2507b0221777476d7ba": null,
+            "countdown_show": false,
+            "countdown_end_date": "",
+            "countdown_end_time": "",
+            "countdown_end_text": "",
+            "enlarge_end_text": false,
+            "countdown_hide_on_end": false,
+            "use_custom_colors": false,
+            "count_color": "#ffffff",
+            "bg_color": "#070707",
+            "bg_grad": ""
+          }
+        }
+      },
+      "block_order": [
+        "slide_qjm4M",
+        "slide_jrVXD"
+      ],
+      "name": "Slideshow"
+    },
+    "4c7aae1f-2d70-4195-8367-36615838740e": {
+      "settings": {
+        "overlay_position": "justify-start items-center",
+        "overlay_text_align": "text-start"
+      },
+      "blocks": {
+        "template--14626484748391__4c7aae1f-2d70-4195-8367-36615838740e-heading-1": {
+          "disabled": false,
+          "settings": {
+            "heading": "Design Lighting That Loves You Back",
+            "heading_size": "h2"
+          }
+        },
+        "template--14626484748391__4c7aae1f-2d70-4195-8367-36615838740e-text-1": {
+          "settings": {
+            "text": "Flicker-free, high-CRI LED filament bulbs that bring warm, sustainable style to your home — crafted for comfort and longevity.",
+            "enlarge_text": true
+          }
+        },
+        "template--14626484748391__4c7aae1f-2d70-4195-8367-36615838740e-button-1": {
+          "settings": {
+            "button_1_label": "Discover the Collection"
+          }
+        }
+      }
+    },
+    "icons_with_text_gacyPL": {
+      "settings": {},
+      "blocks": {
+        "item_dPAr6A": {
+          "settings": {
+            "text": "<p><strong>Trusted by 100,000+ Customers</strong></p>",
+            "custom_icon": null
+          }
+        },
+        "item_DrxMPV": {
+          "settings": {
+            "text": "<p><strong>Operating</strong> <strong>Since 2010</strong></p>"
+          }
+        },
+        "item_Gtkpaj": {
+          "settings": {
+            "text": "<p><strong>30-Day Risk-Free Guarantee</strong></p>"
+          }
+        },
+        "item_XmUdbU": {
+          "disabled": false,
+          "settings": {
+            "text": "<p><strong>Fast & Reliable Shipping</strong></p>",
+            "heading": "",
+            "icon": "check_mark"
+          }
+        }
+      }
+    },
+    "bd9ebffd-fb67-4c56-95a8-fef7be83ce90": {
+      "settings": {
+        "color_scheme": "none"
+      },
+      "blocks": {}
+    },
+    "featured-collection": {
+      "disabled": true,
+      "settings": {
+        "title": "Ultra-High CRI Bulbs for Perfect Ambiance",
+        "collection": "ultra-high-cri-bulbs"
+      },
+      "blocks": {}
+    },
+    "featured_collection_RTrbPg": {
+      "disabled": true,
+      "settings": {},
+      "blocks": {}
+    },
+    "b135d63c-147c-4971-ab38-3d4f34b168e8": {
+      "settings": {
+        "title": "Flicker-Free LEDs for Ultimate Comfort",
+        "collection": "flicker-free-led-light-bulbs"
+      },
+      "blocks": {}
+    }
+  },
+  "order": [
+    "4c7aae1f-2d70-4195-8367-36615838740e",
+    "slideshow_FFRVT",
+    "2442e5c7-da77-4e38-ac6c-1686df20ac2b",
+    "multi-column",
+    "icons_with_text_gacyPL",
+    "bd9ebffd-fb67-4c56-95a8-fef7be83ce90",
+    "collection-list",
+    "featured-collection",
+    "62e6e5e0-6f95-43c9-82a5-281a6f8ef25b",
+    "featured_collection_RTrbPg",
+    "background_video_UFjVKM",
+    "featured_collection_t73BMT",
+    "b135d63c-147c-4971-ab38-3d4f34b168e8",
+    "169614538727ade400",
+    "411d078d-1342-4aa3-9d0a-132054f14f07",
+    "newsletter_7f3WRc",
+    "17513432910ce5ce6f"
+  ]
+}

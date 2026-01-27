@@ -1,0 +1,76 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-search",
+      "settings": {
+        "show_search_title": true,
+        "show_search_input": true,
+        "heading_align": "text-center",
+        "products_per_page": 16,
+        "card_size": "medium",
+        "show_layout_toggle": true,
+        "enable_filtering": true,
+        "filters_open_lg": true,
+        "stick_on_scroll": true,
+        "show_filter_counts": true,
+        "expand_filters": true,
+        "max_filter_options": 7,
+        "enable_sorting": true,
+        "sort_first": true,
+        "show_article_featured_image": true,
+        "show_article_tags": false,
+        "show_article_excerpt": false,
+        "show_article_author": false,
+        "show_article_date": true,
+        "show_page_date": true,
+        "show_page_excerpt": true,
+        "enable_product_label": false
+      }
+    },
+    "1756459196217f58cf": {
+      "type": "apps",
+      "blocks": {
+        "mst_wishlist_marketing_flow_v3_app_block_list_GL97xX": {
+          "type": "shopify://apps/mst-wishlist-marketing-flow/blocks/v3-app-block-list/7f9269b0-1b45-4d0c-8479-faf04f05d8ac",
+          "settings": {
+            "multi_language": false,
+            "iwish_add_txt": "",
+            "iwish_added_txt": "",
+            "theme_btn_class": "",
+            "icon_position": "default",
+            "icon_style": "heart",
+            "iwish_add_icon_outline": "",
+            "iwish_added_icon_filled": "",
+            "text_font_size": 14,
+            "text_color": "#000000",
+            "text_color_hover": "",
+            "background_color": "#FFFFFF",
+            "z_index": 2,
+            "qv_wrapper": "",
+            "qv_button": "",
+            "qv_close_button": ""
+          }
+        }
+      },
+      "block_order": [
+        "mst_wishlist_marketing_flow_v3_app_block_list_GL97xX"
+      ],
+      "settings": {
+        "full_width": false
+      }
+    }
+  },
+  "order": [
+    "main",
+    "1756459196217f58cf"
+  ]
+}

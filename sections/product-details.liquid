@@ -1,0 +1,774 @@
+{%- assign found_highlight_text = false -%}
+{%- if section.blocks.size > 0 -%}
+  {%- for block in section.blocks -%}
+    {%- if block.settings.show_reviews and block.type == 'tabs' -%}
+      <script>
+        document.addEventListener('DOMContentLoaded', () => {
+          if (document.getElementById('shopify-product-reviews')) {
+            const link = document.createElement('link');
+            link.rel = "stylesheet";
+            link.href = "{{ 'reviews.css' | asset_url }}";
+            document.body.appendChild(link);
+          }
+        }, { once: true });
+      </script>
+    {%- elsif block.type == 'highlight-text' and found_highlight_text == false -%}
+      <link rel="stylesheet" href="{{ 'product-highlights.css' | asset_url }}" media="print" onload="this.media='all'">
+      {%- assign found_highlight_text = true -%}
+    {%- endif -%}
+  {%- endfor -%}
+
+  <div class="container reading-width">
+    {%- for block in section.blocks -%}
+      {%- case block.type -%}
+        {%- when '@app' -%}
+          <div class="product-details__block" {{ block.shopify_attributes }}>
+            {% render block %}
+          </div>
+
+        {%- when 'tabs' -%}
+          <svg class="hidden" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+            <symbol id="question" viewBox="0 0 13 13"><path d="M6.473 2.708c-1.083 0-1.76.84-1.815.921a.71.71 0 0 0 .109.948c.298.217.704.19.948-.108 0 0 .325-.406.758-.406.325 0 .704.08.704.541 0 .163-.19.352-.433.596-.434.46-1.03 1.11-1.03 2.194 0 .379.298.677.678.677a.67.67 0 0 0 .677-.677c0-.515.243-.813.65-1.273.379-.406.785-.84.785-1.517.027-.894-.623-1.896-2.031-1.896m.027 8.938A5.144 5.144 0 0 1 1.354 6.5 5.144 5.144 0 0 1 6.5 1.354 5.144 5.144 0 0 1 11.646 6.5 5.144 5.144 0 0 1 6.5 11.646M6.5 0C2.925 0 0 2.925 0 6.5S2.925 13 6.5 13 13 10.075 13 6.5 10.075 0 6.5 0m-.027 8.585a.96.96 0 0 1 .948.948.96.96 0 0 1-.948.948.96.96 0 0 1-.948-.948.96.96 0 0 1 .948-.948"></path></symbol>
+          </svg>
+          {%- liquid
+            assign tabs = ''
+            if block.settings.show_description
+              assign tabs = ',0'
+            endif
+            if block.settings.show_specification
+              assign tabs = tabs | append: ',4'
+            endif
+            if block.settings.show_reviews
+              assign tabs = tabs | append: ',5'
+            endif
+            if product.metafields.custom.download_spec_sheet != blank or product.metafields.custom.download_installation_guide != blank or product.metafields.custom._download_spec_sheet_name_1 != blank
+              assign tabs = tabs | append: ',6'
+            endif 
+            if block.settings.tab_1_title != blank or block.settings.tab_1_page.title != blank
+              assign tabs = tabs | append: ',1'
+            endif
+            if block.settings.tab_2_title != blank or block.settings.tab_2_page.title != blank
+              assign tabs = tabs | append: ',2'
+            endif
+            if block.settings.tab_3_title != blank or block.settings.tab_3_page.title != blank
+              assign tabs = tabs | append: ',3'
+            endif
+            assign tab_indices = tabs | remove_first: ',' | split: ','
+          -%}
+
+          {%- if block.settings.show_specification and block.settings.spec_metafields -%}
+            {%- capture specification -%}
+              {%- assign metafield_array = block.settings.spec_metafields | newline_to_br | strip_newlines | split: '<br />' -%}
+              {%- for key_value in metafield_array -%}
+                {%- liquid
+                  assign parts = key_value | split: ':'
+                  assign label = parts.first | strip | replace: '"', ''
+                  assign metafield_key = parts.last | strip | downcase
+                  assign metafield_key_parts = metafield_key | split: "."
+                  assign metafield_namespace_index = metafield_key_parts | size | minus: 2
+                  assign metafield_key = metafield_key_parts | last
+                  assign metafield_namespace = metafield_key_parts[metafield_namespace_index]
+                  assign metafield = product.metafields[metafield_namespace][metafield_key]
+                  assign tooltip = metafield_key | append: '_content'
+                  assign metafield_tooltip = product.metafields[metafield_namespace][tooltip]
+
+                  capture metafield_output
+                    if metafield.type contains "list."
+                      for item in metafield.value
+                        assign metafield_type = metafield.type | replace: "list.", ""
+                        assign comma = ""
+                        if forloop.last == false
+                          assign comma = ", "
+                        endif
+                        render 'render-metafield', metafield: metafield, metafield_type: metafield_type, metafield_value: item, comma: comma
+                        if forloop.last == false and metafield_type == "file_reference"
+                          echo "<div class='mt-2'></div>"
+                        endif
+                      endfor
+                    elsif metafield.value
+                      render 'render-metafield', metafield: metafield, metafield_type: metafield.type, metafield_value: metafield.value
+                    endif
+                  endcapture
+                -%}
+                {%- unless metafield_output contains "Liquid error" -%}
+                  {%- unless metafield_output == blank and block.settings.spec_show_empty_metafields == false -%}
+                    <li class="product-spec__item flex flex-col gap-x-theme md:flex-row pb-4 mb-4 last:pb-0 last:mb-0">
+                      <div class="product-spec__label{% if block.settings.spec_right_align %} product-spec__label--right{% endif %} mb-2 block font-bold flex items-center flex-wrap">
+                        {{ label }}
+                        {% if metafield_tooltip != blank %}
+                        <span class="stock_tooltip_toggle">
+                          <svg class="question question-specification" width="16" height="16" viewBox="0 0 16 16" fill="currentColor"><use xlink:href="#question"></use></svg>
+                          <div class="stock_tooltip_text">
+                            {{ metafield_tooltip | metafield_tag }}
+                          </div>
+                        </span>
+                        {% endif %}
+                      </div>
+                      <div class="product-spec__value {% if metafield.type contains "color" %}flex{% else %}block{% endif %}{% if block.settings.spec_right_align %} text-end justify-end grow{% endif %}">
+                        {%- if metafield_output == blank -%}
+                          {{ block.settings.spec_empty_field_text }}
+                        {%- else -%}
+                          {{ metafield_output }}
+                        {%- endif -%}
+                      </div>
+                    </li>
+                  {%- endunless -%}
+                {%- endunless -%}
+              {%- endfor -%}
+            {%- endcapture -%}
+          {%- endif -%}
+
+          {%- assign first_tab_rendered = false -%}
+
+          {%- if tabs.size > 0 -%}
+            <div class="product-details__block" {{ block.shopify_attributes }}>
+              {%- for i in tab_indices -%}
+                {%- liquid
+                  assign prevent_tab_render = false
+
+                  if i == '0'
+                    assign title = 'products.product.description' | t
+                  elsif i == '4' and specification != blank
+                    assign title = 'products.product.specification' | t
+                  elsif i == '5' and block.settings.show_reviews
+                    assign reviews_count = product.metafields.spr.reviews | split: '"reviewCount": "' | last | split: '",' | first | plus : 0
+                    assign title = 'products.product.reviews' | t | append: ' (' | append: reviews_count | append: ')'
+                  elsif i == '6'
+                    assign title = 'Downloads'
+                  else
+                    assign title_id = 'tab_' | append: i | append: '_title'
+                    assign text_id = 'tab_' | append: i | append: '_text'
+                    assign page_id = 'tab_' | append: i | append: '_page'
+                    assign title = block.settings[title_id] | default: block.settings[page_id].title
+                  endif
+                -%}
+
+                {%- if block.settings.style == 'collapsible' and prevent_tab_render == false -%}
+                  <details-disclosure>
+                    <details class="disclosure disclosure--row"{% if first_tab_rendered == false and block.settings.open_first %} open{% endif %}>
+                      <summary>
+                        <div class="flex justify-between items-center">
+                          <h2 class="disclosure__title h5 mb-0">{{ title }}</h2>
+                          <span class="disclosure__toggle">
+                            {%- if settings.disclosure_toggle == 'plus' -%}
+                              {% render 'icon-plus' %}
+                            {%- else -%}
+                              {% render 'icon-chevron-down' %}
+                            {%- endif -%}
+                          </span>
+                        </div>
+                      </summary>
+                      <div class="disclosure__panel has-motion">
+                        <div class="disclosure__content{% unless i == "4" %} rte product-description{% endunless %}">
+                          {%- if forloop.first and block.settings.show_description -%}
+                            {{ product.description  | replace: 'style', 'styles' }}
+                          {%- elsif i == "4"  and specification != blank -%}
+                            <ul class="product-spec">
+                              {{ specification }}
+                            </ul>
+                          {%- elsif i == "5" and block.settings.show_reviews -%}
+                            <div class="spr-reviews" id="shopify-product-reviews" data-id="{{ product.id }}">
+                              {{ product.metafields.spr.reviews }}
+                            </div>
+                          {%- elsif i == "6" and product.metafields.custom.download_spec_sheet != blank or product.metafields.custom.download_installation_guide != blank or product.metafields.custom._download_spec_sheet_name_1 != blank -%}
+                            <div class="product_extra_info">
+                               <ul>
+                                {% if product.metafields.custom.download_spec_sheet != blank %}
+                                 <li><a href="{{ product.metafields.custom.download_spec_sheet }}" rel="noopener" target="_blank">
+                                   <img src="https://cdn.shopify.com/s/files/1/0064/6922/2489/files/button_1.svg?v=1665121959" alt="Download Spec Sheet">  
+                                 </a></li>
+                                {% endif %}
+                                {% if product.metafields.custom.download_installation_guide != blank %}
+                                 <li><a href="{{ product.metafields.custom.download_installation_guide }}" rel="noopener" target="_blank">
+                                 <img src="https://cdn.shopify.com/s/files/1/0064/6922/2489/files/button_2.svg?v=1665121959" alt="Download Installation Guide">  
+                                 </a></li>
+                                {% endif %}
+                                {% for i in (1..10) %}
+                                  {% assign title = "_download_spec_sheet_name_" | append: i %}
+                                  {% assign link = "_download_spec_sheet_link_" | append: i %}
+                                  
+                                  {% if product.metafields.custom[title] != blank %} 
+                                   <li class="only_link"><a href="{{ product.metafields.custom[link] }}" rel="noopener" target="_blank">
+                                     {{ product.metafields.custom[title] }}
+                                   </a></li>
+                                  {% endif %}
+                                 {% endfor %}
+                               </ul>
+                                
+                            </div>
+                          {%- else -%}
+                            {{ block.settings[text_id] }}
+                            {{ block.settings[page_id].content }}
+                          {%- endif -%}
+                        </div>
+                      </div>
+                    </details>
+                  </details-disclosure>
+                  {%- assign first_tab_rendered = true -%}
+                {%- else -%}
+                  {%- capture tab_btns -%}
+                    {{ tab_btns }}
+                    {% if title != blank %}
+                      <button type="button" class="tablist__tab font-bold" id="tab-{{ i }}" role="tab" aria-controls="panel-{{ i }}" aria-selected="{% if forloop.first %}true{% else %}false{% endif %}">
+                        {{ title }}
+                      </button>
+                    {% endif %}  
+                  {%- endcapture -%}
+                {%- endif -%}
+              {%- endfor -%}
+
+              {%- if block.settings.style == 'tabs' -%}
+                <tabbed-content>
+                  <div class="tablist overflow-hidden relative mb-4 no-js-hidden">
+                    <div class="tablist__scroller flex" role="tablist">
+                      {{ tab_btns }}
+                    </div>
+                  </div>
+                  {%- for i in tab_indices -%}
+                    {%- liquid
+                      assign text_id = 'tab_' | append: i | append: '_text'
+                      assign page_id = 'tab_' | append: i | append: '_page'
+                    -%}
+                    <div id="panel-{{ i }}" role="tabpanel" tabindex="0" aria-labelledby="tab-{{ i }}"{% unless forloop.first %} hidden{% endunless %}>
+                      {%- if forloop.first and block.settings.show_description -%}
+                        <div class="rte product-description">
+                          
+                          {%- liquid
+                              assign option_chosen = "Select Bulbs"
+                              assign option_chosen_1 = "Bulb Type"
+                              assign option_index = ''
+                              for option in product.options
+                                  if option_chosen == option
+                                      assign option_index = forloop.index0 
+                                      break
+                                  elsif option_chosen_1 == option
+                                      assign option_index = forloop.index0 
+                                      break
+                                  endif
+                              endfor
+                          -%}
+                          {%- if option_index == '' -%}
+                              {{ product.description | replace: 'style', 'styles' }}
+                          {%- else -%}
+                              {% assign displayed_values = "" %}
+                              {% for variant in product.variants %}
+                                  {%- liquid
+                                    assign variant_option = variant.options[option_index]
+                                    assign valueIsDisplayed = false
+                                    for value in displayed_values
+                                      if value == variant_option
+                                        assign valueIsDisplayed = true
+                                        break
+                                      endif
+                                    endfor
+                                  -%}
+                                {% unless valueIsDisplayed %}
+                                  <div class="variant_dec variant_{{ variant.id }}{% if product.selected_or_first_available_variant.id == variant.id %} active{% else %} hidden{% endif %}">
+                                    {% if variant.metafields.custom.variant_custom_description != blank %}
+                                      {{ variant.metafields.custom.variant_custom_description | metafield_tag }}
+                                    {% else %}
+                                      {{ product.description | replace: 'style', 'styles' }}
+                                    {% endif %}
+                                  </div>
+                                {% endunless %}    
+                              {% endfor %}
+                          {%- endif -%} 
+                        </div>
+                      {%- elsif i == "4" and specification != blank -%}
+                        <ul class="product-spec">
+                          {{ specification }}
+                        </ul>
+                      {%- elsif i == "5" and block.settings.show_reviews -%}
+                        <div class="spr-reviews" id="shopify-product-reviews" data-id="{{ product.id }}">
+                          {{ product.metafields.spr.reviews }}
+                        </div>
+                      {%- elsif i == "6" and product.metafields.custom.download_spec_sheet != blank or product.metafields.custom.download_installation_guide != blank or product.metafields.custom._download_spec_sheet_name_1 != blank -%}
+                          <div class="product_extra_info">
+                             <ul>
+                              {% if product.metafields.custom.download_spec_sheet != blank %}
+                               <li><a href="{{ product.metafields.custom.download_spec_sheet }}" rel="noopener" target="_blank">
+                                 <img src="https://cdn.shopify.com/s/files/1/0064/6922/2489/files/button_1.svg?v=1665121959" alt="Download Spec Sheet">  
+                               </a></li>
+                              {% endif %}
+                              {% if product.metafields.custom.download_installation_guide != blank %}
+                               <li><a href="{{ product.metafields.custom.download_installation_guide }}" rel="noopener" target="_blank" rel="noopener">
+                               <img src="https://cdn.shopify.com/s/files/1/0064/6922/2489/files/button_2.svg?v=1665121959" alt="Download Installation Guide">  
+                               </a></li>
+                              {% endif %} 
+                              {% for i in (1..10) %}
+                                  {% assign title = "_download_spec_sheet_name_" | append: i %}
+                                  {% assign link = "_download_spec_sheet_link_" | append: i %}
+                                  
+                                  {% if product.metafields.custom[title] != blank %} 
+                                   <li class="only_link"><a href="{{ product.metafields.custom[link] }}" rel="noopener" target="_blank">
+                                     {{ product.metafields.custom[title] }}
+                                   </a></li>
+                                  {% endif %}
+                                 {% endfor %}
+                             </ul> 
+                          </div>  
+                      {%- else -%}
+                        <div class="rte">
+                          {{ block.settings[text_id] }}
+                          {{ block.settings[page_id].content }}
+                        </div>
+                      {%- endif -%}
+                    </div>
+                  {%- endfor -%}
+                </tabbed-content>
+              {%- endif -%}
+            </div>
+          {%- endif -%}
+          {%- if block.settings.style == 'tabs' -%}
+            <script src="{{ 'tabs.js' | asset_url }}" defer="defer"></script>
+          {%- endif -%}
+
+        {%- when 'richtext' -%}
+          {%- if block.settings.text != blank -%}
+            <div class="product-details__block product-details__text rte" {{ block.shopify_attributes }}>
+              {{ block.settings.text }}
+            </div>
+          {%- endif -%}
+
+        {%- when 'custom-liquid' -%}
+          <div class="product-details__block" {{ block.shopify_attributes }}>
+            {{ block.settings.custom_liquid }}
+          </div>
+
+        {%- when 'divider' -%}
+          <hr class="{{ block.settings.spacing }}{% unless block.settings.show_line %} invisible{% endunless %}" {{ block.shopify_attributes }}>
+
+        {%- when 'highlight-text' -%}
+          {%- if block.settings.title != blank or block.settings.text != blank -%}
+            {%- liquid
+              assign last_section_index = forloop.index0 | minus: 1
+              assign next_section_index = forloop.index
+              assign last_section_was_highlight = false
+              assign next_section_is_highlight = false
+
+              if last_section_index > -1 and section.blocks[last_section_index].type == 'highlight-text'
+                assign last_section_was_highlight = true
+              endif
+
+              if section.blocks[next_section_index].type == 'highlight-text'
+                assign next_section_is_highlight = true
+              endif
+            -%}
+
+            {%- if last_section_was_highlight == false and next_section_is_highlight -%}
+              <div class="product-details__block product-details__highlight-grid grid sm:grid-cols-2 md:grid-cols-1 lg:grid-cols-2">
+            {%- endif -%}
+
+            <div class="{% unless last_section_was_highlight or next_section_is_highlight %}product-details__block {% endunless %}product-details__highlight text-center" {{ block.shopify_attributes }}>
+              {%- if block.settings.title != blank -%}
+                <p class="h4">{{- block.settings.title | escape -}}</p>
+              {%- endif -%}
+              {%- if block.settings.text != blank -%}
+                <div class="rte large-text">{{ block.settings.text }}</div>
+              {%- endif -%}
+            </div>
+
+            {%- if last_section_was_highlight and next_section_is_highlight == false -%}
+              </div>
+            {%- endif -%}
+          {%- endif -%}
+
+        {%- when 'product-features' -%}
+            {% assign get_tag_count = 0 %}
+              {% for i in (1..30) %}
+                    {% capture tag_name %}flable{{ i }}{% endcapture %}
+                    {% capture image %}imageavg{{ i }}{% endcapture %}
+                    {% capture text %}icon_text_{{ i }}{% endcapture %}
+                  {% if product.tags contains settings[tag_name] %}
+                    {% assign get_tag_count = 1 %}
+                  {% endif %}  
+              {% endfor %}
+
+              {% if get_tag_count == 1 %}
+                {%- if block.settings.title != blank -%}
+                  {%- liquid
+                    assign last_section_index = forloop.index0 | minus: 1
+                    assign next_section_index = forloop.index
+                    assign last_section_was_highlight = false
+                    assign next_section_is_highlight = false
+      
+                    if last_section_index > -1 and section.blocks[last_section_index].type == 'highlight-text'
+                      assign last_section_was_highlight = true
+                    endif
+      
+                    if section.blocks[next_section_index].type == 'highlight-text'
+                      assign next_section_is_highlight = true
+                    endif
+                  -%}
+      
+                  <div class="{% unless last_section_was_highlight or next_section_is_highlight %}product-details__block {% endunless %}product-details__highlight" {{ block.shopify_attributes }}>
+                    
+                    {%- if block.settings.title != blank -%}
+                      <p class="features_title font-bold">{{- block.settings.title | escape -}}</p>
+                    {%- endif -%}
+                      <div class="product-icons">
+                        {% for i in (1..30) %}
+                          {% capture tag_name %}flable{{ i }}{% endcapture %}
+                          {% capture image %}imageavg{{ i }}{% endcapture %}
+                          {% capture text %}icon_text_{{ i }}{% endcapture %}
+                            {% if product.tags contains settings[tag_name] %}
+                              <div class="product-icon-inner"> 
+                                {% if settings[image] != blank %}
+                                  <span class="product-icon">
+                                    <img src="{{ settings[image] | img_url: 'master' }}" alt="{{ settings[image].alt }}" width="50px" height="50px">
+                                  </span>
+                                {% endif %}  
+                                <span class="icon-text">{{ settings[text] }}</span>
+                              </div>
+                            {% endif %}  
+                        {% endfor %}
+                      </div>
+                  </div>
+            {%- endif -%}
+          {% endif %}
+        
+        {%- when 'payment-methods' -%}
+          <div class="product-details__block panel" {{ block.shopify_attributes }}>
+            {%- if block.settings.title != blank -%}
+              <p class="h5 mb-6">{{- block.settings.title | escape -}}</p>
+            {%- endif -%}
+
+            {%- if block.settings.title1 != blank -%}
+              <p class="h6 regular-text mb-4" id="payment-methods-title">{{- block.settings.title1 | escape -}}</p>
+            {%- endif -%}
+
+            {%- if block.settings.show_payment_icons -%}
+              <div class="mb-4">
+                <ul class="payment-icons flex flex-wrap" role="list" {%- if block.settings.title1 != blank -%}aria-labelledby="payment-methods-title"{% endif %}>
+                  {%- for type in shop.enabled_payment_types -%}
+                    <li>{{ type | payment_type_svg_tag: class: 'payment-icon' }}</li>
+                  {%- endfor -%}
+                    <li class="payment-icon">
+                      {{ 'afterpay' | payment_type_svg_tag: class: 'payment-icon-svg' }}
+                    </li>
+                    <li class="payment-icon">
+                      {{ 'zip' | payment_type_svg_tag: class: 'payment-icon-svg' }}
+                    </li> 
+                    <li class="payment-icon">
+                      {{ 'klarna' | payment_type_svg_tag: class: 'payment-icon-svg' }}
+                    </li>
+                </ul>
+              </div>
+            {%- endif -%}
+
+            {%- if block.settings.text1 != blank -%}
+              <div class="rte mb-4">{{ block.settings.text1 }}</div>
+            {%- endif -%}
+
+            {%- if block.settings.title2 != blank -%}
+              <p class="h6 regular-text mb-4 mt-8">{{- block.settings.title2 | escape -}}</p>
+            {%- endif -%}
+
+            {%- if block.settings.image -%}
+              {% render 'image',
+                image: block.settings.image,
+                src_width: block.settings.image.width,
+                class: "mb-4"
+              %}
+            {%- endif -%}
+
+            {%- if block.settings.text2 != blank -%}
+              <div class="rte mb-4">{{ block.settings.text2 }}</div>
+            {%- endif -%}
+          </div>
+
+      {%- endcase -%}
+    {%- endfor -%}
+  </div>
+{%- endif -%}
+
+{% schema %}
+{
+  "name": "Product details",
+  "class": "cc-product-details product-details section",
+  "blocks": [
+    {
+      "type": "@app"
+    },
+    {
+      "type": "custom-liquid",
+      "name": "Custom Liquid",
+      "settings": [
+        {
+          "type": "liquid",
+          "id": "custom_liquid",
+          "label": "Custom Liquid"
+        }
+      ]
+    },
+    {
+      "type": "divider",
+      "name": "Divider",
+      "settings": [
+        {
+          "type": "checkbox",
+          "id": "show_line",
+          "label": "Show line",
+          "default": true
+        },
+        {
+          "type": "radio",
+          "id": "spacing",
+          "label": "Spacing",
+          "options": [
+            {
+              "value": "mt-8 mb-8",
+              "label": "Default"
+            },
+            {
+              "value": "mt-12 mb-12",
+              "label": "Large"
+            }
+          ],
+          "default": "mt-8 mb-8"
+        }
+      ]
+    },
+    {
+      "type": "richtext",
+      "name": "Rich text",
+      "settings": [
+        {
+          "type": "richtext",
+          "id": "text",
+          "label": "Rich text",
+          "default": "<p>Share information about this product with your customers.</p>"
+        }
+      ]
+    },
+    {
+      "type": "tabs",
+      "name": "Tabs",
+      "limit": 1,
+      "settings": [
+        {
+          "type": "select",
+          "id": "style",
+          "label": "Tabs style",
+          "options": [
+            {
+              "value": "collapsible",
+              "label": "Collapsible content"
+            },
+            {
+              "value": "tabs",
+              "label": "Horizontal tabs"
+            }
+          ],
+          "default": "collapsible"
+        },
+        {
+          "type": "checkbox",
+          "id": "show_description",
+          "label": "Show description tab",
+          "default": true
+        },
+        {
+          "type": "checkbox",
+          "id": "show_specification",
+          "label": "Show specifications tab",
+          "default": false
+        },
+        {
+          "type": "checkbox",
+          "id": "show_reviews",
+          "label": "Show reviews tab",
+          "info": "Requires the [Shopify Product Reviews app](https://apps.shopify.com/product-reviews?ref=cleancanvas)",
+          "default": false
+        },
+        {
+          "type": "checkbox",
+          "id": "open_first",
+          "label": "Open first collapsible tab by default",
+          "default": false
+        },
+        {
+          "type": "header",
+          "content": "Specifications tab"
+        },
+        {
+          "type": "paragraph",
+          "content": "Include a list of labels and product metafield keys below, separated by a colon, one per line. E.g. Trim color:custom.trim_color. [Read more](https://cleancanvas.co.uk/support/enterprise/templates/product-page)"
+        },
+        {
+          "type": "textarea",
+          "id": "spec_metafields",
+          "label": "Metafields"
+        },
+        {
+          "type": "checkbox",
+          "id": "spec_right_align",
+          "label": "Right align values",
+          "default": false
+        },
+        {
+          "type": "checkbox",
+          "id": "spec_show_empty_metafields",
+          "label": "Show empty metafields",
+          "default": true
+        },
+        {
+          "type": "text",
+          "id": "spec_empty_field_text",
+          "label": "Text to use for empty fields",
+          "default": "-"
+        },
+        {
+          "type": "header",
+          "content": "Custom tabs"
+        },
+        {
+          "type": "paragraph",
+          "content": "Show up to 3 custom tabs by adding a title and content or selecting a page"
+        },
+        {
+          "type": "header",
+          "content": "Tab 1"
+        },
+        {
+          "type": "text",
+          "id": "tab_1_title",
+          "label": "Title"
+        },
+        {
+          "type": "richtext",
+          "id": "tab_1_text",
+          "label": "Content"
+        },
+        {
+          "type": "page",
+          "id": "tab_1_page",
+          "label": "Content from page"
+        },
+        {
+          "type": "header",
+          "content": "Tab 2"
+        },
+        {
+          "type": "text",
+          "id": "tab_2_title",
+          "label": "Title"
+        },
+        {
+          "type": "richtext",
+          "id": "tab_2_text",
+          "label": "Content"
+        },
+        {
+          "type": "page",
+          "id": "tab_2_page",
+          "label": "Content from page"
+        },
+        {
+          "type": "header",
+          "content": "Tab 3"
+        },
+        {
+          "type": "text",
+          "id": "tab_3_title",
+          "label": "Title"
+        },
+        {
+          "type": "richtext",
+          "id": "tab_3_text",
+          "label": "Content"
+        },
+        {
+          "type": "page",
+          "id": "tab_3_page",
+          "label": "Content from page"
+        }
+      ]
+    },
+    {
+      "type": "highlight-text",
+      "name": "Highlight text",
+      "settings": [
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Title",
+          "default": "Highlight title"
+        },
+        {
+          "type": "richtext",
+          "id": "text",
+          "label": "Text",
+          "default": "<p>Text to highlight a key feature of your product</p>"
+        }
+      ]
+    },
+    {
+      "type": "payment-methods",
+      "name": "Payment methods",
+      "limit": 1,
+      "settings": [
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Title",
+          "default": "Payment & Security"
+        },
+        {
+          "type": "header",
+          "content": "Payment methods"
+        },
+        {
+          "type": "text",
+          "id": "title1",
+          "label": "Title",
+          "default": "Payment methods"
+        },
+        {
+          "type": "checkbox",
+          "id": "show_payment_icons",
+          "label": "Show payment icons",
+          "default": true
+        },
+        {
+          "type": "richtext",
+          "id": "text1",
+          "label": "Text",
+          "default": "<p>Your payment information is processed securely. We do not store credit card details nor have access to your credit card information.</p>"
+        },
+        {
+          "type": "header",
+          "content": "Secondary content"
+        },
+        {
+          "type": "text",
+          "id": "title2",
+          "label": "Title"
+        },
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Image"
+        },
+        {
+          "type": "richtext",
+          "id": "text2",
+          "label": "Text"
+        }
+      ]
+    },
+    {
+      "type": "product-features",
+      "name": "Product Features",
+      "settings": [
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Title",
+          "default": "Product Features"
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}

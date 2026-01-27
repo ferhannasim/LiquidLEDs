@@ -1,0 +1,514 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "parent": "product.festoon-string.json",
+  "context": {
+    "market": "australia"
+  },
+  "sections": {
+    "faq_xpdep": {
+      "type": "faq",
+      "disabled": false,
+      "settings": {
+        "header-41b956033041cc76902ae10c0c66a3dd": null,
+        "heading": "Festoon String Lights FAQs",
+        "heading_align": "text-center",
+        "header-b8566affba5dff847daa338d4a1ad3ce": null,
+        "color_scheme": "none",
+        "full_width": true
+      },
+      "blocks": {
+        "question_dCJpe": {
+          "type": "question",
+          "disabled": false,
+          "settings": {
+            "icon": "none",
+            "heading": "What comes included with the Festoon String Light?",
+            "text": "<p>The Festoon String Light package contains everything required for basic installation and includes free 11W incandescent S14 bulbs with E27 Edison Screw bases. The string light features waterproof silicon rubber lamp holders spaced 80cm apart and has waterproof universal joints at both ends for connecting multiple strings. The string also includes a 240V Australian Standard 2-pin plug and can be used with selected LED light bulbs</p>"
+          }
+        },
+        "question_gXhPU": {
+          "type": "question",
+          "disabled": false,
+          "settings": {
+            "icon": "none",
+            "heading": "What is the IP65 rating, and what does it mean for outdoor use?",
+            "text": "<p>The IP65 rating means these festoon lights are completely protected against dust ingress and against low-pressure water jets from any direction. This means they're fully weatherproof and can be safely used outdoors year-round, even during rain, snow, and other weather conditions. The waterproof silicon rubber lamp holders provide additional protection for the bulbs and electrical connections.</p>"
+          }
+        },
+        "question_gzAUe": {
+          "type": "question",
+          "disabled": false,
+          "settings": {
+            "icon": "none",
+            "heading": "Can I connect multiple strings of these festoon lights?",
+            "text": "<p>Yes, these festoon lights feature waterproof universal joints on both ends designed explicitly for connecting multiple strings. You can connect additional 20m or 10M strings to create 40m, 60m, or more lengths. The maximum recommended connection on a single power source is 1500W, as the total wattage should not exceed 1500W. Each connection maintains the IP65 waterproof rating when adequately secured.</p>"
+          }
+        },
+        "question_ncJza": {
+          "type": "question",
+          "disabled": false,
+          "settings": {
+            "icon": "none",
+            "heading": "How do I install these festoon lights?",
+            "text": "<p>Installing these festoon lights is straightforward:</p><ol><li>Plan your layout and measure the area where you'll install the lights</li><li>Ensure you have access to a standard 240V power outlet</li><li>If mounting on walls or structures, install hooks, nails, or other mounting hardware (not included) at regular intervals</li><li>Carefully unbox the string lights and gently unwind them</li><li>Hang the lights using the mounting hardware, ensuring the lamp holders face downward</li><li>Connect the plug to a standard power outlet</li><li>For permanent outdoor installations, consider using a weatherproof outlet cover</li></ol><p>No special tools or electrical knowledge is required for basic installation.</p>"
+          }
+        },
+        "question_MkUTG": {
+          "type": "question",
+          "disabled": false,
+          "settings": {
+            "icon": "none",
+            "heading": "How bright are these festoon lights?",
+            "text": "<p>These festoon lights provide ambient, atmospheric lighting rather than task lighting. The 11W incandescent bulbs create a warm, soft glow that's perfect for ambience in entertaining areas. The light output is designed to be gentle and inviting rather than bright and harsh. You can upgrade to LED bulbs or install multiple strings for brighter illumination.</p>"
+          }
+        },
+        "question_M8kNP": {
+          "type": "question",
+          "disabled": false,
+          "settings": {
+            "icon": "none",
+            "heading": "Can these festoon lights be dimmed?",
+            "text": "<p>Yes, these festoon lights are dimmable when used with a compatible dimmer. We recommend the Black Plug-In Dimmer (AUD 75.00) or the DimEzy™ Smart Plug-In Dimmer (AUD 69.00), both available separately. These plug-in dimmers allow you to adjust the brightness to create the perfect ambience for any occasion without requiring any electrical modifications. When purchasing accessories with the festoon lights, you'll automatically receive a 20% discount in your shopping cart.</p>"
+          }
+        },
+        "question_WbPWV": {
+          "type": "question",
+          "disabled": false,
+          "settings": {
+            "icon": "none",
+            "heading": "Can I use LED bulbs instead of the included incandescent bulbs?",
+            "text": "<p>Yes, these festoon lights are compatible with E27 (Edison Screw) LED bulbs. Upgrading to LED bulbs offers several advantages, including lower energy consumption, reduced heat output, longer lifespan, and sometimes brighter illumination. LED bulbs are available as an upgrade option at purchase or can be added later. When selecting LED bulbs, ensure they're rated for outdoor use if you plan to install them outdoors.</p>"
+          }
+        },
+        "question_76HBF": {
+          "type": "question",
+          "disabled": false,
+          "settings": {
+            "icon": "none",
+            "heading": "What happens if one bulb breaks or burns out?",
+            "text": "<p>These festoon lights are designed with a parallel wiring circuit, meaning if one bulb breaks or burns out, the rest will continue to function normally. Simply replace the non-working bulb with a new E27 (Edison Screw) bulb rated at 25W or less. This design makes maintenance simple and ensures your lighting display isn't compromised by a single bulb failure.</p>"
+          }
+        },
+        "question_X4yHn": {
+          "type": "question",
+          "disabled": false,
+          "settings": {
+            "icon": "none",
+            "heading": " What is the maximum wattage these festoon lights can handle?",
+            "text": "<p>Each lamp holder is rated for a maximum of 25 watts, and the entire lighting chain is rated for 1500 watts. This means you can safely use bulbs up to 25W in each socket without exceeding the fixture's capacity. The included 11W incandescent bulbs, as are most LED replacement options, are well within this safety range.</p>"
+          }
+        },
+        "question_Ug9Gr": {
+          "type": "question",
+          "disabled": false,
+          "settings": {
+            "icon": "none",
+            "heading": "Can these festoon lights be left outside year-round?",
+            "text": "<p>Thanks to their IP65 rating and commercial-grade construction, these festoon lights can be installed outdoors year-round in most climates. The waterproof universal joints, silicon rubber lamp holders, and heavy-duty rubber cables are designed to withstand various weather conditions, including rain, heat, and cold. For areas with extreme weather conditions (heavy snow, hurricanes, etc.), you may want to temporarily remove and store them during the most severe weather events.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "question_dCJpe",
+        "question_gXhPU",
+        "question_gzAUe",
+        "question_ncJza",
+        "question_MkUTG",
+        "question_M8kNP",
+        "question_WbPWV",
+        "question_76HBF",
+        "question_X4yHn",
+        "question_Ug9Gr"
+      ]
+    },
+    "icons_with_text_E7rWCz": {
+      "type": "icons-with-text",
+      "disabled": false,
+      "settings": {
+        "header-68752629cbb06cee7beada5f79fbb45c": null,
+        "heading": "",
+        "heading_align": "text-center",
+        "header-0ab39eacba9d01bd4cd5e1c123b85086": null,
+        "icon_size": 60,
+        "title_type_scale": "medium",
+        "text_type_scale": "medium",
+        "header-5f6dfdc1854059efdc1d6503464f5569": null,
+        "icon_position": "above",
+        "mobile_stack": true,
+        "section_height": "medium",
+        "header-a19ebad547bd4e5aaf72e1df6075f152": null,
+        "color_scheme": "1",
+        "full_width": true,
+        "dividers": "none",
+        "header-386173e14fd98a1e9f942a3a5bdc9fd1": null,
+        "prevent_animation": false
+      },
+      "blocks": {
+        "item_hTbRkC": {
+          "type": "item",
+          "disabled": false,
+          "settings": {
+            "icon": "check_mark",
+            "custom_icon": "shopify://shop_images/Trusted_by_100_000_Customers_47140b9e-3f5e-4700-a9e9-0bf8ac969594.png",
+            "heading": "Trusted by 100,000+ Customers",
+            "text": "",
+            "link": ""
+          }
+        },
+        "item_JjLbj8": {
+          "type": "item",
+          "disabled": false,
+          "settings": {
+            "icon": "check_mark",
+            "custom_icon": "shopify://shop_images/Proudly_Australian_Since_2010.png",
+            "heading": "Proudly Australian Since 2010",
+            "text": "",
+            "link": ""
+          }
+        },
+        "item_xrFwyn": {
+          "type": "item",
+          "disabled": false,
+          "settings": {
+            "icon": "check_mark",
+            "custom_icon": "shopify://shop_images/30-Day_Risk-Free_Guarantee.png",
+            "heading": "30-Day Risk-Free Guarantee",
+            "text": "",
+            "link": ""
+          }
+        },
+        "item_CCUnDM": {
+          "type": "item",
+          "disabled": false,
+          "settings": {
+            "icon": "check_mark",
+            "custom_icon": "shopify://shop_images/Fast_Reliable_Shipping.png",
+            "heading": "Fast & Reliable Shipping",
+            "text": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "item_hTbRkC",
+        "item_JjLbj8",
+        "item_xrFwyn",
+        "item_CCUnDM"
+      ]
+    },
+    "logo_list_R7zKQh": {
+      "type": "logo-list",
+      "disabled": false,
+      "settings": {
+        "header-8e24d867c45d62e877729c53af13e7e1": null,
+        "title": "",
+        "heading_align": "text-center",
+        "button_label": "",
+        "button_link": "",
+        "header-016c8d536a2e7a778c78c58346f2cb3f": null,
+        "layout": "carousel",
+        "spacing": 40,
+        "logo_grid_align": "justify-center",
+        "header-4abfacf33c42a1ed6cead28a7d93820f": null,
+        "color_scheme": "none",
+        "full_width": true
+      },
+      "blocks": {
+        "logo_D66yxf": {
+          "type": "logo",
+          "disabled": false,
+          "settings": {
+            "image": "shopify://shop_images/image001_4.jpg",
+            "url": "",
+            "logo_width": 130,
+            "text": ""
+          }
+        },
+        "logo_cN4aYa": {
+          "type": "logo",
+          "disabled": false,
+          "settings": {
+            "image": "shopify://shop_images/Logo_M-10.jpg",
+            "url": "",
+            "logo_width": 120,
+            "text": ""
+          }
+        },
+        "logo_VUz4Ek": {
+          "type": "logo",
+          "disabled": false,
+          "settings": {
+            "image": "shopify://shop_images/Logo_M-06.jpg",
+            "url": "",
+            "logo_width": 120,
+            "text": ""
+          }
+        },
+        "logo_PF7zbc": {
+          "type": "logo",
+          "disabled": false,
+          "settings": {
+            "image": "shopify://shop_images/Sydney_Opera_House.png",
+            "url": "",
+            "logo_width": 120,
+            "text": ""
+          }
+        },
+        "logo_mRBMWU": {
+          "type": "logo",
+          "disabled": false,
+          "settings": {
+            "image": "shopify://shop_images/deloeuvre_icon_165bc71f-c729-4a7c-b004-03579b1efda3.png",
+            "url": "",
+            "logo_width": 120,
+            "text": ""
+          }
+        },
+        "logo_nYzEjt": {
+          "type": "logo",
+          "disabled": false,
+          "settings": {
+            "image": "shopify://shop_images/HisMajestysTheatre-Logo.png",
+            "url": "",
+            "logo_width": 120,
+            "text": ""
+          }
+        },
+        "logo_jtqLAf": {
+          "type": "logo",
+          "disabled": false,
+          "settings": {
+            "image": "shopify://shop_images/Regent_Theatre.png",
+            "url": "",
+            "logo_width": 120,
+            "text": ""
+          }
+        },
+        "logo_mYjgmB": {
+          "type": "logo",
+          "disabled": false,
+          "settings": {
+            "image": "shopify://shop_images/Logo_M-03.jpg",
+            "url": "",
+            "logo_width": 120,
+            "text": ""
+          }
+        },
+        "logo_GTNNYi": {
+          "type": "logo",
+          "disabled": false,
+          "settings": {
+            "image": "shopify://shop_images/FP-LOGO-MAAS.jpg",
+            "url": "",
+            "logo_width": 120,
+            "text": ""
+          }
+        },
+        "logo_f49r3C": {
+          "type": "logo",
+          "disabled": false,
+          "settings": {
+            "image": "shopify://shop_images/Logo_M-05.jpg",
+            "url": "",
+            "logo_width": 120,
+            "text": ""
+          }
+        },
+        "logo_fGaTdE": {
+          "type": "logo",
+          "disabled": false,
+          "settings": {
+            "image": "shopify://shop_images/Logo_M-04.jpg",
+            "url": "",
+            "logo_width": 120,
+            "text": ""
+          }
+        },
+        "logo_yehYwq": {
+          "type": "logo",
+          "disabled": false,
+          "settings": {
+            "image": "shopify://shop_images/Logo_M-09.jpg",
+            "url": "",
+            "logo_width": 120,
+            "text": ""
+          }
+        },
+        "logo_JM77gQ": {
+          "type": "logo",
+          "disabled": false,
+          "settings": {
+            "image": "shopify://shop_images/The_Star_Casino_Sydney.png",
+            "url": "",
+            "logo_width": 120,
+            "text": ""
+          }
+        },
+        "logo_W77zHt": {
+          "type": "logo",
+          "disabled": false,
+          "settings": {
+            "image": "shopify://shop_images/vibe_hotels.png",
+            "url": "",
+            "logo_width": 120,
+            "text": ""
+          }
+        },
+        "logo_aQfpKX": {
+          "type": "logo",
+          "disabled": false,
+          "settings": {
+            "image": "shopify://shop_images/Capella_Hotels.jpg",
+            "url": "",
+            "logo_width": 120,
+            "text": ""
+          }
+        },
+        "logo_GMt9i7": {
+          "type": "logo",
+          "disabled": false,
+          "settings": {
+            "image": "shopify://shop_images/Melbourne_Theatre_Company_logo.png",
+            "url": "",
+            "logo_width": 120,
+            "text": ""
+          }
+        }
+      },
+      "block_order": [
+        "logo_D66yxf",
+        "logo_cN4aYa",
+        "logo_VUz4Ek",
+        "logo_PF7zbc",
+        "logo_mRBMWU",
+        "logo_nYzEjt",
+        "logo_jtqLAf",
+        "logo_mYjgmB",
+        "logo_GTNNYi",
+        "logo_f49r3C",
+        "logo_fGaTdE",
+        "logo_yehYwq",
+        "logo_JM77gQ",
+        "logo_W77zHt",
+        "logo_aQfpKX",
+        "logo_GMt9i7"
+      ]
+    },
+    "main": {
+      "disabled": false,
+      "settings": {},
+      "blocks": {
+        "judge_me_reviews_review_snippet_widget_pa9zc": {
+          "type": "shopify://apps/judge-me-reviews/blocks/review_snippet_widget/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "disabled": false,
+          "settings": {
+            "paragraph-f999c194a604673ebe43eb426df3ba69": null,
+            "paragraph-c9b6905c495006ea1b8b275374343d6f": null
+          }
+        },
+        "collapsible-content-1": {
+          "settings": {
+            "heading": "Here When You Need Us",
+            "text": "<p><strong>Need help? We're here for you.<br/><br/></strong>Our friendly team is available to assist you with any questions or concerns.</p><p>📞 <strong>Call us:</strong> <a href=\"tel:+612%208880%209033\"><span style=\"text-decoration:underline\">+612 8880 9033</span><br/><br/></a>💬 <strong>WhatsApp:</strong> <a href=\"https://wa.me/61483949669\"><span style=\"text-decoration:underline\">+61483949669<br/><br/></span></a>📧 <strong>Email us:</strong> <a href=\"https://liquid-leds.com/pages/contact-us\"><span style=\"text-decoration:underline\">Send us a message<br/><br/></span></a>❓ <strong>FAQs:</strong> <a href=\"https://liquid-leds.com/pages/faqs\"><span style=\"text-decoration:underline\">Visit our FAQ page ›</span></a></p><p>🕒 <strong>Support hours: </strong>Monday – Friday, 8:00 a.m. – 6:00 p.m. AEST</p>"
+          }
+        },
+        "62039f84-401f-4025-9830-7b334867dfe7": {
+          "settings": {
+            "heading": "Hassle-Free Returns",
+            "text": "<p><strong>Shop with Confidence<br/><br/></strong>Your satisfaction means everything to us. If you're not completely happy with your order, you can return it within 30 days of receiving it for a refund of the purchase price (excluding delivery).</p><p>We’ve been supporting our customers since 2010 and are here to help every step of the way.</p><p><a href=\"https://liquid-leds.com/en-au/pages/return-policy\"><span style=\"text-decoration:underline\">View our full return policy ›</span></a></p>"
+          }
+        },
+        "collapsible-content-2": {
+          "settings": {
+            "heading": "Fast, Reliable Delivery",
+            "text": "<p><strong>Fast & Reliable Delivery</strong></p><p>Orders placed before 10 a.m. AEST on business days are dispatched the same day from our Sydney warehouse.</p><p>✅ <strong>Free standard shipping<br/><br/></strong>• Metro areas: orders over $99<br/><br/>• Regional areas: orders over $199</p><p>🚚 <strong>Delivery timeframes<br/><br/></strong>• Sydney Metro: 1–3 business days<br/><br/>• Other NSW: 2–5 days<br/><br/>• Major cities: 2–5 days<br/><br/>• Regional areas: 2–7 days</p><p>📦 Express shipping is available at checkout.</p><p>Please ensure your address is accurate to avoid delays and return-to-sender fees. If you haven’t received your order or there’s an issue, we’re here to help.</p><p><a href=\"https://liquid-leds.com/en-au/pages/shipping\"><span style=\"text-decoration:underline\">View complete shipping details ›</span></a></p>",
+            "page": ""
+          }
+        },
+        "message_jB6Bb": {
+          "type": "message",
+          "disabled": true,
+          "settings": {
+            "icon": "price_tag",
+            "title": "<h6><strong>Combine and enjoy a 20% discount on dimmers or accessories</strong></h6><p>Discount applied in the shopping cart</p>",
+            "close": "none",
+            "show_over_media": false,
+            "visibility_duration": 7,
+            "header-c2add7232ba0ad7ed93a751406ffc261": null,
+            "bg_color": "#ffffff",
+            "text_color": "#2a2b2a"
+          }
+        },
+        "1a9e12c5-c94a-4986-ab78-ccb3d78bca12": {
+          "disabled": true,
+          "settings": {}
+        },
+        "share": {
+          "disabled": false,
+          "settings": {}
+        },
+        "product_labels_eDXA4": {
+          "type": "product-labels",
+          "disabled": true,
+          "settings": {
+            "paragraph-ced1e52795ce313bccd29489693a37d5": null
+          }
+        }
+      },
+      "block_order": [
+        "vendor-sku",
+        "title",
+        "3e7fac93-7ed1-44b6-b882-99af47420c64",
+        "price",
+        "variant-picker",
+        "buy-buttons",
+        "e0be5244-484c-4751-be23-938d1657421d",
+        "judge_me_reviews_review_snippet_widget_pa9zc",
+        "message-1",
+        "message-2",
+        "collapsible-content-1",
+        "62039f84-401f-4025-9830-7b334867dfe7",
+        "collapsible-content-2",
+        "message_jB6Bb",
+        "1a9e12c5-c94a-4986-ab78-ccb3d78bca12",
+        "message-3",
+        "share",
+        "product_labels_eDXA4"
+      ]
+    },
+    "recommendations": {
+      "settings": {
+        "heading_align": "text-center",
+        "layout": "carousel_on_mobile",
+        "card_size": "medium"
+      },
+      "blocks": {}
+    },
+    "2f9d2b69-1421-42ee-bf42-204579d8c79b": {
+      "settings": {
+        "heading_align": "text-center",
+        "card_size": "medium"
+      },
+      "blocks": {}
+    }
+  },
+  "order": [
+    "main",
+    "details",
+    "product-features",
+    "recommendations",
+    "2f9d2b69-1421-42ee-bf42-204579d8c79b",
+    "1695711824fc9578f1",
+    "faq_xpdep",
+    "icons_with_text_E7rWCz",
+    "logo_list_R7zKQh"
+  ]
+}

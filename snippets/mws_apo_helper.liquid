@@ -1,0 +1,81 @@
+<script>
+function mwApoCustom() {
+  window.mwApoInit  = window.mwApoInit  || {};
+  window.mwApoInit.onEvent = function (event, args) {  
+	if (event == "init::finish") {
+
+      const addToCartBtn = document.querySelector('.mw-apo-add-to-cart-cloned');
+
+      if (addToCartBtn && addToCartBtn.textContent.includes('On Backorder')) {
+        const options = document.querySelectorAll('.selectCustom-trigger + .selectCustom-options .selectCustom-option div');
+    
+        options.forEach(option => {
+          option.classList.add('show-backorder');
+        });
+      }
+    }
+    
+  };
+  window.mwApoInit.onCallback = function (event, data) {
+   //if (event == "applyAttributeStateToHtml::price") {
+		
+   // }
+     return data;
+  };
+}
+</script>
+<style>
+  .show-backorder::after {
+    content: "On Backorder";
+    font-size: 14px;
+    position: absolute;
+    right: 20px;
+  }
+
+  .mw-custom-select .selectCustom-option.isHover, .mw-custom-select .selectCustom-option:hover {
+      background-color: #e7e7e7;
+  }
+  
+  .selectCustom-trigger .show-backorder::after {
+    content: "";
+  }
+
+  .mw-text.mw-text--style-negative, .selectCustom-options .selectCustom-option:first-child {
+    display: none;
+}
+
+.selectCustom-trigger .mw-text.mw-option__value-text {
+    font-weight: 700;
+    font-size: 14px;
+} 
+
+.mw-custom-select .selectCustom-trigger {
+   border-radius: 30px;
+}
+
+.mw-custom-select .selectCustom.isActive .selectCustom-options {
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.mw-custom-select .selectCustom-options {
+    border: var(--input-border-width) solid rgba(var(--input-text-color) / .2);
+    outline: 0;
+    background-color: var(--input-bg-color-diff-3);
+    box-shadow: 0 5px 10px #00000026;
+    color: rgb(var(--input-text-color));
+    font-size: .88em;
+}
+
+.mw-custom-select .selectCustom-option.mw-selected {
+    background-color: #e3e3e3c9;
+}
+
+.mw-custom-select .selectCustom-trigger {
+    border: 2px solid #d4d5d4;
+    background-position: right 25px center;
+    background-size: 14px;
+    padding: 7px 28px 11px 25px;
+}
+
+</style>

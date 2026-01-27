@@ -1,0 +1,161 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "parent": "collection.festoon-lighting.json",
+  "context": {
+    "market": "australia"
+  },
+  "sections": {
+    "scrolling_banner_TAqtq": {
+      "type": "scrolling-banner",
+      "disabled": true,
+      "settings": {
+        "header-ed04298249d76907fc2677e116781a4b": null,
+        "section_height": "xsmall",
+        "spacing": 60,
+        "header-7ff7315d94b3f1fc1ec0239447b1d4e4": null,
+        "speed": 24,
+        "direction": "normal",
+        "pausable": true,
+        "header-9eb4695cdfd675dbcfdec73e024bb81e": null,
+        "color_scheme": "1",
+        "dividers": "none",
+        "header-4e6e0b6b8e571f7acc57b2e0e1adf9ef": null,
+        "prevent_animation": false
+      },
+      "blocks": {
+        "text_HUMdi": {
+          "type": "text",
+          "disabled": false,
+          "settings": {
+            "text": "🔐 SECURE PAYMENTS",
+            "link": "",
+            "font": "body",
+            "heading_size": "h6"
+          }
+        },
+        "text_wAHeD": {
+          "type": "text",
+          "disabled": false,
+          "settings": {
+            "text": "⭐ PREMIUM QUALITY",
+            "link": "",
+            "font": "body",
+            "heading_size": "h6"
+          }
+        },
+        "text_UQpc6": {
+          "type": "text",
+          "disabled": false,
+          "settings": {
+            "text": "🤝🏼 TRUSTED SUPPLIER SINCE 2010",
+            "link": "",
+            "font": "body",
+            "heading_size": "h6"
+          }
+        }
+      },
+      "block_order": [
+        "text_HUMdi",
+        "text_wAHeD",
+        "text_UQpc6"
+      ]
+    },
+    "icons_with_text_xPYBdf": {
+      "type": "icons-with-text",
+      "disabled": false,
+      "settings": {
+        "header-6a74bbcf39893e2035b30a529346f6e4": null,
+        "heading": "",
+        "heading_align": "text-center",
+        "header-c55a1d25d2f1de6bf9a6bed9a8778062": null,
+        "icon_size": 60,
+        "title_type_scale": "medium",
+        "text_type_scale": "medium",
+        "header-b8d2a715f01e7cc434e77cb16429cf6e": null,
+        "icon_position": "above",
+        "mobile_stack": true,
+        "section_height": "medium",
+        "header-267342f9450fdc9b3cbeebb488567350": null,
+        "color_scheme": "1",
+        "full_width": true,
+        "dividers": "none",
+        "header-321e92f33eb09cbffcecedfdd5257117": null,
+        "prevent_animation": false
+      },
+      "blocks": {
+        "item_rPAWT3": {
+          "type": "item",
+          "disabled": false,
+          "settings": {
+            "icon": "check_mark",
+            "custom_icon": "shopify://shop_images/Trusted_by_100_000_Customers_47140b9e-3f5e-4700-a9e9-0bf8ac969594.png",
+            "heading": "Trusted by 100,000+ Customers",
+            "text": "",
+            "link": ""
+          }
+        },
+        "item_bNj4gn": {
+          "type": "item",
+          "disabled": false,
+          "settings": {
+            "icon": "check_mark",
+            "custom_icon": "shopify://shop_images/Proudly_Australian_Since_2010.png",
+            "heading": "Proudly Australian Since 2010",
+            "text": "",
+            "link": ""
+          }
+        },
+        "item_9wc9GD": {
+          "type": "item",
+          "disabled": false,
+          "settings": {
+            "icon": "check_mark",
+            "custom_icon": "shopify://shop_images/30-Day_Risk-Free_Guarantee.png",
+            "heading": "30-Day Risk-Free Guarantee",
+            "text": "",
+            "link": ""
+          }
+        },
+        "item_wG9WUz": {
+          "type": "item",
+          "disabled": false,
+          "settings": {
+            "icon": "check_mark",
+            "custom_icon": "shopify://shop_images/Fast_Reliable_Shipping.png",
+            "heading": "Fast & Reliable Shipping",
+            "text": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "item_rPAWT3",
+        "item_bNj4gn",
+        "item_9wc9GD",
+        "item_wG9WUz"
+      ]
+    },
+    "collection-products": {
+      "settings": {
+        "enable_filtering": false,
+        "enable_product_label": true
+      },
+      "blocks": {}
+    }
+  },
+  "order": [
+    "scrolling_banner_TAqtq",
+    "collection-banner",
+    "collection-products",
+    "collection-banner-1",
+    "icons_with_text_xPYBdf"
+  ]
+}

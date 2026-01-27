@@ -1,0 +1,47 @@
+{%-  liquid
+  assign market = localization.market.handle | default: 'us'
+  if market.size > 20
+    assign market = 'us'
+  endif
+
+  assign title_key = 'title_' | append: market
+  assign title_mf = product.metafields.market-seo[title_key] | default: collection.metafields.market-seo[title_key] | default: page_title
+
+  assign description_key = 'description_' |  append: market
+  assign description_mf = product.metafields.market-seo[description_key] | default: collection.metafields.market-seo[description_key] | default: page_description
+-%}
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>
+  {%- if request.page_type == 'password' -%}
+    {{- shop.name -}}
+  {%- else -%}
+    {% assign newshopname = title_mf | remove: "Australia" %}
+    {{- newshopname -}} 
+    {%- if current_tags %}{% assign meta_tags = current_tags | join: ', ' %} &ndash; {{ 'general.meta.tags' | t: tags: meta_tags }}{% endif -%}
+    {%- if current_page != 1 %} &ndash; {{ 'general.meta.page' | t: page: current_page }} {% endif -%}  {% if template == 'index' %} {{ localization.country }} {% endif %}
+    {%- unless title_mf contains shop.name %} &ndash; {{ shop.name }}{% endunless -%}  {% unless template == 'index' or template == 'product' %} {{ localization.country }} {% endunless %}
+  {%- endif -%}
+</title>
+
+{%- if canonical_url != blank -%}
+  <link rel="canonical" href="{{ canonical_url }}">
+{%- endif -%}
+
+{%- if settings.favicon != blank -%}
+  {%- liquid
+    assign image_type = settings.favicon | split: '?' | first | split: '.' | last | downcase
+    if image_type == 'svg'
+      assign image_type = 'svg+xml'
+    endif
+  -%}
+  <link rel="icon" href="{{ settings.favicon | image_url: width: 48, height: 48 }}" type="image/{{ image_type }}">
+  <link rel="apple-touch-icon" href="{{ settings.favicon | image_url: width: 180, height: 180 }}">
+{%- endif -%}
+
+{%- if description_mf -%}
+  <meta name="description" content="{{ description_mf | escape }}">
+{%- endif -%}
+
+<meta name="google-site-verification" content="z4LCBN3coacF5l3TvZRRCKlJu6I73DVRnIBbkLuVaAs" />

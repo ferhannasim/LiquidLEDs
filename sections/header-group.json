@@ -1,0 +1,241 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "type": "header",
+  "name": "Header Group",
+  "sections": {
+    "promo_strip_EdCetd": {
+      "type": "promo-strip",
+      "blocks": {
+        "heading_RNHLaj": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "CYBER MONDAY: Ends Tonight at 11:30 PM.",
+            "heading_size": "h4",
+            "show_on_mobile": true,
+            "show_on_desktop": true
+          }
+        },
+        "text_wPG9qB": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Share something special with your customers.</p>",
+            "enlarge_text": true,
+            "show_on_mobile": true,
+            "show_on_desktop": true
+          }
+        },
+        "button_tXNfBj": {
+          "type": "button",
+          "settings": {
+            "button_label": "SHOP NOW",
+            "button_link": "shopify://collections/black-friday-cyber-monday-sale",
+            "button_style": "btn btn--primary"
+          }
+        }
+      },
+      "block_order": [
+        "heading_RNHLaj",
+        "text_wPG9qB",
+        "button_tXNfBj"
+      ],
+      "disabled": true,
+      "name": "Promo strip",
+      "settings": {
+        "section_height": "xsmall",
+        "color_scheme": "3",
+        "full_width": true,
+        "dividers": "border-top",
+        "prevent_animation": false
+      }
+    },
+    "announcement": {
+      "type": "announcement",
+      "blocks": {
+        "announcement-1": {
+          "type": "announcement",
+          "settings": {
+            "text": "<p><strong>Enjoy free DHL shipping on </strong><a href=\"/pages/shipping-to-united-states\" title=\"Shipping To United States of America\"><strong>orders over $149*</strong></a></p>"
+          }
+        },
+        "announcement-2": {
+          "type": "announcement",
+          "settings": {
+            "text": "<p><strong>30 Days Returns Policy </strong><a href=\"/pages/return-policy\" title=\"Returns Policy\"><strong>No Quibble Guarantee</strong></a></p>"
+          }
+        },
+        "announcement_XhAFyd": {
+          "type": "announcement",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Welcome to our store. <a href=\"#\" title=\"#\">Learn more</a></p>"
+          }
+        }
+      },
+      "block_order": [
+        "announcement-1",
+        "announcement-2",
+        "announcement_XhAFyd"
+      ],
+      "settings": {
+        "speed": 24,
+        "direction": "normal",
+        "pausable": true,
+        "link1": "https://www.liquidleds.lighting/",
+        "link1_label": "B2B",
+        "link2": "shopify://pages/faqs",
+        "link2_label": "FAQ",
+        "enable_country_selector": false,
+        "enable_language_selector": false,
+        "bg_color": "#2a2b2a",
+        "text_color": "#ffffff",
+        "text_type_scale": "small",
+        "read_time": 7
+      }
+    },
+    "scrolling_banner_kf48ai": {
+      "type": "scrolling-banner",
+      "blocks": {
+        "text_YPyzQU": {
+          "type": "text",
+          "settings": {
+            "text": "💡 Light That Loves You Back — Up to 50 % Off Bulbs, Dimmers & String Lighting — This Week Only",
+            "link": "",
+            "font": "heading",
+            "heading_size": "h6"
+          }
+        },
+        "text_wDEQFJ": {
+          "type": "text",
+          "settings": {
+            "text": "✨ Flicker-Free • High CRI • Dimmable Comfort",
+            "link": "",
+            "font": "heading",
+            "heading_size": "h6"
+          }
+        }
+      },
+      "block_order": [
+        "text_YPyzQU",
+        "text_wDEQFJ"
+      ],
+      "disabled": true,
+      "name": "Scrolling banner",
+      "settings": {
+        "section_height": "xsmall",
+        "spacing": 32,
+        "speed": 30,
+        "direction": "normal",
+        "pausable": false,
+        "color_scheme": "3",
+        "dividers": "none",
+        "prevent_animation": false
+      }
+    },
+    "header": {
+      "type": "header",
+      "blocks": {
+        "ee37fe4c-aec8-4ae4-bffe-cbce556ee563": {
+          "type": "columns",
+          "settings": {
+            "title": "SHOP",
+            "collection_images": "standard",
+            "collection_use_product_image": false,
+            "show_underline": false,
+            "promo_position": "bottom",
+            "promo_min_height": 200,
+            "promo_text_color": "#ffffff",
+            "promo_tint_color": "#000000",
+            "promo_tint_opacity": 20,
+            "promo1_content": "",
+            "promo1_link_url": "",
+            "promo1_text_size": 16,
+            "promo1_text_width": 100,
+            "promo1_text_alignment": "justify-center items-center text-center",
+            "promo2_content": "",
+            "promo2_link_url": "",
+            "promo2_text_size": 16,
+            "promo2_text_width": 100,
+            "promo2_text_alignment": "justify-center items-center text-center",
+            "promo3_content": "",
+            "promo3_link_url": "",
+            "promo3_text_size": 16,
+            "promo3_text_width": 100,
+            "promo3_text_alignment": "justify-center items-center text-center",
+            "badge1_color": "#000000",
+            "badge1_link": "",
+            "badge1_text": "",
+            "badge2_color": "#000000",
+            "badge2_link": "",
+            "badge2_text": "",
+            "badge3_color": "#000000",
+            "badge3_link": "",
+            "badge3_text": ""
+          }
+        },
+        "cf2faf85-8cc9-4ffd-8cc0-520c7e3f0e92": {
+          "type": "sidebar",
+          "disabled": true,
+          "settings": {
+            "title": "Lighting",
+            "collection_images": "large",
+            "collection_use_product_image": true,
+            "show_underline": false,
+            "show_collection_images": true,
+            "sidebar_link_use_product_image": false,
+            "show_product_images": true,
+            "aspect_ratio": "0.6",
+            "badge1_color": "#000000",
+            "badge1_link": "",
+            "badge1_text": "",
+            "badge2_color": "#000000",
+            "badge2_link": "",
+            "badge2_text": "",
+            "badge3_color": "#000000",
+            "badge3_link": "",
+            "badge3_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "ee37fe4c-aec8-4ae4-bffe-cbce556ee563",
+        "cf2faf85-8cc9-4ffd-8cc0-520c7e3f0e92"
+      ],
+      "settings": {
+        "enable_sticky": true,
+        "mobile_menu_position": "burger-right",
+        "logo_text": "",
+        "logo_type_scale": "2",
+        "logo": "{{ shop.brand.logo }}",
+        "logo_width": 150,
+        "logo_h1": true,
+        "homepage_h1_text": "LED Light Bulbs & Globes",
+        "enable_search": true,
+        "minimise_search_mobile": false,
+        "minimise_search_desktop": false,
+        "menu": "new-menu",
+        "repeat_links": true,
+        "menu_featured_link": "Sale",
+        "quicklinks_menu": "",
+        "bg_color": "#ffffff",
+        "text_color": "#070707",
+        "accent_color": "#777777"
+      }
+    }
+  },
+  "order": [
+    "promo_strip_EdCetd",
+    "announcement",
+    "scrolling_banner_kf48ai",
+    "header"
+  ]
+}

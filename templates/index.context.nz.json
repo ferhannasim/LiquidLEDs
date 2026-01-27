@@ -1,0 +1,555 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "parent": "index.json",
+  "context": {
+    "market": "nz"
+  },
+  "sections": {
+    "slideshow_ee3Bi": {
+      "type": "slideshow",
+      "disabled": false,
+      "settings": {
+        "header-837fd6b87fe31336c2ddff5f87df98b5": null,
+        "height_mode": "auto",
+        "fixed_height_desktop": 600,
+        "fixed_height_mobile": 350,
+        "mobile_stacked": false,
+        "header-439a84dc7e9897d78d7e89265d175e4e": null,
+        "nav_style": "slideshow_nav_lines",
+        "pagination_color": "#ffffff",
+        "nav_position": "justify-center",
+        "transition": "slide-fade",
+        "autoplay": true,
+        "slider_pause": false,
+        "autoplay_speed": 5,
+        "header-4d7af0710a29310ea34716d3b67d5479": null,
+        "color_scheme": "white",
+        "full_width": true,
+        "tint_color": "#000000",
+        "tint_opacity": 40,
+        "header-45809461e4ff79280817e221ff524b79": null,
+        "accessibility_info": "",
+        "prevent_animation": true
+      },
+      "blocks": {
+        "slide_CebVf": {
+          "type": "slide",
+          "disabled": false,
+          "settings": {
+            "image_desktop": "shopify://shop_images/Flicker-Free_Light_for_Cozy_Nights_In_final_banner.jpg",
+            "image_mobile": "shopify://shop_images/Flicker-Free_Light_for_Cozy_Nights_In_mobile_image.jpg",
+            "url": "",
+            "header-5da43fa3368ee3ff6017139d366b5cf1": null,
+            "overlay_position": "justify-start items-center",
+            "overlay_text_align": "text-center",
+            "mob_center_text": false,
+            "subheading": "",
+            "heading": "Flicker-Free Light for Calm Evenings at Home",
+            "heading_size": "h4",
+            "heading_h1": false,
+            "text": "<p>Soft, steady light that protects your eyes and lifts your space. Premium LED filament bulbs for New Zealand homes.</p>",
+            "enlarge_text": true,
+            "button_1_label": "Shop Flicker-Free Bulbs",
+            "button_1_link": "https://liquid-leds.com/en-nz/collections/flicker-free-led-light-bulbs",
+            "button_1_style": "btn btn--primary",
+            "button_2_label": "",
+            "button_2_link": "",
+            "button_2_style": "btn btn--primary",
+            "transparent_content_color": "#ffffff",
+            "header-342eab196250892222d600df25bb78d1": null,
+            "countdown_show": false,
+            "countdown_end_date": "",
+            "countdown_end_time": "",
+            "countdown_end_text": "",
+            "enlarge_end_text": false,
+            "countdown_hide_on_end": false,
+            "use_custom_colors": false,
+            "count_color": "#ffffff",
+            "bg_color": "#070707",
+            "bg_grad": ""
+          }
+        },
+        "slide_TG4ti": {
+          "type": "slide",
+          "disabled": false,
+          "settings": {
+            "image_desktop": "shopify://shop_images/Vintage_Glow._Modern_Tech.-Banner.jpg",
+            "image_mobile": "shopify://shop_images/Vintage_Glow._Modern_Tech.-banner_mobile.jpg",
+            "url": "",
+            "header-7ddeef2738372ff5dda94d8be16a4419": null,
+            "overlay_position": "justify-center items-center",
+            "overlay_text_align": "text-center",
+            "mob_center_text": false,
+            "subheading": "",
+            "heading": "Vintage Glow with Modern LED Quality",
+            "heading_size": "h4",
+            "heading_h1": false,
+            "text": "<p>High-CRI filament bulbs that bring natural warmth and style to New Zealand homes.</p>",
+            "enlarge_text": true,
+            "button_1_label": "Explore the Collection",
+            "button_1_link": "https://liquid-leds.com/en-nz/collections/ultra-high-cri-bulbs",
+            "button_1_style": "btn btn--primary",
+            "button_2_label": "",
+            "button_2_link": "",
+            "button_2_style": "btn btn--primary",
+            "transparent_content_color": "#ffffff",
+            "header-9b0b689c1db52904b9b0c52b8d0c34e1": null,
+            "countdown_show": false,
+            "countdown_end_date": "",
+            "countdown_end_time": "",
+            "countdown_end_text": "",
+            "enlarge_end_text": false,
+            "countdown_hide_on_end": false,
+            "use_custom_colors": false,
+            "count_color": "#ffffff",
+            "bg_color": "#070707",
+            "bg_grad": ""
+          }
+        },
+        "slide_yF3Kj": {
+          "type": "slide",
+          "disabled": true,
+          "settings": {
+            "image_desktop": "shopify://shop_images/Boxing_Day_Desktop_2.png",
+            "image_mobile": "shopify://shop_images/Boxing_Day_Mobile_2.jpg",
+            "url": "https://liquid-leds.com/en-nz/collections/vintage-led-light-bulbs",
+            "header-bb8e826b69631e8f08728d1cdad8978e": null,
+            "overlay_position": "justify-center items-center",
+            "overlay_text_align": "text-center",
+            "mob_center_text": false,
+            "subheading": "",
+            "heading": "",
+            "heading_size": "h0",
+            "heading_h1": false,
+            "text": "",
+            "enlarge_text": true,
+            "button_1_label": "",
+            "button_1_link": "https://liquid-leds.com/en-au/collections/vintage-led-light-bulbs",
+            "button_1_style": "btn btn--primary",
+            "button_2_label": "",
+            "button_2_link": "",
+            "button_2_style": "btn btn--primary",
+            "transparent_content_color": "#ffffff",
+            "header-df21699d872eb7c61fccbec5a5e72421": null,
+            "countdown_show": false,
+            "countdown_end_date": "",
+            "countdown_end_time": "",
+            "countdown_end_text": "",
+            "enlarge_end_text": false,
+            "countdown_hide_on_end": false,
+            "use_custom_colors": false,
+            "count_color": "#ffffff",
+            "bg_color": "#070707",
+            "bg_grad": ""
+          }
+        },
+        "slide_FFhmc": {
+          "type": "slide",
+          "disabled": true,
+          "settings": {
+            "image_desktop": "shopify://shop_images/Boxing_Day_BANNER_Desktop_1.png",
+            "image_mobile": "shopify://shop_images/Boxing_Day_Mobile_1.png",
+            "url": "https://liquid-leds.com/en-au/collections/festoon-lighting",
+            "header-f6701ad69b8e438ed285ef995b6d6c83": null,
+            "overlay_position": "justify-center items-center",
+            "overlay_text_align": "text-center",
+            "mob_center_text": false,
+            "subheading": "",
+            "heading": "",
+            "heading_size": "h0",
+            "heading_h1": false,
+            "text": "",
+            "enlarge_text": true,
+            "button_1_label": "",
+            "button_1_link": "https://liquid-leds.com/en-nz/collections/festoon-lighting",
+            "button_1_style": "btn btn--primary",
+            "button_2_label": "",
+            "button_2_link": "",
+            "button_2_style": "btn btn--primary",
+            "transparent_content_color": "#ffffff",
+            "header-6d45ebbe0e15e05d7270d16a0440eff4": null,
+            "countdown_show": false,
+            "countdown_end_date": "",
+            "countdown_end_time": "",
+            "countdown_end_text": "",
+            "enlarge_end_text": false,
+            "countdown_hide_on_end": false,
+            "use_custom_colors": false,
+            "count_color": "#ffffff",
+            "bg_color": "#070707",
+            "bg_grad": ""
+          }
+        }
+      },
+      "block_order": [
+        "slide_CebVf",
+        "slide_TG4ti",
+        "slide_yF3Kj",
+        "slide_FFhmc"
+      ],
+      "name": "Slideshow"
+    },
+    "icons_with_text_niCztY": {
+      "type": "icons-with-text",
+      "disabled": false,
+      "settings": {
+        "header-7b670727f4aa2244e4eba51396793a15": null,
+        "heading": "",
+        "heading_align": "text-center",
+        "header-bc796baa5e7bea6f0e35a08ce1f1ed32": null,
+        "icon_size": 60,
+        "title_type_scale": "medium",
+        "text_type_scale": "medium",
+        "header-8277c79e87f6b2daa51e856e3e218cf3": null,
+        "icon_position": "above",
+        "mobile_stack": true,
+        "section_height": "medium",
+        "header-c9bb1a392c805c7074f4a841b5e3a101": null,
+        "color_scheme": "1",
+        "full_width": true,
+        "dividers": "none",
+        "header-ea655f469074a677736155961d11d2d0": null,
+        "prevent_animation": false
+      },
+      "blocks": {
+        "item_d4bCxi": {
+          "type": "item",
+          "disabled": false,
+          "settings": {
+            "icon": "check_mark",
+            "custom_icon": "shopify://shop_images/Trusted_by_100_000_Customers_47140b9e-3f5e-4700-a9e9-0bf8ac969594.png",
+            "heading": "Trusted by 100,000+ Customers",
+            "text": "",
+            "link": ""
+          }
+        },
+        "item_BPMPFe": {
+          "type": "item",
+          "disabled": false,
+          "settings": {
+            "icon": "check_mark",
+            "custom_icon": "shopify://shop_images/Proudly_Australian_Since_2010.png",
+            "heading": "Proudly Australian Since 2010",
+            "text": "",
+            "link": ""
+          }
+        },
+        "item_Tgnpjr": {
+          "type": "item",
+          "disabled": false,
+          "settings": {
+            "icon": "check_mark",
+            "custom_icon": "shopify://shop_images/30-Day_Risk-Free_Guarantee.png",
+            "heading": "30-Day Risk-Free Guarantee",
+            "text": "",
+            "link": ""
+          }
+        },
+        "item_wNYn3H": {
+          "type": "item",
+          "disabled": false,
+          "settings": {
+            "icon": "check_mark",
+            "custom_icon": "shopify://shop_images/Fast_Reliable_Shipping.png",
+            "heading": "Fast & Reliable Shipping",
+            "text": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "item_d4bCxi",
+        "item_BPMPFe",
+        "item_Tgnpjr",
+        "item_wNYn3H"
+      ]
+    },
+    "video_iXppn": {
+      "type": "video",
+      "disabled": false,
+      "settings": {
+        "video_shopify": "shopify://files/videos/vintage LED light bulbs oversized dimmable Liquid LEDs.mp4",
+        "video_external": "",
+        "video_description": "",
+        "poster_image": null,
+        "video_size": "md",
+        "video_autoplay": true,
+        "header-4eb0f0ff704679fdd03bd2dd34168aed": null,
+        "text_align": "text-center",
+        "header-c3106c6b48ce4e5935d0672b04249047": null,
+        "color_scheme": "default"
+      },
+      "blocks": {
+        "heading_aLXCm": {
+          "type": "heading",
+          "disabled": false,
+          "settings": {
+            "heading": "Old Soul, New Heart",
+            "heading_size": "h1",
+            "heading_h1": false
+          }
+        },
+        "text_btDq3": {
+          "type": "text",
+          "disabled": false,
+          "settings": {
+            "text": "<p>Vintage style meets modern LED efficiency</p>",
+            "enlarge_text": true
+          }
+        },
+        "button_EhMMg": {
+          "type": "button",
+          "disabled": false,
+          "settings": {
+            "button_label": "Shop Vintage Bulbs",
+            "button_link": "",
+            "button_style": "btn btn--primary"
+          }
+        }
+      },
+      "block_order": [
+        "heading_aLXCm",
+        "text_btDq3",
+        "button_EhMMg"
+      ],
+      "name": "Video"
+    },
+    "featured_product_tEyda": {
+      "type": "featured-product",
+      "disabled": true,
+      "settings": {
+        "product": "precision-pocket-task-light",
+        "header-ce6c2c9ef74603daa7d0be5e6b84ef8b": null,
+        "paragraph-3c7887732cc7c1cf42123419648d0151": null,
+        "media_ratio": "natural",
+        "media_crop": "none",
+        "hover_zoom": "large",
+        "enable_video_looping": false,
+        "header-a009ebed27aaa7bc0c6ffead3a133512": null,
+        "media_width": 50,
+        "header-d3687508497814da1c0a34618410ea02": null,
+        "color_scheme": "1",
+        "border_color": "rgba(0,0,0,0)",
+        "bg_color": "#f4f4f4"
+      },
+      "blocks": {
+        "vendor_sku_XyDq8": {
+          "type": "vendor-sku",
+          "disabled": true,
+          "settings": {
+            "show_vendor": true,
+            "show_sku": true
+          }
+        },
+        "title_8jAeU": {
+          "type": "title",
+          "disabled": false,
+          "settings": {}
+        },
+        "price_TQkLK": {
+          "type": "price",
+          "disabled": false,
+          "settings": {
+            "show_tax_and_shipping": false
+          }
+        },
+        "divider_hAthU": {
+          "type": "divider",
+          "disabled": false,
+          "settings": {
+            "show_line": true,
+            "spacing": "mt-8 mb-8"
+          }
+        },
+        "variant_picker_LC3tV": {
+          "type": "variant-picker",
+          "disabled": true,
+          "settings": {
+            "selector_style": "buttons",
+            "enable_dynamic_availability": true,
+            "show_backorder_text": true,
+            "header-c99d930fff76726657bef3c55e47b58f": null,
+            "enable_size_chart": false,
+            "size_chart_variant": "Size",
+            "size_chart_page": ""
+          }
+        },
+        "buy_buttons_4xULK": {
+          "type": "buy-buttons",
+          "disabled": false,
+          "settings": {
+            "show_qty_selector": true,
+            "enable_dynamic_checkout": false
+          }
+        },
+        "divider_fKAQB": {
+          "type": "divider",
+          "disabled": true,
+          "settings": {
+            "show_line": true,
+            "spacing": "mt-8 mb-8"
+          }
+        },
+        "view_more_button_EfTkJ": {
+          "type": "view-more-button",
+          "disabled": false,
+          "settings": {
+            "button_label": "Full details",
+            "text_align": "text-start"
+          }
+        }
+      },
+      "block_order": [
+        "vendor_sku_XyDq8",
+        "title_8jAeU",
+        "price_TQkLK",
+        "divider_hAthU",
+        "variant_picker_LC3tV",
+        "buy_buttons_4xULK",
+        "divider_fKAQB",
+        "view_more_button_EfTkJ"
+      ]
+    },
+    "blocks_DhdFc": {
+      "type": "_blocks",
+      "disabled": false,
+      "custom_css": [
+        "{width: 100%; max-width: 1240px; margin: 0 auto; padding: 0 20px;}"
+      ],
+      "settings": {},
+      "blocks": {
+        "ai_gen_block_9c13453_yTzKCN": {
+          "type": "ai_gen_block_9c13453",
+          "disabled": false,
+          "settings": {
+            "header-128798139c795692a5b2067f55ea0d3e": null,
+            "content": "<h2>Discover Premium LED Light Bulbs for Every Space in New Zealand.</h2><p>Transform your home or business with the brilliance of LED lighting from LiquidLEDs, New Zealand’s trusted destination for innovative, energy-efficient lighting. Explore a wide range of <a href=\"https://liquid-leds.com/en-nz/collections/led-light-bulbs\">LED light bulbs</a> designed to enhance your home, office, or commercial environment with style, efficiency, and reliable performance.</p><h4><strong>Innovative LED Lighting Solutions for Every Space</strong></h4><p>With advanced LED technology, LiquidLEDs brings brightness and efficiency to Kiwi homes, workplaces, and commercial venues. From modern indoor lighting to versatile LED solutions, our products combine <strong>long life, low energy use, and contemporary design</strong>. Whether you’re after everyday bulbs or searching for the best LED light bar in New Zealand, our collection delivers on performance, savings, and aesthetics.</p><h4><strong>The Best LED Lighting for Your Interior Spaces</strong></h4><p>Elevate your ambience with our high-quality <a href=\"https://liquid-leds.com/en-nz/collections/led-interior-bulbs\" title=\"https://liquid-leds.com/en-nz/collections/led-interior-bulbs\">interior LED lighting</a>. From <a href=\"https://liquid-leds.com/en-nz/collections/globe-dimmable-led-light-bulbs\" title=\"https://liquid-leds.com/en-nz/collections/globe-dimmable-led-light-bulbs\">LED globe light bulbs</a> for bedrooms and hallways to elegant interior bulbs for living areas, every product is built with efficiency and style in mind. It’s easy to create a cosy, well-lit environment tailored to your taste with our carefully selected range.</p><h4><strong>Precision Lighting for Beauty, Functionality, and Ambience</strong></h4><p>Achieve perfect clarity and focus with purpose-driven designs. Our <a href=\"https://liquid-leds.com/en-nz/collections/ultra-high-cri-bulbs\" title=\"https://liquid-leds.com/en-nz/collections/ultra-high-cri-bulbs\">ultra-high CRI LED bulbs</a> provide flawless illumination for grooming, makeup, and skincare, while our <a href=\"https://liquid-leds.com/en-nz/collections/spotlight-led-lighting-mr16-gu10\" title=\"https://liquid-leds.com/en-nz/collections/spotlight-led-lighting-mr16-gu10\">LED spotlights</a> offer targeted brightness for kitchens, bathrooms, and galleries. Whether for everyday tasks or highlighting special features, our lighting combines practicality with style.</p><h4><strong>Why Choose LiquidLEDs for Your Lighting in New Zealand?</strong></h4><p>As a trusted brand, LiquidLEDs delivers innovation, efficiency, and design in every product. From classic LED bulbs to specialist lighting solutions, we make it simple to <strong>buy LED lights online in New Zealand</strong>. Built for longevity and energy savings, our products are perfect for homes, businesses, and creative spaces. Choose LiquidLEDs for the <strong>best LED light bar in New Zealand</strong> and experience lighting that transforms your environment.</p><h4><strong>Create the Perfect Atmosphere</strong></h4><p>Lighting sets the mood – and with LiquidLEDs, you can create exactly the atmosphere you want. From soft, soothing glows for restful evenings to bright, focused beams for productivity, our LEDs adapt to every moment. Whether it’s a night light for a calming bedroom or interior LEDs for vibrant living spaces, you’ll find the right solution in our collection.</p>",
+            "preview_height": 140,
+            "gradient_height": 60,
+            "animation_speed": 300,
+            "header-38c7811d11a1934e74d181d886b99d45": null,
+            "text_color": "#000000",
+            "text_font_size": 16,
+            "background_color": "#ffffff",
+            "header-6cf2025f19b960cee12cc7de3e96ae9a": null,
+            "read_more_text": "Learn More",
+            "read_less_text": "Show Less",
+            "button_background": "#2a2b2a",
+            "button_text_color": "#ffffff",
+            "button_hover_background": "#2a2b2a",
+            "button_hover_text_color": "#ffffff",
+            "button_border_color": "#2a2b2a",
+            "button_hover_border_color": "#2a2b2a",
+            "button_border_width": 2,
+            "button_border_radius": 8,
+            "button_padding": 10,
+            "button_font_size": 14
+          }
+        }
+      },
+      "block_order": [
+        "ai_gen_block_9c13453_yTzKCN"
+      ]
+    },
+    "4c7aae1f-2d70-4195-8367-36615838740e": {
+      "settings": {
+        "overlay_position": "justify-start items-center",
+        "overlay_text_align": "text-start"
+      },
+      "blocks": {
+        "template--14626484748391__4c7aae1f-2d70-4195-8367-36615838740e-heading-1": {
+          "settings": {
+            "heading": "LED Light Bulbs Made for Atmosphere",
+            "heading_size": "h3",
+            "heading_h1": true
+          }
+        },
+        "template--14626484748391__4c7aae1f-2d70-4195-8367-36615838740e-text-1": {
+          "settings": {
+            "text": "Create warmth, depth, and comfort — from inner-city homes to coastal escapes.",
+            "enlarge_text": true
+          }
+        },
+        "template--14626484748391__4c7aae1f-2d70-4195-8367-36615838740e-button-1": {
+          "settings": {
+            "button_1_label": "Shop LED Bulbs",
+            "button_2_label": "Explore Our Belief",
+            "button_2_link": "shopify://pages/we-dont-sell-light-bulbs",
+            "button_2_style": "btn btn--primary"
+          }
+        }
+      }
+    },
+    "bd9ebffd-fb67-4c56-95a8-fef7be83ce90": {
+      "settings": {
+        "title": "Trusted by Leading Venues Across Australasia",
+        "color_scheme": "none"
+      },
+      "blocks": {}
+    },
+    "collection-list": {
+      "settings": {
+        "title": "Shop LED Bulbs by Style & Function"
+      },
+      "blocks": {}
+    },
+    "featured-collection": {
+      "disabled": true,
+      "settings": {
+        "title": "Ultra-High CRI Bulbs for Perfect Ambiance",
+        "collection": "ultra-high-cri-bulbs"
+      },
+      "blocks": {}
+    },
+    "featured_collection_RTrbPg": {
+      "disabled": true,
+      "settings": {
+        "title": "Flicker-Free LEDs for Ultimate Comfort",
+        "collection": "flicker-free-led-light-bulbs"
+      },
+      "blocks": {}
+    },
+    "background_video_UFjVKM": {
+      "settings": {
+        "video_description": "Seamless Dimming for Every Moment"
+      },
+      "blocks": {
+        "text_JQHNRy": {
+          "settings": {
+            "text": "<p>From cozy dinners to bright gatherings, our dimmable LEDs adapt to your lifestyle.</p>"
+          }
+        },
+        "button_4ey7yE": {
+          "settings": {
+            "button_label": "Shop Dimmable Bulbs",
+            "button_link": "shopify://collections/classic-led-light-bulbs",
+            "button_style": "btn btn--primary"
+          }
+        }
+      }
+    }
+  },
+  "order": [
+    "4c7aae1f-2d70-4195-8367-36615838740e",
+    "slideshow_ee3Bi",
+    "icons_with_text_niCztY",
+    "bd9ebffd-fb67-4c56-95a8-fef7be83ce90",
+    "collection-list",
+    "featured-collection",
+    "video_iXppn",
+    "featured_product_tEyda",
+    "featured_collection_RTrbPg",
+    "background_video_UFjVKM",
+    "169614538727ade400",
+    "411d078d-1342-4aa3-9d0a-132054f14f07",
+    "blocks_DhdFc"
+  ]
+}

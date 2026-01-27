@@ -1,0 +1,556 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "parent": "product.cri97-bulbs-10.json",
+  "context": {
+    "market": "australia"
+  },
+  "sections": {
+    "blocks_fqARK": {
+      "type": "_blocks",
+      "disabled": false,
+      "settings": {},
+      "blocks": {
+        "ai_gen_block_61b7175_etxty4": {
+          "type": "ai_gen_block_61b7175",
+          "disabled": false,
+          "settings": {
+            "header-23c286db2e61ee9025941a1b2a7e7e80": null,
+            "heading_text": "Elevate Your Home's Atmosphere with Premium LiquidLEDs: The Ultimate Lighting Experience",
+            "heading_tag": "h2",
+            "header-ccc4a6eedddee10aa841a8cca1ee5d71": null,
+            "text_alignment": "center",
+            "font_size": 26,
+            "font_weight": "800",
+            "padding": 25,
+            "header-2b9be40a60e59414096cae9e478d01b1": null,
+            "text_color": "#2a2b2a",
+            "glow_color": "#ff9f1c",
+            "header-98d4f27a6b4ca9095d16da9087c07fce": null,
+            "animation_speed": 2
+          }
+        },
+        "ai_gen_block_b5e6295_PKGNa6": {
+          "type": "ai_gen_block_b5e6295",
+          "disabled": true,
+          "settings": {
+            "header-95dfc2fa91ca4721c7c74dc51287f27d": null,
+            "before_image": null,
+            "after_image": null,
+            "aspect_ratio": "0.56",
+            "header-54e258224ce477015271bb8a88355bb0": null,
+            "show_labels": true,
+            "before_label": "Before",
+            "after_label": "After",
+            "label_position_x": 10,
+            "label_position_y": 20,
+            "label_font_size": 14,
+            "label_bg_color": "#000000",
+            "label_text_color": "#ffffff",
+            "header-dc039525025984071d83b912bbc7f958": null,
+            "handle_width": 4,
+            "handle_circle_size": 40,
+            "handle_color": "#ffffff",
+            "handle_border_color": "#000000",
+            "header-6ecdac1c8c8d14027f606cdde8b1c7b7": null,
+            "border_radius": 8
+          }
+        }
+      },
+      "block_order": [
+        "ai_gen_block_61b7175_etxty4",
+        "ai_gen_block_b5e6295_PKGNa6"
+      ]
+    },
+    "shoppable_image_Y4GRw": {
+      "type": "shoppable-image",
+      "disabled": false,
+      "settings": {
+        "image": "shopify://shop_images/CRI97_Vs_CRI80_LED_filament_bulbs.jpg",
+        "header-80123749a0c00dbcbb2016f7fe594c06": null,
+        "layout": "image_first",
+        "show_vendor": false,
+        "show_content": true,
+        "mob_center_text": false,
+        "header-2c7b612d9ed9b382bcc0aeba7e775629": null,
+        "heading": "🌈 Experience Colours with Unprecedented Accuracy",
+        "text": "<p>Our advanced CRI97 technology scores a near-perfect 97/100 for colour accuracy, revealing the subtle hues and textures that standard LEDs distort.</p><ul><li><strong>True-to-Life Skin Tones:</strong> Renders skin tones with natural, healthy accuracy, making people appear radiant.</li><li><strong>Vibrant Textiles & Artwork:</strong> Reveals the full depth of colour and texture in your fabrics, paintings, and decor.</li><li><strong>Professional-Grade Quality:</strong> Enjoy the same colour accuracy trusted by photographers and art galleries in your own home.</li></ul>",
+        "button_label": "",
+        "button_link": "",
+        "header-24ede69f3b0daea44467ec80fc00dc84": null,
+        "hotspot_color": "#070707",
+        "color_scheme": "none",
+        "button_style": "btn btn--primary"
+      },
+      "blocks": {},
+      "block_order": [],
+      "name": "Shoppable image"
+    },
+    "shoppable_image_6Tpie": {
+      "type": "shoppable-image",
+      "disabled": false,
+      "settings": {
+        "image": "shopify://shop_images/LiquidLEDs_LED_light_bulbs.jpg",
+        "header-df0c22128637fd6c963cbc0d0f40afa6": null,
+        "layout": "image_last",
+        "show_vendor": false,
+        "show_content": true,
+        "mob_center_text": false,
+        "header-06ac4dafb5ae48ef9c6a173d5f61fdd4": null,
+        "heading": "💡Over a Decade of LED Expertise Since 2010",
+        "text": "<p>Since 2010, LiquidLEDs has been at the forefront of LED lighting technology. Our journey began with a mission to make premium, energy-efficient lighting accessible to everyone while providing exceptional customer service.</p><ul><li><strong>Pioneering LED design</strong> - We've refined our products through years of research and customer feedback</li><li><strong>Trusted by professionals</strong> - Chosen by interior designers, architects, and lighting specialists</li><li><strong>Proven reliability</strong> - Our bulbs are built on generations of technological improvements</li></ul>",
+        "button_label": "",
+        "button_link": "",
+        "header-debd763461770d34a49a8ab1acea3630": null,
+        "hotspot_color": "#070707",
+        "color_scheme": "none",
+        "button_style": "btn btn--primary"
+      },
+      "blocks": {},
+      "block_order": [],
+      "name": "Shoppable image"
+    },
+    "shoppable_image_QgD3k": {
+      "type": "shoppable-image",
+      "disabled": false,
+      "settings": {
+        "image": "shopify://shop_images/Eye_Comfort_Technology_LiquidLEDs.jpg",
+        "header-bb022e86da1a69b9ee8cefe45e6c4bde": null,
+        "layout": "image_first",
+        "show_vendor": false,
+        "show_content": true,
+        "mob_center_text": false,
+        "header-9777236b8a84a7bebfafb4150f3adc72": null,
+        "heading": "👀Gentle on Your Eyes, Perfect for Extended Use",
+        "text": "<p>Experience lighting that transforms your space with our premium candle LED bulbs. Designed with meticulous attention to light quality, these bulbs create the perfect ambiance for any room while enhancing the beauty of your surroundings.</p><ul><li><strong>No visible flicker</strong> - Prevents eye strain and headaches</li><li><strong>Reduced blue light</strong> - Better for evening use and sleep patterns</li><li><strong>Stable light output</strong> - No fluctuations or buzzing</li></ul>",
+        "button_label": "",
+        "button_link": "",
+        "header-3310e1a73d176cc90e10b6324f8dbaec": null,
+        "hotspot_color": "#070707",
+        "color_scheme": "none",
+        "button_style": "btn btn--primary"
+      },
+      "blocks": {},
+      "block_order": [],
+      "name": "Shoppable image"
+    },
+    "faq_By4a3": {
+      "type": "faq",
+      "disabled": false,
+      "settings": {
+        "header-f3b43695194129a61395270317814bb5": null,
+        "heading": "CRI 95+ LED Bulbs: High Colour Accuracy FAQs",
+        "heading_align": "text-center",
+        "header-0e3be6999f070ab7b4ce2677b6200419": null,
+        "color_scheme": "none",
+        "full_width": true
+      },
+      "blocks": {
+        "question_Tqhbtj": {
+          "type": "question",
+          "disabled": false,
+          "settings": {
+            "icon": "none",
+            "heading": "Why should I choose CRI 95+ LED bulbs over standard CRI 80?",
+            "text": "<p>Standard bulbs often make interiors look grey or \"muddy\" because they lack depth in the colour spectrum. Our CRI 95+ collection provides \"True Colour\" light that is almost indistinguishable from natural daylight, making your furniture, artwork, and skin tones look vibrant and accurate.</p>"
+          }
+        },
+        "question_KimWVa": {
+          "type": "question",
+          "disabled": false,
+          "settings": {
+            "icon": "none",
+            "heading": "Do these high CRI bulbs have a high R9 value for reds?",
+            "text": "<p>Yes, our CRI 95+ range is specifically engineered with high R9 values, which is the specific metric for rendering deep reds. This is essential for bringing out the rich grain in timber flooring and ensuring skin tones look healthy rather than washed out under artificial light.</p>"
+          }
+        },
+        "question_AGj89a": {
+          "type": "question",
+          "disabled": false,
+          "settings": {
+            "icon": "none",
+            "heading": "Are these high-quality LED bulbs flicker-free?",
+            "text": "<p>Absolutely. We use advanced constant-current drivers within our bulbs to ensure a flicker-free performance that is gentle on the eyes. This reduces the risk of eye strain and headaches, which are common issues with cheaper, low-quality LED alternatives.</p>"
+          }
+        },
+        "question_VxhhrK": {
+          "type": "question",
+          "disabled": false,
+          "settings": {
+            "icon": "none",
+            "heading": "Will these CRI 95+ bulbs work with my existing dimmer switches?",
+            "text": "<p>These bulbs are fully dimmable and designed to be compatible with most modern trailing-edge LED dimmers. To ensure the smoothest dimming range without buzzing, we always recommend checking that your dimmer switch is rated for low-wattage LED loads.</p>"
+          }
+        },
+        "question_8CHGJt": {
+          "type": "question",
+          "disabled": false,
+          "settings": {
+            "icon": "none",
+            "heading": "Can I use these bulbs in art galleries or high-end retail displays?",
+            "text": "<p>Yes, our CRI 95+ collection is the preferred choice for galleries and boutique retail where colour precision is non-negotiable. The high fidelity ensures that products and paintings are viewed exactly as the artist or designer intended, with no artificial colour shifting.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "question_Tqhbtj",
+        "question_KimWVa",
+        "question_AGj89a",
+        "question_VxhhrK",
+        "question_8CHGJt"
+      ],
+      "name": "Collapsible content"
+    },
+    "icons_with_text_kwL6aR": {
+      "type": "icons-with-text",
+      "disabled": false,
+      "settings": {
+        "header-e19138c415fb39d14c7fe7ab78526995": null,
+        "heading": "",
+        "heading_align": "text-center",
+        "header-2cd5e124551e6ff605c8a9c65c9098d6": null,
+        "icon_size": 60,
+        "title_type_scale": "medium",
+        "text_type_scale": "medium",
+        "header-d4a5b9f98c813b61f79f0f4df618180a": null,
+        "icon_position": "above",
+        "mobile_stack": true,
+        "section_height": "medium",
+        "header-b06c6a5aacf1e1f67628b52e06c55db9": null,
+        "color_scheme": "1",
+        "full_width": true,
+        "dividers": "none",
+        "header-4871a366eaaacaa9e43c9637f55d29d2": null,
+        "prevent_animation": false
+      },
+      "blocks": {
+        "item_h6y9Ai": {
+          "type": "item",
+          "disabled": false,
+          "settings": {
+            "icon": "check_mark",
+            "custom_icon": "shopify://shop_images/Trusted_by_100_000_Customers_47140b9e-3f5e-4700-a9e9-0bf8ac969594.png",
+            "heading": "Trusted by 100,000+ Customers",
+            "text": "",
+            "link": ""
+          }
+        },
+        "item_48Uxdq": {
+          "type": "item",
+          "disabled": false,
+          "settings": {
+            "icon": "check_mark",
+            "custom_icon": "shopify://shop_images/Proudly_Australian_Since_2010.png",
+            "heading": "Proudly Australian Since 2010",
+            "text": "",
+            "link": ""
+          }
+        },
+        "item_JUEEGm": {
+          "type": "item",
+          "disabled": false,
+          "settings": {
+            "icon": "check_mark",
+            "custom_icon": "shopify://shop_images/30-Day_Risk-Free_Guarantee.png",
+            "heading": "30-Day Risk-Free Guarantee",
+            "text": "",
+            "link": ""
+          }
+        },
+        "item_rWFEhc": {
+          "type": "item",
+          "disabled": false,
+          "settings": {
+            "icon": "check_mark",
+            "custom_icon": "shopify://shop_images/Fast_Reliable_Shipping.png",
+            "heading": "Fast & Reliable Shipping",
+            "text": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "item_h6y9Ai",
+        "item_48Uxdq",
+        "item_JUEEGm",
+        "item_rWFEhc"
+      ]
+    },
+    "logo_list_LGNbCr": {
+      "type": "logo-list",
+      "disabled": false,
+      "settings": {
+        "header-502f5660c77f14d9dea36361c10e97d0": null,
+        "title": "",
+        "heading_align": "text-center",
+        "button_label": "",
+        "button_link": "",
+        "header-a3b9da7054be9554b4373bd397ff3c9a": null,
+        "layout": "carousel",
+        "spacing": 40,
+        "logo_grid_align": "justify-center",
+        "header-c01681045c7af5538b4b51bb626d717d": null,
+        "color_scheme": "none",
+        "full_width": true
+      },
+      "blocks": {
+        "logo_ghRgbD": {
+          "type": "logo",
+          "disabled": false,
+          "settings": {
+            "image": "shopify://shop_images/image001_4.jpg",
+            "url": "",
+            "logo_width": 130,
+            "text": ""
+          }
+        },
+        "logo_AAWbdX": {
+          "type": "logo",
+          "disabled": false,
+          "settings": {
+            "image": "shopify://shop_images/Logo_M-10.jpg",
+            "url": "",
+            "logo_width": 120,
+            "text": ""
+          }
+        },
+        "logo_WgGGdY": {
+          "type": "logo",
+          "disabled": false,
+          "settings": {
+            "image": "shopify://shop_images/Logo_M-06.jpg",
+            "url": "",
+            "logo_width": 120,
+            "text": ""
+          }
+        },
+        "logo_zG3YgR": {
+          "type": "logo",
+          "disabled": false,
+          "settings": {
+            "image": "shopify://shop_images/Sydney_Opera_House.png",
+            "url": "",
+            "logo_width": 120,
+            "text": ""
+          }
+        },
+        "logo_d3awht": {
+          "type": "logo",
+          "disabled": false,
+          "settings": {
+            "image": "shopify://shop_images/deloeuvre_icon_165bc71f-c729-4a7c-b004-03579b1efda3.png",
+            "url": "",
+            "logo_width": 120,
+            "text": ""
+          }
+        },
+        "logo_g3ChFc": {
+          "type": "logo",
+          "disabled": false,
+          "settings": {
+            "image": "shopify://shop_images/HisMajestysTheatre-Logo.png",
+            "url": "",
+            "logo_width": 120,
+            "text": ""
+          }
+        },
+        "logo_yPrkXQ": {
+          "type": "logo",
+          "disabled": false,
+          "settings": {
+            "image": "shopify://shop_images/Regent_Theatre.png",
+            "url": "",
+            "logo_width": 120,
+            "text": ""
+          }
+        },
+        "logo_peeV46": {
+          "type": "logo",
+          "disabled": false,
+          "settings": {
+            "image": "shopify://shop_images/Logo_M-03.jpg",
+            "url": "",
+            "logo_width": 120,
+            "text": ""
+          }
+        },
+        "logo_iByMx8": {
+          "type": "logo",
+          "disabled": false,
+          "settings": {
+            "image": "shopify://shop_images/FP-LOGO-MAAS.jpg",
+            "url": "",
+            "logo_width": 120,
+            "text": ""
+          }
+        },
+        "logo_EYLNhR": {
+          "type": "logo",
+          "disabled": false,
+          "settings": {
+            "image": "shopify://shop_images/Logo_M-05.jpg",
+            "url": "",
+            "logo_width": 120,
+            "text": ""
+          }
+        },
+        "logo_M3qKQM": {
+          "type": "logo",
+          "disabled": false,
+          "settings": {
+            "image": "shopify://shop_images/Logo_M-04.jpg",
+            "url": "",
+            "logo_width": 120,
+            "text": ""
+          }
+        },
+        "logo_DBwt3e": {
+          "type": "logo",
+          "disabled": false,
+          "settings": {
+            "image": "shopify://shop_images/Logo_M-09.jpg",
+            "url": "",
+            "logo_width": 120,
+            "text": ""
+          }
+        },
+        "logo_g3QmF6": {
+          "type": "logo",
+          "disabled": false,
+          "settings": {
+            "image": "shopify://shop_images/The_Star_Casino_Sydney.png",
+            "url": "",
+            "logo_width": 120,
+            "text": ""
+          }
+        },
+        "logo_P4zdby": {
+          "type": "logo",
+          "disabled": false,
+          "settings": {
+            "image": "shopify://shop_images/vibe_hotels.png",
+            "url": "",
+            "logo_width": 120,
+            "text": ""
+          }
+        },
+        "logo_Tmieiy": {
+          "type": "logo",
+          "disabled": false,
+          "settings": {
+            "image": "shopify://shop_images/Capella_Hotels.jpg",
+            "url": "",
+            "logo_width": 120,
+            "text": ""
+          }
+        },
+        "logo_mQn8rB": {
+          "type": "logo",
+          "disabled": false,
+          "settings": {
+            "image": "shopify://shop_images/Melbourne_Theatre_Company_logo.png",
+            "url": "",
+            "logo_width": 120,
+            "text": ""
+          }
+        }
+      },
+      "block_order": [
+        "logo_ghRgbD",
+        "logo_AAWbdX",
+        "logo_WgGGdY",
+        "logo_zG3YgR",
+        "logo_d3awht",
+        "logo_g3ChFc",
+        "logo_yPrkXQ",
+        "logo_peeV46",
+        "logo_iByMx8",
+        "logo_EYLNhR",
+        "logo_M3qKQM",
+        "logo_DBwt3e",
+        "logo_g3QmF6",
+        "logo_P4zdby",
+        "logo_Tmieiy",
+        "logo_mQn8rB"
+      ]
+    },
+    "main": {
+      "settings": {},
+      "blocks": {
+        "image_cjyKt": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "title": "",
+            "image": "shopify://shop_images/Buy_in_bulk_and_save.svg",
+            "image_width": 560,
+            "image_align": "justify-center",
+            "url": ""
+          }
+        },
+        "collapsible-content-1": {
+          "settings": {
+            "heading": "Here When You Need Us"
+          }
+        },
+        "62039f84-401f-4025-9830-7b334867dfe7": {
+          "settings": {
+            "heading": "Hassle-Free Returns",
+            "text": "<p><strong>Shop with Confidence</strong><br/><br/>Your satisfaction means everything to us. If you're not completely happy with your order, you can return it within 30 days of receiving it for a refund of the purchase price (excluding delivery).</p><p>We’ve been supporting our customers since 2010 and are here to help every step of the way.</p><p><a href=\"https://liquid-leds.com/en-au/pages/return-policy\" target=\"_blank\" title=\"Returns Policy\">View our full return policy ›</a></p>"
+          }
+        },
+        "collapsible-content-2": {
+          "settings": {
+            "heading": "Fast, Reliable Delivery",
+            "text": "<p>Orders placed before 10 a.m. AEST on business days are dispatched the same day from our Sydney warehouse.</p><p>✅ <strong>Free standard shipping</strong><br/><br/>• Metro areas: orders over $99<br/><br/>• Regional areas: orders over $199</p><p>🚚 <strong>Delivery timeframes</strong><br/><br/>• Sydney Metro: 1–3 business days<br/><br/>• Other NSW: 2–5 days<br/><br/>• Major cities: 2–5 days<br/><br/>• Regional areas: 2–7 days</p><p>📦 Express shipping available at checkout.</p><p>Please ensure your address is accurate to avoid delays and return-to-sender fees. If you haven’t received your order or there’s an issue, we’re here to help.</p><p><a href=\"/pages/shipping\" title=\"Shipping Within Australia\">View full shipping details ›</a></p>",
+            "page": ""
+          }
+        },
+        "1a9e12c5-c94a-4986-ab78-ccb3d78bca12": {
+          "disabled": true,
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "vendor-sku",
+        "title",
+        "3e7fac93-7ed1-44b6-b882-99af47420c64",
+        "price",
+        "image_cjyKt",
+        "variant-picker",
+        "divider-0",
+        "divider-1",
+        "buy-buttons",
+        "e0be5244-484c-4751-be23-938d1657421d",
+        "judge_me_reviews_review_snippet_widget_gNBwT3",
+        "collapsible-content-1",
+        "62039f84-401f-4025-9830-7b334867dfe7",
+        "collapsible-content-2",
+        "1a9e12c5-c94a-4986-ab78-ccb3d78bca12",
+        "message-3",
+        "share"
+      ]
+    }
+  },
+  "order": [
+    "main",
+    "details",
+    "blocks_fqARK",
+    "shoppable_image_Y4GRw",
+    "shoppable_image_6Tpie",
+    "shoppable_image_QgD3k",
+    "faq_By4a3",
+    "1695711824fc9578f1",
+    "recommendations",
+    "2f9d2b69-1421-42ee-bf42-204579d8c79b",
+    "icons_with_text_kwL6aR",
+    "logo_list_LGNbCr"
+  ]
+}

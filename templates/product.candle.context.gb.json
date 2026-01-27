@@ -1,0 +1,269 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "parent": "product.candle.json",
+  "context": {
+    "market": "gb"
+  },
+  "sections": {
+    "1753517859ebb359ac": {
+      "type": "_blocks",
+      "disabled": false,
+      "settings": {},
+      "blocks": {
+        "ai_gen_block_e63e7ec_nkzF3": {
+          "type": "ai_gen_block_e63e7ec",
+          "disabled": false,
+          "settings": {
+            "header-8be81e8f07753d5f3f193faaa8af21a1": null,
+            "heading_text": "Experience Lighting Perfection: Why Homes with LiquidLEDs Look and Feel Extraordinary",
+            "header-4a8b3e3ab85d73c66575fa896d3035c0": null,
+            "text_alignment": "center",
+            "font_size": 26,
+            "font_weight": "700",
+            "padding": 40,
+            "header-78a562b353d7e6248e3a41ef3f8b0892": null,
+            "text_color": "#2a2b2a",
+            "glow_color": "#ff9f1c",
+            "header-e940c46542ea2c1e9778404b2be13209": null,
+            "animation_speed": 2
+          }
+        }
+      },
+      "block_order": [
+        "ai_gen_block_e63e7ec_nkzF3"
+      ]
+    },
+    "shoppable_image_3AMji": {
+      "type": "shoppable-image",
+      "disabled": false,
+      "settings": {
+        "image": "shopify://shop_images/Lighting_CRI_Comparison_-_LiquidLEDs.jpg",
+        "header-5b391b0545d7c1aff4c8fbc3c0c91205": null,
+        "layout": "image_first",
+        "show_vendor": false,
+        "show_content": true,
+        "mob_center_text": false,
+        "header-86fe3a8b6fe3ca3a978cb63c65745e5c": null,
+        "heading": "🌈 See Colours as They're Meant to Be Seen",
+        "text": "<p>Our High Colour Rendering Index (CRI 90+) technology ensures that every colour in your space appears true to life. Unlike standard LEDs that can wash out or distort colours, our candle bulbs reveal the rich, vibrant hues of your furnishings, artwork, and decor exactly as they were designed to be seen.</p><ul><li><strong>Enhanced skin tones</strong> - People look healthier and more natural</li><li><strong>Vibrant home decor</strong> - Fabrics, artwork, and furnishings display their true colours</li><li><strong>Improved ambiance</strong> - Creates a more inviting and authentic atmosphere</li></ul>",
+        "button_label": "",
+        "button_link": "",
+        "header-5cdba1e5cb84c1a54cfbb60e10865e6c": null,
+        "hotspot_color": "#070707",
+        "color_scheme": "none",
+        "button_style": "btn btn--primary"
+      },
+      "blocks": {},
+      "block_order": [],
+      "name": "Shoppable image"
+    },
+    "shoppable_image_8LqW6": {
+      "type": "shoppable-image",
+      "disabled": false,
+      "settings": {
+        "image": "shopify://shop_images/Candle_LED_Light_bulbs_2010_LiquidLEDs.jpg",
+        "header-2ad0d2d9b2b9ebcd594f7e16d354514c": null,
+        "layout": "image_last",
+        "show_vendor": false,
+        "show_content": true,
+        "mob_center_text": false,
+        "header-ac08da3c39d9818eeab480dac861ef51": null,
+        "heading": "💡Over a Decade of LED Expertise Since 2010",
+        "text": "<p>Since 2010, LiquidLEDs has been at the forefront of LED lighting technology. Our journey began with a mission to make premium, energy-efficient lighting accessible to everyone while providing exceptional customer service.</p><ul><li><strong>Pioneering LED design</strong> - We've refined our products through years of research and customer feedback</li><li><strong>Trusted by professionals</strong> - Chosen by interior designers, architects, and lighting specialists</li><li><strong>Proven reliability</strong> - Our bulbs are built on generations of technological improvements</li></ul>",
+        "button_label": "",
+        "button_link": "",
+        "header-02de651528949fa18f38a11d5652fd0d": null,
+        "hotspot_color": "#070707",
+        "color_scheme": "none",
+        "button_style": "btn btn--primary"
+      },
+      "blocks": {},
+      "block_order": [],
+      "name": "Shoppable image"
+    },
+    "shoppable_image_CrKxY": {
+      "type": "shoppable-image",
+      "disabled": false,
+      "settings": {
+        "image": "shopify://shop_images/Eye_Comfort_Technology_LiquidLEDs.jpg",
+        "header-e4d69c34ff91842946068b3f734bd67a": null,
+        "layout": "image_first",
+        "show_vendor": false,
+        "show_content": true,
+        "mob_center_text": false,
+        "header-db15c4ac2903a0e8a642b55d8c9fa712": null,
+        "heading": "👀Gentle on Your Eyes, Perfect for Extended Use",
+        "text": "<p>Experience lighting that transforms your space with our premium candle LED bulbs. Designed with meticulous attention to light quality, these bulbs create the perfect ambiance for any room while enhancing the beauty of your surroundings.</p><ul><li><strong>No visible flicker</strong> - Prevents eye strain and headaches</li><li><strong>Reduced blue light</strong> - Better for evening use and sleep patterns</li><li><strong>Stable light output</strong> - No fluctuations or buzzing</li></ul>",
+        "button_label": "",
+        "button_link": "",
+        "header-93f0e1f8dc6c0b0e50389b75476c41bb": null,
+        "hotspot_color": "#070707",
+        "color_scheme": "none",
+        "button_style": "btn btn--primary"
+      },
+      "blocks": {},
+      "block_order": [],
+      "name": "Shoppable image"
+    },
+    "175351754170d11d15": {
+      "type": "apps",
+      "disabled": false,
+      "settings": {
+        "full_width": false
+      },
+      "blocks": {
+        "judge_me_reviews_testimonials_carousel_product_JaaiK": {
+          "type": "shopify://apps/judge-me-reviews/blocks/testimonials_carousel_product/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "disabled": false,
+          "settings": {
+            "header-09aae5b1bd6b4610796331a504f511d5": null,
+            "show_sample_reviews": true,
+            "reviews_selection": "all",
+            "products": [],
+            "star_rating": "4_to_5_star",
+            "max_reviews": 20,
+            "header-286fedac77498995316f2e5ddda71c3d": null,
+            "quote_marks_size": "small",
+            "product_name_text_size": "small",
+            "verified_badge_style": "icon",
+            "card_height": "medium",
+            "text_size": "small",
+            "stars_size": "medium",
+            "arrows_position": "bottom",
+            "max_width": 1100,
+            "header-e6808906d13a9f6481e55dab1203adc8": null,
+            "corner_styling": "soft",
+            "quote_marks_style": "serif",
+            "card_color": "#f9f9f9",
+            "stars_and_quote_marks_color": "#e7ba21",
+            "text_color": "#000000",
+            "arrows_color": "#000000",
+            "show_border": false,
+            "border_color": "#108474",
+            "show_drop_shadow": false,
+            "header-ab0f576d6da8daf0882d628326c86482": null,
+            "transition_speed": 5,
+            "header-36f9e3c4a3bbc5fdfd8ab7f64208d597": null,
+            "header_text": "Customers are saying",
+            "show_average_rating": true,
+            "paragraph-aa7359fac794b06799cbfca6972ead46": null
+          }
+        }
+      },
+      "block_order": [
+        "judge_me_reviews_testimonials_carousel_product_JaaiK"
+      ]
+    },
+    "main": {
+      "settings": {},
+      "blocks": {
+        "richtext_pCpkc": {
+          "type": "richtext",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Buy in bulk and save! <br/>10+ save 5%<br/>20+ save 10%<br/>30+ save 15%<br/>50+ save 20%</p>"
+          }
+        },
+        "image_i6FK6": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "title": "",
+            "image": "shopify://shop_images/Buy_in_bulk_and_save.svg",
+            "image_width": 560,
+            "image_align": "justify-start",
+            "url": ""
+          }
+        },
+        "judge_me_reviews_review_snippet_widget_NLkAw": {
+          "type": "shopify://apps/judge-me-reviews/blocks/review_snippet_widget/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "disabled": false,
+          "settings": {
+            "paragraph-d5597c5cc1c45b9239d4df03667feb67": null,
+            "paragraph-90449586ba1b537376d584f5cd33c38a": null
+          }
+        },
+        "message-1": {
+          "settings": {
+            "bg_color": "#f4f4f4",
+            "text_color": "#2a2b2a"
+          }
+        },
+        "message-2": {
+          "settings": {
+            "title": "<p><strong>Smooth Dimming!<br/></strong>Suitable for use with a wide range of dimmers</p>",
+            "bg_color": "#f4f4f4",
+            "text_color": "#2a2b2a"
+          }
+        },
+        "collapsible-content-1": {
+          "settings": {
+            "heading": "Here When You Need Us",
+            "text": "<p><strong>Need help? We're here for you.</strong></p><p>Our friendly team is available to assist you with any questions or concerns.</p><p>📞 <strong>Call us:</strong> <a href=\"tel:+612%208880%209033\">+612 8880 9033<br/></a>💬 <strong>WhatsApp:</strong> <a href=\"https://wa.me/61483949669\">+61483949669</a></p><p>📧 <strong>Email us:</strong> <a href=\"https://liquid-leds.com/pages/contact-us\">Send us a message<br/></a>❓ <strong>FAQs:</strong> <a href=\"https://liquid-leds.com/pages/faqs\">Visit our FAQ page ›</a></p><p>🕒 <strong>Support hours: </strong>Monday – Friday, 8:00 a.m. – 6:00 p.m. AEST</p>"
+          }
+        },
+        "62039f84-401f-4025-9830-7b334867dfe7": {
+          "settings": {
+            "heading": "Hassle-Free Returns",
+            "text": "<p><strong>Shop with Confidence</strong><br/><br/>Your satisfaction means everything to us. If you're not completely happy with your order, you can return it within 30 days of receiving it for a refund of the purchase price (excluding delivery).</p><p>We’ve been supporting our customers since 2010 and are here to help every step of the way.</p><p><a href=\"/pages/return-policy\" target=\"_blank\" title=\"Returns Policy\">View our full return policy ›</a></p>"
+          }
+        },
+        "collapsible-content-2": {
+          "settings": {
+            "heading": "Fast, Reliable Delivery",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "vendor-sku",
+        "title",
+        "3e7fac93-7ed1-44b6-b882-99af47420c64",
+        "price",
+        "variant-picker",
+        "divider-0",
+        "divider-1",
+        "richtext_pCpkc",
+        "image_i6FK6",
+        "buy-buttons",
+        "e0be5244-484c-4751-be23-938d1657421d",
+        "judge_me_reviews_review_snippet_widget_NLkAw",
+        "message-1",
+        "message-2",
+        "collapsible-content-1",
+        "62039f84-401f-4025-9830-7b334867dfe7",
+        "collapsible-content-2",
+        "1a9e12c5-c94a-4986-ab78-ccb3d78bca12",
+        "message-3",
+        "share"
+      ]
+    },
+    "recommendations": {
+      "settings": {
+        "layout": "carousel_on_mobile"
+      },
+      "blocks": {}
+    }
+  },
+  "order": [
+    "main",
+    "details",
+    "product-features",
+    "1753517859ebb359ac",
+    "shoppable_image_3AMji",
+    "shoppable_image_8LqW6",
+    "shoppable_image_CrKxY",
+    "175351754170d11d15",
+    "recommendations",
+    "2f9d2b69-1421-42ee-bf42-204579d8c79b",
+    "1695711824fc9578f1"
+  ]
+}

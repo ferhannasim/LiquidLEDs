@@ -1,0 +1,45 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-article",
+      "blocks": {
+        "author_JjaqEp": {
+          "type": "author",
+          "settings": {
+            "authorname": "Michael Moskvin",
+            "author_link": "shopify://pages/michael-moskvin"
+          }
+        }
+      },
+      "block_order": [
+        "author_JjaqEp"
+      ],
+      "settings": {
+        "show_tags": true,
+        "show_author": true,
+        "show_date": true,
+        "featured_image_width": "page",
+        "heading_align": "text-center",
+        "show_share_buttons": true,
+        "pagination": "bar-reading"
+      }
+    },
+    "article-comments": {
+      "type": "article-comments",
+      "settings": {}
+    }
+  },
+  "order": [
+    "main",
+    "article-comments"
+  ]
+}
