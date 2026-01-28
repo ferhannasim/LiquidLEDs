@@ -1,6 +1,4 @@
 {{ 'product-inventory.css' | asset_url | stylesheet_tag }}
-<script src="{{ 'jquery.min.js' | asset_url }}" defer="defer"></script>
-<script src="{{ 'moment.js' | asset_url }}" defer="defer"></script>
 <script src="{{ 'product-inventory.js' | asset_url }}" defer="defer"></script>
 
 {% assign current_variant = product.selected_or_first_available_variant %}

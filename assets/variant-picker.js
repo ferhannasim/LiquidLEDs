@@ -300,11 +300,19 @@ if (!customElements.get('variant-picker')) {
     updateUrl(evt) {
       if (!evt || evt.type !== 'change' || this.dataset.updateUrl === 'false') return;
       window.history.replaceState({}, '', `${this.dataset.url}?variant=${this.variant.id}`);
-      if($('.variant_dec').length > 0){
-        $('.variant_dec').addClass('hidden');
-        $('.variant_dec').removeClass('active');
-        $('.variant_dec.variant_'+this.variant.id).removeClass('hidden');
-        $('.variant_dec.variant_'+this.variant.id).addClass('active');
+      
+      // Vanilla JS replacement for jQuery variant description toggle
+      const variantDecElements = document.querySelectorAll('.variant_dec');
+      if (variantDecElements.length > 0) {
+        variantDecElements.forEach(function(el) {
+          el.classList.add('hidden');
+          el.classList.remove('active');
+        });
+        const activeVariant = document.querySelector('.variant_dec.variant_' + this.variant.id);
+        if (activeVariant) {
+          activeVariant.classList.remove('hidden');
+          activeVariant.classList.add('active');
+        }
       }
     }
 

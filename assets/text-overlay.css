@@ -5,6 +5,14 @@
   margin: calc(12 * var(--space-unit)) 0;
   border-radius: var(--overlay-border-radius, 0);
   color: rgb(var(--text-color));
+  /* Prevent CLS from animations */
+  will-change: auto;
+}
+
+/* Reduce CLS by ensuring text-overlay doesn't shift */
+.text-overlay[data-cc-animate] {
+  /* Use transform instead of margins for animations to prevent layout shift */
+  transform: translate3d(0, 0, 0);
 }
 
 .text-overlay--mx {
@@ -26,6 +34,13 @@
 
 .text-overlay__heading:last-child {
   margin-bottom: 0;
+}
+
+/* Prevent CLS by ensuring consistent heading dimensions */
+.text-overlay__heading.h2 {
+  /* Add min-height to prevent layout shift during load */
+  min-height: 0;
+  contain: layout;
 }
 
 .text-overlay__buttons {

@@ -1,3 +1,18 @@
+{%- if section.index == 1 -%}
+  {%- liquid
+    assign img = section.settings.image_desktop
+    assign m_img = section.settings.image_mobile
+  -%}
+  
+  {%- if m_img != blank -%}
+    <link rel="preload" as="image" href="{{ m_img | image_url: width: 980 }}" media="(max-width: 600px)" fetchpriority="high">
+  {%- endif -%}
+  
+  {%- if img != blank -%}
+    <link rel="preload" as="image" href="{{ img | image_url: width: 1920 }}" media="(min-width: 601px)" fetchpriority="high">
+  {%- endif -%}
+{%- endif -%}
+
 {%- if section.blocks.size > 0 -%}
   {{ 'text-overlay.css' | asset_url | stylesheet_tag }}
 {%- endif -%}
@@ -30,10 +45,17 @@
     assign bg_color = false
   endif
 
-  if section.settings.prevent_animation
+  # Always disable lazy loading for hero images (above the fold) to improve LCP
+  if section.settings.prevent_animation or section.index == 1
     assign lazy_load_images = false
   else
     assign lazy_load_images = true
+  endif
+
+  # Preload LCP image if this is the first section on the page
+  assign should_preload = false
+  if section.index == 1
+    assign should_preload = true
   endif
 
   if color_scheme == "white"
@@ -169,7 +191,8 @@
               src_placeholder: true,
               sizes: sizes,
               lazy_load: lazy_load_images,
-              class: 'img-fit sm:hidden'
+              class: 'img-fit sm:hidden',
+              attributes: 'fetchpriority="high"'
             -%}
           {%- endif -%}
 
@@ -180,7 +203,8 @@
             src_placeholder: true,
             sizes: sizes,
             lazy_load: lazy_load_images,
-            class: desktop_image_class
+            class: desktop_image_class,
+            attributes: 'fetchpriority="high"'
           -%}
         {%- else -%}
           {{ 'lifestyle-2' | placeholder_svg_tag: 'media__placeholder img-fit dark' }}

@@ -23,18 +23,18 @@ if (!customElements.get('product-inventory')) {
         this.dataset.variantAvailable === 'true'
       );
 
-      var todayDate = moment("Australia/Sydney").format();
-      var todayDates = new Date().toLocaleString("en-AU", {timeZone: "Australia/Sydney"});
-      
-      var usaTime = new Date().toLocaleString("en-US", {timeZone: "Australia/Sydney"});
+      // Note: Removed unused moment() call - result was never used
+      var todayDates = new Date().toLocaleString("en-AU", { timeZone: "Australia/Sydney" });
+
+      var usaTime = new Date().toLocaleString("en-US", { timeZone: "Australia/Sydney" });
       var now = new Date(usaTime);
       var deliveryDate = new Date(usaTime);
-      
+
       var business_days = 0;
       var hour_deadline = 10;
       var todayWeekDay = now.getDay();
-      
-      var usaTime = new Date().toLocaleString("en-US", {timeZone: "Australia/Sydney"});
+
+      var usaTime = new Date().toLocaleString("en-US", { timeZone: "Australia/Sydney" });
       var d = new Date(usaTime);
       var currentWeekDay = d.getDay();
       var today_date = d.getDate();
@@ -54,39 +54,40 @@ if (!customElements.get('product-inventory')) {
         }
       }
 
-      Date.prototype.addDays = function(days) {
-        var usaTime = new Date().toLocaleString("en-US", {timeZone: "Australia/Sydney"});
+      Date.prototype.addDays = function (days) {
+        var usaTime = new Date().toLocaleString("en-US", { timeZone: "Australia/Sydney" });
         var d = new Date(usaTime);
         this.setDate(d.getDate() + parseInt(days));
         return this;
       };
-      Date.prototype.getWeekDay = function() {
+      Date.prototype.getWeekDay = function () {
         var weekday = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
         return weekday[this.getDay()];
       }
-      
+
       var currentDate = d;
       var res = currentDate.addDays(days);
       res = res.getDate();
       var curr_month = d.getMonth();
       curr_month++;
       var curr_year = d.getFullYear();
-      
-      var countDownDate = new Date(''+ curr_month +'/'+ res +'/'+ curr_year +' '+'10:00:00');
+
+      var countDownDate = new Date('' + curr_month + '/' + res + '/' + curr_year + ' ' + '10:00:00');
       var updatedCountDownDate = countDownDate;
-      
-      var usaTime = new Date().toLocaleString("en-US", {timeZone: "Australia/Sydney"});
+
+      var usaTime = new Date().toLocaleString("en-US", { timeZone: "Australia/Sydney" });
       var now = new Date(usaTime);
-      
+
       var distance = updatedCountDownDate - now;
       var days = Math.floor(distance / (1000 * 60 * 60 * 24));
       var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
       var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-      var seconds = Math.floor((distance % (1000 * 60)) / 1000);     
+      var seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
-      var weekday = new Date(new Date(''+ curr_month +'/'+ res +'/'+ curr_year +' ')).getWeekDay();
-      var html = "Order within <span class='time-left'>"+ (hours+(days*24)) + " hrs " + minutes + " min</span> to ship "+ weekday;
-      $('#shipping-time').html(html);
+      var weekday = new Date(new Date('' + curr_month + '/' + res + '/' + curr_year + ' ')).getWeekDay();
+      var html = "Order within <span class='time-left'>" + (hours + (days * 24)) + " hrs " + minutes + " min</span> to ship " + weekday;
+      var shippingTimeEl = document.getElementById('shipping-time');
+      if (shippingTimeEl) shippingTimeEl.innerHTML = html;
     }
 
     /**
@@ -193,46 +194,65 @@ if (!customElements.get('product-inventory')) {
 
     customUpdateStock(availableVariants) {
       var availHTML = "";
+
+      // Helper functions to replace jQuery
+      function hideCheckoutBtn() {
+        document.querySelectorAll('.dynamic_checkout_btn').forEach(function (el) { el.classList.add('hidden'); });
+      }
+      function showCheckoutBtn() {
+        document.querySelectorAll('.dynamic_checkout_btn').forEach(function (el) { el.classList.remove('hidden'); });
+      }
+      function hideShippingTime() {
+        var shippingEl = document.getElementById('shipping-time');
+        if (shippingEl && shippingEl.parentElement) shippingEl.parentElement.classList.add('hidden');
+      }
+      function showShippingTime() {
+        var shippingEl = document.getElementById('shipping-time');
+        if (shippingEl && shippingEl.parentElement) shippingEl.parentElement.classList.remove('hidden');
+      }
+
       if (availableVariants) {
-        if(availableVariants.inventory_management == "shopify"){
-          if(availableVariants.inventory_quantity < 10 && availableVariants.inventory_quantity > 0){
+        if (availableVariants.inventory_management == "shopify") {
+          if (availableVariants.inventory_quantity < 10 && availableVariants.inventory_quantity > 0) {
             availHTML = " ";
-          } else if(availableVariants.inventory_quantity <= 0 && availableVariants.inventory_policy == "continue") {
-            if(availableVariants.next_incoming_date){
-              availHTML = "<span>Due In Stock "+availableVariants.next_incoming_date+"</span>";
+          } else if (availableVariants.inventory_quantity <= 0 && availableVariants.inventory_policy == "continue") {
+            if (availableVariants.next_incoming_date) {
+              availHTML = "<span>Due In Stock " + availableVariants.next_incoming_date + "</span>";
             } else {
               availHTML = "<span></span>";
             }
-          } else if(availableVariants.inventory_quantity <= 0 && availableVariants.inventory_policy == "deny") {
-            if(availableVariants.next_incoming_date){
-              $('.dynamic_checkout_btn').addClass('hidden');
-              $('#shipping-time').parent().addClass('hidden');
-              availHTML = "<span>Due In Stock "+availableVariants.next_incoming_date+"</span>";
+          } else if (availableVariants.inventory_quantity <= 0 && availableVariants.inventory_policy == "deny") {
+            if (availableVariants.next_incoming_date) {
+              hideCheckoutBtn();
+              hideShippingTime();
+              availHTML = "<span>Due In Stock " + availableVariants.next_incoming_date + "</span>";
             } else {
               console.log('de else');
-              $('#shipping-time').parent().addClass('hidden');
+              hideShippingTime();
               availHTML = "<span> </span>";
             }
           } else {
-            if(availableVariants.available == false){
-              $('.dynamic_checkout_btn').addClass('hidden');
-              $('#shipping-time').parent().addClass('hidden');
+            if (availableVariants.available == false) {
+              hideCheckoutBtn();
+              hideShippingTime();
             } else {
-              $('.dynamic_checkout_btn').removeClass('hidden');
-              $('#shipping-time').parent().removeClass('hidden');
-            } 
+              showCheckoutBtn();
+              showShippingTime();
+            }
           }
         } else {
-          if(availableVariants.available == false){
-              availHTML = " ";
+          if (availableVariants.available == false) {
+            availHTML = " ";
           } else {
-            $('.dynamic_checkout_btn').removeClass('hidden');
-              availHTML = " ";
+            showCheckoutBtn();
+            availHTML = " ";
           }
         }
       }
-      $('.backorder_date .change_content').attr('data-max', availableVariants.inventory_quantity);
-      $('.backorder_date .change_content').html(availHTML);
+      document.querySelectorAll('.backorder_date .change_content').forEach(function (el) {
+        el.setAttribute('data-max', availableVariants.inventory_quantity);
+        el.innerHTML = availHTML;
+      });
     }
   }
 
